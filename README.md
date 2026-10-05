@@ -5,6 +5,16 @@
 <h1 align="center">نبض فردا · Nabz-e Farda</h1>
 
 <p align="center">
+  <img src="assets/svg/readme-banner.svg" alt="Nabz-e Farda animated banner" width="100%">
+</p>
+
+<p align="center">
+  <a href="#english">English</a> · <a href="#فارسی">فارسی</a>
+</p>
+
+
+
+<p align="center">
   <em>English AI, tech, and gaming news — rewritten in Persian every night, shipped as a fully static site.</em>
 </p>
 
@@ -27,6 +37,10 @@
 </p>
 
 ---
+
+<a id="english"></a>
+
+## English
 
 Persian readers care about AI launches, chip news, and game drops — but the sources that matter are English, and a 24/7 newsroom is out of reach. **Nabz-e Farda** (“Tomorrow’s Pulse”) closes that gap without a server or a database: every night it pulls ~26 RSS feeds, writes Persian headlines and summaries, and deploys a new static edition to Vercel. A lighter stories pass every three hours keeps the breaking-news bar fresh. The same day data feeds Telegram posts and Instagram reel / carousel / story assets.
 
@@ -250,3 +264,35 @@ Copyright © 2026 Saman Yasin. **All rights reserved.**
 No permission is granted to copy, modify, or redistribute this code or content without written consent, except as allowed by the licenses of third-party components below. News headlines and summaries link back to their original publishers, who retain the rights to their reporting.
 
 **Sources** include The Verge, TechCrunch, Ars Technica, Wired, Engadget, Tom's Hardware, Hacker News, IGN, GameSpot, Polygon, Eurogamer, PC Gamer, Kotaku, Rock Paper Shotgun, Gematsu, VentureBeat, MIT Technology Review, OpenAI, Google AI, Google DeepMind, and Hugging Face — each item links to the original. **Typography:** [Vazirmatn](https://github.com/rastikerdar/vazirmatn) (SIL OFL 1.1). **Hosting:** [Vercel](https://vercel.com).
+
+---
+
+<a id="فارسی"></a>
+
+## فارسی
+
+**نبض فردا** خبرهای انگلیسی هوش مصنوعی، فناوری و بازی را هر شب به فارسی بازنویسی می‌کند و به‌صورت یک **سایت کاملاً استاتیک** روی Vercel منتشر می‌کند — بدون سرور و بدون دیتابیس عمومی.
+
+### چه چیزی منتشر می‌شود؟
+
+| بخش | واقعیت فعلی |
+|---|---|
+| **نسخه شبانه** | دریافت از حدود ۲۶ فید RSS → دسته‌بندی (AI / تک / گیم) → عنوان و خلاصه فارسی → آرشیو روزانه |
+| **مقالات استاتیک + سئو** | صفحات خبر، OG/Twitter، JSON-LD، sitemap، RSS |
+| **نوار استوری** | آیتم‌های فوری هر ۳ ساعت؛ حداکثر ۱۵ مورد زنده |
+| **جستجو** | ایندکس استاتیک سمت کلاینت |
+| **PWA** | مانیفست، سرویس‌ورکر سبک، آفلاین فارسی |
+| **تلگرام / اینستاگرام** | پست شبانه با تصویر OG؛ ریل/کاروسل/استوری از دادهٔ همان روز |
+
+> **API عمومی محصول وجود ندارد.** JSONهای داخلی فقط برای جستجو و داشبورد عملیات (unlisted) هستند.
+
+### دمو برای داوران
+
+سایت لایو: [nabz-farda.vercel.app](https://nabz-farda.vercel.app) · [درباره](https://nabz-farda.vercel.app/about/) · اتوماسیون (unlisted): [automation](https://nabz-farda.vercel.app/automation/)
+
+جزئیات معماری، چیدمان مخزن، ورک‌فلوها و امنیت را در بخش **English** همین فایل ببینید.
+
+### هشتگ‌ها
+
+`#persian` `#news` `#ai` `#static-site` `#vercel` `#python` `#rss` `#telegram` `#instagram` `#automation`
+
