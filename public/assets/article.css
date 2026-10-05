@@ -1,0 +1,50 @@
+/* نبض فردا — article / day / archive pages (base styles live in style.css) */
+.crumbs{display:flex;flex-wrap:wrap;gap:8px;align-items:center;font-size:.82rem;color:var(--dim);margin-bottom:26px}
+.crumbs a{color:var(--dim);transition:color .2s}.crumbs a:hover{color:var(--txt)}
+.art-wrap{max-width:720px;padding:34px 0 72px}
+.art-head{margin-bottom:26px}
+.art-head .kicker{color:var(--acc)}
+.article h1{font-size:clamp(1.6rem,3.4vw,2.2rem);line-height:1.6;font-weight:700;letter-spacing:-.3px;margin:8px 0 10px;text-wrap:balance}
+.art-en{color:var(--dim);font-size:.9rem;line-height:1.6;margin-bottom:16px;text-align:right}
+.art-meta{font-size:.84rem}
+.art-media{aspect-ratio:16/9;border-radius:var(--r);margin:0 0 30px}
+.art-summary{font-size:1.16rem;line-height:2.15;color:var(--txt);margin-bottom:32px}
+.art-actions{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:16px 24px;padding:20px 0;border-block:1px solid var(--line)}
+.btn{display:inline-flex;align-items:center;gap:10px;padding:11px 20px;border-radius:10px;background:var(--acc);color:#fff;font-weight:500;font-size:.95rem;transition:filter .2s}
+.btn:hover{filter:brightness(1.08)}
+.btn svg{width:17px;height:17px;fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
+.share{display:flex;gap:16px;font-size:.88rem;color:var(--dim)}
+.share a{color:var(--mut)}.share a:hover{color:var(--txt)}
+.art-note{margin-top:16px;font-size:.8rem;color:var(--dim)}
+.art-note a{color:var(--dim);unicode-bidi:isolate;text-decoration:underline;text-underline-offset:4px}
+.related{margin-top:64px}
+.related h2{font-size:1.1rem;font-weight:700;padding-bottom:14px;margin-bottom:24px;border-bottom:1px solid var(--line)}
+.list.cols-2{grid-template-columns:repeat(2,1fr)}
+.back-link{display:inline-block;margin-top:44px;color:var(--mut);font-size:.92rem}
+.back-link::before{content:"→";margin-inline-end:8px}
+.back-link:hover{color:var(--txt)}
+.page-wrap{padding:34px 0 72px}
+.page-wrap.narrow{max-width:720px}
+.page-head{margin-bottom:40px}
+.page-head h1{font-size:clamp(1.5rem,3vw,2rem);font-weight:700;line-height:1.6}
+.page-head p{color:var(--dim);font-size:.9rem}
+.page-head a{color:var(--mut);text-decoration:underline;text-decoration-color:var(--acc);text-underline-offset:5px}
+.day-sec{margin-bottom:56px}
+.day-list{display:flex;flex-direction:column}
+.day-row{display:flex;justify-content:space-between;align-items:center;padding:16px 4px;border-bottom:1px solid var(--line);transition:color .2s}
+.day-row:hover{color:#fff}
+.day-row em{font-style:normal;font-size:.75rem;color:var(--acc);margin-inline-start:10px}
+.day-row small{color:var(--dim)}
+@media (max-width:720px){
+.art-wrap,.page-wrap{padding:20px 0 56px}
+.crumbs{margin-bottom:18px}
+.article h1{font-size:1.45rem;line-height:1.7}
+.art-media{margin:0 -16px 24px;border-radius:0}
+.art-summary{font-size:1.06rem;line-height:2.1}
+.art-actions{flex-direction:column;align-items:stretch}
+.btn{justify-content:center;padding:13px 18px}
+.share{justify-content:center}
+.list.cols-2{grid-template-columns:1fr}
+.related{margin-top:44px}.related h2{margin-bottom:4px}
+.page-head{margin-bottom:24px}.day-sec .latest-head{margin-bottom:4px}
+}

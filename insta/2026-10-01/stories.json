@@ -1,0 +1,91 @@
+{
+ "date": "2026-10-01",
+ "date_jalali": "پنجشنبه ۹ مهر ۱۴۰۵",
+ "stories": [
+  {
+   "id": "fd111a107a",
+   "category": "ai",
+   "source": "Tom's Hardware",
+   "title": "OpenAI says actors linked to China-based Moonshot AI spearheaded a campaign to extract its models’ hidden reasoning",
+   "title_fa": "OpenAI: افراد مرتبط با Moonshot AI چین برای بیرون کشیدن «استدلال پنهان» مدل‌هایش کارزار راه انداختند",
+   "summary_fa": "به گفتهٔ OpenAI، در ژوئیه کارزاری هماهنگ با بیش از ۴ هزار کاربر و ۱۶ هزار درخواست تلاش کرد استدلال محافظت‌شدهٔ مدل‌هایش را برای «تقطیر خصمانه» استخراج کند؛ این کارزار تا پایان همان ماه به‌طور کامل متوقف شد.",
+   "link": "https://www.tomshardware.com/tech-industry/artificial-intelligence/openai-says-actors-linked-to-moonshot-ai-spearheaded-a-campaign-to-extract-its-models-hidden-reasoning-logged-attempts-peaked-at-16-000-users-over-two-days",
+   "image": "https://cdn.mos.cms.futurecdn.net/ZAD3iv3s8sBSmZNAoBfxGj-1920-80.png",
+   "published": "2026-10-01T12:00:00+00:00",
+   "summary_short": "به گفتهٔ OpenAI، در ژوئیه کارزاری هماهنگ با بیش از ۴ هزار کاربر و ۱۶ هزار درخواست تلاش کرد استدلال محافظت‌شدهٔ مدل‌هایش را برای «تقطیر خصمانه» استخراج کند."
+  },
+  {
+   "id": "389ecb8687",
+   "category": "tech",
+   "source": "Tom's Hardware",
+   "title": "Micron projects tightening RAM shortages through 2028 as it generates record profit",
+   "title_fa": "مایکرون: کمبود رم تا سال ۲۰۲۸ بدتر هم می‌شود",
+   "summary_fa": "مایکرون با حاشیهٔ سود ناخالص رکوردی ۸۶٫۲۵ درصد اعلام کرد تقاضای حافظه در ۲۰۲۷ و ۲۰۲۸ از عرضه پیشی می‌گیرد؛ بیشتر ظرفیت تولید سال آینده‌اش از حالا فروخته شده و خریداران باید قیمت بالاتری بپردازند.",
+   "link": "https://www.tomshardware.com/pc-components/dram/micron-projects-tightening-ram-shortages-through-2028-as-it-generates-record-profit-record-86-25-percent-gross-margin-drives-over-usd53-billion-in-quarterly-profit",
+   "image": "https://cdn.mos.cms.futurecdn.net/BYt67avi3sTtpfCohBmJhh-1920-80.jpg",
+   "published": "2026-10-01T12:50:00+00:00",
+   "summary_short": "مایکرون با حاشیهٔ سود ناخالص رکوردی ۸۶٫۲۵ درصد اعلام کرد تقاضای حافظه در ۲۰۲۷ و ۲۰۲۸ از عرضه پیشی می‌گیرد."
+  },
+  {
+   "id": "06d1800627",
+   "category": "game",
+   "source": "Eurogamer",
+   "title": "New Uncharted game reportedly in the works at Naughty Dog, and it's not a remake",
+   "title_fa": "گزارش: ساخت یک Uncharted جدید در ناتی داگ آغاز شده است",
+   "summary_fa": "طبق گزارش MP1st، ناتی داگ در مراحل اولیهٔ ساخت یک Uncharted تازه (و نه ریمیک) است که نیتن دریک به شکلی در آن حضور دارد؛ کارگردانی پروژه با شان اسکایاگ، کارگردان The Lost Legacy، است.",
+   "link": "https://www.eurogamer.net/new-uncharted-game-naughty-dog-report",
+   "image": "https://assetsio.gnwcdn.com/uncharted-4-beta-dated-for-december-1442508535944.jpg?width=1200&height=630&fit=crop&enable=upscale&auto=webp",
+   "published": "2026-10-01T10:39:54+00:00",
+   "summary_short": "طبق گزارش MP1st، ناتی داگ در مراحل اولیهٔ ساخت یک Uncharted تازه (و نه ریمیک) است که نیتن دریک به شکلی در آن حضور دارد."
+  },
+  {
+   "id": "12c6ea1b55",
+   "category": "ai",
+   "source": "Tom's Hardware",
+   "title": "Nvidia launches Open Agent Safety Platform to physically restrain rogue AI agents",
+   "title_fa": "انویدیا پلتفرمی برای مهار ایجنت‌های سرکش هوش مصنوعی معرفی کرد",
+   "summary_fa": "پلتفرم متن‌باز Open Agent Safety انویدیا ایجنت‌های هوش مصنوعی را بیرون از خود مدل زیر نظر می‌گیرد و در صورت تخلف فوراً قرنطینه‌شان می‌کند؛ بخش سخت‌افزاری آن بر پایهٔ BlueField است و بیش از ۱۰۰ شریک صنعتی در این طرح حضور دارند.",
+   "link": "https://www.tomshardware.com/tech-industry/artificial-intelligence/nvidia-launches-open-agent-safety-platform-to-restrain-rogue-ai-agents-new-hardware-and-software-security-stack-can-quarantine-agents-in-milliseconds",
+   "image": "https://cdn.mos.cms.futurecdn.net/hNQGdrGeYByzqyJFsM8WjY-1920-80.png",
+   "published": "2026-10-01T14:30:00+00:00",
+   "summary_short": "پلتفرم متن‌باز Open Agent Safety انویدیا ایجنت‌های هوش مصنوعی را بیرون از خود مدل زیر نظر می‌گیرد و در صورت تخلف فوراً قرنطینه‌شان می‌کند."
+  },
+  {
+   "id": "04e3c6023b",
+   "category": "tech",
+   "source": "Ars Technica",
+   "title": "Hacks of 2 federal agencies in a month have spilled a bonanza of sensitive data",
+   "title_fa": "هک پنتاگون: اطلاعات شخصی ۲٫۸ میلیون نظامی آمریکایی به سرقت رفت",
+   "summary_fa": "پنتاگون اعلام کرد هکرها ماه‌ها به سامانهٔ مرکز داده‌های پرسنلی وزارت دفاع آمریکا دسترسی داشته‌اند و سوابقی شامل شمارهٔ تأمین اجتماعی و نشانی افراد را برده‌اند؛ این دومین نشت بزرگ اطلاعات دولتی آمریکا در یک ماه اخیر است.",
+   "link": "https://arstechnica.com/security/2026/10/hacks-of-2-federal-agencies-in-a-month-have-spilled-a-bonanza-of-sensitive-data/",
+   "image": "https://cdn.arstechnica.net/wp-content/uploads/2021/04/data-leak-1000x648.jpeg",
+   "published": "2026-10-01T20:28:45+00:00",
+   "summary_short": "پنتاگون اعلام کرد هکرها ماه‌ها به سامانهٔ مرکز داده‌های پرسنلی وزارت دفاع آمریکا دسترسی داشته‌اند و سوابقی شامل شمارهٔ تأمین اجتماعی و نشانی افراد را برده‌اند."
+  },
+  {
+   "id": "d4cb600701",
+   "category": "game",
+   "source": "The Verge",
+   "title": "Sony brings AI graphics upscaling to the regular PS5",
+   "title_fa": "سونی ارتقای تصویر با هوش مصنوعی را به PS5 معمولی آورد",
+   "summary_fa": "فناوری تازهٔ QSSR سونی ارتقای تصویر هوشمندی شبیه PS5 Pro را به PS5 معمولی می‌آورد و از همین حالا در Marvel's Wolverine و Ghost of Yōtei فعال است؛ این فناوری حاصل همکاری سونی و AMD در پروژهٔ Amethyst است.",
+   "link": "https://www.theverge.com/games/1003549/sony-ps5-quick-spectral-super-resolution-qssr",
+   "image": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/25072873/110923_new_Playstation_5_Slim_ADiBenedetto_0010.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200",
+   "published": "2026-10-01T16:53:39+00:00",
+   "summary_short": "فناوری تازهٔ QSSR سونی ارتقای تصویر هوشمندی شبیه PS5 Pro را به PS5 معمولی می‌آورد و از همین حالا در Marvel's Wolverine و Ghost of Yōtei فعال است."
+  },
+  {
+   "id": "9b59a27765",
+   "category": "ai",
+   "source": "TechCrunch",
+   "title": "ChatGPT can now virtually try on clothes for you",
+   "title_fa": "ChatGPT حالا لباس‌ها را به‌صورت مجازی تن شما می‌کند",
+   "summary_fa": "OpenAI قابلیت «پرو مجازی» را در بخش خرید ChatGPT به‌صورت جهانی عرضه کرد؛ کاربر با آپلود سلفی یا عکس تمام‌قد می‌بیند لباس و اکسسوری روی او چطور به نظر می‌رسد. این قابلیت بر پایهٔ مدل تازهٔ ChatGPT Images 2.5 کار می‌کند.",
+   "link": "https://techcrunch.com/2026/10/01/chatgpt-can-now-virtually-try-on-clothes-for-you/",
+   "image": "https://techcrunch.com/wp-content/uploads/2026/10/Virtual-Try-On.jpg?resize=1200,675",
+   "published": "2026-10-01T19:21:53+00:00",
+   "summary_short": "OpenAI قابلیت «پرو مجازی» را در بخش خرید ChatGPT به‌صورت جهانی عرضه کرد."
+  }
+ ],
+ "warnings": []
+}

@@ -1,0 +1,362 @@
+{
+ "ec84a4fcbc": {
+  "title_fa": "",
+  "summary_fa": "",
+  "featured": false,
+  "drop": true,
+  "_cat": "ai",
+  "_source": "Engadget",
+  "_title": "Capcom plans to use AI to speed up the game development process",
+  "_summary": "The company previously said it won't use AI-generated content in its games."
+ },
+ "bc58cd4b5e": {
+  "title_fa": "",
+  "summary_fa": "",
+  "featured": false,
+  "drop": true,
+  "_cat": "ai",
+  "_source": "Tom's Hardware",
+  "_title": "7-year-old Nvidia Shield TV Pro gets shocking 50% price hike driven by AI memory shortage",
+  "_summary": "The Shield TV Pro remains one of Nvidia’s longest-running consumer devices, but its $299.99 price tag now makes the streaming box considerably more expensive than when it launched."
+ },
+ "c87d5f628b": {
+  "title_fa": "کپکام برای «آینده‌ای که بازی‌ها را همراه با هوش مصنوعی می‌سازیم» آماده می‌شود",
+  "summary_fa": "در کنفرانس فنی کپکام، یکی از برنامه‌نویسان ارشد این شرکت از برنامه‌های استودیو برای به‌کارگیری هوش مصنوعی در سرعت‌بخشیدن به فرایند ساخت بازی گفت؛ هرچند کپکام پیش‌تر اعلام کرده بود از محتوای تولیدشده با هوش مصنوعی در بازی‌هایش استفاده نمی‌کند.",
+  "featured": false,
+  "drop": false,
+  "_cat": "ai",
+  "_source": "The Verge",
+  "_title": "Capcom is preparing for a ‘future where we create games together with AI’",
+  "_summary": "Capcom's Pragmata might be all about the horrors of AI, but in practice the studio doesn't seem so down on the tech. During the Capcom Open Conference RE: 2026 programmer Satoshi Ishida gave a presentation with the mouthful of a title: \"The Outlook and Future of the REX Project, Further Evolving the RE Engine for […]"
+ },
+ "f143fce070": {
+  "title_fa": "استعفای یکی از کارکنان بخش ایمنی OpenAI: «فرهنگ شرکت از هم پاشیده است»",
+  "summary_fa": "دیوید رابینسون، از اعضای تیم ایمنی OpenAI، هنگام کناره‌گیری از این شرکت هشدار داد که فرهنگ سازمانی آن آسیب جدی دیده است؛ هشداری که به گفتهٔ خودش تکرار الگوی آشنای کارکنان ناراضی شرکت‌های پیشروی هوش مصنوعی است.",
+  "featured": true,
+  "drop": false,
+  "_cat": "ai",
+  "_source": "TechCrunch",
+  "_title": "OpenAI safety employee resigns, claiming the company’s ‘culture is broken’",
+  "_summary": "By his own admission, David Robinson is “something of a cliché”: an employee at a leading AI company who issues a dire warning while resigning from their job."
+ },
+ "bebaf09cce": {
+  "title_fa": "کارمند سابق OpenAI: هوش مصنوعی باید مثل نیروگاه هسته‌ای قانون‌گذاری شود",
+  "summary_fa": "مسئول پیشین ایمنی OpenAI معتقد است عرضهٔ مدل‌های پیشرفتهٔ هوش مصنوعی باید با «لایه‌های متعدد حفاظتی و برنامه‌ریزی دقیق و زمان‌بر» همراه باشد، درست مانند صنایع پرخطری چون انرژی هسته‌ای.",
+  "featured": false,
+  "drop": false,
+  "_cat": "ai",
+  "_source": "Engadget",
+  "_title": "Former OpenAI employee says AI should be regulated like nuclear power plants",
+  "_summary": "The company's former safety lead said frontier AI model releases should have \"layers of redundancy and careful, time-consuming planning.\""
+ },
+ "0b94edadc4": {
+  "title_fa": "مصرف توکن ایجنت‌های هوش مصنوعی پنج برابر انسان‌ها شد؛ مسیر به سمت ۱۰ برابر",
+  "summary_fa": "بر اساس داده‌های OpenRouter، ایجنت‌های هوش مصنوعی از فوریه در مصرف توکن از کاربران انسانی پیشی گرفتند و تا اوت ۱۴ برابر رشد کردند؛ رشدی که با انفجار استفاده از پرامپت‌های کش‌شده شتاب گرفته است.",
+  "featured": false,
+  "drop": false,
+  "_cat": "ai",
+  "_source": "Tom's Hardware",
+  "_title": "AI agents use 5x more tokens than humans as cached prompts explode, headed for 10x",
+  "_summary": "Daniel Newman’s number comes from OpenRouter data, where agents passed humans in February and grew 14x by August."
+ },
+ "ef48f9156b": {
+  "title_fa": "اپل برای مهار سوءاستفادهٔ ایجنت‌های هوش مصنوعی، مجوز «دسترسی کامل به دیسک» را تغییر داد",
+  "summary_fa": "اپل دسترسی Full Disk Access در macOS را محدودتر کرد تا ایجنت‌های هوش مصنوعی نتوانند بی‌حساب به داده‌های کاربر دسترسی پیدا کنند؛ متا می‌گوید این مجوز برای خواندن پیام‌ها توسط ایجنت Muse کافی نیست، اما اپل نظر دیگری دارد.",
+  "featured": false,
+  "drop": false,
+  "_cat": "ai",
+  "_source": "Ars Technica",
+  "_title": "Apple changes full-disk access permissions to curb abuse from AI agents",
+  "_summary": "Meta says FDA isn't sufficient to Muse reading messages. Apple begs to differ."
+ },
+ "8e206c4d9e": {
+  "title_fa": "راهنمای OpenAI برای انتخاب و استفاده از خانوادهٔ مدل‌های GPT-6",
+  "summary_fa": "OpenAI در راهنمایی تازه توضیح می‌دهد استارتاپ‌ها چگونه مدل مناسب GPT-6 را انتخاب کنند، میزان «تلاش استدلالی» را تنظیم کنند، پرامپت‌ها و ابزارها را بهینه کنند و جریان‌های کاری خود را برای محیط عملیاتی آماده سازند.",
+  "featured": false,
+  "drop": false,
+  "_cat": "ai",
+  "_source": "OpenAI",
+  "_title": "A model guide for the GPT-6 family",
+  "_summary": "Learn how startups can choose GPT-6 models, tune reasoning effort, improve prompts and skills, coordinate tools, and prepare workflows for production."
+ },
+ "a59bf259f5": {
+  "title_fa": "گروهی از متخصصان هوش مصنوعی می‌خواهند پژوهش‌های پرخطر را آشکارا انجام دهند",
+  "summary_fa": "در حالی که بسیاری از آزمایشگاه‌های پیشرو پژوهش‌های حساس خود را پنهان نگه می‌دارند، آزمایشگاه Trillium Labs قصد دارد نتایج کارش دربارهٔ خودبهبودی مدل‌ها و رفتار آن‌ها را به‌صورت عمومی منتشر کند.",
+  "featured": false,
+  "drop": false,
+  "_cat": "ai",
+  "_source": "Wired",
+  "_title": "These AI Experts Want to Do High-Stakes Research Out in the Open",
+  "_summary": "Many frontier labs keep their risky research locked away. Trillium Labs wants to show off its work when it comes to self-improvement and model behavior."
+ },
+ "ac719b52e6": {
+  "title_fa": "بازتعریف هوش سازمانی با هوش مصنوعی خودمختار",
+  "summary_fa": "هوش مصنوعی سازمانی دیگر یک آرزوی آینده نیست و به مرحلهٔ بهره‌برداری کامل رسیده است؛ پیش‌بینی می‌شود سرمایه‌گذاری جهانی در این حوزه در سال ۲۰۲۶ با رشد ۴۴ درصدی به ۲.۵ تریلیون دلار برسد.",
+  "featured": false,
+  "drop": false,
+  "_cat": "ai",
+  "_source": "MIT Technology Review",
+  "_title": "Redefining enterprise intelligence with autonomous AI",
+  "_summary": "Enterprise AI is no longer a future ambition. It is in full operational flight. Model capabilities are advancing faster than most organizations can absorb, while the cost of performance continues to fall. Globally, AI investment is set to reach $2.5 trillion in 2026, up 44% from the previous year. For many enterprises, this investment has…"
+ },
+ "d599f0a282": {
+  "title_fa": "متن‌باز شدن AstaBrief؛ مدل سریع تولید گزارش در پلتفرم Asta",
+  "summary_fa": "مدل AstaBrief که برای تولید سریع گزارش‌های پژوهشی در دستیار علمی Asta به کار می‌رود، اکنون به‌صورت متن‌باز در هاگینگ فیس در دسترس پژوهشگران و توسعه‌دهندگان قرار گرفته است.",
+  "featured": false,
+  "drop": false,
+  "_cat": "ai",
+  "_source": "Hugging Face",
+  "_title": "Open-sourcing AstaBrief, the fast report-generation model in Asta",
+  "_summary": ""
+ },
+ "d26cbd1795": {
+  "title_fa": "مرور گوگل بر تازه‌ترین اخبار هوش مصنوعی‌اش در سپتامبر ۲۰۲۶",
+  "summary_fa": "گوگل در یک جمع‌بندی ویدیویی، مهم‌ترین به‌روزرسانی‌ها و محصولات هوش مصنوعی خود در ماه سپتامبر را مرور کرده است.",
+  "featured": false,
+  "drop": false,
+  "_cat": "ai",
+  "_source": "Google AI",
+  "_title": "The latest AI news we announced in September 2026",
+  "_summary": "A video showing the September AI updates"
+ },
+ "19db5de825": {
+  "title_fa": "سرنوشت فصل پنجم سریال «ویچر» نتفلیکس مشخص شد",
+  "summary_fa": "فصل پنجم و پایانی سریال The Witcher که قرار بود در سال ۲۰۲۶ پخش شود، طبق گزارش What's On Netflix بی‌سروصدا به سال ۲۰۲۷ موکول شده است.",
+  "featured": false,
+  "drop": false,
+  "_cat": "game",
+  "_source": "Polygon",
+  "_title": "Netflix Sets The Witcher Season 5's Fate",
+  "_summary": "Netflix's The Witcher season 5 was expected to have its final showing in 2026, but has been quietly delayed to 2027, according to What's On Netflix."
+ },
+ "567ac5c762": {
+  "title_fa": "سازندگان Gears of War: E-Day: «افتخار می‌کنیم یکی از عناوین اصلی ایکس‌باکس هستیم»",
+  "summary_fa": "استودیو The Coalition در حالی که مایکروسافت دوباره بر بازی‌های انحصاری تمرکز کرده، از جایگاه Gears of War: E-Day به‌عنوان یکی از بازی‌های کلیدی ایکس‌باکس ابراز خرسندی کرد.",
+  "featured": false,
+  "drop": false,
+  "_cat": "game",
+  "_source": "IGN",
+  "_title": "Gears of War: E-Day Devs 'Proud to Be One of Xbox's Main Titles' Amid Newfound Focus on Exclusivity",
+  "_summary": "The Gears of War: E-Day developers at The Coalition say they are \"proud to be one of Xbox's main titles\" as Microsoft refocuses on exclusivity."
+ },
+ "80ea42f722": {
+  "title_fa": "بن شدن یک بازیکن Valorant به خاطر تقلب صاحب قبلی پردازنده‌اش",
+  "summary_fa": "یک بازیکن آلمانی پس از خرید یک Ryzen 7 دست‌دوم، به دلیل سابقهٔ تقلب مالک قبلی همان پردازنده توسط سیستم ضدتقلب Vanguard شرکت رایوت مسدود شد؛ ظاهراً تنها راه رفع مشکل، تعویض کل سیستم است.",
+  "featured": false,
+  "drop": false,
+  "_cat": "game",
+  "_source": "Kotaku",
+  "_title": "Valorant Player Banned Due To Previous CPU Owner’s Cheating Ways",
+  "_summary": "In a wild coincidence a German player was penalized over the playing habits of their Ryzen 7's previous owner, claiming that nothing short of replacing the entire PC will overcome Riot's infamous anti-cheat detection"
+ },
+ "d3ecd1edc4": {
+  "title_fa": "تراشهٔ امنیتی اصلی پلی‌استیشن ۲ مهندسی معکوس شد",
+  "summary_fa": "یکی از قطعات امنیتی پنهان PS2 پس از سال‌ها رمزگشایی شد؛ کشفی که از تصمیم‌های طراحی شگفت‌انگیز سونی پرده برمی‌دارد و راه را برای شناخت بهتر سخت‌افزار این کنسول باز می‌کند.",
+  "featured": false,
+  "drop": false,
+  "_cat": "game",
+  "_source": "Engadget",
+  "_title": "The original PlayStation 2 security chip has been reverse engineered",
+  "_summary": "A long‑hidden PS2 security component has finally been decoded, revealing surprising design choices and opening the door to fresh hardware insights."
+ },
+ "4cc493c293": {
+  "title_fa": "کارگردان Final Fantasy 7 Revelation: «تمام تلاشم را برای نسخهٔ کامل دیسکی کردم»",
+  "summary_fa": "ناوکی هاماگوچی در پاسخ به درخواست طرفداران برای عرضهٔ نسخهٔ فیزیکی کامل بازی گفت برای آن جنگیده است؛ آن هم در شرایطی که صنعت بازی به سمت آینده‌ای کاملاً دیجیتال پیش می‌رود.",
+  "featured": false,
+  "drop": false,
+  "_cat": "game",
+  "_source": "Eurogamer",
+  "_title": "Final Fantasy 7 Revelation director says he \"did his best\" to fight for a full disc release",
+  "_summary": "Final Fantasy 7 Revelation director Naoki Hamaguchi has responded to fans asking for a full disc version of the game, saying he \"did [his] best\" to push for physical media as the industry edges towards an all-digital future. Read more"
+ },
+ "28d994ba77": {
+  "title_fa": "ریمستر The Witcher 3 رکورد تعداد بازیکنان هم‌زمان این بازی را شکست",
+  "summary_fa": "به‌روزرسانی رایگان نسخهٔ بهبودیافتهٔ ویچر ۳ باعث شد این بازی به بالاترین تعداد بازیکن هم‌زمان در تاریخ خود در استیم برسد.",
+  "featured": false,
+  "drop": false,
+  "_cat": "game",
+  "_source": "PC Gamer",
+  "_title": "The Witcher 3's remaster just brought it to a new all-time concurrent player count peak",
+  "_summary": "Toss a coin—oh, it's a free upgrade."
+ },
+ "231b6ad015": {
+  "title_fa": "Steam Frame؛ آخرین فرصت واقعیت مجازی برای درخشش در گیم؟",
+  "summary_fa": "منتقد گیم‌اسپات می‌گوید Steam Frame بهترین هدست VR است که تا به حال امتحان کرده، اما نگران است که حتی این هدست هم نتواند بزرگ‌ترین مشکل را حل کند: خودِ بازی‌های واقعیت مجازی.",
+  "featured": false,
+  "drop": false,
+  "_cat": "game",
+  "_source": "GameSpot",
+  "_title": "Steam Frame Is VR Gaming’s Swan Song Moment",
+  "_summary": "The Steam Frame is the best VR headset I've ever used. But despite all the problems it solves, I fear it may not solve the biggest problem of all: VR gaming itself."
+ },
+ "c7eec1adbf": {
+  "title_fa": "درآمد استیم در سپتامبر ۲۰۲۶ با ۱.۷ میلیارد دلار رکورد زد",
+  "summary_fa": "با وجود افزایش شدید قیمت قطعات کامپیوتر، گیمرهای PC همچنان پرقدرت خرج می‌کنند و درآمد ماهانهٔ استیم به بالاترین رقم تاریخ خود رسیده است.",
+  "featured": false,
+  "drop": false,
+  "_cat": "game",
+  "_source": "Tom's Hardware",
+  "_title": "Steam hits record $1.7 billion in September 2026 despite soaring PC hardware costs",
+  "_summary": "Steam's latest revenues highlight continued strength in PC gaming, with players continuing to spend heavily even as the cost of building and upgrading gaming PCs rises."
+ },
+ "a2d6ad19de": {
+  "title_fa": "«آن دیگری»: مجموعه‌ای جذاب از بازی‌های شاعرانه در جم جوردن مگنوسون",
+  "summary_fa": "راک پیپر شاتگان مجموعه‌ای از بازی‌های کوچک و تجربی ساخته‌شده در «جم شعر-بازی» جوردن مگنوسون را معرفی می‌کند؛ از جمله یک پلتفرمر دوبعدی تأمل‌برانگیز دربارهٔ «منِ دیگر».",
+  "featured": false,
+  "drop": false,
+  "_cat": "game",
+  "_source": "Rock Paper Shotgun",
+  "_title": "The Other One: Jordan Magnuson's Game Poem jam is a fascinating collection of chimeras",
+  "_summary": "Sometimes I Wonder About The Other Me is a 2D platformer created by \"small game\" developer Luis \"Ludipe\" Díaz Peralta, whose other works include A Place For The Unwilling . It's broken into a handful of single screen maps. On each screen, there's a Mario-brand exclamation mark block that burps a text fragment, forming an overarching monologue that "
+ },
+ "82b068ad3b": {
+  "title_fa": "تریلر «Shadow» بازی Persona 4 Revival منتشر شد",
+  "summary_fa": "استودیو ATLUS تریلر تازه‌ای از بازسازی Persona 4 با عنوان «Shadow» منتشر کرد که نگاهی دوباره به دنیای تاریک و روان‌شناختی این بازی محبوب دارد.",
+  "featured": false,
+  "drop": false,
+  "_cat": "game",
+  "_source": "Gematsu",
+  "_title": "Persona 4 Revival ‘Shadow’ trailer",
+  "_summary": "ATLUS has released a new trailer for Persona 4 Revival dubbed teh “Shadow” trailer. The …"
+ },
+ "059fa523f8": {
+  "title_fa": "نیوگراندز؛ جامعهٔ قدیمی بازی، موسیقی و هنر که هنوز زنده است",
+  "summary_fa": "وب‌سایت افسانه‌ای Newgrounds که نسلی از سازندگان بازی‌های فلش و انیمیشن از دل آن بیرون آمدند، دوباره در صدر بحث‌های هکر نیوز قرار گرفته است.",
+  "featured": false,
+  "drop": false,
+  "_cat": "game",
+  "_source": "Hacker News",
+  "_title": "Newgrounds.com – A community of games, music, and art",
+  "_summary": ""
+ },
+ "e8e0cf98d0": {
+  "title_fa": "دسته جدید ناکان برای PS5 صدای گوشی و کنسول را هم‌زمان میکس می‌کند",
+  "summary_fa": "ناکان از Revolution 5 Unlimited رونمایی کرد؛ به گفتهٔ این شرکت، نخستین دستهٔ رسمی PS5 با نمایشگر داخلی که امکان تنظیم حساسیت آنالوگ‌ها، تغییر چیدمان دکمه‌ها و میکس صدای گوشی و کنسول را مستقیماً روی دسته فراهم می‌کند.",
+  "featured": false,
+  "drop": false,
+  "_cat": "game",
+  "_source": "The Verge",
+  "_title": "Nacon’s new PS5 controller can mix audio from your phone and console",
+  "_summary": "Nacon announced what the company is claiming is the world's first officially licensed PlayStation 5 controller with a built-in screen for adjusting settings like joystick sensitivity or remapping buttons right on the gamepad. The Revolution 5 Unlimited's screen can also be used to mix audio from multiple sources so while using a pair of headphones "
+ },
+ "79180ee1b2": {
+  "title_fa": "گزارش: ICE با پایگاه دادهٔ پالانتیر برای معترضان پرونده‌سازی می‌کند",
+  "summary_fa": "بر اساس گزارش‌ها، ادارهٔ مهاجرت و گمرک آمریکا از پایگاه داده‌ای ساخت شرکت پالانتیر برای گردآوری اطلاعات معترضان استفاده می‌کند؛ وکیل معترضان این کار را نقض آزادی بیان طبق متمم اول قانون اساسی می‌داند.",
+  "featured": false,
+  "drop": false,
+  "_cat": "tech",
+  "_source": "Engadget",
+  "_title": "ICE is reportedly using a Palantir database to compile dossiers on protestors",
+  "_summary": "An attorney representing protestors said this infringes on First Amendment rights."
+ },
+ "6a468f70a0": {
+  "title_fa": "قاضی فدرال آمریکا: سامانهٔ Flock «نظارت گستردهٔ بی‌هدف» است",
+  "summary_fa": "یک قاضی فدرال حکم داد که معاون کلانتری با جست‌وجوی پلاک خودروی یک زن در سامانهٔ دوربین‌های Flock بدون حکم قضایی، حقوق او طبق متمم چهارم قانون اساسی را نقض کرده است.",
+  "featured": false,
+  "drop": false,
+  "_cat": "tech",
+  "_source": "TechCrunch",
+  "_title": "Federal judge calls Flock ‘indiscriminate mass surveillance’",
+  "_summary": "A federal judge ruled that a sheriff’s deputy violated a woman’s Fourth Amendment rights when using Flock to search for her license plate without a warrant."
+ },
+ "2192a32ecd": {
+  "title_fa": "چطور دمای پردازندهٔ کامپیوتر را بررسی کنیم؟",
+  "summary_fa": "چند نرم‌افزار رایگان و قابل‌اعتماد وجود دارد که به شما کمک می‌کند دمای CPU و سلامت کلی کامپیوترتان را زیر نظر داشته باشید؛ انگجت بهترین روش‌ها را معرفی می‌کند.",
+  "featured": false,
+  "drop": false,
+  "_cat": "tech",
+  "_source": "Engadget",
+  "_title": "How to check the temperature of your PC's CPU",
+  "_summary": "There's some solid free software that can help you keep tabs on your computer's health."
+ },
+ "d442265d45": {
+  "title_fa": "آمازون در واکنش به انتقادها از دیتاسنترها: دیگر از قرارداد عدم افشا استفاده نمی‌کنیم",
+  "summary_fa": "مدیرعامل آمازون وب سرویسز تلاش کرد به بدبینی گسترده نسبت به ساخت دیتاسنترها پاسخ دهد و اعلام کرد این شرکت دیگر جوامع محلی را ملزم به امضای NDA نمی‌کند.",
+  "featured": false,
+  "drop": false,
+  "_cat": "tech",
+  "_source": "TechCrunch",
+  "_title": "Amazon responds to data center backlash, says it no longer uses NDAs",
+  "_summary": "The CEO of Amazon Web Services tried to push back against widespread suspicion of data centers."
+ },
+ "52d8e32b34": {
+  "title_fa": "افزایش ۱۰۰ دلاری قیمت انویدیا شیلد تی‌وی در هفت‌سالگی",
+  "summary_fa": "به دلیل کمبود حافظه ناشی از رونق هوش مصنوعی، قیمت هر دستگاهی که حافظه دارد در حال جهش است؛ قیمت شیلد TV Pro با ۵۰ درصد افزایش به ۲۹۹.۹۹ دلار رسیده و حتی دستگاه‌های قدیمی پخش ویدیو هم از این موج در امان نیستند.",
+  "featured": false,
+  "drop": false,
+  "_cat": "tech",
+  "_source": "Wired",
+  "_title": "The Nvidia Shield TV Is 7 Years Old. It Just Got a $100 Price Hike",
+  "_summary": "The price of anything with memory is skyrocketing thanks to AI. Aging streaming devices are no exception."
+ },
+ "5b84f32013": {
+  "title_fa": "ایلان ماسک مذاکره با TSMC برای همکاری در پروژهٔ تراشه‌سازی Terafab را تأیید کرد",
+  "summary_fa": "ماسک تأیید کرد که با غول تایوانی تولید تراشه دربارهٔ چند فرصت همکاری در قالب پروژهٔ Terafab گفت‌وگو کرده است؛ پروژه‌ای برای تأمین نیاز عظیم شرکت‌هایش به تراشه.",
+  "featured": false,
+  "drop": false,
+  "_cat": "tech",
+  "_source": "Tom's Hardware",
+  "_title": "Elon Musk confirms discussions with TSMC about Terafab chipmaking collaboration",
+  "_summary": "Elon Musk and TSMC reportedly discuss multiple collaboration opportunities within the Terafab project."
+ },
+ "bee47c75a5": {
+  "title_fa": "",
+  "summary_fa": "",
+  "featured": false,
+  "drop": true,
+  "_cat": "tech",
+  "_source": "Tom's Hardware",
+  "_title": "Buying used CPUs can expose users to existing bans from anti-cheat engines, and there's no way to check for violations before purchase",
+  "_summary": "The CPU's previous owner apparently used it for cheating on Valorant, with its HWID getting flagged by Vanguard. When the Redditor bought and installed it on their PC, their Valorant account received a ban, too."
+ },
+ "e320e67891": {
+  "title_fa": "فیلم‌های سه‌بعدی بالاخره ارزش تماشا پیدا کرده‌اند",
+  "summary_fa": "نویسندهٔ ورج توضیح می‌دهد چرا بیش از ۱۵ سال پس از «آواتار» و شکست بزرگ فناوری سه‌بعدی، حالا با بلوغ نمایشگرها و تجهیزات، دوباره به خرید بلوری‌های سه‌بعدی روی آورده است.",
+  "featured": false,
+  "drop": false,
+  "_cat": "tech",
+  "_source": "The Verge",
+  "_title": "3D movies are finally worth watching",
+  "_summary": "Why am I suddenly buying up every 3D Blu-ray I can find after 3D became one of the biggest tech flops of all time? The technology's finally ready for 3D movies to shine, more than 15 years since James Cameron's Avatar wowed me on the big screen and went on to become the highest-grossing film […]"
+ },
+ "0bb7da254e": {
+  "title_fa": "ایجنت Muse متا از همهٔ دوستان و خانواده‌تان پروفایل دقیق می‌سازد",
+  "summary_fa": "میلیون‌ها نفر ایجنت هوش مصنوعی Muse متا را نصب کرده‌اند، اما وایرد نشان می‌دهد سپردن کارها به این دستیار هزینهٔ سنگینی برای حریم خصوصی شما و اطرافیانتان دارد.",
+  "featured": false,
+  "drop": false,
+  "_cat": "tech",
+  "_source": "Wired",
+  "_title": "Muse Creates Detailed Profiles of All Your Friends and Family",
+  "_summary": "Millions have downloaded Meta’s AI agent Muse. But getting it to do your bidding comes with privacy costs."
+ },
+ "fd447d5cca": {
+  "title_fa": "طلوع عصر اسکلت‌های بیرونی پوشیدنی",
+  "summary_fa": "اسکلت‌های بیرونی (اگزواسکلتون‌ها) در کارهای واقعی روزمره و صنعتی مزایای چشمگیری برای کاربران نشان می‌دهند و کم‌کم از آزمایشگاه به زندگی واقعی راه پیدا می‌کنند.",
+  "featured": false,
+  "drop": false,
+  "_cat": "tech",
+  "_source": "Ars Technica",
+  "_title": "The dawn of the age of the exoskeleton",
+  "_summary": "The devices continue to show noticeable benefits for users in various real-world tasks."
+ },
+ "bb63587cc0": {
+  "title_fa": "تازه‌ترین وضعیت مرورگر Orion برای لینوکس و ویندوز",
+  "summary_fa": "Kagi، سازندهٔ مرورگر حریم‌خصوصی‌محور Orion، از پیشرفت نسخه‌های لینوکس و ویندوز این مرورگر که تاکنون فقط برای دستگاه‌های اپل عرضه می‌شد، گزارش داده است.",
+  "featured": false,
+  "drop": false,
+  "_cat": "tech",
+  "_source": "Hacker News",
+  "_title": "An Update on Orion for Linux and Windows",
+  "_summary": ""
+ },
+ "02a9b9bd40": {
+  "title_fa": "نتفلیکس از تولیدات فاخر فاصله می‌گیرد",
+  "summary_fa": "بسیاری از موفق‌ترین آثار تحسین‌شدهٔ نتفلیکس حاصل قراردادهای چندساله با کارگردانانی چون دیوید فینچر و شان لوی بود؛ اما پایان اخیر چند مورد از این همکاری‌ها نشان از تغییر راهبرد بزرگ‌تر این سرویس استریم دارد.",
+  "featured": false,
+  "drop": false,
+  "_cat": "tech",
+  "_source": "The Verge",
+  "_title": "Netflix is pivoting away from prestige",
+  "_summary": "Many of Netflix's biggest critically acclaimed hits have been the products of its multiyear production deals with noted directors like David Fincher and Shawn Levy. In the past few weeks, though, the streamer has brought some of those partnerships to an end in a way that feels indicative of a larger strategic shift. With rival […]"
+ }
+}

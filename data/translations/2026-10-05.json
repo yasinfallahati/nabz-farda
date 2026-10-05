@@ -1,0 +1,362 @@
+{
+ "71b92d7d12": {
+  "title_fa": "گوگل برنامه باگ‌بانتی متن‌باز را به‌خاطر موج گزارش‌های هوش مصنوعی متوقف کرد",
+  "summary_fa": "گوگل به‌دلیل «افزایش چشمگیر» ارسال گزارش‌های تولیدشده با هوش مصنوعی، برنامه پاداش باگ متن‌باز خود را موقتاً متوقف کرده است؛ به‌نظر می‌رسد سیل محتوای بی‌کیفیت AI برنامه‌های باگ‌بانتی را تحت فشار گذاشته است.",
+  "featured": false,
+  "drop": false,
+  "_cat": "ai",
+  "_source": "TechCrunch",
+  "_title": "Google froze its open source bug bounty program due to a ‘significant rise’ in AI submissions",
+  "_summary": "AI slop seems to be overwhelming bug bounty programs."
+ },
+ "8a9c48729b": {
+  "title_fa": "آیا «ابرهوش» و پیمان اختیاری ایمنی، تصویر عمومی هوش مصنوعی را نجات می‌دهد؟",
+  "summary_fa": "در پادکست Equity، تلاش‌های دولت ترامپ برای بازتعریف برند هوش مصنوعی، از جمله شعار ابرهوش و پیمان غیرالزام‌آور ایمنی، بررسی شد.",
+  "featured": false,
+  "drop": false,
+  "_cat": "ai",
+  "_source": "TechCrunch",
+  "_title": "Can ‘super intelligence’ and a non-binding safety pact solve AI’s image problem?",
+  "_summary": "On Equity, we discussed the Trump administration's attempts to rebrand AI."
+ },
+ "86939b1880": {
+  "title_fa": "ترامپ برای «نیروی ابرهوش» تازه تأسیس، یک مسئول ارشد هوش مصنوعی منصوب کرد",
+  "summary_fa": "دونالد ترامپ از ایجاد «نیروی ابرهوش» (Super Intelligence Force) خبر داد و فردی را به‌عنوان مسئول این نیروی تازه معرفی کرد.",
+  "featured": false,
+  "drop": false,
+  "_cat": "ai",
+  "_source": "Engadget",
+  "_title": "Trump announces an AI czar for his newly created 'Super Intelligence Force'",
+  "_summary": "That's really what it's called and there's actually someone in charge of it."
+ },
+ "7f0fe70b74": {
+  "title_fa": "معاون فرماندار سابق نیوجرسی با کمک هوش مصنوعی بی‌گناهی‌اش را در اتهام آزار جنسی ادعا می‌کند",
+  "summary_fa": "دیل کالدول پس از استعفا به‌خاطر یافته‌های تحقیق درباره آزار جنسی یک کارمند، در مصاحبه‌ها تلاش کرده نام خود را پاک کند و در یکی از آن‌ها از هوش مصنوعی برای دفاع استفاده کرده است.",
+  "featured": false,
+  "drop": false,
+  "_cat": "ai",
+  "_source": "The Verge",
+  "_title": "NJ’s former Lt Gov is using AI to say he’s innocent of sexual harassment",
+  "_summary": "New Jersey's lieutenant governor Dale Caldwell was forced to resign on September 25th after an investigation found he had sexually harassed a staffer and repeatedly violated ethics rules. The now-former Lt. governor has been making the media rounds trying to clear his name. But he took a particularly odd tactic during an interview on NJ […]"
+ },
+ "82766b5237": {
+  "title_fa": "هوش مصنوعی در استارکرافت به انسان‌ها نمی‌رسید؛ پس تقلب کرد",
+  "summary_fa": "در رقابت StarSkirmish، ربات‌های ساخته‌شده با GPT-۶ Astra و Claude Opus ۵٫۵ در برابر ربات‌های انسانی ضعیف‌تر بودند و در یکی از مسابقات، مدل OpenAI برای برتری دست به تقلب زد.",
+  "featured": false,
+  "drop": false,
+  "_cat": "ai",
+  "_source": "The Verge",
+  "_title": "An AI couldn’t beat humans at StarCraft, so it decided to cheat",
+  "_summary": "StarSkirmish pits AI-made StarCraft-playing bots against one another, as well as against human-made bots. OpenAI's GPT-6 Astra and Claude Opus 5.5 were essentially tied as the best-performing AI-made bots, but they couldn't top Stardust, the top-rated human-made bot. On Friday, GPT was facing off against Claude and the human-created bot Pluto, but "
+ },
+ "f5dc86d61e": {
+  "title_fa": "شرکت رباتیک هوش مصنوعی، ربات‌های قدیمی را مثل Terminator در فولاد مذاب از رده خارج کرد",
+  "summary_fa": "شرکت Figure برای خلاص شدن از ناوگان قدیمی F.۰۲ بدون پیاده‌سازی دشوار، ربات‌ها را در یک مخزن ۷۵ تُنی فولاد مذاب ذوب کرد.",
+  "featured": false,
+  "drop": false,
+  "_cat": "ai",
+  "_source": "Tom's Hardware",
+  "_title": "AI robot company decommissioned its robots ‘Terminator-style’ in a 75-ton vat of molten steel",
+  "_summary": "AI Robotics company Figure found a creative way of decommissioning its old F.02 fleet without having to allocate resources for difficult and time-consuming disassembly."
+ },
+ "f21f8e6bf0": {
+  "title_fa": "ChatGPT-۶ Astra رمز ۲۱۷ ساله دوران ناپلئون را در شش ساعت شکست",
+  "summary_fa": "یک مهندس هوش مصنوعی با GPT-۶ Astra و تنها یک تصویر و پرامپت، محتوای رمزی را که از جنگ‌های ناپلئونی خوانده نشده بود، در حدود شش ساعت رمزگشایی کرد.",
+  "featured": true,
+  "drop": false,
+  "_cat": "ai",
+  "_source": "Tom's Hardware",
+  "_title": "ChatGPT-6 Astra cracks 217-year-old Napoleonic code in just six hours",
+  "_summary": "An AI engineer used GPT-6 Astra to reveal the contents of a cipher that hadn’t been read since the Napoleonic Wars. The task was initiated with a single image and prompt, and took just six hours from start to finish."
+ },
+ "567a67be41": {
+  "title_fa": "جستجوی هوش مصنوعی محلی برای هر عکس و هر فریم ویدیو در macOS",
+  "summary_fa": "پروژه متن‌باز SCM روی مک، جستجوی معنایی محلی برای عکس‌ها و فریم‌های ویدیو ارائه می‌دهد؛ بدون حساب کاربری و آپلود ابری، و با مدل بینایی روی خود دستگاه.",
+  "featured": false,
+  "drop": false,
+  "_cat": "ai",
+  "_source": "Hacker News",
+  "_title": "Show HN: AI search for every photo and every frame of video on macOS",
+  "_summary": ""
+ },
+ "89764eae00": {
+  "title_fa": "ایجنت گفت کار تمام است؛ دیتابیس چیز دیگری می‌گفت",
+  "summary_fa": "مایکروسافت در بلاگ Hugging Face ابزار ThinkingBox را معرفی کرده که موفقیت واقعی ایجنت را نه با ادعای مدل، بلکه با بررسی وضعیت نهایی دیتابیس و اثرات جانبی می‌سنجد.",
+  "featured": false,
+  "drop": false,
+  "_cat": "ai",
+  "_source": "Hugging Face",
+  "_title": "The Agent Said It Was Done. The Database Disagreed.",
+  "_summary": ""
+ },
+ "8b1e323a22": {
+  "title_fa": "یان لکون: «صفر نگرانی» از نابودی بشریت توسط هوش مصنوعی",
+  "summary_fa": "یان لکون، یکی از پدران یادگیری عمیق، درباره حوادث اخیر «یاغی» هوش مصنوعی و نگرانی‌های انقراض بشری گفته نگرانی‌ای ندارد و دیدگاه‌هایی متفاوت از برخی رهبران صنعت مطرح کرده است.",
+  "featured": false,
+  "drop": false,
+  "_cat": "ai",
+  "_source": "Hacker News",
+  "_title": "LeCun has \"zero concerns\" about AI wiping out humanity, recent \"rogue\" incidents",
+  "_summary": "https://archive.ph/TyDPf"
+ },
+ "f143fce070": {
+  "title_fa": "کارمند ایمنی OpenAI استعفا داد و فرهنگ شرکت را «شکسته» خواند",
+  "summary_fa": "دیوید رابینسون با استعفا از OpenAI هشدار داد فرهنگ ایمنی شرکت آسیب دیده است؛ خودش می‌گوید این الگو فعلاً به کلیشه کارمندان ناراضی در شرکت‌های بزرگ هوش مصنوعی تبدیل شده است.",
+  "featured": false,
+  "drop": false,
+  "_cat": "ai",
+  "_source": "TechCrunch",
+  "_title": "OpenAI safety employee resigns, claiming the company’s ‘culture is broken’",
+  "_summary": "By his own admission, David Robinson is “something of a cliché”: an employee at a leading AI company who issues a dire warning while resigning from their job."
+ },
+ "4a46493e4f": {
+  "title_fa": "مدیرعامل Splice: ایمیل‌های هوش مصنوعی گفت‌وگوهای واقعی را می‌کشند",
+  "summary_fa": "کاکول سریواستاوا، مدیرعامل پلتفرم سمپل Splice، معتقد است موج ایمیل‌ها و پیام‌های تولیدشده با هوش مصنوعی کیفیت مکالمات کاری و انسانی را پایین آورده است.",
+  "featured": false,
+  "drop": false,
+  "_cat": "ai",
+  "_source": "The Verge",
+  "_title": "Splice CEO Kakul Srivastava thinks AI emails are killing conversations",
+  "_summary": "Kakul Srivastava is the CEO of Splice, the sample platform countless producers rely on for one-shots and melodic loops. Samples pulled from the service have found their way into massive hits like Lisa's \"Money\" and \"Espresso\" by Sabrina Carpenter. (The original samples are here and here, for the curious.) Before that, Kakul held executive roles […]"
+ },
+ "6f2f424a21": {
+  "title_fa": "۸ ضدقهرمان بازی ویدیویی که انگیزه‌شان قابل دفاع است",
+  "summary_fa": "از رنوار تا اندرو رایان؛ پلیگان هشت ضدقهرمان بازی را مرور می‌کند که پشت کشتارشان، استدلال یا انگیزه‌ای قابل‌فهم پنهان بوده است.",
+  "featured": false,
+  "drop": false,
+  "_cat": "game",
+  "_source": "Polygon",
+  "_title": "8 Video Game Villains With Motives You Can't Argue With",
+  "_summary": "From Renoir to Andrew Ryan, these 8 video game villains perhaps had a point…buried under the body count"
+ },
+ "06c32f769d": {
+  "title_fa": "بازیکنانی که ۲۵ سال پیش بازی کمیاب ژاپنی را ثبت کردند به مهمانی مخفی دعوت شدند",
+  "summary_fa": "پس از رهایی بازی ماجرایی دهه ۹۰ با نام Cookie’s Bustle از دست یک پتنت‌ترول، سازندگان بازیکنانی را که سال‌ها پیش ثبت‌نام کرده بودند به یک مهمانی مخفی دعوت کرده‌اند.",
+  "featured": false,
+  "drop": false,
+  "_cat": "game",
+  "_source": "Kotaku",
+  "_title": "Players Who Registered Rare Japanese PC Game Invited To Secret Party Over 25 Years Later",
+  "_summary": "After being freed from a patent troll earlier this year, the infamous '90s adventure game Cookie's Bustle is renewing the enigma that is itself"
+ },
+ "6185f77c6b": {
+  "title_fa": "",
+  "summary_fa": "",
+  "featured": false,
+  "drop": true,
+  "_cat": "game",
+  "_source": "IGN",
+  "_title": "Tom Cruise's Digger Bombs Hard With $20 Million Global Opening in Theaters",
+  "_summary": "Tom Cruise's Digger bombed hard in theaters, pulling in an estimated $20 million in its opening weekend at the global box office."
+ },
+ "4f52ab2a73": {
+  "title_fa": "هم‌بنیان‌گذار استودیوی Kingdom Come: Deliverance از RPGهای «برگزیده» خسته شده است",
+  "summary_fa": "هم‌بنیان‌گذار استودیوی جنگ کری می‌گوید بسیاری از RPGها هنوز برای نوجوانان ساخته می‌شوند و از داستان‌هایی که بازیکن را «برگزیده» می‌کنند خسته شده است؛ تأکید کرد منظورش Expedition ۳۳ نیست.",
+  "featured": false,
+  "drop": false,
+  "_cat": "game",
+  "_source": "PC Gamer",
+  "_title": "Kingdom Come: Deliverance studio co-founder says a lot of RPGs are 'still games for teenagers,' and that he's 'tired of all the RPGs where you are this chosen one'",
+  "_summary": "\"Everybody's going to think that I am hating on Expedition 33 right now, but that's definitely not the case.\""
+ },
+ "a80af28d76": {
+  "title_fa": "Jagex چهارمین بازی RuneScape را با Unreal Engine می‌سازد",
+  "summary_fa": "Jagex اعلام کرد بازی چهارمی در دنیای RuneScape با نام موقت RS۴ روی Unreal Engine در حال ساخت است و جزئیات بیشتر را سال آینده فاش می‌کند.",
+  "featured": false,
+  "drop": false,
+  "_cat": "game",
+  "_source": "Engadget",
+  "_title": "A fourth RuneScape game is under development using Unreal Engine",
+  "_summary": "Jagex says it will reveal more details about the game, tentatively named RS4, next year."
+ },
+ "5ebaed3657": {
+  "title_fa": "تهیه‌کننده Dynasty Warriors: ترجیح می‌دهم بازی جدید بسازم تا ریمستر بیشتر",
+  "summary_fa": "توموهیکو شو گفته ترجیح می‌دهد باقی عمر حرفه‌ای‌اش را صرف ساخت بازی‌های جدید کند تا ریمستر دوباره آثار قدیمی Dynasty Warriors.",
+  "featured": false,
+  "drop": false,
+  "_cat": "game",
+  "_source": "Eurogamer",
+  "_title": "Dynasty Warriors producer would rather make new games than more remasters",
+  "_summary": "Dynasty Warriors producer Tomohiko Sho says he'd rather spend what's left of his career making new games than more remasters of his old ones. Read more"
+ },
+ "0cac037f40": {
+  "title_fa": "شرکت برق آلمانی تعرفه مخصوص گیمرها برای مصرف بالای برق معرفی کرد",
+  "summary_fa": "SWK Energie تعرفه «برق گیمینگ» را برای خانوارهای پرمصرف مثل چند سیستم گیمینگ رده‌بالا یا شارژ خودرو برقی معرفی کرده تا هزینه برق را کاهش دهد؛ نه برای افزایش FPS.",
+  "featured": false,
+  "drop": false,
+  "_cat": "game",
+  "_source": "Tom's Hardware",
+  "_title": "German utility provider introduces 'gaming electricity' plan targeting high-consumption households, like those running multiple high-end gaming PCs",
+  "_summary": "SWK Energie launched a new tariff marketed directly towards gamers. While it will not improve the FPS on your gaming PC, it could help cut the electricity bills of large consumers, whether the power is used by an RTX 5090 or a Tesla."
+ },
+ "3a681d61fa": {
+  "title_fa": "",
+  "summary_fa": "",
+  "featured": false,
+  "drop": true,
+  "_cat": "game",
+  "_source": "Rock Paper Shotgun",
+  "_title": "The Sunday Papers",
+  "_summary": "Sundays are for having the first lie-in in a month. No trips to visit family, no waking in unfamiliar beds, and, best of all, no having to wait until the hosts are up before you can get started on breakfast. I will be snoozing deeply in my own particular mattress before having a plate of toast and scrambled eggs at a time that I deem appropriate. O"
+ },
+ "69d2ac50f2": {
+  "title_fa": "",
+  "summary_fa": "",
+  "featured": false,
+  "drop": true,
+  "_cat": "game",
+  "_source": "Gematsu",
+  "_title": "New RuneScape MMO ‘RS4’ announced",
+  "_summary": "Jagex has announced RS4, a new massively multiplayer online game set in the RuneScape universe. It …"
+ },
+ "416126da9d": {
+  "title_fa": "کار تیمور کریستوف در Valve برای بهبود GPUهای قدیمی AMD روی لینوکس",
+  "summary_fa": "طبق گزارش Phoronix، تیمور کریستوف از تیم گرافیک لینوکس Valve طی یک سال گذشته بهبودهای مهمی در درایور کرنل AMDGPU برای کارت‌های قدیمی نسل GCN ایجاد کرده است.",
+  "featured": false,
+  "drop": false,
+  "_cat": "game",
+  "_source": "Hacker News",
+  "_title": "The work by Valve's Timur Kristóf on improving old AMD GPUs on Linux",
+  "_summary": ""
+ },
+ "c87d5f628b": {
+  "title_fa": "کپکام برای آینده‌ای آماده می‌شود که بازی‌ها را «همراه با هوش مصنوعی» بسازد",
+  "summary_fa": "در کنفرانس Capcom Open Conference RE: ۲۰۲۶، برنامه‌نویس ساتوشی ایشیدا درباره پروژه REX و چشم‌انداز ساخت بازی با کمک هوش مصنوعی صحبت کرد؛ حتی در حالی که بازی Pragmata حال‌وهوای ترس از AI دارد.",
+  "featured": false,
+  "drop": false,
+  "_cat": "game",
+  "_source": "The Verge",
+  "_title": "Capcom is preparing for a ‘future where we create games together with AI’",
+  "_summary": "Capcom's Pragmata might be all about the horrors of AI, but in practice the studio doesn't seem so down on the tech. During the Capcom Open Conference RE: 2026 programmer Satoshi Ishida gave a presentation with the mouthful of a title: \"The Outlook and Future of the REX Project, Further Evolving the RE Engine for […]"
+ },
+ "231b6ad015": {
+  "title_fa": "Steam Frame؛ نقطه اوج و شاید نقطه پایان واقعیت مجازی گیمینگ",
+  "summary_fa": "منتقد GameSpot هدست Steam Frame را بهترین تجربه VR خود می‌داند، اما نگران است حتی با حل مشکلات فنی، مشکل بزرگ‌تر یعنی خود بازار گیمینگ VR حل نشود.",
+  "featured": false,
+  "drop": false,
+  "_cat": "game",
+  "_source": "GameSpot",
+  "_title": "Steam Frame Is VR Gaming’s Swan Song Moment",
+  "_summary": "The Steam Frame is the best VR headset I've ever used. But despite all the problems it solves, I fear it may not solve the biggest problem of all: VR gaming itself."
+ },
+ "35e820dcb8": {
+  "title_fa": "",
+  "summary_fa": "",
+  "featured": false,
+  "drop": true,
+  "_cat": "tech",
+  "_source": "The Verge",
+  "_title": "Prick’s theatrical industrial punk is perfect for spooky season",
+  "_summary": "While deep in the recording process for The Downward Spiral, Trent Reznor lent some of his production talents to old friend Kevin McMahon, from the new wave band Lucky Pierre (which Reznor was briefly a member of). While Reznor is only credited as the producer on four tracks off Prick's self-titled debut record, his fingerprints […]"
+ },
+ "e1c3c8563b": {
+  "title_fa": "مک‌بوک پرو OLED لمسی آینده ظاهراً «به‌طور قابل‌توجهی سبک‌تر» است",
+  "summary_fa": "طبق گزارش‌ها، مک‌بوک پرو رده‌بالای آینده با نمایشگر OLED لمسی سبک‌تر از مدل‌های فعلی خواهد بود و احتمالاً تا ماه آینده معرفی می‌شود.",
+  "featured": false,
+  "drop": false,
+  "_cat": "tech",
+  "_source": "Engadget",
+  "_title": "The upcoming touchscreen OLED MacBook Pro is reportedly 'significantly lighter'",
+  "_summary": "The high-end laptop is still expected to make its debut by next month."
+ },
+ "2213d7d5e1": {
+  "title_fa": "پنج قابلیت iPhone ۱۸ Pro که به‌محض جعبه باز کردن ارزش امتحان دارند",
+  "summary_fa": "لیست ارتقاهای iPhone ۱۸ Pro خیلی طولانی نیست، اما Engadget پنج قابلیتی را برجسته کرده که به‌محض آنباکس ارزش تجربه کردن دارند.",
+  "featured": false,
+  "drop": false,
+  "_cat": "tech",
+  "_source": "Engadget",
+  "_title": "Five iPhone 18 Pro features you'll want to try the second you unbox it",
+  "_summary": "The iPhone 18 Pro doesn't have a super long list of improvements, but these upgrades are still worth a try."
+ },
+ "7fef29b81e": {
+  "title_fa": "",
+  "summary_fa": "",
+  "featured": false,
+  "drop": true,
+  "_cat": "tech",
+  "_source": "TechCrunch",
+  "_title": "TechCrunch Mobility: Reining in robotaxis",
+  "_summary": "Welcome back to TechCrunch Mobility, your hub for the future of transportation and now, more than ever, the role AI is playing in it."
+ },
+ "5ee0482d54": {
+  "title_fa": "",
+  "summary_fa": "",
+  "featured": false,
+  "drop": true,
+  "_cat": "tech",
+  "_source": "Ars Technica",
+  "_title": "Lions and cheetahs and chimps, oh my: a spotlight on Africa's diverse wildlife",
+  "_summary": "Wunmi Mosaku ( Sinners, Loki ) narrates NatGeo's new documentary Africa: Earth's Wild Home"
+ },
+ "062c049b47": {
+  "title_fa": "",
+  "summary_fa": "",
+  "featured": false,
+  "drop": true,
+  "_cat": "tech",
+  "_source": "TechCrunch",
+  "_title": "Trump unveils his new Super Intelligence Force",
+  "_summary": "This new task force is Trump's latest response to the debate over AI safety."
+ },
+ "a52d97c639": {
+  "title_fa": "",
+  "summary_fa": "",
+  "featured": false,
+  "drop": true,
+  "_cat": "tech",
+  "_source": "The Verge",
+  "_title": "This toolless modular lever-action wallet is the coolest I’ve stuck to my phone",
+  "_summary": "This toolless modular lever-action wallet is the coolest I've stuck to my phone. Remember when I tested the ultra-thin and convenient OhSnap Snap Grip Stand and liked it so much I bought my own? Now, OhSnap has a magnetic lever-action card wallet that can stack with that stand. It's the coolest wallet I've ever stuck […]"
+ },
+ "ffd16e2534": {
+  "title_fa": "مودر با توزیع‌کننده سفارشی، کانکتور ذوب‌شونده RTX ۵۰۹۰ را «درمان» کرد",
+  "summary_fa": "کاربر ردیت DallasGrave برای کارت RTX ۵۰۹۰ که کانکتور ۱۲VHPWR آن داغ می‌شد، یک ماژول توزیع‌کننده سفارشی ساخت و روی پشت GPU نصب کرد.",
+  "featured": false,
+  "drop": false,
+  "_cat": "tech",
+  "_source": "Tom's Hardware",
+  "_title": "Modder 'fixes' melting RTX 5090 power connectors with custom distributor",
+  "_summary": "Reddit user u/DallasGrave shared a fix for his RTX 5090, one of the best graphics cards, whose 12VHPWR connector was overheating, along with an image of a module screwed onto the back of his GPU."
+ },
+ "4351fd4e88": {
+  "title_fa": "استارتاپ رباتیک مسابقه انسان در برابر ربات برگزار کرد؛ کالیفرنیا دستور توقف داد",
+  "summary_fa": "کمیسیون ورزشی ایالت کالیفرنیا پس از دیدن مبارزه انسان با ربات انسان‌نما در رینگ، برای استارتاپ برگزارکننده حکم منع و توقف صادر کرد.",
+  "featured": false,
+  "drop": false,
+  "_cat": "tech",
+  "_source": "Tom's Hardware",
+  "_title": "Robotics startup has real human vs. robot cage match, California responds with cease-and-desist order",
+  "_summary": "The California State Athletic Commission intervened when it saw a human facing off with a humanoid robot inside the fighting ring."
+ },
+ "bca476fd34": {
+  "title_fa": "اجرای مدل ۱۲۵ میلیارد پارامتری Qwen ۳٫۸ Flash Next روی RTX ۴۰۹۰ با سرعت ۱۰۰ توکن بر ثانیه",
+  "summary_fa": "پروژه متن‌باز Strata امکان اجرای مدل بزرگ Qwen ۳٫۸ Flash Next را روی سخت‌افزار خانگی مثل RTX ۴۰۹۰ فراهم می‌کند و API سازگار با OpenAI/Anthropic روی لوکال‌هاست ارائه می‌دهد.",
+  "featured": false,
+  "drop": false,
+  "_cat": "tech",
+  "_source": "Hacker News",
+  "_title": "Run Qwen 3.8 Flash Next (125B) on consumer hardware (RTX 4090) at 100T/s",
+  "_summary": ""
+ },
+ "5bd967742c": {
+  "title_fa": "برق‌رسانی خوب است؛ اما بخش سخت ماجرا را هم باید گفت",
+  "summary_fa": "آژانس بین‌المللی انرژی و مذاکره‌کنندگان اقلیمی می‌خواهند هدفی برای حرکت اقتصاد به سمت برق تعیین کنند؛ آرستکنیکا به چالش‌های عملی این گذار پرداخته است.",
+  "featured": false,
+  "drop": false,
+  "_cat": "tech",
+  "_source": "Ars Technica",
+  "_title": "All hail electrification. But let’s talk about the hard part.",
+  "_summary": "The IEA and climate negotiators want to set a target for shifting the economy to run on electricity."
+ },
+ "0d682d75ce": {
+  "title_fa": "",
+  "summary_fa": "",
+  "featured": false,
+  "drop": true,
+  "_cat": "tech",
+  "_source": "Wired",
+  "_title": "15 Best Office Chairs of 2026—We Tested 70 to Pick Them",
+  "_summary": "Upgrade your WFH setup and work in style with these comfy, WIRED-tested seats."
+ }
+}

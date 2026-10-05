@@ -1,0 +1,63 @@
+<!doctype html><html lang="fa" dir="rtl"><head><meta charset="utf-8"><style>@font-face{font-family:Vazirmatn;src:url('file:///workspace/insta/assets/fonts/Vazirmatn-Regular.ttf');font-weight:400}@font-face{font-family:Vazirmatn;src:url('file:///workspace/insta/assets/fonts/Vazirmatn-Medium.ttf');font-weight:500}@font-face{font-family:Vazirmatn;src:url('file:///workspace/insta/assets/fonts/Vazirmatn-Bold.ttf');font-weight:700}@font-face{font-family:Vazirmatn;src:url('file:///workspace/insta/assets/fonts/Vazirmatn-ExtraBold.ttf');font-weight:800}@font-face{font-family:Vazirmatn;src:url('file:///workspace/insta/assets/fonts/Vazirmatn-Black.ttf');font-weight:900}
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{width:1080px;height:1920px;overflow:hidden;background:#0b0c0f}
+body{font-family:Vazirmatn,sans-serif;direction:rtl;color:#f2f2f3;-webkit-font-smoothing:antialiased;position:relative}
+.ltr{direction:ltr;unicode-bidi:isolate}
+.mark{width:58px;height:58px;fill:none;stroke:#ff5a4e;stroke-width:4;stroke-linecap:round;stroke-linejoin:round}
+.ico{width:1em;height:1em;fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;flex:none}
+.top{position:absolute;top:150px;left:84px;right:84px;display:flex;align-items:center;justify-content:space-between}
+.brand{display:flex;align-items:center;gap:16px;font-weight:800;font-size:46px;letter-spacing:-.5px}
+.date{font-size:30px;color:#8b8e97;font-weight:500}
+.photo{position:absolute;top:268px;left:84px;right:84px;height:700px;border-radius:30px;background:#16181d center/cover no-repeat;
+  box-shadow:inset 0 0 0 1.5px rgba(255,255,255,.07)}
+.meta{position:absolute;top:1034px;left:84px;right:84px;display:flex;align-items:center;gap:22px;font-size:32px}
+.chip{display:inline-flex;align-items:center;gap:12px;padding:8px 24px 10px;border-radius:999px;border:2px solid rgba(255,90,78,.55);color:#ff5a4e;font-weight:700}
+.chip:before{content:"";width:12px;height:12px;border-radius:50%;background:#ff5a4e}
+.src{color:#8b8e97;font-weight:500}
+.src b{color:#d6d7db;font-weight:700}
+.hl{position:absolute;top:1118px;left:84px;right:84px;font-weight:900;font-size:76px;line-height:1.36;letter-spacing:-.5px;color:#fff}
+.hl em{font-style:normal;color:#ff5a4e;white-space:nowrap}
+.sum{margin-top:30px;font-weight:400;font-size:35px;line-height:1.75;color:#a2a5ae;letter-spacing:0}
+.foot{position:absolute;left:84px;right:84px;bottom:220px;border-top:1.5px solid rgba(255,255,255,.09);padding-top:34px;display:flex;align-items:center;justify-content:space-between}
+.cta{display:flex;align-items:center;gap:14px;font-size:33px;font-weight:700;color:#e9eaec}
+.cta .ico{color:#ff5a4e;width:36px;height:36px}
+.cta span.m{color:#6f727b;font-weight:500}
+.url{font-size:28px;color:#6f727b;font-weight:500}
+/* promo */
+.p-wrap{position:absolute;top:280px;left:84px;right:84px}
+.p-badge{width:124px;height:124px;border-radius:34px;background:#ff5a4e;display:flex;align-items:center;justify-content:center;color:#0b0c0f}
+.p-badge .ico{width:68px;height:68px;stroke-width:1.8}
+.p-kick{margin-top:56px;font-size:34px;font-weight:700;color:#ff5a4e}
+.p-title{margin-top:14px;font-size:104px;font-weight:900;line-height:1.25;letter-spacing:-1px}
+.p-sub{margin-top:34px;font-size:42px;line-height:1.7;color:#b4b6be;font-weight:500}
+.p-list{margin-top:56px;border-top:1.5px solid rgba(255,255,255,.09)}
+.p-row{display:flex;align-items:center;gap:30px;padding:28px 0;border-bottom:1.5px solid rgba(255,255,255,.09)}
+.p-row .ic{width:84px;height:84px;border-radius:24px;background:#16181d;display:flex;align-items:center;justify-content:center;color:#ff5a4e;flex:none}
+.p-row .ic .ico{width:40px;height:40px}
+.p-row b{display:block;font-size:40px;font-weight:800}
+.p-row small{display:block;margin-top:4px;font-size:30px;color:#8b8e97;font-weight:400}
+.p-cta{position:absolute;left:84px;right:84px;bottom:230px;display:flex;align-items:center;justify-content:space-between}
+.btn{display:inline-flex;align-items:center;gap:18px;background:#ff5a4e;color:#0b0c0f;font-weight:800;font-size:42px;padding:26px 46px 30px;border-radius:999px}
+.btn .ico{width:42px;height:42px;stroke-width:2.2}
+.handle{font-size:32px;color:#8b8e97;font-weight:500}
+
+.u-kick{position:absolute;top:280px;left:84px;right:84px;font-size:34px;font-weight:700;color:#ff5a4e}
+.u-title{position:absolute;top:340px;left:84px;right:84px;font-size:88px;font-weight:900;line-height:1.28;letter-spacing:-1px}
+.u-sub{position:absolute;top:620px;left:84px;right:84px;font-size:38px;line-height:1.7;color:#b4b6be;font-weight:500}
+.u-list{position:absolute;top:780px;left:84px;right:84px;border-top:1.5px solid rgba(255,255,255,.09)}
+.u-row{display:flex;align-items:flex-start;gap:28px;padding:34px 0;border-bottom:1.5px solid rgba(255,255,255,.09)}
+.u-row .dot{width:18px;height:18px;border-radius:50%;background:#ff5a4e;flex:none;margin-top:18px}
+.u-row b{display:block;font-size:42px;font-weight:800;line-height:1.45}
+.u-row small{display:block;margin-top:8px;font-size:28px;color:#8b8e97;font-weight:500}
+.u-cta{position:absolute;left:84px;right:84px;bottom:230px;display:flex;align-items:center;justify-content:space-between}
+.btn{display:inline-flex;align-items:center;gap:18px;background:#ff5a4e;color:#0b0c0f;font-weight:800;font-size:40px;padding:26px 46px 30px;border-radius:999px}
+.btn .ico{width:40px;height:40px;stroke-width:2.2}
+.handle{font-size:30px;color:#8b8e97;font-weight:500}
+</style></head><body>
+<div class="top"><div class="brand"><svg class="mark" viewBox="0 0 48 48"><path d="M3 26h9l4-10 7 20 6-26 5 16h11"/></svg><span>نبض فردا</span></div><div class="date">۵ مهر ۱۴۰۴ · به‌روزرسانی شبانه</div></div>
+<div class="u-kick">تازه منتشر شد</div>
+<div class="u-title">سایت امشب<br>به‌روز شد</div>
+<div class="u-sub">مهم‌ترین خبرهای گیم، تکنولوژی و هوش مصنوعی امروز روی nabz-farda.vercel.app</div>
+<div class="u-list"><div class="u-row"><span class="dot"></span><div><b>گوگل باگ‌بانتی متن‌باز را به‌خاطر سیل گزارش‌های AI متوقف کرد</b><small>هوش مصنوعی</small></div></div><div class="u-row"><span class="dot"></span><div><b>مک‌بوک پرو OLED لمسی آینده ظاهراً خیلی سبک‌تر می‌شود</b><small>تکنولوژی</small></div></div><div class="u-row"><span class="dot"></span><div><b>Jagex چهارمین بازی RuneScape را با Unreal Engine می‌سازد</b><small>گیم</small></div></div></div>
+<div class="u-cta"><span class="btn"><svg class="ico" viewBox="0 0 24 24"><path d="M19 12H5m6-6-6 6 6 6"/></svg><span>لینک در بیو</span></span><span class="handle ltr">nabz-farda.vercel.app</span></div>
+</body></html>

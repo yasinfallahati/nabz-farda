@@ -1,0 +1,637 @@
+{
+ "date": "2026-10-04",
+ "fetched_at": "2026-10-03T20:54:54.593261+00:00",
+ "counts": {
+  "ai": 12,
+  "game": 12,
+  "tech": 12
+ },
+ "feeds": [
+  {
+   "feed": "https://www.theverge.com/rss/index.xml",
+   "source": "The Verge",
+   "entries": 10,
+   "error": null
+  },
+  {
+   "feed": "https://www.theverge.com/rss/games/index.xml",
+   "source": "The Verge",
+   "entries": 10,
+   "error": null
+  },
+  {
+   "feed": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml",
+   "source": "The Verge",
+   "entries": 10,
+   "error": null
+  },
+  {
+   "feed": "https://techcrunch.com/feed/",
+   "source": "TechCrunch",
+   "entries": 20,
+   "error": null
+  },
+  {
+   "feed": "https://techcrunch.com/category/artificial-intelligence/feed/",
+   "source": "TechCrunch",
+   "entries": 20,
+   "error": null
+  },
+  {
+   "feed": "https://feeds.arstechnica.com/arstechnica/index",
+   "source": "Ars Technica",
+   "entries": 20,
+   "error": null
+  },
+  {
+   "feed": "https://arstechnica.com/gaming/feed/",
+   "source": "Ars Technica",
+   "entries": 20,
+   "error": null
+  },
+  {
+   "feed": "https://www.wired.com/feed/rss",
+   "source": "Wired",
+   "entries": 50,
+   "error": null
+  },
+  {
+   "feed": "https://www.wired.com/feed/tag/ai/latest/rss",
+   "source": "Wired",
+   "entries": 10,
+   "error": null
+  },
+  {
+   "feed": "https://www.engadget.com/rss.xml",
+   "source": "Engadget",
+   "entries": 20,
+   "error": null
+  },
+  {
+   "feed": "https://www.tomshardware.com/feeds/all",
+   "source": "Tom's Hardware",
+   "entries": 50,
+   "error": null
+  },
+  {
+   "feed": "https://hnrss.org/frontpage?points=100",
+   "source": "Hacker News",
+   "entries": 14,
+   "error": null
+  },
+  {
+   "feed": "https://feeds.feedburner.com/ign/all",
+   "source": "IGN",
+   "entries": 20,
+   "error": null
+  },
+  {
+   "feed": "https://www.gamespot.com/feeds/mashup/",
+   "source": "GameSpot",
+   "entries": 15,
+   "error": null
+  },
+  {
+   "feed": "https://www.polygon.com/rss/index.xml",
+   "source": "Polygon",
+   "entries": 10,
+   "error": null
+  },
+  {
+   "feed": "https://www.eurogamer.net/feed",
+   "source": "Eurogamer",
+   "entries": 100,
+   "error": null
+  },
+  {
+   "feed": "https://www.pcgamer.com/rss/",
+   "source": "PC Gamer",
+   "entries": 50,
+   "error": null
+  },
+  {
+   "feed": "https://kotaku.com/rss",
+   "source": "Kotaku",
+   "entries": 20,
+   "error": null
+  },
+  {
+   "feed": "https://www.rockpapershotgun.com/feed",
+   "source": "Rock Paper Shotgun",
+   "entries": 100,
+   "error": null
+  },
+  {
+   "feed": "https://www.gematsu.com/feed",
+   "source": "Gematsu",
+   "entries": 20,
+   "error": null
+  },
+  {
+   "feed": "https://feeds.feedburner.com/venturebeat/SZYF",
+   "source": "VentureBeat",
+   "entries": 7,
+   "error": null
+  },
+  {
+   "feed": "https://www.technologyreview.com/topic/artificial-intelligence/feed",
+   "source": "MIT Technology Review",
+   "entries": 10,
+   "error": null
+  },
+  {
+   "feed": "https://openai.com/news/rss.xml",
+   "source": "OpenAI",
+   "entries": 1245,
+   "error": null
+  },
+  {
+   "feed": "https://blog.google/technology/ai/rss/",
+   "source": "Google AI",
+   "entries": 20,
+   "error": null
+  },
+  {
+   "feed": "https://deepmind.google/blog/rss.xml",
+   "source": "Google DeepMind",
+   "entries": 100,
+   "error": null
+  },
+  {
+   "feed": "https://huggingface.co/blog/feed.xml",
+   "source": "Hugging Face",
+   "entries": 872,
+   "error": null
+  }
+ ],
+ "items": [
+  {
+   "id": "ec84a4fcbc",
+   "source": "Engadget",
+   "title": "Capcom plans to use AI to speed up the game development process",
+   "summary": "The company previously said it won't use AI-generated content in its games.",
+   "link": "https://www.engadget.com/2276597/capcom-plans-to-use-ai-to-speed-up-the-game-development-process/",
+   "comments": null,
+   "image": "https://www.engadget.com/img/gallery/capcom-plans-to-use-ai-to-speed-up-the-game-development-process/l-intro-1791051900.jpg",
+   "published": "2026-10-03T18:27:15+00:00",
+   "category": "ai",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "bc58cd4b5e",
+   "source": "Tom's Hardware",
+   "title": "7-year-old Nvidia Shield TV Pro gets shocking 50% price hike driven by AI memory shortage",
+   "summary": "The Shield TV Pro remains one of Nvidia’s longest-running consumer devices, but its $299.99 price tag now makes the streaming box considerably more expensive than when it launched.",
+   "link": "https://www.tomshardware.com/service-providers/streaming/7-year-old-nvidia-shield-tv-pro-gets-shocking-50-percent-price-hike-driven-by-ai-memory-shortage-chipmaker-axes-entry-level-shield-tv-as-component-prices-soar",
+   "comments": null,
+   "image": "https://cdn.mos.cms.futurecdn.net/o6Rt8XTz7gaqvL46TZcxzg-1920-80.jpg",
+   "published": "2026-10-03T16:59:51+00:00",
+   "category": "ai",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "c87d5f628b",
+   "source": "The Verge",
+   "title": "Capcom is preparing for a ‘future where we create games together with AI’",
+   "summary": "Capcom's Pragmata might be all about the horrors of AI, but in practice the studio doesn't seem so down on the tech. During the Capcom Open Conference RE: 2026 programmer Satoshi Ishida gave a presentation with the mouthful of a title: \"The Outlook and Future of the REX Project, Further Evolving the RE Engine for […]",
+   "link": "https://www.theverge.com/games/1004418/capcom-ai-game-development",
+   "comments": null,
+   "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/02/RE9_SS_08.png?quality=90&strip=all&crop=0,0,100,100",
+   "published": "2026-10-03T16:49:10+00:00",
+   "category": "ai",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "f143fce070",
+   "source": "TechCrunch",
+   "title": "OpenAI safety employee resigns, claiming the company’s ‘culture is broken’",
+   "summary": "By his own admission, David Robinson is “something of a cliché”: an employee at a leading AI company who issues a dire warning while resigning from their job.",
+   "link": "https://techcrunch.com/2026/10/03/openai-safety-employee-resigns-claiming-the-companys-culture-is-broken/",
+   "comments": null,
+   "image": "https://techcrunch.com/wp-content/uploads/2026/05/openai-logo-code-background.jpg?resize=1200,798",
+   "published": "2026-10-03T16:30:01+00:00",
+   "category": "ai",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "bebaf09cce",
+   "source": "Engadget",
+   "title": "Former OpenAI employee says AI should be regulated like nuclear power plants",
+   "summary": "The company's former safety lead said frontier AI model releases should have \"layers of redundancy and careful, time-consuming planning.\"",
+   "link": "https://www.engadget.com/2276577/former-openai-employee-says-ai-should-be-regulated-like-nuclear-power-plants/",
+   "comments": null,
+   "image": "https://www.engadget.com/img/gallery/former-openai-employee-says-ai-should-be-regulated-like-nuclear-power-plants/l-intro-1791044463.jpg",
+   "published": "2026-10-03T16:25:15+00:00",
+   "category": "ai",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "0b94edadc4",
+   "source": "Tom's Hardware",
+   "title": "AI agents use 5x more tokens than humans as cached prompts explode, headed for 10x",
+   "summary": "Daniel Newman’s number comes from OpenRouter data, where agents passed humans in February and grew 14x by August.",
+   "link": "https://www.tomshardware.com/tech-industry/artificial-intelligence/futurum-ceo-says-agents-use-ai-5x-more-than-humans-number-will-eventually-hit-10x-but-agents-are-mostly-rereading-what-theyve-already-seen",
+   "comments": null,
+   "image": "https://cdn.mos.cms.futurecdn.net/hNQivoNg7PnAeRNSivatuR-1920-80.png",
+   "published": "2026-10-03T13:10:00+00:00",
+   "category": "ai",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "ef48f9156b",
+   "source": "Ars Technica",
+   "title": "Apple changes full-disk access permissions to curb abuse from AI agents",
+   "summary": "Meta says FDA isn't sufficient to Muse reading messages. Apple begs to differ.",
+   "link": "https://arstechnica.com/security/2026/10/apple-changes-full-disk-access-permissions-to-curb-abuse-from-ai-agents/",
+   "comments": null,
+   "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/02/gatekeeping-ai-agents-1152x648.jpg",
+   "published": "2026-10-02T23:03:16+00:00",
+   "category": "ai",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "8e206c4d9e",
+   "source": "OpenAI",
+   "title": "A model guide for the GPT-6 family",
+   "summary": "Learn how startups can choose GPT-6 models, tune reasoning effort, improve prompts and skills, coordinate tools, and prepare workflows for production.",
+   "link": "https://openai.com/index/practical-guide-building-gpt-6",
+   "comments": null,
+   "image": "https://images.ctfassets.net/kftzwdyauwt9/30yfQUtDoZo9YOON0QB57H/7c53ac242cc32ab9a9dc05930bdc2034/6tbusrroo8ljxic8ceybig-seo.png?w=1600&h=900&fit=fill",
+   "published": "2026-10-02T16:15:00+00:00",
+   "category": "ai",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "a59bf259f5",
+   "source": "Wired",
+   "title": "These AI Experts Want to Do High-Stakes Research Out in the Open",
+   "summary": "Many frontier labs keep their risky research locked away. Trillium Labs wants to show off its work when it comes to self-improvement and model behavior.",
+   "link": "https://www.wired.com/story/trillium-labs-wants-to-do-high-risk-ai-research-in-the-open/",
+   "comments": null,
+   "image": "https://media.wired.com/photos/6abfd54ac4eb41b65cf33011/master/pass/Trillium-Labs-Risky-AI-Research-Business-edit.jpg",
+   "published": "2026-10-02T16:00:00+00:00",
+   "category": "ai",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "ac719b52e6",
+   "source": "MIT Technology Review",
+   "title": "Redefining enterprise intelligence with autonomous AI",
+   "summary": "Enterprise AI is no longer a future ambition. It is in full operational flight. Model capabilities are advancing faster than most organizations can absorb, while the cost of performance continues to fall. Globally, AI investment is set to reach $2.5 trillion in 2026, up 44% from the previous year. For many enterprises, this investment has…",
+   "link": "https://www.technologyreview.com/2026/10/02/1143774/redefining-enterprise-intelligence-with-autonomous-ai/",
+   "comments": null,
+   "image": "https://wp.technologyreview.com/wp-content/uploads/2026/09/Uniphore-Report-2026-UPDATE-cover.png",
+   "published": "2026-10-02T15:49:04+00:00",
+   "category": "ai",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "d599f0a282",
+   "source": "Hugging Face",
+   "title": "Open-sourcing AstaBrief, the fast report-generation model in Asta",
+   "summary": "",
+   "link": "https://huggingface.co/blog/allenai/astabrief",
+   "comments": null,
+   "image": "https://cdn-uploads.huggingface.co/production/uploads/638e39b249de7ae552d977b5/AdqLEBgtQnaDXKLdylC3l.png",
+   "published": "2026-10-02T15:19:50+00:00",
+   "category": "ai",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "d26cbd1795",
+   "source": "Google AI",
+   "title": "The latest AI news we announced in September 2026",
+   "summary": "A video showing the September AI updates",
+   "link": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-september-2026/",
+   "comments": null,
+   "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/September_AI_Recap_hero.max-600x600.format-webp.webp",
+   "published": "2026-10-02T15:00:00+00:00",
+   "category": "ai",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "19db5de825",
+   "source": "Polygon",
+   "title": "Netflix Sets The Witcher Season 5's Fate",
+   "summary": "Netflix's The Witcher season 5 was expected to have its final showing in 2026, but has been quietly delayed to 2027, according to What's On Netflix.",
+   "link": "https://www.polygon.com/the-witcher-season-5-when-release-date-netflix/",
+   "comments": null,
+   "image": "https://static0.polygonimages.com/wordpress/wp-content/uploads/chorus/uploads/chorus_asset/file/25459854/Witcher_Hemsworth.jpeg",
+   "published": "2026-10-03T20:13:16+00:00",
+   "category": "game",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "567ac5c762",
+   "source": "IGN",
+   "title": "Gears of War: E-Day Devs 'Proud to Be One of Xbox's Main Titles' Amid Newfound Focus on Exclusivity",
+   "summary": "The Gears of War: E-Day developers at The Coalition say they are \"proud to be one of Xbox's main titles\" as Microsoft refocuses on exclusivity.",
+   "link": "https://www.ign.com/articles/gears-of-war-e-day-devs-proud-to-be-one-of-xboxs-main-titles-amid-newfound-focus-on-exclusivity",
+   "comments": null,
+   "image": "https://assets-prd.ignimgs.com/2026/10/01/btfiuoeldu6mkzuez7e008xhvd1icgg-jcb-u5aiuoy-1790813782471.jpeg",
+   "published": "2026-10-03T19:45:42+00:00",
+   "category": "game",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "80ea42f722",
+   "source": "Kotaku",
+   "title": "Valorant Player Banned Due To Previous CPU Owner’s Cheating Ways",
+   "summary": "In a wild coincidence a German player was penalized over the playing habits of their Ryzen 7's previous owner, claiming that nothing short of replacing the entire PC will overcome Riot's infamous anti-cheat detection",
+   "link": "https://kotaku.com/valorant-player-banned-due-to-previous-gpu-owners-cheating-ways-2000739597",
+   "comments": null,
+   "image": "https://kotaku.com/app/uploads/2026/10/valorantkeyo-1280x720.jpg",
+   "published": "2026-10-03T19:06:51+00:00",
+   "category": "game",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "d3ecd1edc4",
+   "source": "Engadget",
+   "title": "The original PlayStation 2 security chip has been reverse engineered",
+   "summary": "A long‑hidden PS2 security component has finally been decoded, revealing surprising design choices and opening the door to fresh hardware insights.",
+   "link": "https://www.engadget.com/2273354/playstation-2-security-chip-reverse-engineered/",
+   "comments": null,
+   "image": "https://www.engadget.com/img/gallery/the-original-playstation-2-security-chip-has-been-reverse-engineered/l-intro-1790702902.jpg",
+   "published": "2026-10-03T18:00:00+00:00",
+   "category": "game",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "4cc493c293",
+   "source": "Eurogamer",
+   "title": "Final Fantasy 7 Revelation director says he \"did his best\" to fight for a full disc release",
+   "summary": "Final Fantasy 7 Revelation director Naoki Hamaguchi has responded to fans asking for a full disc version of the game, saying he \"did [his] best\" to push for physical media as the industry edges towards an all-digital future. Read more",
+   "link": "https://www.eurogamer.net/final-fantasy-7-revelation-naoki-hamaguchi-disc-release-physical-media",
+   "comments": null,
+   "image": "https://assetsio.gnwcdn.com/final-fantasy-7-revelation-gameplay-screen-1.jpg?width=690&quality=85&format=jpg&auto=webp",
+   "published": "2026-10-03T17:25:03+00:00",
+   "category": "game",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "28d994ba77",
+   "source": "PC Gamer",
+   "title": "The Witcher 3's remaster just brought it to a new all-time concurrent player count peak",
+   "summary": "Toss a coin—oh, it's a free upgrade.",
+   "link": "https://www.pcgamer.com/games/the-witcher/the-witcher-3s-remaster-just-brought-it-to-a-new-all-time-concurrent-player-count-peak/",
+   "comments": null,
+   "image": "https://cdn.mos.cms.futurecdn.net/r4YEJkGdgjTDBqwW5SwbUW-1920-80.jpg",
+   "published": "2026-10-03T16:40:35+00:00",
+   "category": "game",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "231b6ad015",
+   "source": "GameSpot",
+   "title": "Steam Frame Is VR Gaming’s Swan Song Moment",
+   "summary": "The Steam Frame is the best VR headset I've ever used. But despite all the problems it solves, I fear it may not solve the biggest problem of all: VR gaming itself.",
+   "link": "https://www.gamespot.com/videos/steam-frame-is-vr-gamings-swan-song-moment/",
+   "comments": null,
+   "image": "https://www.gamespot.com/wp-content/uploads/2026/10/site-7.jpg?w=1200",
+   "published": "2026-10-03T16:00:00+00:00",
+   "category": "game",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "c7eec1adbf",
+   "source": "Tom's Hardware",
+   "title": "Steam hits record $1.7 billion in September 2026 despite soaring PC hardware costs",
+   "summary": "Steam's latest revenues highlight continued strength in PC gaming, with players continuing to spend heavily even as the cost of building and upgrading gaming PCs rises.",
+   "link": "https://www.tomshardware.com/video-games/pc-gaming/steam-revenue-hit-usd1-7-billion-in-september-2026-pc-gaming-spending-grows-despite-skyrocketing-hardware-costs",
+   "comments": null,
+   "image": "https://cdn.mos.cms.futurecdn.net/UrZpYibo9huHdvNjjgUMjF-1920-80.png",
+   "published": "2026-10-03T13:35:00+00:00",
+   "category": "game",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "a2d6ad19de",
+   "source": "Rock Paper Shotgun",
+   "title": "The Other One: Jordan Magnuson's Game Poem jam is a fascinating collection of chimeras",
+   "summary": "Sometimes I Wonder About The Other Me is a 2D platformer created by \"small game\" developer Luis \"Ludipe\" Díaz Peralta, whose other works include A Place For The Unwilling . It's broken into a handful of single screen maps. On each screen, there's a Mario-brand exclamation mark block that burps a text fragment, forming an overarching monologue that begins with the title phrase. As you move between screens, you come to a signpost pointing left and…",
+   "link": "https://www.rockpapershotgun.com/the-other-one-jordan-magnusons-game-poem-jam-is-a-fascinating-collection-of-chimeras",
+   "comments": null,
+   "image": "https://assetsio.gnwcdn.com/Screenshot-2026-09-15-100547.png?width=690&quality=85&format=jpg&auto=webp",
+   "published": "2026-10-03T11:00:00+00:00",
+   "category": "game",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "82b068ad3b",
+   "source": "Gematsu",
+   "title": "Persona 4 Revival ‘Shadow’ trailer",
+   "summary": "ATLUS has released a new trailer for Persona 4 Revival dubbed teh “Shadow” trailer. The …",
+   "link": "https://www.gematsu.com/2026/10/persona-4-revival-shadow-trailer",
+   "comments": null,
+   "image": "https://www.gematsu.com/wp-content/uploads/2026/10/P4R-Trailer_10-03-26.jpg",
+   "published": "2026-10-03T06:09:15+00:00",
+   "category": "game",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "059fa523f8",
+   "source": "Hacker News",
+   "title": "Newgrounds.com – A community of games, music, and art",
+   "summary": "",
+   "link": "https://www.newgrounds.com/",
+   "comments": "https://news.ycombinator.com/item?id=49940394",
+   "image": "https://img.ngfiles.com/misc/tank_logo_1080.jpg",
+   "published": "2026-10-03T00:55:25+00:00",
+   "category": "game",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "e8e0cf98d0",
+   "source": "The Verge",
+   "title": "Nacon’s new PS5 controller can mix audio from your phone and console",
+   "summary": "Nacon announced what the company is claiming is the world's first officially licensed PlayStation 5 controller with a built-in screen for adjusting settings like joystick sensitivity or remapping buttons right on the gamepad. The Revolution 5 Unlimited's screen can also be used to mix audio from multiple sources so while using a pair of headphones […]",
+   "link": "https://www.theverge.com/tech/1004053/nacon-sony-playstation-licensed-revolution-5-unlimited-wireless-controller",
+   "comments": null,
+   "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/nacon1.jpg?quality=90&strip=all&crop=0,0,100,100",
+   "published": "2026-10-02T16:35:13+00:00",
+   "category": "game",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "79180ee1b2",
+   "source": "Engadget",
+   "title": "ICE is reportedly using a Palantir database to compile dossiers on protestors",
+   "summary": "An attorney representing protestors said this infringes on First Amendment rights.",
+   "link": "https://www.engadget.com/2276609/ice-is-reportedly-using-a-palantir-database-to-compile-dossiers-on-protestors/",
+   "comments": null,
+   "image": "https://www.engadget.com/img/gallery/ice-is-reportedly-using-a-palantir-database-to-compile-dossiers-on-protestors/l-intro-1791057828.jpg",
+   "published": "2026-10-03T20:08:20+00:00",
+   "category": "tech",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "6a468f70a0",
+   "source": "TechCrunch",
+   "title": "Federal judge calls Flock ‘indiscriminate mass surveillance’",
+   "summary": "A federal judge ruled that a sheriff’s deputy violated a woman’s Fourth Amendment rights when using Flock to search for her license plate without a warrant.",
+   "link": "https://techcrunch.com/2026/10/03/federal-judge-calls-flock-indiscriminate-mass-surveillance/",
+   "comments": null,
+   "image": "https://techcrunch.com/wp-content/uploads/2026/08/flock-camera-pole.jpg?resize=1200,799",
+   "published": "2026-10-03T19:33:15+00:00",
+   "category": "tech",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "2192a32ecd",
+   "source": "Engadget",
+   "title": "How to check the temperature of your PC's CPU",
+   "summary": "There's some solid free software that can help you keep tabs on your computer's health.",
+   "link": "https://www.engadget.com/2273462/how-to-check-cpu-temperature/",
+   "comments": null,
+   "image": "https://www.engadget.com/img/gallery/how-to-check-the-temperature-of-your-pcs-cpu/l-intro-1790785850.jpg",
+   "published": "2026-10-03T18:45:00+00:00",
+   "category": "tech",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "d442265d45",
+   "source": "TechCrunch",
+   "title": "Amazon responds to data center backlash, says it no longer uses NDAs",
+   "summary": "The CEO of Amazon Web Services tried to push back against widespread suspicion of data centers.",
+   "link": "https://techcrunch.com/2026/10/03/amazon-responds-to-data-center-backlash-says-it-no-longer-uses-ndas/",
+   "comments": null,
+   "image": "https://techcrunch.com/wp-content/uploads/2026/08/GettyImages-2283113936-maller.jpg?w=1024",
+   "published": "2026-10-03T18:43:57+00:00",
+   "category": "tech",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "52d8e32b34",
+   "source": "Wired",
+   "title": "The Nvidia Shield TV Is 7 Years Old. It Just Got a $100 Price Hike",
+   "summary": "The price of anything with memory is skyrocketing thanks to AI. Aging streaming devices are no exception.",
+   "link": "https://www.wired.com/story/7-year-old-tv-now-100-dollars-more-expensive-thank-ai/",
+   "comments": null,
+   "image": "https://media.wired.com/photos/6ac00d9bc910b804171a679e/master/pass/GettyImages-474968764.jpg",
+   "published": "2026-10-03T18:00:00+00:00",
+   "category": "tech",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "5b84f32013",
+   "source": "Tom's Hardware",
+   "title": "Elon Musk confirms discussions with TSMC about Terafab chipmaking collaboration",
+   "summary": "Elon Musk and TSMC reportedly discuss multiple collaboration opportunities within the Terafab project.",
+   "link": "https://www.tomshardware.com/tech-industry/semiconductors/elon-musk-confirms-discussions-with-tsmc-about-terafab-chipmaking-collaboration-intel-is-the-only-other-named-partner-terafab-to-exclusively-supply-tesla-spacex-and-xai",
+   "comments": null,
+   "image": "https://cdn.mos.cms.futurecdn.net/PoCxHQ8gKEscb2NWQov7wZ-1920-80.png",
+   "published": "2026-10-03T14:50:50+00:00",
+   "category": "tech",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "bee47c75a5",
+   "source": "Tom's Hardware",
+   "title": "Buying used CPUs can expose users to existing bans from anti-cheat engines, and there's no way to check for violations before purchase",
+   "summary": "The CPU's previous owner apparently used it for cheating on Valorant, with its HWID getting flagged by Vanguard. When the Redditor bought and installed it on their PC, their Valorant account received a ban, too.",
+   "link": "https://www.tomshardware.com/video-games/pc-gaming/buying-used-cpus-can-expose-users-to-existing-bans-from-anti-cheat-engines-some-anti-cheat-engines-enforce-permanent-bans-while-others-have-an-expiration-date",
+   "comments": null,
+   "image": "https://cdn.mos.cms.futurecdn.net/cShj4QFjByrxQNScUGKzq3-1920-80.jpg",
+   "published": "2026-10-03T14:09:00+00:00",
+   "category": "tech",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "e320e67891",
+   "source": "The Verge",
+   "title": "3D movies are finally worth watching",
+   "summary": "Why am I suddenly buying up every 3D Blu-ray I can find after 3D became one of the biggest tech flops of all time? The technology's finally ready for 3D movies to shine, more than 15 years since James Cameron's Avatar wowed me on the big screen and went on to become the highest-grossing film […]",
+   "link": "https://www.theverge.com/tech/1004131/3d-movies-are-finally-worth-watching-xreal-meta-glasses-vision-pro",
+   "comments": null,
+   "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/07/268631_Xreal_A01_Plus_CFaulkner_0001.jpg?quality=90&strip=all&crop=0,0,100,100",
+   "published": "2026-10-03T12:00:00+00:00",
+   "category": "tech",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "0bb7da254e",
+   "source": "Wired",
+   "title": "Muse Creates Detailed Profiles of All Your Friends and Family",
+   "summary": "Millions have downloaded Meta’s AI agent Muse. But getting it to do your bidding comes with privacy costs.",
+   "link": "https://www.wired.com/story/muse-creates-detailed-profiles-of-all-your-friends-and-family/",
+   "comments": null,
+   "image": "https://media.wired.com/photos/6abda258fa5a1bd6e2b21507/master/pass/Kernel-Panic-Muse-AI-Self-PWN-Security.jpg",
+   "published": "2026-10-03T12:00:00+00:00",
+   "category": "tech",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "fd447d5cca",
+   "source": "Ars Technica",
+   "title": "The dawn of the age of the exoskeleton",
+   "summary": "The devices continue to show noticeable benefits for users in various real-world tasks.",
+   "link": "https://arstechnica.com/science/2026/10/the-dawn-of-the-age-of-the-exoskeleton/",
+   "comments": null,
+   "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/GettyImages-2261904940-1152x648.jpg",
+   "published": "2026-10-03T11:15:33+00:00",
+   "category": "tech",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "bb63587cc0",
+   "source": "Hacker News",
+   "title": "An Update on Orion for Linux and Windows",
+   "summary": "",
+   "link": "https://blog.kagi.com/update-orion-linux-windows",
+   "comments": "https://news.ycombinator.com/item?id=49941447",
+   "image": "https://blog.kagi.com/og-image.png",
+   "published": "2026-10-03T04:53:57+00:00",
+   "category": "tech",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "02a9b9bd40",
+   "source": "The Verge",
+   "title": "Netflix is pivoting away from prestige",
+   "summary": "Many of Netflix's biggest critically acclaimed hits have been the products of its multiyear production deals with noted directors like David Fincher and Shawn Levy. In the past few weeks, though, the streamer has brought some of those partnerships to an end in a way that feels indicative of a larger strategic shift. With rival […]",
+   "link": "https://www.theverge.com/streaming/1004323/netflix-david-fincher-shawn-levy-mike-flanagan-duffer-brothers-greta-gerwig",
+   "comments": null,
+   "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/04/STK072_VRG_Illo_N_Barclay_7_netflix.jpg?quality=90&strip=all&crop=0,0,100,100",
+   "published": "2026-10-02T20:30:26+00:00",
+   "category": "tech",
+   "title_fa": "",
+   "summary_fa": ""
+  }
+ ]
+}

@@ -1,0 +1,20 @@
+{
+ "date": "2026-10-04",
+ "date_jalali": "یکشنبه ۱۲ مهر ۱۴۰۵",
+ "stories": [
+  {
+   "id": "80ea42f722",
+   "category": "game",
+   "source": "Kotaku",
+   "title": "Valorant Player Banned Due To Previous CPU Owner’s Cheating Ways",
+   "title_fa": "بن شدن یک بازیکن Valorant به خاطر تقلب صاحب قبلی پردازنده‌اش",
+   "summary_fa": "یک بازیکن آلمانی پس از خرید یک Ryzen 7 دست‌دوم، به دلیل سابقهٔ تقلب مالک قبلی همان پردازنده توسط سیستم ضدتقلب Vanguard شرکت رایوت مسدود شد؛ ظاهراً تنها راه رفع مشکل، تعویض کل سیستم است.",
+   "link": "https://kotaku.com/valorant-player-banned-due-to-previous-gpu-owners-cheating-ways-2000739597",
+   "image": "https://kotaku.com/app/uploads/2026/10/valorantkeyo-1280x720.jpg",
+   "published": "2026-10-03T19:06:51+00:00",
+   "page": "/news/2026-10-04/80ea42f722",
+   "summary_short": "ضدتقلب Vanguard یک Ryzen 7 دست‌دوم را به‌خاطر تقلب صاحب قبلی‌اش شناسایی کرد و خریدار جدید بن شد."
+  }
+ ],
+ "warnings": []
+}

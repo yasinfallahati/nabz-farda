@@ -1,0 +1,25 @@
+{
+ "fetched_at": "2026-10-05T02:45:17+00:00",
+ "hours": 3,
+ "instructions": "Fill title_fa + summary_fa (1–2 Persian sentences) for each candidate worth a story; set drop:true for the rest. Then run: update_stories.py apply --deploy",
+ "candidates": [
+  {
+   "id": "6c25d36822",
+   "title_fa": "لگوی رسمی لینک و اپونا از Zelda: Ocarina of Time معرفی شد",
+   "summary_fa": "نینتندو و لگو به مناسبت چهلمین سالگرد مجموعه The Legend of Zelda، ست جدیدی از Ocarina of Time با لینک و اسبش اپونا را معرفی کردند.",
+   "drop": false,
+   "category": "game",
+   "source": "Polygon",
+   "url": "https://www.polygon.com/the-legend-of-zelda-ocarina-of-time-lego-set/",
+   "image": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/09/ns2_thelegendofzeldaocarinaoftime_scrn_02.jpg",
+   "published": "2026-10-05T02:36:33+00:00",
+   "_score": 3,
+   "_why": [
+    "also covered by IGN"
+   ],
+   "_title": "Zelda: Ocarina of Time's Link and Epona Get Official New Lego Set",
+   "_summary": "Nintendo and Lego have announced a new Legend of Zelda: Ocarina of Time set for the series' 40th anniversary.",
+   "breaking": false
+  }
+ ]
+}

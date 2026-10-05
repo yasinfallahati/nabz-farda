@@ -1,0 +1,99 @@
+{
+ "date": "2026-10-04",
+ "date_jalali": "یکشنبه ۱۲ مهر ۱۴۰۵",
+ "stories": [
+  {
+   "id": "f143fce070",
+   "category": "ai",
+   "source": "TechCrunch",
+   "title": "OpenAI safety employee resigns, claiming the company’s ‘culture is broken’",
+   "title_fa": "استعفای یکی از کارکنان بخش ایمنی OpenAI: «فرهنگ شرکت از هم پاشیده است»",
+   "summary_fa": "دیوید رابینسون، از اعضای تیم ایمنی OpenAI، هنگام کناره‌گیری از این شرکت هشدار داد که فرهنگ سازمانی آن آسیب جدی دیده است؛ هشداری که به گفتهٔ خودش تکرار الگوی آشنای کارکنان ناراضی شرکت‌های پیشروی هوش مصنوعی است.",
+   "link": "https://techcrunch.com/2026/10/03/openai-safety-employee-resigns-claiming-the-companys-culture-is-broken/",
+   "image": "https://techcrunch.com/wp-content/uploads/2026/05/openai-logo-code-background.jpg?resize=1200,798",
+   "published": "2026-10-03T16:30:01+00:00",
+   "page": "/news/2026-10-04/f143fce070",
+   "featured": true,
+   "summary_short": "دیوید رابینسون، از اعضای تیم ایمنی OpenAI، هنگام کناره‌گیری از این شرکت هشدار داد که فرهنگ سازمانی آن آسیب جدی دیده است."
+  },
+  {
+   "id": "80ea42f722",
+   "category": "game",
+   "source": "Kotaku",
+   "title": "Valorant Player Banned Due To Previous CPU Owner’s Cheating Ways",
+   "title_fa": "بن شدن یک بازیکن Valorant به خاطر تقلب صاحب قبلی پردازنده‌اش",
+   "summary_fa": "یک بازیکن آلمانی پس از خرید یک Ryzen 7 دست‌دوم، به دلیل سابقهٔ تقلب مالک قبلی همان پردازنده توسط سیستم ضدتقلب Vanguard شرکت رایوت مسدود شد؛ ظاهراً تنها راه رفع مشکل، تعویض کل سیستم است.",
+   "link": "https://kotaku.com/valorant-player-banned-due-to-previous-gpu-owners-cheating-ways-2000739597",
+   "image": "https://kotaku.com/app/uploads/2026/10/valorantkeyo-1280x720.jpg",
+   "published": "2026-10-03T19:06:51+00:00",
+   "page": "/news/2026-10-04/80ea42f722",
+   "summary_short": "یک بازیکن آلمانی پس از خرید یک Ryzen 7 دست‌دوم، به دلیل سابقهٔ تقلب مالک قبلی همان پردازنده توسط سیستم ضدتقلب…"
+  },
+  {
+   "id": "5b84f32013",
+   "category": "tech",
+   "source": "Tom's Hardware",
+   "title": "Elon Musk confirms discussions with TSMC about Terafab chipmaking collaboration",
+   "title_fa": "ایلان ماسک مذاکره با TSMC برای همکاری در پروژهٔ تراشه‌سازی Terafab را تأیید کرد",
+   "summary_fa": "ماسک تأیید کرد که با غول تایوانی تولید تراشه دربارهٔ چند فرصت همکاری در قالب پروژهٔ Terafab گفت‌وگو کرده است؛ پروژه‌ای برای تأمین نیاز عظیم شرکت‌هایش به تراشه.",
+   "link": "https://www.tomshardware.com/tech-industry/semiconductors/elon-musk-confirms-discussions-with-tsmc-about-terafab-chipmaking-collaboration-intel-is-the-only-other-named-partner-terafab-to-exclusively-supply-tesla-spacex-and-xai",
+   "image": "https://cdn.mos.cms.futurecdn.net/PoCxHQ8gKEscb2NWQov7wZ-1920-80.png",
+   "published": "2026-10-03T14:50:50+00:00",
+   "page": "/news/2026-10-04/5b84f32013",
+   "summary_short": "ماسک تأیید کرد که با غول تایوانی تولید تراشه دربارهٔ چند فرصت همکاری در قالب پروژهٔ Terafab گفت‌وگو کرده است."
+  },
+  {
+   "id": "28d994ba77",
+   "category": "game",
+   "source": "PC Gamer",
+   "title": "The Witcher 3's remaster just brought it to a new all-time concurrent player count peak",
+   "title_fa": "ریمستر The Witcher 3 رکورد تعداد بازیکنان هم‌زمان این بازی را شکست",
+   "summary_fa": "به‌روزرسانی رایگان نسخهٔ بهبودیافتهٔ ویچر ۳ باعث شد این بازی به بالاترین تعداد بازیکن هم‌زمان در تاریخ خود در استیم برسد.",
+   "link": "https://www.pcgamer.com/games/the-witcher/the-witcher-3s-remaster-just-brought-it-to-a-new-all-time-concurrent-player-count-peak/",
+   "image": "https://cdn.mos.cms.futurecdn.net/r4YEJkGdgjTDBqwW5SwbUW-1920-80.jpg",
+   "published": "2026-10-03T16:40:35+00:00",
+   "page": "/news/2026-10-04/28d994ba77",
+   "summary_short": "به‌روزرسانی رایگان نسخهٔ بهبودیافتهٔ ویچر ۳ باعث شد این بازی به بالاترین تعداد بازیکن هم‌زمان در تاریخ خود در استیم برسد."
+  },
+  {
+   "id": "c7eec1adbf",
+   "category": "game",
+   "source": "Tom's Hardware",
+   "title": "Steam hits record $1.7 billion in September 2026 despite soaring PC hardware costs",
+   "title_fa": "درآمد استیم در سپتامبر ۲۰۲۶ با ۱.۷ میلیارد دلار رکورد زد",
+   "summary_fa": "با وجود افزایش شدید قیمت قطعات کامپیوتر، گیمرهای PC همچنان پرقدرت خرج می‌کنند و درآمد ماهانهٔ استیم به بالاترین رقم تاریخ خود رسیده است.",
+   "link": "https://www.tomshardware.com/video-games/pc-gaming/steam-revenue-hit-usd1-7-billion-in-september-2026-pc-gaming-spending-grows-despite-skyrocketing-hardware-costs",
+   "image": "https://cdn.mos.cms.futurecdn.net/UrZpYibo9huHdvNjjgUMjF-1920-80.png",
+   "published": "2026-10-03T13:35:00+00:00",
+   "page": "/news/2026-10-04/c7eec1adbf",
+   "summary_short": "با وجود افزایش شدید قیمت قطعات کامپیوتر، گیمرهای PC همچنان پرقدرت خرج می‌کنند و درآمد ماهانهٔ استیم…"
+  },
+  {
+   "id": "c87d5f628b",
+   "category": "ai",
+   "source": "The Verge",
+   "title": "Capcom is preparing for a ‘future where we create games together with AI’",
+   "title_fa": "کپکام برای «آینده‌ای که بازی‌ها را همراه با هوش مصنوعی می‌سازیم» آماده می‌شود",
+   "summary_fa": "در کنفرانس فنی کپکام، یکی از برنامه‌نویسان ارشد این شرکت از برنامه‌های استودیو برای به‌کارگیری هوش مصنوعی در سرعت‌بخشیدن به فرایند ساخت بازی گفت؛ هرچند کپکام پیش‌تر اعلام کرده بود از محتوای تولیدشده با هوش مصنوعی در بازی‌هایش استفاده نمی‌کند.",
+   "link": "https://www.theverge.com/games/1004418/capcom-ai-game-development",
+   "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/02/RE9_SS_08.png?quality=90&strip=all&crop=0,0,100,100",
+   "published": "2026-10-03T16:49:10+00:00",
+   "page": "/news/2026-10-04/c87d5f628b",
+   "summary_short": "در کنفرانس فنی کپکام، یکی از برنامه‌نویسان ارشد این شرکت از برنامه‌های استودیو برای به‌کارگیری هوش مصنوعی…"
+  },
+  {
+   "id": "d3ecd1edc4",
+   "category": "game",
+   "source": "Engadget",
+   "title": "The original PlayStation 2 security chip has been reverse engineered",
+   "title_fa": "تراشهٔ امنیتی اصلی پلی‌استیشن ۲ مهندسی معکوس شد",
+   "summary_fa": "یکی از قطعات امنیتی پنهان PS2 پس از سال‌ها رمزگشایی شد؛ کشفی که از تصمیم‌های طراحی شگفت‌انگیز سونی پرده برمی‌دارد و راه را برای شناخت بهتر سخت‌افزار این کنسول باز می‌کند.",
+   "link": "https://www.engadget.com/2273354/playstation-2-security-chip-reverse-engineered/",
+   "image": "https://www.engadget.com/img/gallery/the-original-playstation-2-security-chip-has-been-reverse-engineered/l-intro-1790702902.jpg",
+   "published": "2026-10-03T18:00:00+00:00",
+   "page": "/news/2026-10-04/d3ecd1edc4",
+   "summary_short": "یکی از قطعات امنیتی پنهان PS2 پس از سال‌ها رمزگشایی شد."
+  }
+ ],
+ "warnings": []
+}

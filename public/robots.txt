@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://nabz-farda.vercel.app/sitemap.xml
+Sitemap: https://nabz-farda.vercel.app/sitemap-news.xml

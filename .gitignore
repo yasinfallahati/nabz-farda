@@ -1,0 +1,49 @@
+# --- secrets / local config (never commit) ---
+.env
+.env.*
+*.env
+.vercel/
+**/.vercel/
+*cookie*
+*.pem
+*.key
+secrets*.json
+
+# --- Python / Node ---
+.venv/
+venv/
+__pycache__/
+*.pyc
+node_modules/
+
+# --- runtime state & generated artifacts ---
+deploy/payload.json
+deploy/state.json
+*.lock
+*.log
+
+# --- screenshots, backups ---
+/*.png
+redesign/*.png
+backup/
+*.tgz
+*.pre-*
+*.pre_*
+*.bak
+
+# --- insta: rendered outputs (only code, specs, captions, fonts are tracked) ---
+insta/.cache/
+insta/all_items.json
+insta/**/build/
+insta/**/qc/
+insta/**/frames/
+insta/**/carousel/
+insta/**/*.mp4
+insta/**/*.mov
+insta/**/*.wav
+insta/**/*.mp3
+insta/**/*.zip
+insta/**/*.png
+insta/**/*.jpg
+insta/**/*.jpeg
+insta/**/*.webp

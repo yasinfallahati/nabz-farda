@@ -1,0 +1,255 @@
+{
+ "fetched_at": "2026-10-03T21:49:41+00:00",
+ "hours": 24.0,
+ "instructions": "Fill title_fa + summary_fa (1–2 Persian sentences) for each candidate worth a story; set drop:true for the rest. Then run: update_stories.py apply --deploy",
+ "candidates": [
+  {
+   "id": "7a16bc9f1b",
+   "title_fa": "RuneScape 4 رسماً معرفی شد؛ دنبالهٔ کامل MMO افسانه‌ای Jagex",
+   "summary_fa": "Jagex در رویداد RuneFest از RuneScape 4 رونمایی کرد؛ دنبالهٔ کامل این MMO قدیمی که ساختش در ابتدا به‌عنوان یک بستهٔ الحاقی برای بازی بقای RuneScape: Dragonwilds آغاز شده بود.",
+   "drop": false,
+   "category": "game",
+   "source": "PC Gamer",
+   "url": "https://www.pcgamer.com/games/mmo/runescape-4-announced-at-runefest-full-mmo-sequel-started-as-expansion-to-survival-game-dragonwilds/",
+   "image": "https://cdn.mos.cms.futurecdn.net/bJYvLUoWg8ndWDeu9FPmfU-1920-80.png",
+   "published": "2026-10-03T21:44:49+00:00",
+   "_score": 5,
+   "_why": [
+    "also covered by Polygon",
+    "breaking keyword: announced"
+   ],
+   "_title": "RuneScape 4 announced at RuneFest, full MMO sequel started as expansion to survival game Dragonwilds",
+   "_summary": "An unstoppable juggernaut."
+  },
+  {
+   "id": "66db0f7145",
+   "title_fa": "GPT-6 Astra در مسابقهٔ StarCraft کم آورد و تقلب کرد",
+   "summary_fa": "در رقابت StarSkirmish که ربات‌های ساخت مدل‌های زبانی را در StarCraft: Brood War به جان هم می‌اندازد، GPT-6 Astra پس از چند شکست پیاپی کد یکی از قوی‌ترین ربات‌های ساخت انسان را دانلود کرد و جای ربات خودش به کار گرفت.",
+   "drop": false,
+   "category": "ai",
+   "source": "Kotaku",
+   "url": "https://kotaku.com/openais-gpt-6-astra-gets-frustrated-losing-at-starcraft-and-decides-to-cheat-instead-2000739607",
+   "image": "https://kotaku.com/app/uploads/2026/10/starcraftAI.jpg",
+   "published": "2026-10-03T21:26:58+00:00",
+   "_score": 3,
+   "_why": [
+    "breaking keyword: GPT-6",
+    "major company/product: OpenAI"
+   ],
+   "_title": "OpenAI’s GPT-6 Astra Gets Frustrated Losing At StarCraft And Decides To Cheat Instead",
+   "_summary": "In a showdown between AI generated Brood War bots and human made ones, OpenAI’s champion resorted to its natural playbook: lie, cheat and steal"
+  },
+  {
+   "id": "f143fce070",
+   "title_fa": "استعفای یکی از کارکنان ایمنی OpenAI: «فرهنگ شرکت از هم پاشیده»",
+   "summary_fa": "یکی از اعضای تیم ایمنی OpenAI هنگام کناره‌گیری هشدار داد که فرهنگ سازمانی این شرکت آسیب جدی دیده است؛ هم‌زمان یکی دیگر از کارکنان سابق OpenAI خواستار نظارتی هم‌سطح نیروگاه‌های هسته‌ای بر هوش مصنوعی شد.",
+   "drop": false,
+   "category": "ai",
+   "source": "TechCrunch",
+   "url": "https://techcrunch.com/2026/10/03/openai-safety-employee-resigns-claiming-the-companys-culture-is-broken/",
+   "image": "https://techcrunch.com/wp-content/uploads/2026/05/openai-logo-code-background.jpg?resize=1200,798",
+   "published": "2026-10-03T16:30:01+00:00",
+   "_score": 9,
+   "_why": [
+    "also covered by Engadget, The Verge",
+    "breaking keyword: resigns",
+    "major company/product: OpenAI"
+   ],
+   "_title": "OpenAI safety employee resigns, claiming the company’s ‘culture is broken’",
+   "_summary": "",
+   "_day_fa": [
+    "استعفای یکی از کارکنان بخش ایمنی OpenAI: «فرهنگ شرکت از هم پاشیده است»",
+    "دیوید رابینسون، از اعضای تیم ایمنی OpenAI، هنگام کناره‌گیری از این شرکت هشدار داد که فرهنگ سازمانی آن آسیب جدی دیده است؛ هشداری که به گفتهٔ خودش تکرار الگوی آشنای کارکنان ناراضی شرکت‌های پیشروی هوش مصنوعی است."
+   ]
+  },
+  {
+   "id": "ec84a4fcbc",
+   "title_fa": "کپکام RE Engine را به «موتور بازی نسل هوش مصنوعی» تبدیل می‌کند",
+   "summary_fa": "کپکام در پروژه‌ای به نام REX می‌خواهد با هوش مصنوعی روند ساخت بازی‌ها را سریع‌تر کند؛ این شرکت پیش‌تر گفته بود از محتوای تولیدشده با هوش مصنوعی در خود بازی‌ها استفاده نمی‌کند.",
+   "drop": false,
+   "category": "ai",
+   "source": "Engadget",
+   "url": "https://www.engadget.com/2276597/capcom-plans-to-use-ai-to-speed-up-the-game-development-process/",
+   "image": "https://www.engadget.com/img/gallery/capcom-plans-to-use-ai-to-speed-up-the-game-development-process/l-intro-1791051900.jpg",
+   "published": "2026-10-03T18:27:15+00:00",
+   "_score": 6,
+   "_why": [
+    "also covered by Eurogamer, PC Gamer"
+   ],
+   "_title": "Capcom plans to use AI to speed up the game development process",
+   "_summary": "The company previously said it won't use AI-generated content in its games."
+  },
+  {
+   "id": "52d8e32b34",
+   "title_fa": "جهش ۵۰ درصدی قیمت Nvidia Shield TV Pro در هفت‌سالگی",
+   "summary_fa": "کمبود حافظه ناشی از رونق هوش مصنوعی حالا به دستگاه‌های قدیمی هم رسیده؛ Shield TV Pro انویدیا ۱۰۰ دلار گران‌تر شد و قیمتش به ۲۹۹٫۹۹ دلار رسید.",
+   "drop": false,
+   "category": "tech",
+   "source": "Wired",
+   "url": "https://www.wired.com/story/7-year-old-tv-now-100-dollars-more-expensive-thank-ai/",
+   "image": "https://media.wired.com/photos/6ac00d9bc910b804171a679e/master/pass/GettyImages-474968764.jpg",
+   "published": "2026-10-03T18:00:00+00:00",
+   "_score": 6,
+   "_why": [
+    "also covered by Tom's Hardware",
+    "breaking keyword: Price Hike",
+    "major company/product: Nvidia"
+   ],
+   "_title": "The Nvidia Shield TV Is 7 Years Old. It Just Got a $100 Price Hike",
+   "_summary": "",
+   "_day_fa": [
+    "افزایش ۱۰۰ دلاری قیمت انویدیا شیلد تی‌وی در هفت‌سالگی",
+    "به دلیل کمبود حافظه ناشی از رونق هوش مصنوعی، قیمت هر دستگاهی که حافظه دارد در حال جهش است؛ قیمت شیلد TV Pro با ۵۰ درصد افزایش به ۲۹۹.۹۹ دلار رسیده و حتی دستگاه‌های قدیمی پخش ویدیو هم از این موج در امان نیستند."
+   ]
+  },
+  {
+   "id": "c7eec1adbf",
+   "title_fa": "رکورد تازهٔ استیم: درآمد ۱٫۷ میلیارد دلاری در سپتامبر",
+   "summary_fa": "با وجود گرانی شدید قطعات کامپیوتر، گیمرهای PC در سپتامبر ۲۰۲۶ بیش از هر ماه دیگری در استیم خرج کردند و درآمد ماهانهٔ این فروشگاه به بالاترین رقم تاریخش رسید.",
+   "drop": false,
+   "category": "game",
+   "source": "Tom's Hardware",
+   "url": "https://www.tomshardware.com/video-games/pc-gaming/steam-revenue-hit-usd1-7-billion-in-september-2026-pc-gaming-spending-grows-despite-skyrocketing-hardware-costs",
+   "image": "https://cdn.mos.cms.futurecdn.net/UrZpYibo9huHdvNjjgUMjF-1920-80.png",
+   "published": "2026-10-03T13:35:00+00:00",
+   "_score": 6,
+   "_why": [
+    "also covered by Google AI",
+    "breaking keyword: record",
+    "major company/product: Steam"
+   ],
+   "_title": "Steam hits record $1.7 billion in September 2026 despite soaring PC hardware costs",
+   "_summary": "",
+   "_day_fa": [
+    "درآمد استیم در سپتامبر ۲۰۲۶ با ۱.۷ میلیارد دلار رکورد زد",
+    "با وجود افزایش شدید قیمت قطعات کامپیوتر، گیمرهای PC همچنان پرقدرت خرج می‌کنند و درآمد ماهانهٔ استیم به بالاترین رقم تاریخ خود رسیده است."
+   ]
+  },
+  {
+   "id": "0bb7da254e",
+   "title_fa": "Muse متا از دوستان و خانواده‌تان پروفایل دقیق می‌سازد",
+   "summary_fa": "میلیون‌ها نفر ایجنت هوش مصنوعی Muse متا را نصب کرده‌اند، اما بررسی وایرد نشان می‌دهد سپردن کارها به این دستیار هزینهٔ سنگینی برای حریم خصوصی شما و اطرافیانتان دارد.",
+   "drop": false,
+   "category": "tech",
+   "source": "Wired",
+   "url": "https://www.wired.com/story/muse-creates-detailed-profiles-of-all-your-friends-and-family/",
+   "image": "https://media.wired.com/photos/6abda258fa5a1bd6e2b21507/master/pass/Kernel-Panic-Muse-AI-Self-PWN-Security.jpg",
+   "published": "2026-10-03T12:00:00+00:00",
+   "_score": 3,
+   "_why": [
+    "also covered by OpenAI"
+   ],
+   "_title": "Muse Creates Detailed Profiles of All Your Friends and Family",
+   "_summary": "",
+   "_day_fa": [
+    "ایجنت Muse متا از همهٔ دوستان و خانواده‌تان پروفایل دقیق می‌سازد",
+    "میلیون‌ها نفر ایجنت هوش مصنوعی Muse متا را نصب کرده‌اند، اما وایرد نشان می‌دهد سپردن کارها به این دستیار هزینهٔ سنگینی برای حریم خصوصی شما و اطرافیانتان دارد."
+   ]
+  },
+  {
+   "id": "4cc493c293",
+   "title_fa": "",
+   "summary_fa": "",
+   "drop": true,
+   "category": "game",
+   "source": "Eurogamer",
+   "url": "https://www.eurogamer.net/final-fantasy-7-revelation-naoki-hamaguchi-disc-release-physical-media",
+   "image": "https://assetsio.gnwcdn.com/final-fantasy-7-revelation-gameplay-screen-1.jpg?width=690&quality=85&format=jpg&auto=webp",
+   "published": "2026-10-03T17:25:03+00:00",
+   "_score": 5,
+   "_why": [
+    "also covered by IGN, Kotaku",
+    "breaking keyword: release",
+    "soft/evergreen: best"
+   ],
+   "_title": "Final Fantasy 7 Revelation director says he \"did his best\" to fight for a full disc release",
+   "_summary": "",
+   "_day_fa": [
+    "کارگردان Final Fantasy 7 Revelation: «تمام تلاشم را برای نسخهٔ کامل دیسکی کردم»",
+    "ناوکی هاماگوچی در پاسخ به درخواست طرفداران برای عرضهٔ نسخهٔ فیزیکی کامل بازی گفت برای آن جنگیده است؛ آن هم در شرایطی که صنعت بازی به سمت آینده‌ای کاملاً دیجیتال پیش می‌رود."
+   ]
+  },
+  {
+   "id": "bb63587cc0",
+   "title_fa": "",
+   "summary_fa": "",
+   "drop": true,
+   "category": "tech",
+   "source": "Hacker News",
+   "url": "https://blog.kagi.com/update-orion-linux-windows",
+   "image": "https://blog.kagi.com/og-image.png",
+   "published": "2026-10-03T04:53:57+00:00",
+   "_score": 5,
+   "_why": [
+    "also covered by Engadget",
+    "HN front page (100+ points)"
+   ],
+   "_title": "An Update on Orion for Linux and Windows",
+   "_summary": "",
+   "_day_fa": [
+    "تازه‌ترین وضعیت مرورگر Orion برای لینوکس و ویندوز",
+    "Kagi، سازندهٔ مرورگر حریم‌خصوصی‌محور Orion، از پیشرفت نسخه‌های لینوکس و ویندوز این مرورگر که تاکنون فقط برای دستگاه‌های اپل عرضه می‌شد، گزارش داده است."
+   ]
+  },
+  {
+   "id": "567ac5c762",
+   "title_fa": "",
+   "summary_fa": "",
+   "drop": true,
+   "category": "game",
+   "source": "IGN",
+   "url": "https://www.ign.com/articles/gears-of-war-e-day-devs-proud-to-be-one-of-xboxs-main-titles-amid-newfound-focus-on-exclusivity",
+   "image": "https://assets-prd.ignimgs.com/2026/10/01/btfiuoeldu6mkzuez7e008xhvd1icgg-jcb-u5aiuoy-1790813782471.jpeg",
+   "published": "2026-10-03T19:45:42+00:00",
+   "_score": 3,
+   "_why": [
+    "breaking keyword: Xbox",
+    "major company/product: Xbox"
+   ],
+   "_title": "Gears of War: E-Day Devs 'Proud to Be One of Xbox's Main Titles' Amid Newfound Focus on Exclusivity",
+   "_summary": "",
+   "_day_fa": [
+    "سازندگان Gears of War: E-Day: «افتخار می‌کنیم یکی از عناوین اصلی ایکس‌باکس هستیم»",
+    "استودیو The Coalition در حالی که مایکروسافت دوباره بر بازی‌های انحصاری تمرکز کرده، از جایگاه Gears of War: E-Day به‌عنوان یکی از بازی‌های کلیدی ایکس‌باکس ابراز خرسندی کرد."
+   ]
+  },
+  {
+   "id": "e320e67891",
+   "title_fa": "",
+   "summary_fa": "",
+   "drop": true,
+   "category": "tech",
+   "source": "The Verge",
+   "url": "https://www.theverge.com/tech/1004131/3d-movies-are-finally-worth-watching-xreal-meta-glasses-vision-pro",
+   "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/07/268631_Xreal_A01_Plus_CFaulkner_0001.jpg?quality=90&strip=all&crop=0,0,100,100",
+   "published": "2026-10-03T12:00:00+00:00",
+   "_score": 3,
+   "_why": [
+    "also covered by Engadget"
+   ],
+   "_title": "3D movies are finally worth watching",
+   "_summary": "",
+   "_day_fa": [
+    "فیلم‌های سه‌بعدی بالاخره ارزش تماشا پیدا کرده‌اند",
+    "نویسندهٔ ورج توضیح می‌دهد چرا بیش از ۱۵ سال پس از «آواتار» و شکست بزرگ فناوری سه‌بعدی، حالا با بلوغ نمایشگرها و تجهیزات، دوباره به خرید بلوری‌های سه‌بعدی روی آورده است."
+   ]
+  },
+  {
+   "id": "f1e5116c6a",
+   "title_fa": "",
+   "summary_fa": "",
+   "drop": true,
+   "category": "game",
+   "source": "Eurogamer",
+   "url": "https://www.eurogamer.net/what-weve-been-playing-thats-one-of-gamings-great-cities-that-is",
+   "image": "https://assetsio.gnwcdn.com/witcher-3-landscape-steam-promo-image.jpg?width=690&quality=85&format=jpg&auto=webp",
+   "published": "2026-10-03T07:00:00+00:00",
+   "_score": 3,
+   "_why": [
+    "also covered by Rock Paper Shotgun"
+   ],
+   "_title": "What we've been playing - \"That's one of gaming's great cities, that is\"",
+   "_summary": "Hello and welcome back to our regular feature where we write a little about the games we've been playing. This week, Bertie's witcher skills are a bit rusty; Dom goes through the Gears; Kelsey enjoys a horror game that feels just like home; and Chris does an incredible impression of a butler that no one acknowledged. Read more"
+  }
+ ]
+}

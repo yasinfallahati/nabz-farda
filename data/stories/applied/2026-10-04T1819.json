@@ -1,0 +1,76 @@
+{
+ "fetched_at": "2026-10-04T14:49:25+00:00",
+ "hours": 3,
+ "instructions": "Fill title_fa + summary_fa (1–2 Persian sentences) for each candidate worth a story; set drop:true for the rest. Then run: update_stories.py apply --deploy",
+ "candidates": [
+  {
+   "id": "3f901ff9e4",
+   "title_fa": "",
+   "summary_fa": "",
+   "drop": true,
+   "category": "game",
+   "source": "Polygon",
+   "url": "https://www.polygon.com/avengers-doomsday-latverian-witches-poster/",
+   "image": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/07/doom-poster.jpg",
+   "published": "2026-10-04T14:21:11+00:00",
+   "_score": 3,
+   "_why": [
+    "also covered by IGN"
+   ],
+   "_title": "Avengers: Doomsday Poster Highlights One Of The Film's Biggest Mysteries",
+   "_summary": "A new poster from Comic-Con Málaga reignites speculation on who the Latverian Witches are in Avengers: Doomsday"
+  },
+  {
+   "id": "abbd1ef69f",
+   "title_fa": "",
+   "summary_fa": "",
+   "drop": true,
+   "category": "game",
+   "source": "Polygon",
+   "url": "https://www.polygon.com/star-trek-the-cage-rejected-pilot/",
+   "image": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/08/star-trek-the-cage.jpg",
+   "published": "2026-10-04T14:00:15+00:00",
+   "_score": 3,
+   "_why": [
+    "also covered by Engadget"
+   ],
+   "_title": "61 Years Ago, Star Trek's Greatest Failure Changed the Franchise Forever",
+   "_summary": "NBC rejected “The Cage,” but Star Trek’s failed first pilot laid the groundwork for the franchise and the eventual return of Captain Pike."
+  },
+  {
+   "id": "ab23b83454",
+   "title_fa": "",
+   "summary_fa": "",
+   "drop": true,
+   "category": "tech",
+   "source": "Engadget",
+   "url": "https://www.engadget.com/2273796/samsung-galaxy-one-ui-9-customization-updates/",
+   "image": "https://www.engadget.com/img/gallery/customizing-your-samsung-galaxy-phone-is-a-bit-easier-with-one-ui-9/l-intro-1790793218.jpg",
+   "published": "2026-10-04T12:45:00+00:00",
+   "_score": 3,
+   "_why": [
+    "breaking keyword: Galaxy",
+    "major company/product: Samsung"
+   ],
+   "_title": "Customizing your Samsung Galaxy phone is a bit easier with One UI 9",
+   "_summary": "Lots of new options just became available to Samsung phones with the latest update. Customize your Quick Panel, Edge Panel and much more."
+  },
+  {
+   "id": "9b053c8b52",
+   "title_fa": "",
+   "summary_fa": "",
+   "drop": true,
+   "category": "tech",
+   "source": "The Verge",
+   "url": "https://www.theverge.com/gadgets/1000832/macbook-air-m5-amazon-prime-big-deal-sale",
+   "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/03/268408_Apple_MacBook_Air_15_M5_laptop_ADiBenedetto_0008.jpg?quality=90&strip=all&crop=0,0,100,100",
+   "published": "2026-10-04T12:34:01+00:00",
+   "_score": 3,
+   "_why": [
+    "also covered by Engadget"
+   ],
+   "_title": "The MacBook Air M5 is $200 off for the first time in months",
+   "_summary": "Amazon’s October Prime Day has effectively chopped off Apple’s June price increases. Usually $1,299, the 13-inch MacBook Air with the M5 chip and 512GB of storage is on sale for $1,099 at Amazon. That’s a more palatable price for a machine that’s significantly faster than Apple’s $699 MacBook Neo. The 15-inch version, also with 512GB […]"
+  }
+ ]
+}

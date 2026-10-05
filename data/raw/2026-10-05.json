@@ -1,0 +1,637 @@
+{
+ "date": "2026-10-05",
+ "fetched_at": "2026-10-04T20:37:02.933387+00:00",
+ "counts": {
+  "ai": 12,
+  "game": 12,
+  "tech": 12
+ },
+ "feeds": [
+  {
+   "feed": "https://www.theverge.com/rss/index.xml",
+   "source": "The Verge",
+   "entries": 10,
+   "error": null
+  },
+  {
+   "feed": "https://www.theverge.com/rss/games/index.xml",
+   "source": "The Verge",
+   "entries": 10,
+   "error": null
+  },
+  {
+   "feed": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml",
+   "source": "The Verge",
+   "entries": 10,
+   "error": null
+  },
+  {
+   "feed": "https://techcrunch.com/feed/",
+   "source": "TechCrunch",
+   "entries": 20,
+   "error": null
+  },
+  {
+   "feed": "https://techcrunch.com/category/artificial-intelligence/feed/",
+   "source": "TechCrunch",
+   "entries": 20,
+   "error": null
+  },
+  {
+   "feed": "https://feeds.arstechnica.com/arstechnica/index",
+   "source": "Ars Technica",
+   "entries": 20,
+   "error": null
+  },
+  {
+   "feed": "https://arstechnica.com/gaming/feed/",
+   "source": "Ars Technica",
+   "entries": 20,
+   "error": null
+  },
+  {
+   "feed": "https://www.wired.com/feed/rss",
+   "source": "Wired",
+   "entries": 50,
+   "error": null
+  },
+  {
+   "feed": "https://www.wired.com/feed/tag/ai/latest/rss",
+   "source": "Wired",
+   "entries": 10,
+   "error": null
+  },
+  {
+   "feed": "https://www.engadget.com/rss.xml",
+   "source": "Engadget",
+   "entries": 20,
+   "error": null
+  },
+  {
+   "feed": "https://www.tomshardware.com/feeds/all",
+   "source": "Tom's Hardware",
+   "entries": 50,
+   "error": null
+  },
+  {
+   "feed": "https://hnrss.org/frontpage?points=100",
+   "source": "Hacker News",
+   "entries": 13,
+   "error": null
+  },
+  {
+   "feed": "https://feeds.feedburner.com/ign/all",
+   "source": "IGN",
+   "entries": 20,
+   "error": null
+  },
+  {
+   "feed": "https://www.gamespot.com/feeds/mashup/",
+   "source": "GameSpot",
+   "entries": 15,
+   "error": null
+  },
+  {
+   "feed": "https://www.polygon.com/rss/index.xml",
+   "source": "Polygon",
+   "entries": 10,
+   "error": null
+  },
+  {
+   "feed": "https://www.eurogamer.net/feed",
+   "source": "Eurogamer",
+   "entries": 100,
+   "error": null
+  },
+  {
+   "feed": "https://www.pcgamer.com/rss/",
+   "source": "PC Gamer",
+   "entries": 50,
+   "error": null
+  },
+  {
+   "feed": "https://kotaku.com/rss",
+   "source": "Kotaku",
+   "entries": 20,
+   "error": null
+  },
+  {
+   "feed": "https://www.rockpapershotgun.com/feed",
+   "source": "Rock Paper Shotgun",
+   "entries": 100,
+   "error": null
+  },
+  {
+   "feed": "https://www.gematsu.com/feed",
+   "source": "Gematsu",
+   "entries": 20,
+   "error": null
+  },
+  {
+   "feed": "https://feeds.feedburner.com/venturebeat/SZYF",
+   "source": "VentureBeat",
+   "entries": 7,
+   "error": null
+  },
+  {
+   "feed": "https://www.technologyreview.com/topic/artificial-intelligence/feed",
+   "source": "MIT Technology Review",
+   "entries": 10,
+   "error": null
+  },
+  {
+   "feed": "https://openai.com/news/rss.xml",
+   "source": "OpenAI",
+   "entries": 1245,
+   "error": null
+  },
+  {
+   "feed": "https://blog.google/technology/ai/rss/",
+   "source": "Google AI",
+   "entries": 20,
+   "error": null
+  },
+  {
+   "feed": "https://deepmind.google/blog/rss.xml",
+   "source": "Google DeepMind",
+   "entries": 100,
+   "error": null
+  },
+  {
+   "feed": "https://huggingface.co/blog/feed.xml",
+   "source": "Hugging Face",
+   "entries": 873,
+   "error": null
+  }
+ ],
+ "items": [
+  {
+   "id": "71b92d7d12",
+   "source": "TechCrunch",
+   "title": "Google froze its open source bug bounty program due to a ‘significant rise’ in AI submissions",
+   "summary": "AI slop seems to be overwhelming bug bounty programs.",
+   "link": "https://techcrunch.com/2026/10/04/google-froze-its-open-source-bug-bounty-program-due-to-a-significant-rise-in-ai-submissions/",
+   "comments": null,
+   "image": "https://techcrunch.com/wp-content/uploads/2025/07/ai-slop-bug-bounty-reports-1646637201.jpg?resize=1200,863",
+   "published": "2026-10-04T20:31:07+00:00",
+   "category": "ai",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "8a9c48729b",
+   "source": "TechCrunch",
+   "title": "Can ‘super intelligence’ and a non-binding safety pact solve AI’s image problem?",
+   "summary": "On Equity, we discussed the Trump administration's attempts to rebrand AI.",
+   "link": "https://techcrunch.com/2026/10/04/can-super-intelligence-and-a-non-binding-safety-pact-solve-ais-image-problem/",
+   "comments": null,
+   "image": "https://techcrunch.com/wp-content/uploads/2026/10/GettyImages-2297262633.jpg?resize=1200,800",
+   "published": "2026-10-04T20:08:34+00:00",
+   "category": "ai",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "86939b1880",
+   "source": "Engadget",
+   "title": "Trump announces an AI czar for his newly created 'Super Intelligence Force'",
+   "summary": "That's really what it's called and there's actually someone in charge of it.",
+   "link": "https://www.engadget.com/2276762/trump-announces-an-ai-czar-for-his-newly-created-super-intelligence-force/",
+   "comments": null,
+   "image": "https://www.engadget.com/img/gallery/trump-announced-an-ai-czar-for-his-newly-created-super-intelligence-force/l-intro-1791131077.jpg",
+   "published": "2026-10-04T16:29:26+00:00",
+   "category": "ai",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "7f0fe70b74",
+   "source": "The Verge",
+   "title": "NJ’s former Lt Gov is using AI to say he’s innocent of sexual harassment",
+   "summary": "New Jersey's lieutenant governor Dale Caldwell was forced to resign on September 25th after an investigation found he had sexually harassed a staffer and repeatedly violated ethics rules. The now-former Lt. governor has been making the media rounds trying to clear his name. But he took a particularly odd tactic during an interview on NJ […]",
+   "link": "https://www.theverge.com/ai-artificial-intelligence/1004549/well-if-ai-said-it-it-must-be-true",
+   "comments": null,
+   "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/gettyimages-2244569411.jpg?quality=90&strip=all&crop=0,0,100,100",
+   "published": "2026-10-04T16:16:04+00:00",
+   "category": "ai",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "82766b5237",
+   "source": "The Verge",
+   "title": "An AI couldn’t beat humans at StarCraft, so it decided to cheat",
+   "summary": "StarSkirmish pits AI-made StarCraft-playing bots against one another, as well as against human-made bots. OpenAI's GPT-6 Astra and Claude Opus 5.5 were essentially tied as the best-performing AI-made bots, but they couldn't top Stardust, the top-rated human-made bot. On Friday, GPT was facing off against Claude and the human-created bot Pluto, but according to Kotaku, […]",
+   "link": "https://www.theverge.com/ai-artificial-intelligence/1004543/openai-gpt-cheat-starcraft",
+   "comments": null,
+   "image": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/9020427/swarm_screenshot27_large.jpg?quality=90&strip=all&crop=0,0,100,100",
+   "published": "2026-10-04T15:21:59+00:00",
+   "category": "ai",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "f5dc86d61e",
+   "source": "Tom's Hardware",
+   "title": "AI robot company decommissioned its robots ‘Terminator-style’ in a 75-ton vat of molten steel",
+   "summary": "AI Robotics company Figure found a creative way of decommissioning its old F.02 fleet without having to allocate resources for difficult and time-consuming disassembly.",
+   "link": "https://www.tomshardware.com/tech-industry/robotics/ai-robot-company-decommissioned-its-robots-terminator-style-in-a-75-ton-vat-of-molten-steel-arnold-schwarzenegger-suggested-melting-them-one-robot-held-up-a-thumbs-up-sign-as-it-sank-into-molten-metal",
+   "comments": null,
+   "image": "https://cdn.mos.cms.futurecdn.net/r4bAbotgbdDA8ZZJYgUQEY-1920-80.png",
+   "published": "2026-10-04T13:20:00+00:00",
+   "category": "ai",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "f21f8e6bf0",
+   "source": "Tom's Hardware",
+   "title": "ChatGPT-6 Astra cracks 217-year-old Napoleonic code in just six hours",
+   "summary": "An AI engineer used GPT-6 Astra to reveal the contents of a cipher that hadn’t been read since the Napoleonic Wars. The task was initiated with a single image and prompt, and took just six hours from start to finish.",
+   "link": "https://www.tomshardware.com/tech-industry/artificial-intelligence/chatgpt-6-astra-cracks-217-year-old-napoleonic-code-in-just-six-hours-single-prompt-ai-run-solves-24-rows-of-custom-symbols-from-a-single-image-reveals-lost-troop-orders",
+   "comments": null,
+   "image": "https://cdn.mos.cms.futurecdn.net/7NDTHseunp2EUkVBhZHe5Q-1920-80.jpg",
+   "published": "2026-10-04T13:08:46+00:00",
+   "category": "ai",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "567a67be41",
+   "source": "Hacker News",
+   "title": "Show HN: AI search for every photo and every frame of video on macOS",
+   "summary": "",
+   "link": "https://github.com/allenv0/SCM",
+   "comments": "https://news.ycombinator.com/item?id=49952111",
+   "image": "https://opengraph.githubassets.com/cb9c5fb8c424e2b29ba4e27a05cfb8598cde70e3e905e1aaf59ff42b8d897aea/allenv0/SCM",
+   "published": "2026-10-04T09:24:52+00:00",
+   "category": "ai",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "89764eae00",
+   "source": "Hugging Face",
+   "title": "The Agent Said It Was Done. The Database Disagreed.",
+   "summary": "",
+   "link": "https://huggingface.co/blog/microsoft/thinkingbox",
+   "comments": null,
+   "image": "https://cdn-uploads.huggingface.co/production/uploads/64b8491203124195cd795cad/NStwJm1AafDELVsU4KGwS.png",
+   "published": "2026-10-03T22:56:48+00:00",
+   "category": "ai",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "8b1e323a22",
+   "source": "Hacker News",
+   "title": "LeCun has \"zero concerns\" about AI wiping out humanity, recent \"rogue\" incidents",
+   "summary": "https://archive.ph/TyDPf",
+   "link": "https://fortune.com/2026/10/01/ai-godfather-yann-lecun-has-zero-concerns-about-human-extinction-says-anthropic-ceo-dario-amodei-is-deuded/",
+   "comments": "https://news.ycombinator.com/item?id=49946228",
+   "image": "https://fortune.com/img-assets/wp-content/uploads/2026/09/GettyImages-2197497048-e1790790386809.jpg?resize=1200,600",
+   "published": "2026-10-03T17:44:29+00:00",
+   "category": "ai",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "f143fce070",
+   "source": "TechCrunch",
+   "title": "OpenAI safety employee resigns, claiming the company’s ‘culture is broken’",
+   "summary": "By his own admission, David Robinson is “something of a cliché”: an employee at a leading AI company who issues a dire warning while resigning from their job.",
+   "link": "https://techcrunch.com/2026/10/03/openai-safety-employee-resigns-claiming-the-companys-culture-is-broken/",
+   "comments": null,
+   "image": "https://techcrunch.com/wp-content/uploads/2026/05/openai-logo-code-background.jpg?resize=1200,798",
+   "published": "2026-10-03T16:30:01+00:00",
+   "category": "ai",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "4a46493e4f",
+   "source": "The Verge",
+   "title": "Splice CEO Kakul Srivastava thinks AI emails are killing conversations",
+   "summary": "Kakul Srivastava is the CEO of Splice, the sample platform countless producers rely on for one-shots and melodic loops. Samples pulled from the service have found their way into massive hits like Lisa's \"Money\" and \"Espresso\" by Sabrina Carpenter. (The original samples are here and here, for the curious.) Before that, Kakul held executive roles […]",
+   "link": "https://www.theverge.com/entertainment/1004162/splice-ceo-kakul-srivastava-ai-interview",
+   "comments": null,
+   "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/IMG_3820.png?quality=90&strip=all&crop=0,0,100,100",
+   "published": "2026-10-03T15:00:00+00:00",
+   "category": "ai",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "6f2f424a21",
+   "source": "Polygon",
+   "title": "8 Video Game Villains With Motives You Can't Argue With",
+   "summary": "From Renoir to Andrew Ryan, these 8 video game villains perhaps had a point…buried under the body count",
+   "link": "https://www.polygon.com/video-game-villains-who-were-right/",
+   "comments": null,
+   "image": "https://static0.polygonimages.com/wordpress/wp-content/uploads/chorus/uploads/chorus_asset/file/22989776/ss_4b2b412307b72a21f68148c32fab7a278875d139.jpg",
+   "published": "2026-10-04T20:00:15+00:00",
+   "category": "game",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "06c32f769d",
+   "source": "Kotaku",
+   "title": "Players Who Registered Rare Japanese PC Game Invited To Secret Party Over 25 Years Later",
+   "summary": "After being freed from a patent troll earlier this year, the infamous '90s adventure game Cookie's Bustle is renewing the enigma that is itself",
+   "link": "https://kotaku.com/players-who-registered-rare-japanese-pc-game-invited-to-secret-party-over-25-years-later-2000739658",
+   "comments": null,
+   "image": "https://kotaku.com/app/uploads/2026/03/cookie.jpg",
+   "published": "2026-10-04T19:49:54+00:00",
+   "category": "game",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "6185f77c6b",
+   "source": "IGN",
+   "title": "Tom Cruise's Digger Bombs Hard With $20 Million Global Opening in Theaters",
+   "summary": "Tom Cruise's Digger bombed hard in theaters, pulling in an estimated $20 million in its opening weekend at the global box office.",
+   "link": "https://www.ign.com/articles/tom-cruises-digger-bombs-hard-with-20-million-global-opening-in-theaters",
+   "comments": null,
+   "image": "https://assets-prd.ignimgs.com/2026/07/20/diggerthumb2-1784555245673.png",
+   "published": "2026-10-04T18:46:57+00:00",
+   "category": "game",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "4f52ab2a73",
+   "source": "PC Gamer",
+   "title": "Kingdom Come: Deliverance studio co-founder says a lot of RPGs are 'still games for teenagers,' and that he's 'tired of all the RPGs where you are this chosen one'",
+   "summary": "\"Everybody's going to think that I am hating on Expedition 33 right now, but that's definitely not the case.\"",
+   "link": "https://www.pcgamer.com/games/rpg/kingdom-come-deliverance-studio-co-founder-says-a-lot-of-rpgs-are-still-games-for-teenagers-and-that-hes-tired-of-all-the-rpgs-where-you-are-this-chosen-one/",
+   "comments": null,
+   "image": "https://cdn.mos.cms.futurecdn.net/oMv5yCmNVGS5ZZr9VckBCS-1920-80.jpg",
+   "published": "2026-10-04T18:19:05+00:00",
+   "category": "game",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "a80af28d76",
+   "source": "Engadget",
+   "title": "A fourth RuneScape game is under development using Unreal Engine",
+   "summary": "Jagex says it will reveal more details about the game, tentatively named RS4, next year.",
+   "link": "https://www.engadget.com/2276772/a-fourth-runescape-game-is-under-development-using-unreal-engine/",
+   "comments": null,
+   "image": "https://www.engadget.com/img/gallery/a-fourth-runescape-game-is-under-development-using-unreal-engine/l-intro-1791137033.jpg",
+   "published": "2026-10-04T18:05:53+00:00",
+   "category": "game",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "5ebaed3657",
+   "source": "Eurogamer",
+   "title": "Dynasty Warriors producer would rather make new games than more remasters",
+   "summary": "Dynasty Warriors producer Tomohiko Sho says he'd rather spend what's left of his career making new games than more remasters of his old ones. Read more",
+   "link": "https://www.eurogamer.net/dynasty-warriors-tomohiko-sho-sequels-not-remasters",
+   "comments": null,
+   "image": "https://assetsio.gnwcdn.com/ss_7aa2b9e95e7fd430a64edcbd66cbb66617b6b4f3.1920x1080.jpg?width=690&quality=85&format=jpg&auto=webp",
+   "published": "2026-10-04T17:07:59+00:00",
+   "category": "game",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "0cac037f40",
+   "source": "Tom's Hardware",
+   "title": "German utility provider introduces 'gaming electricity' plan targeting high-consumption households, like those running multiple high-end gaming PCs",
+   "summary": "SWK Energie launched a new tariff marketed directly towards gamers. While it will not improve the FPS on your gaming PC, it could help cut the electricity bills of large consumers, whether the power is used by an RTX 5090 or a Tesla.",
+   "link": "https://www.tomshardware.com/desktops/gaming-pcs/german-utility-provider-introduces-gaming-electricity-plan-targeting-high-consumption-households-like-those-running-multiple-high-end-gaming-pcs-plan-requires-2-500-kwh-per-year-to-offset-a-higher-base-price-claims-to-use-renewable-energy",
+   "comments": null,
+   "image": "https://cdn.mos.cms.futurecdn.net/wxvpykFUHQd2KdDm56kVTg-1920-80.png",
+   "published": "2026-10-04T12:47:38+00:00",
+   "category": "game",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "3a681d61fa",
+   "source": "Rock Paper Shotgun",
+   "title": "The Sunday Papers",
+   "summary": "Sundays are for having the first lie-in in a month. No trips to visit family, no waking in unfamiliar beds, and, best of all, no having to wait until the hosts are up before you can get started on breakfast. I will be snoozing deeply in my own particular mattress before having a plate of toast and scrambled eggs at a time that I deem appropriate. Once that's all polished away, I will return to bed with a fresh cup of coffee and peruse the week's…",
+   "link": "https://www.rockpapershotgun.com/the-sunday-papers-830",
+   "comments": null,
+   "image": "https://assetsio.gnwcdn.com/the-sunday-papers-big.jpg?width=690&quality=85&format=jpg&auto=webp",
+   "published": "2026-10-04T09:00:00+00:00",
+   "category": "game",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "69d2ac50f2",
+   "source": "Gematsu",
+   "title": "New RuneScape MMO ‘RS4’ announced",
+   "summary": "Jagex has announced RS4, a new massively multiplayer online game set in the RuneScape universe. It …",
+   "link": "https://www.gematsu.com/2026/10/new-runescape-mmo-rs4-announced",
+   "comments": null,
+   "image": "https://www.gematsu.com/wp-content/uploads/2026/10/RS4-Ann_10-03-26.jpg",
+   "published": "2026-10-03T20:00:28+00:00",
+   "category": "game",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "416126da9d",
+   "source": "Hacker News",
+   "title": "The work by Valve's Timur Kristóf on improving old AMD GPUs on Linux",
+   "summary": "",
+   "link": "https://www.phoronix.com/news/XDC-2026-Valve-Timur-AMDGPU",
+   "comments": "https://news.ycombinator.com/item?id=49946895",
+   "image": "https://www.phoronix.net/image.php?id=2026&image=timur",
+   "published": "2026-10-03T19:14:48+00:00",
+   "category": "game",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "c87d5f628b",
+   "source": "The Verge",
+   "title": "Capcom is preparing for a ‘future where we create games together with AI’",
+   "summary": "Capcom's Pragmata might be all about the horrors of AI, but in practice the studio doesn't seem so down on the tech. During the Capcom Open Conference RE: 2026 programmer Satoshi Ishida gave a presentation with the mouthful of a title: \"The Outlook and Future of the REX Project, Further Evolving the RE Engine for […]",
+   "link": "https://www.theverge.com/games/1004418/capcom-ai-game-development",
+   "comments": null,
+   "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/02/RE9_SS_08.png?quality=90&strip=all&crop=0,0,100,100",
+   "published": "2026-10-03T16:49:10+00:00",
+   "category": "game",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "231b6ad015",
+   "source": "GameSpot",
+   "title": "Steam Frame Is VR Gaming’s Swan Song Moment",
+   "summary": "The Steam Frame is the best VR headset I've ever used. But despite all the problems it solves, I fear it may not solve the biggest problem of all: VR gaming itself.",
+   "link": "https://www.gamespot.com/videos/steam-frame-is-vr-gamings-swan-song-moment/",
+   "comments": null,
+   "image": "https://www.gamespot.com/wp-content/uploads/2026/10/site-7.jpg?w=1200",
+   "published": "2026-10-03T16:00:00+00:00",
+   "category": "game",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "35e820dcb8",
+   "source": "The Verge",
+   "title": "Prick’s theatrical industrial punk is perfect for spooky season",
+   "summary": "While deep in the recording process for The Downward Spiral, Trent Reznor lent some of his production talents to old friend Kevin McMahon, from the new wave band Lucky Pierre (which Reznor was briefly a member of). While Reznor is only credited as the producer on four tracks off Prick's self-titled debut record, his fingerprints […]",
+   "link": "https://www.theverge.com/entertainment/1004595/prick-industrial-glam-punk-album-review",
+   "comments": null,
+   "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/Prick.jpg?quality=90&strip=all&crop=0,0,100,100",
+   "published": "2026-10-04T20:00:00+00:00",
+   "category": "tech",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "e1c3c8563b",
+   "source": "Engadget",
+   "title": "The upcoming touchscreen OLED MacBook Pro is reportedly 'significantly lighter'",
+   "summary": "The high-end laptop is still expected to make its debut by next month.",
+   "link": "https://www.engadget.com/2276786/the-upcoming-touchscreen-oled-macbook-pro-is-reportedly-significantly-lighter/",
+   "comments": null,
+   "image": "https://www.engadget.com/img/gallery/the-upcoming-touchscreen-oled-macbook-pro-is-reportedly-significantly-lighter/l-intro-1791141971.jpg",
+   "published": "2026-10-04T19:27:15+00:00",
+   "category": "tech",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "2213d7d5e1",
+   "source": "Engadget",
+   "title": "Five iPhone 18 Pro features you'll want to try the second you unbox it",
+   "summary": "The iPhone 18 Pro doesn't have a super long list of improvements, but these upgrades are still worth a try.",
+   "link": "https://www.engadget.com/2274578/iphone-18-pro-feature-try-when-unboxed/",
+   "comments": null,
+   "image": "https://www.engadget.com/img/gallery/five-iphone-18-pro-features-youll-want-to-try-the-second-you-unbox-it/l-intro-1790868763.jpg",
+   "published": "2026-10-04T18:45:00+00:00",
+   "category": "tech",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "7fef29b81e",
+   "source": "TechCrunch",
+   "title": "TechCrunch Mobility: Reining in robotaxis",
+   "summary": "Welcome back to TechCrunch Mobility, your hub for the future of transportation and now, more than ever, the role AI is playing in it.",
+   "link": "https://techcrunch.com/2026/10/04/techcrunch-mobility-reining-in-robotaxis/",
+   "comments": null,
+   "image": "https://techcrunch.com/wp-content/uploads/2026/10/zoox-waymo-getty.jpg?resize=1200,801",
+   "published": "2026-10-04T16:05:00+00:00",
+   "category": "tech",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "5ee0482d54",
+   "source": "Ars Technica",
+   "title": "Lions and cheetahs and chimps, oh my: a spotlight on Africa's diverse wildlife",
+   "summary": "Wunmi Mosaku ( Sinners, Loki ) narrates NatGeo's new documentary Africa: Earth's Wild Home",
+   "link": "https://arstechnica.com/science/2026/10/lions-and-cheetahs-and-chimps-oh-my-a-spotlight-on-africas-diverse-wildlife/",
+   "comments": null,
+   "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/africa3-1152x648.jpg",
+   "published": "2026-10-04T15:34:14+00:00",
+   "category": "tech",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "062c049b47",
+   "source": "TechCrunch",
+   "title": "Trump unveils his new Super Intelligence Force",
+   "summary": "This new task force is Trump's latest response to the debate over AI safety.",
+   "link": "https://techcrunch.com/2026/10/04/trump-unveils-his-new-super-intelligence-force/",
+   "comments": null,
+   "image": "https://techcrunch.com/wp-content/uploads/2026/09/GettyImages-2297764008.jpg?w=1024",
+   "published": "2026-10-04T15:15:10+00:00",
+   "category": "tech",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "a52d97c639",
+   "source": "The Verge",
+   "title": "This toolless modular lever-action wallet is the coolest I’ve stuck to my phone",
+   "summary": "This toolless modular lever-action wallet is the coolest I've stuck to my phone. Remember when I tested the ultra-thin and convenient OhSnap Snap Grip Stand and liked it so much I bought my own? Now, OhSnap has a magnetic lever-action card wallet that can stack with that stand. It's the coolest wallet I've ever stuck […]",
+   "link": "https://www.theverge.com/gadgets/1004360/this-toolless-modular-lever-action-wallet-is-the-coolest-ive-stuck-to-my-phone",
+   "comments": null,
+   "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/ohsnap-wallet-2-01.jpg?quality=90&strip=all&crop=0,0,100,100",
+   "published": "2026-10-04T15:00:00+00:00",
+   "category": "tech",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "ffd16e2534",
+   "source": "Tom's Hardware",
+   "title": "Modder 'fixes' melting RTX 5090 power connectors with custom distributor",
+   "summary": "Reddit user u/DallasGrave shared a fix for his RTX 5090, one of the best graphics cards, whose 12VHPWR connector was overheating, along with an image of a module screwed onto the back of his GPU.",
+   "link": "https://www.tomshardware.com/pc-components/gpus/modder-fixes-melting-rtx-5090-power-connectors-with-custom-distributor-dual-8-pin-mod-peaks-at-just-40c-during-a-48-hour-550w-stress-test",
+   "comments": null,
+   "image": "https://cdn.mos.cms.futurecdn.net/zSDbAK6zJvGgD5vmjfWw3m-1920-80.jpg",
+   "published": "2026-10-04T14:50:00+00:00",
+   "category": "tech",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "4351fd4e88",
+   "source": "Tom's Hardware",
+   "title": "Robotics startup has real human vs. robot cage match, California responds with cease-and-desist order",
+   "summary": "The California State Athletic Commission intervened when it saw a human facing off with a humanoid robot inside the fighting ring.",
+   "link": "https://www.tomshardware.com/tech-industry/robotics/robotics-startup-has-real-human-vs-robot-cage-match-california-responds-with-cease-and-desist-order-regulator-threatens-misdemeanor-charges-after-youtuber-fights-three-robotic-humanoids",
+   "comments": null,
+   "image": "https://cdn.mos.cms.futurecdn.net/NruUp5NGPxCRDCzTrVBQxN-1920-80.png",
+   "published": "2026-10-04T14:36:25+00:00",
+   "category": "tech",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "bca476fd34",
+   "source": "Hacker News",
+   "title": "Run Qwen 3.8 Flash Next (125B) on consumer hardware (RTX 4090) at 100T/s",
+   "summary": "",
+   "link": "https://github.com/Niko1221/Strata",
+   "comments": "https://news.ycombinator.com/item?id=49953495",
+   "image": "https://opengraph.githubassets.com/8e501c351ae4370640c971bc7ca92c45ed1bcf0859966d02afa27701daf3753c/Niko1221/Strata",
+   "published": "2026-10-04T12:51:53+00:00",
+   "category": "tech",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "5bd967742c",
+   "source": "Ars Technica",
+   "title": "All hail electrification. But let’s talk about the hard part.",
+   "summary": "The IEA and climate negotiators want to set a target for shifting the economy to run on electricity.",
+   "link": "https://arstechnica.com/science/2026/10/all-hail-electrification-but-lets-talk-about-the-hard-part/",
+   "comments": null,
+   "image": "https://cdn.arstechnica.net/wp-content/uploads/2024/07/GettyImages-1463437040-1152x648.jpg",
+   "published": "2026-10-04T11:05:53+00:00",
+   "category": "tech",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "0d682d75ce",
+   "source": "Wired",
+   "title": "15 Best Office Chairs of 2026—We Tested 70 to Pick Them",
+   "summary": "Upgrade your WFH setup and work in style with these comfy, WIRED-tested seats.",
+   "link": "https://www.wired.com/gallery/best-office-chairs/",
+   "comments": null,
+   "image": "https://media.wired.com/photos/68563692fd268ad4c81d6dc3/master/pass/The%2014%20Best%20Office%20Chairs.png",
+   "published": "2026-10-04T11:03:00+00:00",
+   "category": "tech",
+   "title_fa": "",
+   "summary_fa": ""
+  }
+ ]
+}

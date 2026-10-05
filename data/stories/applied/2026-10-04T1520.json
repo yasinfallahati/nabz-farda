@@ -1,0 +1,43 @@
+{
+ "fetched_at": "2026-10-04T11:50:36+00:00",
+ "hours": 3,
+ "instructions": "Fill title_fa + summary_fa (1–2 Persian sentences) for each candidate worth a story; set drop:true for the rest. Then run: update_stories.py apply --deploy",
+ "candidates": [
+  {
+   "id": "e22dcacb71",
+   "title_fa": "",
+   "summary_fa": "",
+   "drop": true,
+   "category": "game",
+   "source": "Eurogamer",
+   "url": "https://www.eurogamer.net/jagex-runescape-4-mmo-unreal-engine-animated-series-moistcr1tikal",
+   "image": "https://assetsio.gnwcdn.com/Screenshot-2026-10-04-at-12.01.31.png?width=690&quality=85&format=jpg&auto=webp",
+   "published": "2026-10-04T11:12:52+00:00",
+   "_score": 5,
+   "_why": [
+    "also covered by IGN",
+    "breaking keyword: revealed"
+   ],
+   "_title": "Fourth RuneScape officially revealed",
+   "_summary": "Jagex has announced a fourth MMO in the RuneScape series. Read more"
+  },
+  {
+   "id": "6afb694707",
+   "title_fa": "",
+   "summary_fa": "",
+   "drop": true,
+   "category": "game",
+   "source": "Tom's Hardware",
+   "url": "https://www.tomshardware.com/peripherals/controllers-gamepads/us-navy-uses-xbox-style-controllers-to-fire-anti-drone-lasers-deployed-on-ships-usd13-per-shot-laser-weapon-deployed-in-the-strait-of-hormuz-uses-a-familiar-interface-instead-of-a-custom-control-system",
+   "image": "https://cdn.mos.cms.futurecdn.net/TQx6E4Ypk9KubUE8j3p4Ro-1920-80.png",
+   "published": "2026-10-04T11:15:00+00:00",
+   "_score": 3,
+   "_why": [
+    "breaking keyword: Xbox",
+    "major company/product: Xbox"
+   ],
+   "_title": "US Navy uses Xbox-style controllers to fire anti-drone lasers deployed on ships",
+   "_summary": "This would make it easier for sailors to get used to controlling the weapon system, as they're probably already comfortable holding a controller."
+  }
+ ]
+}

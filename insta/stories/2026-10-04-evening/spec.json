@@ -1,0 +1,12 @@
+{"news":[
+ {"id":"c7eec1adbf","date_label":"۱۲ مهر ۱۴۰۵","category":"game","source":"Tom's Hardware","image":"https://cdn.mos.cms.futurecdn.net/UrZpYibo9huHdvNjjgUMjF-1920-80.png",
+  "headline":"رکورد تاریخی استیم: <em>۱٫۷ میلیارد دلار</em> درآمد فقط در سپتامبر",
+  "summary":"با وجود گرانی شدید قطعات کامپیوتر، گیمرهای PC بیشتر از همیشه خرج کردند."},
+ {"id":"f143fce070","date_label":"۱۲ مهر ۱۴۰۵","category":"ai","source":"TechCrunch","image":"https://techcrunch.com/wp-content/uploads/2026/05/openai-logo-code-background.jpg?resize=1200,798",
+  "headline":"استعفا در تیم ایمنی OpenAI: <em>«فرهنگ شرکت از هم پاشیده»</em>",
+  "summary":"دیوید رابینسون هنگام خداحافظی هشدار داد فرهنگ سازمانی OpenAI آسیب جدی دیده است."},
+ {"id":"0bb7da254e","date_label":"۱۲ مهر ۱۴۰۵","category":"tech","source":"Wired","image":"https://media.wired.com/photos/6abda258fa5a1bd6e2b21507/master/pass/Kernel-Panic-Muse-AI-Self-PWN-Security.jpg",
+  "headline":"ایجنت Muse متا از <em>دوستان و خانواده‌تان</em> پرونده می‌سازد",
+  "summary":"میلیون‌ها نفر نصبش کرده‌اند؛ وایرد می‌گوید هزینه‌اش حریم خصوصی شما و اطرافیانتان است."}
+],
+"promo":{"cta":"لینک در بیو","handle":null}}

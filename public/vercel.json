@@ -1,0 +1,7 @@
+{
+  "cleanUrls": true,
+  "headers": [
+    { "source": "/feed.xml", "headers": [{ "key": "Content-Type", "value": "application/rss+xml; charset=utf-8" }] },
+    { "source": "/og/(.*)", "headers": [{ "key": "Cache-Control", "value": "public, max-age=86400, stale-while-revalidate=604800" }] }
+  ]
+}

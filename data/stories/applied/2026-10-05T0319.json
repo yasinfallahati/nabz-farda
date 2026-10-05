@@ -1,0 +1,24 @@
+{
+ "fetched_at": "2026-10-04T23:49:50+00:00",
+ "hours": 3,
+ "instructions": "Fill title_fa + summary_fa (1–2 Persian sentences) for each candidate worth a story; set drop:true for the rest. Then run: update_stories.py apply --deploy",
+ "candidates": [
+  {
+   "id": "289c883066",
+   "title_fa": "",
+   "summary_fa": "",
+   "drop": true,
+   "category": "game",
+   "source": "IGN",
+   "url": "https://www.ign.com/articles/blade-director-defends-good-dude-kevin-feige-after-marvel-scrapped-mahershala-alis-1920s-vampire-movie",
+   "image": "https://assets-prd.ignimgs.com/2026/10/04/mahershala-ali-1791148012054.png",
+   "published": "2026-10-04T21:11:39+00:00",
+   "_score": 3,
+   "_why": [
+    "also covered by Eurogamer"
+   ],
+   "_title": "Blade Director Defends 'Good Dude' Kevin Feige After Marvel Scrapped Mahershala Ali's 1920s Vampire Movie",
+   "_summary": "Blade director Bassam Tariq said he felt like a \"failure\" after exiting the Mahershala Ali-led Marvel movie, but he doesn't blame MCU mastermind Kevin Feige for how things went down."
+  }
+ ]
+}
