@@ -1,7 +1,9 @@
 # Nabz-e Farda — Competition showcase
 
 **Live:** https://nabz-farda.vercel.app  
-**Repo:** https://github.com/yasinfallahati/nabz-farda (private)
+**Repo:** https://github.com/yasinfallahati/nabz-farda (private)  
+**Presentation notes:** [`docs/PRESENTATION.md`](docs/PRESENTATION.md)  
+**One-pager:** [`docs/contest/nabz-farda-onepager.png`](docs/contest/nabz-farda-onepager.png)
 
 ## What it is
 
@@ -20,24 +22,24 @@ Nabz-e Farda (“Tomorrow’s Pulse”) is a **fully static**, Persian-language 
 | Multi-channel | Web, Telegram posts, Instagram reel/carousel/stories from the same day data |
 | SEO layer | Per-article pages, JSON-LD, Google News sitemap, RSS, OG cards with correct Persian shaping |
 | Ops dashboard | `/automation/` reads live `ops.json` (counts, stories, telegram, commit, build time) |
-| Public API | `/api/v1/latest.json`, `archive.json`, `ops.json`, `openapi.json` |
 | Search | Client-side filter over `/data/search-index.json` + homepage chips |
 | PWA shell | Manifest + lightweight service worker + Persian offline page |
 | Article UX | Reading time, copy/Telegram/X share (no tracking SDKs), related articles, خلاصه + خبر کامل |
+
+Internal JSON under `/data/` (and optional mirrors) powers search and the ops dashboard; they are **not** a public product API and are not linked in the site chrome.
 
 ## Judge walkthrough (≈5 minutes)
 
 1. **Home** — https://nabz-farda.vercel.app — RTL layout, stories bar, category chips, search.  
 2. **Automation** — https://nabz-farda.vercel.app/automation/ — pipeline stages + live ops stats.  
 3. **Article** — open any card; check خلاصه / خبر کامل, reading time, share, related.  
-4. **API** — https://nabz-farda.vercel.app/api/ and curl `/api/v1/latest.json`.  
-5. **About / Search / PWA** — `/about/`, `/search/`; optionally “Add to Home Screen”.
+4. **About** — https://nabz-farda.vercel.app/about/ — architecture + schedule in Persian/English.  
+5. **Search / PWA** — `/search/`; optionally “Add to Home Screen”.
 
 ## How to demo live (no credentials needed)
 
 ```bash
-curl -s https://nabz-farda.vercel.app/api/v1/ops.json | head
-curl -s https://nabz-farda.vercel.app/api/v1/latest.json | head
+curl -s https://nabz-farda.vercel.app/data/ops.json | head
 curl -s https://nabz-farda.vercel.app/data/search-index.json | head
 ```
 

@@ -21,7 +21,7 @@
 <header class="hdr"><div class="wrap hdr-in">
   <a class="logo" href="/" aria-label="نبض فردا"><svg class="logo-mark" viewBox="0 0 48 48" aria-hidden="true"><path d="M3 26h9l4-10 7 20 6-26 5 16h11"/></svg><span>نبض فردا</span></a>
   <nav class="nav site-nav" aria-label="منوی اصلی">
-    <a href="/">خانه</a><a href="/news/">بایگانی</a><a href="/automation/" class="active">اتوماسیون</a><a href="/about/">درباره</a><a href="/api/">API</a>
+    <a href="/">خانه</a><a href="/news/">بایگانی</a><a href="/automation/" class="active">اتوماسیون</a><a href="/about/">درباره</a>
   </nav>
   <div class="hdr-tools"><a class="auto-badge" href="/automation/">سیستم اتوماتیک</a></div>
 </div></header>
@@ -55,7 +55,7 @@
 <footer class="ftr">
   <div class="wrap ftr-in">
     <div class="ftr-about"><b>نبض فردا</b><p>خلاصهٔ فارسی مهم‌ترین اخبار هوش مصنوعی، تکنولوژی و گیم.</p></div>
-    <nav class="ftr-links"><a href="/">خانه</a><a href="/about/">درباره</a><a href="/api/">API</a><a href="/feed.xml">RSS</a></nav>
+    <nav class="ftr-links"><a href="/">خانه</a><a href="/about/">درباره</a><a href="/feed.xml">RSS</a></nav>
   </div>
 </footer>
 <script src="/assets/site.js?v=4" defer></script>
@@ -94,7 +94,7 @@
       </div>
       <h3 class="ops-h2">تعداد خبرهای آخرین روز بر اساس دسته</h3>
       <div class="ops-cats">${catRows}</div>
-      <p class="ops-note">داده‌ها از فایل استاتیک <a href="/data/ops.json" dir="ltr">/data/ops.json</a> و آینهٔ API در <a href="/api/v1/ops.json" dir="ltr">/api/v1/ops.json</a> خوانده می‌شوند.</p>`;
+      <p class="ops-note">داده‌ها از فایل استاتیک <a href="/data/ops.json" dir="ltr">/data/ops.json</a> خوانده می‌شوند.</p>`;
   }).catch(() => {
     document.getElementById("opsGrid").innerHTML = '<p class="empty">خطا در بارگذاری وضعیت اتوماسیون.</p>';
   });

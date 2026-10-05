@@ -76,7 +76,6 @@ There is no application server and no database. The `public/` folder *is* the we
 - <img src="assets/svg/icon-chart.svg" width="16" height="16" alt=""> **Ops dashboard.** Persian `/automation/` page with pipeline stages and live stats from `public/data/ops.json` (nightly date, category counts, stories, Telegram, feeds, commit).
 - <img src="assets/svg/icon-seo.svg" width="16" height="16" alt=""> **Search + category chips.** Static `search-index.json`, homepage chips, and `/search/` for live client-side filtering across the archive.
 - <img src="assets/svg/icon-news.svg" width="16" height="16" alt=""> **Article upgrades.** Reading-time estimate, copy-link / Telegram / X share (no tracking SDKs), three related articles, plus خلاصه and خبر کامل.
-- <img src="assets/svg/icon-seo.svg" width="16" height="16" alt=""> **Public static API.** `/api/v1/latest.json`, `archive.json`, `ops.json`, and `openapi.json`, documented at `/api/`.
 - <img src="assets/svg/icon-stories.svg" width="16" height="16" alt=""> **PWA shell.** Web manifest, lightweight service worker, Persian offline fallback.
 - <img src="assets/svg/icon-chart.svg" width="16" height="16" alt=""> **About / judges page.** `/about/` explains nightly + 3h automation, static architecture, and demo links.
 - <img src="assets/svg/icon-chart.svg" width="16" height="16" alt=""> **Privacy-friendly analytics.** Vercel Web Analytics on every page.
@@ -88,7 +87,6 @@ There is no application server and no database. The `public/` folder *is* the we
 | Website | https://nabz-farda.vercel.app |
 | Automation dashboard | https://nabz-farda.vercel.app/automation/ |
 | About / judges | https://nabz-farda.vercel.app/about/ |
-| Public API | https://nabz-farda.vercel.app/api/ · [`latest.json`](https://nabz-farda.vercel.app/api/v1/latest.json) |
 | Search | https://nabz-farda.vercel.app/search/ |
 | RSS feed | https://nabz-farda.vercel.app/feed.xml |
 | Sample article | https://nabz-farda.vercel.app/news/ (pick any day) |
@@ -132,7 +130,7 @@ belongs to the nightly edition.
 │   ├── index.html          # Home: category tabs, stories bar, hero, story list
 │   ├── assets/             # CSS, JS, icons
 │   ├── data/               # days/, archive, stories, ops, search-index
-│   ├── api/                # Public static JSON API + docs
+│   ├── api/v1/             # Internal JSON snapshots (not linked in UI)
 │   ├── automation/, about/, search/
 │   ├── news/               # Generated article, day, and archive pages
 │   ├── og/                 # Generated Open Graph images

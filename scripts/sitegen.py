@@ -280,7 +280,6 @@ SITE_NAV = [
     ("archive", "/news/", "بایگانی"),
     ("automation", "/automation/", "اتوماسیون"),
     ("about", "/about/", "درباره"),
-    ("api", "/api/", "API"),
 ]
 
 
@@ -343,7 +342,6 @@ FOOT = f"""<footer class="ftr">
       <a href="/news/">بایگانی</a>
       <a href="/automation/">اتوماسیون</a>
       <a href="/about/">درباره</a>
-      <a href="/api/">API</a>
       <a href="/feed.xml">فید RSS</a>
     </nav>
   </div>
@@ -501,7 +499,6 @@ def sitemaps(days, items):
             (SITE + "/news/", latest_up, "daily", "0.6"),
             (SITE + "/automation/", latest_up, "daily", "0.5"),
             (SITE + "/about/", latest_up, "monthly", "0.5"),
-            (SITE + "/api/", latest_up, "monthly", "0.4"),
             (SITE + "/search/", latest_up, "weekly", "0.4")]
     for d in days:
         urls.append((f"{SITE}/news/{d['date']}/", d["updated_at"], "daily", "0.5"))
@@ -663,8 +660,8 @@ def write_api(days, items, ops):
     openapi = {
         "openapi": "3.0.3",
         "info": {
-            "title": "Nabz-e Farda Public API",
-            "description": "Static JSON endpoints for the Nabz-e Farda Persian news site. No auth required.",
+            "title": "Nabz-e Farda internal data",
+            "description": "Internal static JSON snapshots used by the site (ops/search). Not a public product API.",
             "version": "1.0.0",
         },
         "servers": [{"url": SITE + "/api/v1"}],
@@ -720,7 +717,7 @@ def generate():
     write_api(days, items, ops)
     return (f"pages: {len(items)} articles + {len(days)} day pages; og images redrawn {made}; "
             f"sitemap {n_urls} urls; feed {n_feed} items; search-index {n_search}; "
-            f"ops+api written" + (f"; removed {len(stale)} stale" if stale else ""))
+            f"ops+data written" + (f"; removed {len(stale)} stale" if stale else ""))
 
 
 if __name__ == "__main__":

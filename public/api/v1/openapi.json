@@ -1,8 +1,8 @@
 {
   "openapi": "3.0.3",
   "info": {
-    "title": "Nabz-e Farda Public API",
-    "description": "Static JSON endpoints for the Nabz-e Farda Persian news site. No auth required.",
+    "title": "Nabz-e Farda internal data",
+    "description": "Internal static JSON snapshots used by the site (ops/search). Not a public product API.",
     "version": "1.0.0"
   },
   "servers": [
