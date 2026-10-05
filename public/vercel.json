@@ -2,6 +2,16 @@
   "cleanUrls": true,
   "headers": [
     { "source": "/feed.xml", "headers": [{ "key": "Content-Type", "value": "application/rss+xml; charset=utf-8" }] },
-    { "source": "/og/(.*)", "headers": [{ "key": "Cache-Control", "value": "public, max-age=86400, stale-while-revalidate=604800" }] }
+    { "source": "/og/(.*)", "headers": [{ "key": "Cache-Control", "value": "public, max-age=86400, stale-while-revalidate=604800" }] },
+    { "source": "/manifest.webmanifest", "headers": [{ "key": "Content-Type", "value": "application/manifest+json; charset=utf-8" }] },
+    { "source": "/sw.js", "headers": [{ "key": "Cache-Control", "value": "public, max-age=0, must-revalidate" }] },
+    { "source": "/api/v1/(.*).json", "headers": [
+      { "key": "Content-Type", "value": "application/json; charset=utf-8" },
+      { "key": "Access-Control-Allow-Origin", "value": "*" }
+    ]},
+    { "source": "/data/(.*).json", "headers": [
+      { "key": "Content-Type", "value": "application/json; charset=utf-8" },
+      { "key": "Access-Control-Allow-Origin", "value": "*" }
+    ]}
   ]
 }

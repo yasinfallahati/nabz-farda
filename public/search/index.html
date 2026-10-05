@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="fa" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>جست‌وجو | نبض فردا</title>
+<meta name="description" content="جست‌وجو در آرشیو اخبار نبض فردا با فیلتر دسته.">
+<meta name="theme-color" content="#0b0c0f">
+<link rel="canonical" href="https://nabz-farda.vercel.app/search/">
+<link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+<link rel="manifest" href="/manifest.webmanifest">
+<link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/rastikerdar/vazirmatn@v33.003/Vazirmatn-font-face.css">
+<link rel="stylesheet" href="/assets/style.css?v=4">
+<link rel="stylesheet" href="/assets/article.css?v=4">
+<script>window.va=window.va||function(){(window.vaq=window.vaq||[]).push(arguments)};</script>
+<script defer src="/_vercel/insights/script.js"></script>
+</head>
+<body class="page">
+<header class="hdr"><div class="wrap hdr-in">
+  <a class="logo" href="/" aria-label="نبض فردا"><svg class="logo-mark" viewBox="0 0 48 48" aria-hidden="true"><path d="M3 26h9l4-10 7 20 6-26 5 16h11"/></svg><span>نبض فردا</span></a>
+  <nav class="nav site-nav" aria-label="منوی اصلی">
+    <a href="/">خانه</a><a href="/news/">بایگانی</a><a href="/automation/">اتوماسیون</a><a href="/about/">درباره</a><a href="/api/">API</a>
+  </nav>
+  <div class="hdr-tools"><a class="auto-badge" href="/automation/">سیستم اتوماتیک</a></div>
+</div></header>
+
+<main class="wrap page-wrap">
+  <nav class="crumbs"><a href="/">نبض فردا</a><span aria-hidden="true">/</span><span>جست‌وجو</span></nav>
+  <div class="page-head">
+    <h1>جست‌وجو در آرشیو</h1>
+    <p>فیلتر زنده بر اساس عنوان، خلاصه، منبع و دسته.</p>
+  </div>
+
+  <div class="search-panel">
+    <input id="q" type="search" placeholder="جست‌وجو در همهٔ خبرها…" autocomplete="off" aria-label="جست‌وجو">
+    <div class="chips" role="tablist" aria-label="دسته">
+      <button class="chip active" data-cat="all" role="tab">همه</button>
+      <button class="chip" data-cat="ai" role="tab">هوش مصنوعی</button>
+      <button class="chip" data-cat="tech" role="tab">تکنولوژی</button>
+      <button class="chip" data-cat="game" role="tab">بازی</button>
+    </div>
+  </div>
+
+  <div class="latest-head"><h2 id="resTitle">نتایج</h2><span class="count" id="count"></span></div>
+  <div class="search-results" id="results"></div>
+  <p class="empty" id="empty" hidden>خبری با این جست‌وجو پیدا نشد.</p>
+</main>
+
+<footer class="ftr">
+  <div class="wrap ftr-in">
+    <div class="ftr-about"><b>نبض فردا</b><p>جست‌وجوی سمت‌کلاینت روی ایندکس استاتیک.</p></div>
+    <nav class="ftr-links"><a href="/">خانه</a><a href="/news/">بایگانی</a></nav>
+  </div>
+</footer>
+<script src="/assets/site.js?v=4" defer></script>
+<script>
+(() => {
+  const CATS = { ai: "هوش مصنوعی", tech: "تکنولوژی", game: "گیم" };
+  const fa = (n) => Number(n).toLocaleString("fa-IR");
+  const esc = (s) => String(s ?? "").replace(/[&<>"']/g, c => ({ "&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;" }[c]));
+  const state = { cat: "all", q: "", items: [] };
+  const $ = (s) => document.querySelector(s);
+
+  function filtered() {
+    const q = state.q.trim().toLowerCase();
+    return state.items.filter(it =>
+      (state.cat === "all" || it.category === state.cat) &&
+      (!q || [it.title_fa, it.summary_fa, it.source, it.date].join(" ").toLowerCase().includes(q))
+    );
+  }
+
+  function render() {
+    const list = filtered();
+    $("#empty").hidden = list.length > 0;
+    $("#count").textContent = fa(list.length) + " خبر";
+    $("#resTitle").textContent = state.q ? "نتایج جست‌وجو" : "همهٔ خبرها";
+    $("#results").innerHTML = list.slice(0, 80).map(it => `
+      <a class="s-item" href="${esc(it.url)}">
+        <span class="kicker">${CATS[it.category] || ""}</span>
+        <h3>${esc(it.title_fa)}</h3>
+        <p>${esc((it.summary_fa || "").slice(0, 140))}${(it.summary_fa || "").length > 140 ? "…" : ""}</p>
+        <div class="meta"><span class="src">${esc(it.source)}</span><i class="sep"></i><span>${esc(it.date)}</span></div>
+      </a>`).join("");
+  }
+
+  document.querySelectorAll(".chip").forEach(b => b.addEventListener("click", () => {
+    state.cat = b.dataset.cat;
+    document.querySelectorAll(".chip").forEach(x => x.classList.toggle("active", x === b));
+    render();
+  }));
+  let t; $("#q").addEventListener("input", e => {
+    clearTimeout(t); t = setTimeout(() => { state.q = e.target.value; render(); }, 120);
+  });
+
+  const params = new URLSearchParams(location.search);
+  if (params.get("q")) { $("#q").value = params.get("q"); state.q = params.get("q"); }
+  if (CATS[params.get("c")]) {
+    state.cat = params.get("c");
+    document.querySelectorAll(".chip").forEach(x => x.classList.toggle("active", x.dataset.cat === state.cat));
+  }
+
+  fetch("/data/search-index.json?t=" + Date.now()).then(r => r.json()).then(d => {
+    state.items = d.items || [];
+    render();
+  }).catch(() => { $("#empty").hidden = false; $("#empty").textContent = "خطا در بارگذاری ایندکس جست‌وجو."; });
+})();
+</script>
+</body>
+</html>

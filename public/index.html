@@ -23,31 +23,34 @@
 <meta name="twitter:image" content="https://nabz-farda.vercel.app/og/default.png">
 <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
 <link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
+<link rel="manifest" href="/manifest.webmanifest">
 <link rel="alternate" type="application/rss+xml" title="نبض فردا" href="https://nabz-farda.vercel.app/feed.xml">
 <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"WebSite","@id":"https://nabz-farda.vercel.app/#website","url":"https://nabz-farda.vercel.app/","name":"نبض فردا","description":"خلاصهٔ فارسی مهم‌ترین اخبار روز هوش مصنوعی، تکنولوژی و گیم","inLanguage":"fa-IR","publisher":{"@id":"https://nabz-farda.vercel.app/#org"}},{"@type":"NewsMediaOrganization","@id":"https://nabz-farda.vercel.app/#org","name":"نبض فردا","url":"https://nabz-farda.vercel.app/","logo":{"@type":"ImageObject","url":"https://nabz-farda.vercel.app/assets/logo-512.png","width":512,"height":512}}]}</script>
 <script>window.va=window.va||function(){(window.vaq=window.vaq||[]).push(arguments)};</script>
 <script defer src="/_vercel/insights/script.js"></script>
 <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/rastikerdar/vazirmatn@v33.003/Vazirmatn-font-face.css">
-<link rel="stylesheet" href="/assets/style.css?v=3">
+<link rel="stylesheet" href="/assets/style.css?v=4">
 <link rel="stylesheet" href="/assets/stories.css?v=3">
 </head>
 <body>
 <header class="hdr">
   <div class="wrap hdr-in">
     <a class="logo" href="/" aria-label="نبض فردا"><svg class="logo-mark" viewBox="0 0 48 48" aria-hidden="true"><path d="M3 26h9l4-10 7 20 6-26 5 16h11"/></svg><span>نبض فردا</span></a>
-    <nav class="nav" aria-label="دسته‌بندی‌ها" role="tablist">
-      <button class="tab active" data-cat="all" role="tab">همه</button>
-      <button class="tab" data-cat="ai" role="tab">هوش مصنوعی</button>
-      <button class="tab" data-cat="tech" role="tab">تکنولوژی</button>
-      <button class="tab" data-cat="game" role="tab">گیم</button>
+    <nav class="nav site-nav" aria-label="منوی اصلی">
+      <a href="/" class="active">خانه</a>
+      <a href="/news/">بایگانی</a>
+      <a href="/automation/">اتوماسیون</a>
+      <a href="/about/">درباره</a>
+      <a href="/api/">API</a>
     </nav>
     <div class="hdr-tools">
+      <a class="auto-badge" href="/automation/" title="سیستم اتوماتیک">سیستم اتوماتیک</a>
       <button class="icon-btn" id="searchBtn" aria-label="جست‌وجو" aria-expanded="false"><svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="6.5"/><path d="m20 20-4-4"/></svg></button>
       <button class="icon-btn" id="archiveBtn" aria-label="آرشیو روزها" aria-haspopup="dialog"><svg viewBox="0 0 24 24"><rect x="3.5" y="5" width="17" height="15" rx="2.5"/><path d="M3.5 10h17M8 3v4M16 3v4"/></svg></button>
     </div>
   </div>
-  <div class="wrap search-row" id="searchRow" hidden><input id="q" type="search" placeholder="جست‌وجو در اخبار…" autocomplete="off" aria-label="جست‌وجو در اخبار"></div>
+  <div class="wrap search-row" id="searchRow" hidden><input id="q" type="search" placeholder="جست‌وجو در اخبار امروز… برای همهٔ روزها /search را باز کنید" autocomplete="off" aria-label="جست‌وجو در اخبار"></div>
 </header>
 
 <section class="stories" id="stories" aria-label="استوری خبرهای داغ ۲۴ ساعت اخیر" hidden><div class="wrap stories-inner"><div class="stories-row" role="list"></div></div></section>
@@ -55,6 +58,12 @@
 <main class="wrap home" id="main">
   <div class="dateline"><span id="today"></span><span class="updated" id="updated"><span>در حال بارگذاری…</span></span></div>
   <div id="archiveNote" class="archive-note" hidden></div>
+  <div class="cat-chips" role="tablist" aria-label="دسته‌بندی‌ها">
+    <button class="chip tab active" data-cat="all" role="tab">همه</button>
+    <button class="chip tab" data-cat="ai" role="tab">هوش مصنوعی</button>
+    <button class="chip tab" data-cat="tech" role="tab">تکنولوژی</button>
+    <button class="chip tab" data-cat="game" role="tab">بازی</button>
+  </div>
   <section class="hero" id="hero" aria-label="خبر اصلی"><div class="skeleton hero-skel"></div></section>
   <section class="latest" aria-labelledby="latestTitle">
     <div class="latest-head"><h2 id="latestTitle">آخرین خبرها</h2><span class="count" id="count"></span></div>
@@ -66,7 +75,14 @@
 <footer class="ftr">
   <div class="wrap ftr-in">
     <div class="ftr-about"><b>نبض فردا</b><p>خلاصهٔ فارسی مهم‌ترین اخبار هوش مصنوعی، تکنولوژی و گیم از معتبرترین رسانه‌های جهان. هر شب ساعت ۰۰:۰۰ به وقت تهران به‌روز می‌شود. حقوق محتوای اصلی متعلق به منابع آن است.</p></div>
-    <nav class="ftr-links" aria-label="پیوندها"><a href="/news/">آرشیو صفحات خبر</a><a href="/feed.xml">فید RSS</a></nav>
+    <nav class="ftr-links" aria-label="پیوندها">
+      <a href="/news/">بایگانی</a>
+      <a href="/automation/">اتوماسیون</a>
+      <a href="/about/">درباره</a>
+      <a href="/api/">API</a>
+      <a href="/search/">جست‌وجو</a>
+      <a href="/feed.xml">فید RSS</a>
+    </nav>
   </div>
   <div class="wrap ftr-src"><span>منابع:</span> <span class="sources" id="sources"></span></div>
 </footer>
@@ -76,7 +92,8 @@
   <div class="days" id="days"></div>
 </dialog>
 
-<script src="/assets/app.js?v=3" defer></script>
+<script src="/assets/app.js?v=4" defer></script>
 <script src="/assets/stories.js?v=3" defer></script>
+<script src="/assets/site.js?v=4" defer></script>
 </body>
 </html>

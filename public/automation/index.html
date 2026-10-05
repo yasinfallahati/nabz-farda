@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="fa" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>اتوماسیون | نبض فردا</title>
+<meta name="description" content="داشبورد اتوماسیون نبض فردا — وضعیت پایپ‌لاین شبانه و به‌روزرسانی استوری‌ها.">
+<meta name="theme-color" content="#0b0c0f">
+<link rel="canonical" href="https://nabz-farda.vercel.app/automation/">
+<link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+<link rel="manifest" href="/manifest.webmanifest">
+<link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
+<link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/rastikerdar/vazirmatn@v33.003/Vazirmatn-font-face.css">
+<link rel="stylesheet" href="/assets/style.css?v=4">
+<link rel="stylesheet" href="/assets/article.css?v=4">
+<script>window.va=window.va||function(){(window.vaq=window.vaq||[]).push(arguments)};</script>
+<script defer src="/_vercel/insights/script.js"></script>
+</head>
+<body class="page">
+<header class="hdr"><div class="wrap hdr-in">
+  <a class="logo" href="/" aria-label="نبض فردا"><svg class="logo-mark" viewBox="0 0 48 48" aria-hidden="true"><path d="M3 26h9l4-10 7 20 6-26 5 16h11"/></svg><span>نبض فردا</span></a>
+  <nav class="nav site-nav" aria-label="منوی اصلی">
+    <a href="/">خانه</a><a href="/news/">بایگانی</a><a href="/automation/" class="active">اتوماسیون</a><a href="/about/">درباره</a><a href="/api/">API</a>
+  </nav>
+  <div class="hdr-tools"><a class="auto-badge" href="/automation/">سیستم اتوماتیک</a></div>
+</div></header>
+
+<main class="wrap page-wrap">
+  <nav class="crumbs"><a href="/">نبض فردا</a><span aria-hidden="true">/</span><span>اتوماسیون</span></nav>
+  <div class="page-head">
+    <h1>اتوماسیون</h1>
+    <p>وضعیت زندهٔ پایپ‌لاین شبانه و کانال‌های انتشار — بدون سرور؛ داده از <code dir="ltr">ops.json</code>.</p>
+  </div>
+
+  <ol class="pipe" id="pipe" aria-label="مراحل پایپ‌لاین">
+    <li class="pipe-step" data-id="fetch"><span class="pipe-num">۱</span><div><b>جمع‌آوری</b><small>Fetch</small></div></li>
+    <li class="pipe-step" data-id="translate"><span class="pipe-num">۲</span><div><b>ترجمه</b><small>Translate</small></div></li>
+    <li class="pipe-step" data-id="build"><span class="pipe-num">۳</span><div><b>ساخت و سئو</b><small>Build / SEO</small></div></li>
+    <li class="pipe-step" data-id="deploy"><span class="pipe-num">۴</span><div><b>انتشار</b><small>Deploy</small></div></li>
+    <li class="pipe-step" data-id="telegram"><span class="pipe-num">۵</span><div><b>تلگرام</b><small>Telegram</small></div></li>
+    <li class="pipe-step" data-id="instagram"><span class="pipe-num">۶</span><div><b>اینستاگرام</b><small>Stories / Reel</small></div></li>
+  </ol>
+
+  <div class="ops-grid" id="opsGrid" aria-live="polite">
+    <div class="ops-card skeleton" style="height:110px"></div>
+    <div class="ops-card skeleton" style="height:110px"></div>
+    <div class="ops-card skeleton" style="height:110px"></div>
+    <div class="ops-card skeleton" style="height:110px"></div>
+  </div>
+
+  <section class="ops-detail" id="opsDetail"></section>
+</main>
+
+<footer class="ftr">
+  <div class="wrap ftr-in">
+    <div class="ftr-about"><b>نبض فردا</b><p>خلاصهٔ فارسی مهم‌ترین اخبار هوش مصنوعی، تکنولوژی و گیم.</p></div>
+    <nav class="ftr-links"><a href="/">خانه</a><a href="/about/">درباره</a><a href="/api/">API</a><a href="/feed.xml">RSS</a></nav>
+  </div>
+</footer>
+<script src="/assets/site.js?v=4" defer></script>
+<script>
+(() => {
+  const fa = (n) => Number(n).toLocaleString("fa-IR");
+  const CATS = { ai: "هوش مصنوعی", tech: "تکنولوژی", game: "گیم" };
+  const fmt = (iso) => {
+    if (!iso) return "—";
+    try {
+      const d = new Date(iso);
+      return new Intl.DateTimeFormat("fa-IR-u-ca-persian", { timeZone: "Asia/Tehran", dateStyle: "medium", timeStyle: "short" }).format(d);
+    } catch { return iso; }
+  };
+  fetch("/data/ops.json?t=" + Date.now()).then(r => r.json()).then(ops => {
+    document.querySelectorAll(".pipe-step").forEach(el => el.classList.add("done"));
+    const cats = ops.item_counts_by_category || {};
+    const cards = [
+      { label: "آخرین شبانه", value: ops.last_nightly_date || "—", sub: fa(ops.latest_item_count || 0) + " خبر" },
+      { label: "استوری زنده", value: fa(ops.stories_live || 0), sub: "به‌روز: " + fmt(ops.stories_updated_at) },
+      { label: "تلگرام امروز", value: fa(ops.telegram_posted_today || 0), sub: "پست ثبت‌شده" },
+      { label: "فیدها", value: fa(ops.feed_count || 0), sub: "منبع RSS" },
+    ];
+    document.getElementById("opsGrid").innerHTML = cards.map(c =>
+      `<div class="ops-card"><span class="ops-label">${c.label}</span><strong class="ops-value">${c.value}</strong><span class="ops-sub">${c.sub}</span></div>`
+    ).join("");
+    const catRows = Object.keys(CATS).map(k =>
+      `<div class="ops-cat"><span>${CATS[k]}</span><b>${fa(cats[k] || 0)}</b></div>`).join("");
+    document.getElementById("opsDetail").innerHTML = `
+      <h2 class="ops-h">جزئیات ساخت</h2>
+      <div class="ops-meta">
+        <div><span>زمان ساخت (تهران)</span><b dir="ltr">${ops.build_at || "—"}</b></div>
+        <div><span>نسخه / commit</span><b dir="ltr">${ops.commit || "—"}</b></div>
+        <div><span>روزهای بایگانی</span><b>${fa(ops.archive_days || 0)}</b></div>
+        <div><span>کل مقالات</span><b>${fa(ops.total_articles || 0)}</b></div>
+      </div>
+      <h3 class="ops-h2">تعداد خبرهای آخرین روز بر اساس دسته</h3>
+      <div class="ops-cats">${catRows}</div>
+      <p class="ops-note">داده‌ها از فایل استاتیک <a href="/data/ops.json" dir="ltr">/data/ops.json</a> و آینهٔ API در <a href="/api/v1/ops.json" dir="ltr">/api/v1/ops.json</a> خوانده می‌شوند.</p>`;
+  }).catch(() => {
+    document.getElementById("opsGrid").innerHTML = '<p class="empty">خطا در بارگذاری وضعیت اتوماسیون.</p>';
+  });
+})();
+</script>
+</body>
+</html>

@@ -47,3 +47,4 @@ insta/**/*.png
 insta/**/*.jpg
 insta/**/*.jpeg
 insta/**/*.webp
+.venv

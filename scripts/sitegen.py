@@ -94,8 +94,10 @@ def toks(s):
         "the", "and", "for", "with", "from", "that", "this", "its", "new", "you", "your", "are", "has", "have", "will", "how", "why", "what", "after", "into", "about", "now", "out"}
 
 
-def related(it, pool, n=4):
+def related(it, pool, n=3):
+    """Prefer same category and same/adjacent calendar day; fall back to token overlap."""
     a, t0 = toks(it["title"]), parse_ts(it["published"])
+    day0 = it.get("_date") or t0.astimezone(TEH).strftime("%Y-%m-%d")
     scored = []
     for o in pool:
         if o is it or o["id"] == it["id"]:
@@ -103,10 +105,24 @@ def related(it, pool, n=4):
         b = toks(o["title"])
         j = len(a & b) / (len(a | b) or 1)
         dd = abs((parse_ts(o["published"]) - t0).total_seconds()) / 86400
-        s = 3 * j + (1.0 if o["category"] == it["category"] else 0) + 1 / (1 + dd)
+        day1 = o.get("_date") or parse_ts(o["published"]).astimezone(TEH).strftime("%Y-%m-%d")
+        try:
+            day_delta = abs((datetime.fromisoformat(day0) - datetime.fromisoformat(day1)).days)
+        except Exception:
+            day_delta = 99
+        same_cat = 2.5 if o["category"] == it["category"] else 0
+        adj = 2.0 if day_delta == 0 else (1.2 if day_delta == 1 else 0)
+        s = 3 * j + same_cat + adj + 1 / (1 + dd)
         scored.append((s, o["published"], o))
     scored.sort(key=lambda x: (x[0], x[1]), reverse=True)
     return [o for _, _, o in scored[:n]]
+
+
+def reading_mins(it):
+    """Estimate reading time from body_fa (preferred) or summary_fa. Persian ~180 wpm."""
+    text = (it.get("body_fa") or it.get("summary_fa") or "").strip()
+    words = len(text.split()) or max(1, len(text) // 5)
+    return max(1, round(words / 180))
 
 
 # ---------------------------------------------------------------- OG images
@@ -258,11 +274,21 @@ def og_images(items):
 
 
 # ---------------------------------------------------------------- HTML
-NAV = [("all", "/", "همه"), ("ai", "/?c=ai", "هوش مصنوعی"), ("tech", "/?c=tech", "تکنولوژی"), ("game", "/?c=game", "گیم")]
+ASSET_V = "4"
+SITE_NAV = [
+    ("home", "/", "خانه"),
+    ("archive", "/news/", "بایگانی"),
+    ("automation", "/automation/", "اتوماسیون"),
+    ("about", "/about/", "درباره"),
+    ("api", "/api/", "API"),
+]
 
 
 def head(title, desc, canonical, og_image, og_type="website", extra="", active=None):
-    nav = "".join(f'<a href="{h}"{" class=\"active\"" if k == active else ""}>{t}</a>' for k, h, t in NAV)
+    nav = "".join(
+        f'<a href="{h}"{" class=\"active\"" if k == active else ""}>{t}</a>'
+        for k, h, t in SITE_NAV
+    )
     return f"""<!doctype html>
 <html lang="fa" dir="rtl">
 <head>
@@ -289,18 +315,22 @@ def head(title, desc, canonical, og_image, og_type="website", extra="", active=N
 <meta name="twitter:image" content="{E(og_image)}">
 {extra}<link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
 <link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
+<link rel="manifest" href="/manifest.webmanifest">
 <link rel="alternate" type="application/rss+xml" title="{NAME}" href="{SITE}/feed.xml">
 <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/rastikerdar/vazirmatn@v33.003/Vazirmatn-font-face.css">
-<link rel="stylesheet" href="/assets/style.css?v=3">
-<link rel="stylesheet" href="/assets/article.css?v=3">
+<link rel="stylesheet" href="/assets/style.css?v={ASSET_V}">
+<link rel="stylesheet" href="/assets/article.css?v={ASSET_V}">
 {ANALYTICS}
 </head>
 <body class="page">
 <header class="hdr"><div class="wrap hdr-in">
   <a class="logo" href="/" aria-label="{NAME}"><svg class="logo-mark" viewBox="0 0 48 48" aria-hidden="true"><path d="M3 26h9l4-10 7 20 6-26 5 16h11"/></svg><span>{NAME}</span></a>
-  <nav class="nav" aria-label="دسته‌بندی‌ها">{nav}</nav>
-  <div class="hdr-tools"><a class="icon-btn" href="/news/" aria-label="آرشیو روزها"><svg viewBox="0 0 24 24"><rect x="3.5" y="5" width="17" height="15" rx="2.5"/><path d="M3.5 10h17M8 3v4M16 3v4"/></svg></a></div>
+  <nav class="nav site-nav" aria-label="منوی اصلی">{nav}</nav>
+  <div class="hdr-tools">
+    <a class="auto-badge" href="/automation/" title="سیستم اتوماتیک">سیستم اتوماتیک</a>
+    <a class="icon-btn" href="/search/" aria-label="جست‌وجو"><svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="6.5"/><path d="m20 20-4-4"/></svg></a>
+  </div>
 </div></header>
 """
 
@@ -308,9 +338,17 @@ def head(title, desc, canonical, og_image, og_type="website", extra="", active=N
 FOOT = f"""<footer class="ftr">
   <div class="wrap ftr-in">
     <div class="ftr-about"><b>{NAME}</b><p>خلاصهٔ فارسی مهم‌ترین اخبار هوش مصنوعی، تکنولوژی و گیم از معتبرترین رسانه‌های جهان. حقوق محتوای اصلی متعلق به منابع آن است.</p></div>
-    <nav class="ftr-links" aria-label="پیوندها"><a href="/">صفحهٔ اصلی</a><a href="/news/">آرشیو روزها</a><a href="/feed.xml">فید RSS</a></nav>
+    <nav class="ftr-links" aria-label="پیوندها">
+      <a href="/">خانه</a>
+      <a href="/news/">بایگانی</a>
+      <a href="/automation/">اتوماسیون</a>
+      <a href="/about/">درباره</a>
+      <a href="/api/">API</a>
+      <a href="/feed.xml">فید RSS</a>
+    </nav>
   </div>
 </footer>
+<script src="/assets/site.js?v={ASSET_V}" defer></script>
 </body>
 </html>
 """
@@ -377,7 +415,9 @@ def article_html(it, rel, is_latest):
     note = (f'پوشش فارسی خبری از {E(it["source"])}؛ منبع: <a href="{E(it["link"])}" target="_blank" rel="noopener" dir="ltr">{E(host)}</a>'
             if body_raw else
             f'خلاصهٔ فارسی خبری از {E(it["source"])}؛ منبع: <a href="{E(it["link"])}" target="_blank" rel="noopener" dir="ltr">{E(host)}</a>')
-    return (head(f"{title} | {NAME}", desc, url, og, "article", extra + ld(jl[0]) + ld(jl[1]), active=it["category"]) +
+    mins = reading_mins(it)
+    read_fa = fa(mins)
+    return (head(f"{title} | {NAME}", desc, url, og, "article", extra + ld(jl[0]) + ld(jl[1]), active="archive") +
             f"""<main class="wrap art-wrap">
 <nav class="crumbs" aria-label="مسیر"><a href="/">{NAME}</a><span aria-hidden="true">/</span><a href="/news/{it['_date']}/">{day_label(it['_date'])}</a></nav>
 <article class="article" data-cat="{E(it['category'])}">
@@ -385,18 +425,22 @@ def article_html(it, rel, is_latest):
     <a class="kicker" href="/?c={E(it['category'])}">{cat_fa}</a>
     <h1>{E(title)}</h1>
     <p class="art-en" dir="ltr" lang="en">{E(it['title'])}</p>
-    <div class="meta art-meta"><span class="src">{E(it['source'])}</span><i class="sep"></i><time datetime="{E(it['published'])}">{jdate(dt, weekday=True)}، ساعت {tehran_time(dt)}</time></div>
+    <div class="meta art-meta"><span class="src">{E(it['source'])}</span><i class="sep"></i><time datetime="{E(it['published'])}">{jdate(dt, weekday=True)}، ساعت {tehran_time(dt)}</time><i class="sep"></i><span class="read-time">{read_fa} دقیقه مطالعه</span></div>
   </header>
   {img}
   {summary_sec}
   {body_sec}
   <div class="art-actions">
     <a class="btn" href="{E(it['link'])}" target="_blank" rel="noopener">خواندن در {E(it['source'])}<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 5h5v5M19 5l-8 8M17 14v4a1 1 0 0 1-1 1H6a1 1 0 0 1-1-1V8a1 1 0 0 1 1-1h4"/></svg></a>
-    <div class="share"><span>اشتراک:</span><a href="{share_t}" target="_blank" rel="noopener">تلگرام</a><a href="{share_x}" target="_blank" rel="noopener">X</a></div>
+    <div class="share"><span>اشتراک:</span>
+      <button type="button" class="share-copy" data-url="{E(url)}" aria-label="کپی لینک">کپی لینک</button>
+      <a href="{share_t}" target="_blank" rel="noopener">تلگرام</a>
+      <a href="{share_x}" target="_blank" rel="noopener">X</a>
+    </div>
   </div>
   <p class="art-note">{note}</p>
 </article>
-{f'<section class="related"><h2>خبرهای مرتبط</h2><div class="list cols-2">{rel_html}</div></section>' if rel else ''}
+{f'<section class="related"><h2>خبرهای مرتبط</h2><div class="list cols-3">{rel_html}</div></section>' if rel else ''}
 <a class="back-link" href="{back}">بازگشت به اخبار {'امروز' if is_latest else day_label(it['_date'])}</a>
 </main>
 """ + FOOT)
@@ -453,7 +497,12 @@ def write(p, s):
 
 def sitemaps(days, items):
     latest_up = days[0]["updated_at"]
-    urls = [(SITE + "/", latest_up, "hourly", "1.0"), (SITE + "/news/", latest_up, "daily", "0.6")]
+    urls = [(SITE + "/", latest_up, "hourly", "1.0"),
+            (SITE + "/news/", latest_up, "daily", "0.6"),
+            (SITE + "/automation/", latest_up, "daily", "0.5"),
+            (SITE + "/about/", latest_up, "monthly", "0.5"),
+            (SITE + "/api/", latest_up, "monthly", "0.4"),
+            (SITE + "/search/", latest_up, "weekly", "0.4")]
     for d in days:
         urls.append((f"{SITE}/news/{d['date']}/", d["updated_at"], "daily", "0.5"))
     for it in items:
@@ -496,6 +545,154 @@ def rss(items, n=60):
     return len(its)
 
 
+# ---------------------------------------------------------------- competition artifacts (ops / search / API)
+
+
+def short_commit():
+    try:
+        import subprocess
+        return subprocess.check_output(["git", "rev-parse", "--short", "HEAD"], cwd=ROOT, text=True).strip()
+    except Exception:
+        return ""
+
+
+def write_search_index(items):
+    rows = []
+    for it in items:
+        rows.append({
+            "id": it["id"],
+            "date": it["_date"],
+            "title_fa": it.get("title_fa") or it["title"],
+            "summary_fa": it.get("summary_fa") or "",
+            "category": it["category"],
+            "url": page_path(it["_date"], it["id"]),
+            "source": it["source"],
+        })
+    write(PUB / "data/search-index.json", json.dumps({"generated_at": datetime.now(TEH).isoformat(timespec="seconds"),
+                                                       "count": len(rows), "items": rows}, ensure_ascii=False, separators=(",", ":")))
+    return len(rows)
+
+
+def write_ops(days, items):
+    latest = days[0] if days else None
+    by_cat = {"ai": 0, "tech": 0, "game": 0}
+    if latest:
+        for it in latest["items"]:
+            by_cat[it["category"]] = by_cat.get(it["category"], 0) + 1
+    stories, stories_updated = [], None
+    sp = PUB / "data/stories.json"
+    if sp.exists():
+        try:
+            stories = json.loads(sp.read_text())
+            stories_updated = datetime.fromtimestamp(sp.stat().st_mtime, tz=TEH).isoformat(timespec="seconds")
+        except Exception:
+            stories = []
+    tg_day = 0
+    tg_path = ROOT / "data/telegram/posted.json"
+    if tg_path.exists() and latest:
+        try:
+            posted = json.loads(tg_path.read_text())
+            tg_day = sum(1 for v in posted.values() if isinstance(v, dict) and v.get("date") == latest["date"])
+        except Exception:
+            tg_day = 0
+    feeds = 0
+    fp = ROOT / "scripts/feeds.json"
+    if fp.exists():
+        try:
+            feeds = len(json.loads(fp.read_text()))
+        except Exception:
+            feeds = 0
+    now_teh = datetime.now(TEH)
+    ops = {
+        "version": 1,
+        "site": SITE,
+        "name": NAME,
+        "build_at": now_teh.isoformat(timespec="seconds"),
+        "build_at_utc": datetime.now(timezone.utc).isoformat(timespec="seconds"),
+        "timezone": "Asia/Tehran",
+        "commit": short_commit(),
+        "last_nightly_date": latest["date"] if latest else None,
+        "latest_item_count": len(latest["items"]) if latest else 0,
+        "item_counts_by_category": by_cat,
+        "archive_days": len(days),
+        "total_articles": len(items),
+        "stories_live": len(stories) if isinstance(stories, list) else 0,
+        "stories_updated_at": stories_updated,
+        "telegram_posted_today": tg_day,
+        "feed_count": feeds,
+        "pipeline": [
+            {"id": "fetch", "label_fa": "جمع‌آوری", "label_en": "Fetch"},
+            {"id": "translate", "label_fa": "ترجمه", "label_en": "Translate"},
+            {"id": "build", "label_fa": "ساخت و سئو", "label_en": "Build/SEO"},
+            {"id": "deploy", "label_fa": "انتشار", "label_en": "Deploy"},
+            {"id": "telegram", "label_fa": "تلگرام", "label_en": "Telegram"},
+            {"id": "instagram", "label_fa": "اینستاگرام", "label_en": "Instagram"},
+        ],
+    }
+    text = json.dumps(ops, ensure_ascii=False, indent=2)
+    write(PUB / "data/ops.json", text)
+    return ops
+
+
+def write_api(days, items, ops):
+    api = PUB / "api/v1"
+    api.mkdir(parents=True, exist_ok=True)
+    latest = days[0] if days else {"date": None, "items": []}
+    latest_items = []
+    for it in latest.get("items", []):
+        latest_items.append({
+            "id": it["id"],
+            "category": it["category"],
+            "source": it["source"],
+            "title_fa": it.get("title_fa") or it["title"],
+            "summary_fa": it.get("summary_fa") or "",
+            "published": it["published"],
+            "url": page_path(it["_date"], it["id"]),
+            "link": it.get("link"),
+        })
+    write(api / "latest.json", json.dumps({
+        "date": latest.get("date"),
+        "count": len(latest_items),
+        "items": latest_items,
+        "generated_at": ops.get("build_at"),
+    }, ensure_ascii=False, separators=(",", ":")))
+    arch = {"latest": days[0]["date"] if days else None,
+            "days": [{"date": d["date"], "count": len(d["items"]), "updated_at": d.get("updated_at")} for d in days]}
+    write(api / "archive.json", json.dumps(arch, ensure_ascii=False, separators=(",", ":")))
+    write(api / "ops.json", json.dumps(ops, ensure_ascii=False, indent=2))
+    openapi = {
+        "openapi": "3.0.3",
+        "info": {
+            "title": "Nabz-e Farda Public API",
+            "description": "Static JSON endpoints for the Nabz-e Farda Persian news site. No auth required.",
+            "version": "1.0.0",
+        },
+        "servers": [{"url": SITE + "/api/v1"}],
+        "paths": {
+            "/latest.json": {
+                "get": {
+                    "summary": "Latest day items",
+                    "responses": {"200": {"description": "Today's (or newest) articles summary"}},
+                }
+            },
+            "/archive.json": {
+                "get": {
+                    "summary": "Archive day index",
+                    "responses": {"200": {"description": "Thin list of available days"}},
+                }
+            },
+            "/ops.json": {
+                "get": {
+                    "summary": "Pipeline / ops snapshot",
+                    "responses": {"200": {"description": "Build timestamp, counts, stories, telegram"}},
+                }
+            },
+        },
+    }
+    write(api / "openapi.json", json.dumps(openapi, ensure_ascii=False, indent=2))
+
+
+
 def generate():
     days = load_days()
     if not days:
@@ -518,7 +715,12 @@ def generate():
             p.unlink()
     n_urls = sitemaps(days, items)
     n_feed = rss(items)
-    return f"pages: {len(items)} articles + {len(days)} day pages; og images redrawn {made}; sitemap {n_urls} urls; feed {n_feed} items" + (f"; removed {len(stale)} stale" if stale else "")
+    n_search = write_search_index(items)
+    ops = write_ops(days, items)
+    write_api(days, items, ops)
+    return (f"pages: {len(items)} articles + {len(days)} day pages; og images redrawn {made}; "
+            f"sitemap {n_urls} urls; feed {n_feed} items; search-index {n_search}; "
+            f"ops+api written" + (f"; removed {len(stale)} stale" if stale else ""))
 
 
 if __name__ == "__main__":

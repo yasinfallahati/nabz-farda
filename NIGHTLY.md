@@ -10,7 +10,8 @@ scripts/fetch_news.py     STEP 1  fetch + dedupe + categorize + select  -> data/
 scripts/translate.py      STEP 2  export / check translation file       -> data/translations/DATE.json
 scripts/build.py          STEP 3  merge -> public/data/days/DATE.json + public/data/archive.json, then calls
 scripts/sitegen.py                static SEO layer for ALL days: public/news/DATE/ID.html (+ day pages, /news/ archive),
-                                  public/og/DATE/ID.png (1200x630), sitemap.xml, sitemap-news.xml, robots.txt, feed.xml
+                                  public/og/DATE/ID.png (1200x630), sitemap.xml, sitemap-news.xml, robots.txt, feed.xml,
+                                  plus competition artifacts: data/ops.json, data/search-index.json, api/v1/{latest,archive,ops,openapi}.json
 scripts/telegram_post.py  STEP 6  post the night's best ~8 stories to the Telegram channel (state: data/telegram/posted.json)
 scripts/deploy_payload.py STEP 4  requestBody for Vercel create_deployment -> deploy/payload.json
 public/                   the static site (index.html, assets/, data/) — this folder is what gets deployed
@@ -56,6 +57,9 @@ scripts/nightly_finish.sh "$DATE"   # = translate.py check + build.py DATE + dep
 Expect: `built DATE: ~33 items (0 untranslated); archive has K day(s)`, then
 `pages: N articles + K day pages; og images redrawn ~33; sitemap U urls; feed 60 items`, and
 `# M files, X inlined, Y by sha -> deploy/payload.json`.
+
+Also expect search-index / ops / api/v1 files under `public/` (written by sitegen every rebuild).
+Static showcase pages (`automation/`, `about/`, `api/`, `search/`) and PWA files (`manifest.webmanifest`, `sw.js`) live in `public/` and deploy with the site.
 Optional local check: `.venv/bin/python scripts/preview_server.py 8765` (mimics Vercel cleanUrls) then open
 http://localhost:8765/ and an article, e.g. http://localhost:8765/news/$DATE/<id>.
 

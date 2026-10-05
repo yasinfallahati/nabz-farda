@@ -57,3 +57,9 @@
 .related{margin-top:44px}.related h2{margin-bottom:4px}
 .page-head{margin-bottom:24px}.day-sec .latest-head{margin-bottom:4px}
 }
+.read-time{color:var(--dim)}
+.share button.share-copy{color:var(--mut);font:inherit;cursor:pointer;background:none;border:0;padding:0}
+.share button.share-copy:hover,.share button.share-copy.copied{color:var(--acc)}
+.list.cols-3{grid-template-columns:repeat(3,1fr)}
+@media (max-width:1000px){.list.cols-3{grid-template-columns:repeat(2,1fr)}}
+@media (max-width:720px){.list.cols-3{grid-template-columns:1fr}}

@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="fa" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>درباره | نبض فردا</title>
+<meta name="description" content="نبض فردا چیست؟ سامانهٔ اتوماتیک اخبار فارسی هوش مصنوعی، تکنولوژی و گیم — مناسب داوران مسابقه.">
+<meta name="theme-color" content="#0b0c0f">
+<link rel="canonical" href="https://nabz-farda.vercel.app/about/">
+<link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+<link rel="manifest" href="/manifest.webmanifest">
+<link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
+<link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/rastikerdar/vazirmatn@v33.003/Vazirmatn-font-face.css">
+<link rel="stylesheet" href="/assets/style.css?v=4">
+<link rel="stylesheet" href="/assets/article.css?v=4">
+<script>window.va=window.va||function(){(window.vaq=window.vaq||[]).push(arguments)};</script>
+<script defer src="/_vercel/insights/script.js"></script>
+</head>
+<body class="page">
+<header class="hdr"><div class="wrap hdr-in">
+  <a class="logo" href="/" aria-label="نبض فردا"><svg class="logo-mark" viewBox="0 0 48 48" aria-hidden="true"><path d="M3 26h9l4-10 7 20 6-26 5 16h11"/></svg><span>نبض فردا</span></a>
+  <nav class="nav site-nav" aria-label="منوی اصلی">
+    <a href="/">خانه</a><a href="/news/">بایگانی</a><a href="/automation/">اتوماسیون</a><a href="/about/" class="active">درباره</a><a href="/api/">API</a>
+  </nav>
+  <div class="hdr-tools"><a class="auto-badge" href="/automation/">سیستم اتوماتیک</a></div>
+</div></header>
+
+<main class="wrap page-wrap narrow">
+  <nav class="crumbs"><a href="/">نبض فردا</a><span aria-hidden="true">/</span><span>درباره</span></nav>
+  <div class="page-head">
+    <h1>دربارهٔ نبض فردا</h1>
+    <p>سامانهٔ کاملاً استاتیک برای پوشش فارسی اخبار روز دنیای هوش مصنوعی، تکنولوژی و بازی.</p>
+  </div>
+
+  <section class="about-sec">
+    <h2>این سیستم چیست؟</h2>
+    <p>نبض فردا هر شب حدود بیست‌وشش فید انگلیسی را جمع می‌کند، خبرها را دسته‌بندی و رتبه‌بندی می‌کند، تیتر و خلاصه و متن فارسی می‌نویسد، صفحات HTML و تصاویر Open Graph می‌سازد، و همان پوشهٔ <code dir="ltr">public/</code> را روی Vercel منتشر می‌کند. سرور اپلیکیشن یا دیتابیس وجود ندارد.</p>
+  </section>
+
+  <section class="about-sec">
+    <h2>زمان‌بندی</h2>
+    <ul class="about-list">
+      <li><b>۰۰:۰۰ تهران</b> — نسخهٔ شبانهٔ کامل (Fetch → Translate → Build → Deploy → Telegram → Instagram)</li>
+      <li><b>هر ۳ ساعت</b> — به‌روزرسانی نوار استوری خبرهای داغ بدون بازسازی کل سایت</li>
+    </ul>
+  </section>
+
+  <section class="about-sec">
+    <h2>معماری (استاتیک)</h2>
+    <div class="flow" aria-label="نمودار پایپ‌لاین">
+      <div class="flow-node">فیدها</div><span class="flow-arrow">←</span>
+      <div class="flow-node">جمع‌آوری</div><span class="flow-arrow">←</span>
+      <div class="flow-node">ترجمه</div><span class="flow-arrow">←</span>
+      <div class="flow-node">ساخت</div><span class="flow-arrow">←</span>
+      <div class="flow-node acc">Vercel</div>
+    </div>
+    <div class="flow flow-2" aria-label="کانال‌های انتشار">
+      <div class="flow-node soft">وب</div>
+      <div class="flow-node soft">تلگرام</div>
+      <div class="flow-node soft">اینستاگرام</div>
+      <div class="flow-node soft">API JSON</div>
+    </div>
+    <p class="muted">خروجی چندکاناله از یک منبع دادهٔ مشترک؛ بدون SDK ردیابی شخص ثالث برای اشتراک‌گذاری.</p>
+  </section>
+
+  <section class="about-sec" lang="en" dir="ltr">
+    <h2>For judges (EN)</h2>
+    <p>Nabz-e Farda is a fully static Persian news automation project: nightly edition at 00:00 Asia/Tehran, stories bar every 3 hours, multi-channel publish (web / Telegram / Instagram), Open Graph cards, RSS, sitemaps, PWA shell, and a public static JSON API. Start at the <a href="/automation/">automation dashboard</a>, then open an article and the <a href="/api/">API docs</a>.</p>
+  </section>
+
+  <section class="about-sec">
+    <h2>پیوندهای مفید</h2>
+    <nav class="about-links">
+      <a href="https://nabz-farda.vercel.app/">سایت زنده</a>
+      <a href="/automation/">داشبورد اتوماسیون</a>
+      <a href="/api/">مستندات API</a>
+      <a href="/search/">جست‌وجو</a>
+      <a href="https://github.com/yasinfallahati/nabz-farda" dir="ltr">GitHub</a>
+      <a href="https://www.instagram.com/nabz_farda/" dir="ltr">Instagram</a>
+    </nav>
+  </section>
+</main>
+
+<footer class="ftr">
+  <div class="wrap ftr-in">
+    <div class="ftr-about"><b>نبض فردا</b><p>پروژهٔ اتوماسیون اخبار — مسابقه.</p></div>
+    <nav class="ftr-links"><a href="/">خانه</a><a href="/automation/">اتوماسیون</a><a href="/api/">API</a></nav>
+  </div>
+</footer>
+<script src="/assets/site.js?v=4" defer></script>
+</body>
+</html>

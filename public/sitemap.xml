@@ -2,6 +2,10 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url><loc>https://nabz-farda.vercel.app/</loc><lastmod>2026-10-05T08:08:32+00:00</lastmod><changefreq>hourly</changefreq><priority>1.0</priority></url>
 <url><loc>https://nabz-farda.vercel.app/news/</loc><lastmod>2026-10-05T08:08:32+00:00</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
+<url><loc>https://nabz-farda.vercel.app/automation/</loc><lastmod>2026-10-05T08:08:32+00:00</lastmod><changefreq>daily</changefreq><priority>0.5</priority></url>
+<url><loc>https://nabz-farda.vercel.app/about/</loc><lastmod>2026-10-05T08:08:32+00:00</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url>
+<url><loc>https://nabz-farda.vercel.app/api/</loc><lastmod>2026-10-05T08:08:32+00:00</lastmod><changefreq>monthly</changefreq><priority>0.4</priority></url>
+<url><loc>https://nabz-farda.vercel.app/search/</loc><lastmod>2026-10-05T08:08:32+00:00</lastmod><changefreq>weekly</changefreq><priority>0.4</priority></url>
 <url><loc>https://nabz-farda.vercel.app/news/2026-10-05/</loc><lastmod>2026-10-05T08:08:32+00:00</lastmod><changefreq>daily</changefreq><priority>0.5</priority></url>
 <url><loc>https://nabz-farda.vercel.app/news/2026-10-04/</loc><lastmod>2026-10-04T06:18:32+00:00</lastmod><changefreq>daily</changefreq><priority>0.5</priority></url>
 <url><loc>https://nabz-farda.vercel.app/news/2026-10-03/</loc><lastmod>2026-10-03T22:56:03+00:00</lastmod><changefreq>daily</changefreq><priority>0.5</priority></url>

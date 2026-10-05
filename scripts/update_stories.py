@@ -327,6 +327,14 @@ def cmd_apply(a):
     STORIES.parent.mkdir(parents=True, exist_ok=True)
     STORIES.write_text(json.dumps(merged, ensure_ascii=False, indent=1))
     print(f"stories.json: {len(merged)} live stories (added {len(added)}, skipped {dropped}, expired/trimmed {expired})")
+    try:
+        import sitegen
+        days = sitegen.load_days()
+        items = [i for d in days for i in d["items"]]
+        sitegen.write_ops(days, items)
+        print("  ops.json refreshed")
+    except Exception as ex:
+        print("  ops.json refresh skipped:", ex)
     errs = check_site()
     if errs:
         for e in errs:
