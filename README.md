@@ -1,83 +1,153 @@
 # Nabz-e Farda
 
-**A nightly, fully static Persian news site for AI, technology, and gaming. It also publishes to Instagram and Telegram.**
+**A nightly, fully static Persian news site for AI, technology, and gaming — with Instagram and Telegram publishing.**
 
-[Live site](https://nabz-farda.vercel.app) · [Instagram](https://www.instagram.com/nabz_farda/) · Telegram channel (bot: `@Nabz_farda_bot`)
+[![Live Site](https://img.shields.io/badge/Live-nabz--farda.vercel.app-black?style=flat-square&logo=vercel)](https://nabz-farda.vercel.app)
+[![Instagram](https://img.shields.io/badge/Instagram-nabz__farda-E4405F?style=flat-square&logo=instagram&logoColor=white)](https://www.instagram.com/nabz_farda/)
+[![Python](https://img.shields.io/badge/Python-3.11+-3776AB?style=flat-square&logo=python&logoColor=white)](https://www.python.org/)
+[![Vercel](https://img.shields.io/badge/Deploy-Vercel-000000?style=flat-square&logo=vercel)](https://nabz-farda.vercel.app)
+[![Last commit](https://img.shields.io/github/last-commit/yasinfallahati/nabz-farda?style=flat-square)](https://github.com/yasinfallahati/nabz-farda/commits/main)
+[![License](https://img.shields.io/badge/License-All%20Rights%20Reserved-lightgrey?style=flat-square)](#license)
 
----
+<p align="center">
+  <a href="https://nabz-farda.vercel.app">
+    <img src="assets/screenshot-home.png" alt="Nabz-e Farda homepage — dark layout with stories bar, featured story, and latest news grid" width="900">
+  </a>
+  <br>
+  <sub>Homepage · <a href="https://nabz-farda.vercel.app">nabz-farda.vercel.app</a></sub>
+</p>
+
+## Table of contents
+
+- [Overview](#overview)
+- [Features](#features)
+- [Live demos](#live-demos)
+- [Tech stack](#tech-stack)
+- [Architecture](#architecture)
+- [Repository structure](#repository-structure)
+- [Getting started](#getting-started)
+- [Workflows](#workflows)
+- [Instagram tooling](#instagram-tooling)
+- [Configuration](#configuration)
+- [Security](#security)
+- [Roadmap](#roadmap)
+- [Contributing](#contributing)
+- [License](#license)
+- [Acknowledgements](#acknowledgements)
 
 ## Overview
 
-Nabz-e Farda ("Tomorrow's Pulse") collects the day's most important AI, tech, and gaming stories from about 26 trusted
-English-language sources. It writes a Persian headline and summary for each story, and publishes the result as a
-fast, static, SEO-friendly website.
+Nabz-e Farda ("Tomorrow's Pulse") collects the day's most important AI, tech, and gaming stories from about 26
+English-language sources, writes a Persian headline and summary for each one, and publishes them as a fast, static,
+SEO-friendly website.
 
 The pipeline runs once every night (00:00 Asia/Tehran). A lighter "stories" pass every three hours keeps breaking news
 fresh in between. The same content feeds a Telegram channel and a set of Instagram reel, carousel, and story generators.
 
-There is no server, database, or build step on the hosting side. The `public/` folder is the website, and it deploys to
-Vercel as-is.
+There is no application server and no database. The `public/` folder *is* the website, and it deploys to Vercel as-is.
 
 ## Features
 
 - **Nightly news edition.** Fetches, de-duplicates, categorizes (AI / Tech / Gaming), and ranks stories, then adds
-  Persian headlines and summaries. A new day is added to a growing archive every night.
-- **Static article pages and SEO.** One page per story at `/news/<date>/<id>`, plus day pages and an archive. Each has
-  canonical URLs, Open Graph / Twitter metadata, and JSON-LD (`NewsArticle`, `BreadcrumbList`). The build also writes
-  `sitemap.xml`, a Google News sitemap, `robots.txt`, and an RSS 2.0 feed.
+  Persian headlines and summaries. A new day is appended to a growing archive every night.
+- **Static article pages and SEO.** One page per story at `/news/<date>/<id>`, plus day pages and an archive. Each page
+  carries canonical URLs, Open Graph / Twitter metadata, and JSON-LD (`NewsArticle`, `BreadcrumbList`). The build also
+  writes `sitemap.xml`, a Google News sitemap, `robots.txt`, and an RSS 2.0 feed.
 - **Generated Open Graph images.** A 1200×630 social card for every story, rendered with Pillow + Raqm for correct
-  Persian shaping. Images are cached, so only new or changed stories are redrawn.
-- **Stories bar.** An Instagram-style row of breaking stories under the header. Candidates are scored on signals like
-  multi-outlet coverage, launches, breaches, and lawsuits. Each story stays live for 24 hours (15 at most) and expires
-  in the browser, so expiry never needs a deploy. Links like `/#s=<id>` open a single story.
-- **Telegram publishing.** Each night about 8 picks are posted as photo posts using their OG images, with a link back to
-  the article and to the original source. Breaking stories get short alert posts. A state file guarantees nothing is
-  posted twice.
-- **Instagram tooling.** Renders motion-graphics reels, carousels, and story cards from any day's data. It uses headless
-  Chrome for Persian typography and ffmpeg for video, with a music track generated by code, so there are no copyright
-  issues.
+  Persian shaping. Cards are cached, so only new or changed stories are redrawn.
+- **Stories bar.** An Instagram-style row of breaking stories under the header. Candidates are scored on signals such as
+  multi-outlet coverage, launches, breaches, and lawsuits. Each story expires after 24 hours (15 live at most) in the
+  browser, so expiry never needs a deploy. Deep links use `/#s=<id>`.
+- **Telegram publishing.** About eight nightly picks go out as photo posts with their OG images, plus links back to the
+  article and the original source. Breaking stories get short alert posts. A state file guarantees nothing is posted
+  twice.
+- **Instagram tooling.** Motion-graphics reels, carousels, and story cards rendered from any day's data. Headless Chrome
+  handles Persian typography; ffmpeg handles video. The soundtrack is synthesised in code, so there is no copyright
+  issue with stock music.
 - **Privacy-friendly analytics.** Vercel Web Analytics on every page.
+
+## Live demos
+
+| | |
+|---|---|
+| Website | https://nabz-farda.vercel.app |
+| RSS feed | https://nabz-farda.vercel.app/feed.xml |
+| Sample article | https://nabz-farda.vercel.app/news/ (pick any day) |
+| Instagram | https://www.instagram.com/nabz_farda/ |
+| Telegram | Channel *Nabz-e Farda* · bot `@Nabz_farda_bot` |
 
 ## Tech stack
 
 | Layer | Tools |
 |---|---|
 | Pipeline | Python 3 (`feedparser`, `requests`, `beautifulsoup4`, `Pillow`) |
-| Frontend | Hand-written HTML, CSS, and vanilla JavaScript (no framework, no bundler) |
-| Hosting | Vercel (static, `cleanUrls`), deployed with the Vercel CLI or the Vercel API |
+| Frontend | Hand-written HTML, CSS, and vanilla JavaScript — no framework, no bundler |
+| Hosting | Vercel static hosting (`cleanUrls`), deployed with the Vercel CLI or API |
 | Social | Telegram Bot API |
 | Media | Headless Chrome / Playwright, ffmpeg, NumPy (audio synthesis) |
 | Typography | [Vazirmatn](https://github.com/rastikerdar/vazirmatn) (SIL Open Font License) |
+
+## Architecture
+
+```
+feeds.json
+    │
+    ▼
+fetch_news.py ──► data/raw/DATE.json
+    │
+    ▼
+translate.py  ──► data/translations/DATE.json   (editorial / AI fills title_fa + summary_fa)
+    │
+    ▼
+build.py + sitegen.py
+    │                 ├── public/data/days/DATE.json + archive.json
+    │                 ├── public/news/DATE/*.html
+    │                 ├── public/og/DATE/*.png
+    │                 └── sitemap.xml · sitemap-news.xml · feed.xml · robots.txt
+    ▼
+deploy_cli.sh (VERCEL_TOKEN) ──► nabz-farda.vercel.app
+    │
+    ▼
+telegram_post.py ──► Telegram channel
+
+Every 3 hours (parallel path):
+update_stories.py fetch → pending.json → apply --deploy --telegram
+                                         └──► public/data/stories.json
+```
+
+The nightly and stories paths both deploy the same `public/` folder. They never run at the same time — the 00:00 slot
+belongs to the nightly edition.
 
 ## Repository structure
 
 ```
 .
 ├── public/                 # The website (deployed to Vercel as-is)
-│   ├── index.html          # Home page: category tabs, stories bar, hero, story list
-│   ├── assets/             # style.css, article.css, app.js, stories.js/.css, icons
+│   ├── index.html          # Home: category tabs, stories bar, hero, story list
+│   ├── assets/             # CSS, JS, icons
 │   ├── data/               # days/<date>.json, archive.json, stories.json
 │   ├── news/               # Generated article, day, and archive pages
 │   ├── og/                 # Generated Open Graph images
 │   ├── sitemap.xml, sitemap-news.xml, feed.xml, robots.txt
 │   └── vercel.json
 ├── scripts/                # Pipeline
-│   ├── feeds.json          # Source feeds (name, URL, default category, limits)
-│   ├── fetch_news.py       # Step 1: fetch, de-duplicate, categorize, select
-│   ├── translate.py        # Step 2: export / validate the translation file
-│   ├── build.py            # Step 3: merge into day data + archive, then run sitegen
+│   ├── feeds.json          # Source feeds (name, URL, category, limits)
+│   ├── fetch_news.py       # Step 1 — fetch, de-dupe, categorize, select
+│   ├── translate.py        # Step 2 — export / validate the translation file
+│   ├── build.py            # Step 3 — merge day data + archive, then sitegen
 │   ├── sitegen.py          #         article pages, OG images, sitemaps, RSS
-│   ├── deploy_cli.sh       # Step 4: deploy public/ with the Vercel CLI
+│   ├── deploy_cli.sh       # Step 4 — deploy public/ with the Vercel CLI
 │   ├── deploy_payload.py   #         alternative: payload for the Vercel API
-│   ├── telegram_post.py    # Step 6: nightly picks and breaking-story posts
-│   ├── update_stories.py   # Stories bar: fetch, apply, verify, deploy
+│   ├── telegram_post.py    # Step 6 — nightly picks and breaking alerts
+│   ├── update_stories.py   # Stories bar: fetch → apply → verify → deploy
 │   ├── nightly_prepare.sh  # Wrapper for steps 1–2
 │   ├── nightly_finish.sh   # Wrapper for steps 2b–4a
-│   └── preview_server.py   # Local preview server (mimics cleanUrls)
-├── config/telegram.json    # Telegram chat IDs (no credentials)
-├── data/                   # Raw items, translations, applied stories, Telegram post state
+│   └── preview_server.py   # Local preview (mimics cleanUrls)
+├── config/telegram.json    # Telegram chat IDs only (no credentials)
+├── data/                   # Raw items, translations, applied stories, post state
 ├── deploy/                 # Generated deploy artifacts (git-ignored)
 ├── insta/                  # Instagram reel / carousel / story generators
+├── assets/                 # Repo assets (README screenshot)
 ├── redesign/               # Design notes
 └── NIGHTLY.md              # Full operational runbook
 ```
@@ -90,7 +160,7 @@ Vercel as-is.
 - Node.js (for `npx vercel`)
 - For the Instagram tooling: Google Chrome or Chromium, `ffmpeg`, and Playwright
 
-### Setup
+### Clone and install
 
 ```bash
 git clone https://github.com/yasinfallahati/nabz-farda.git
@@ -106,7 +176,7 @@ python3 -m venv .venv
 |---|---|---|
 | `VERCEL_TOKEN` | Deploys | Vercel access token used by `scripts/deploy_cli.sh` |
 | `TELEGRAM_BOT_TOKEN` | Telegram posts | Bot token for the channel bot |
-| `NF_FONTS` | Optional | Directory containing the Vazirmatn TTFs for OG images (use `insta/assets/fonts` in this repo) |
+| `NF_FONTS` | Optional | Directory with the Vazirmatn TTFs used for OG images (use `insta/assets/fonts` in this repo) |
 
 ```bash
 export VERCEL_TOKEN=...
@@ -131,7 +201,7 @@ cd ..
 .venv/bin/python scripts/preview_server.py 8765    # open http://localhost:8765/
 ```
 
-> Note: some scripts still assume the production layout under `/workspace/news-site` and `/workspace/insta`.
+> Some scripts still assume the production layout under `/workspace/news-site` and `/workspace/insta`.
 > Adjust paths (or set `NF_FONTS`) when running elsewhere.
 
 ## Workflows
@@ -158,13 +228,13 @@ rebuilt by running the same steps with that date.
 ### Stories bar (every 3 hours)
 
 ```bash
-.venv/bin/python scripts/update_stories.py fetch                       # score candidates -> data/stories/pending.json
+.venv/bin/python scripts/update_stories.py fetch                       # score candidates → data/stories/pending.json
 #                                                                        keep only truly notable items, add Persian text
 .venv/bin/python scripts/update_stories.py apply --deploy --telegram   # merge, verify site, deploy, alert
 ```
 
-`apply` checks the whole site in a scratch copy before deploying. It skips the deploy when nothing new was added, and it
-confirms the new stories are live before posting breaking alerts. The 00:00 slot is left to the nightly run.
+`apply` checks the whole site in a scratch copy before deploying. It skips the deploy when nothing new was added, and
+it confirms the new stories are live before posting breaking alerts. The 00:00 slot is left to the nightly run.
 
 ## Instagram tooling
 
@@ -173,9 +243,9 @@ images.
 
 | Script | Output |
 |---|---|
-| `make_insta.py` | Daily package: 1080×1350 carousel, 1080×1920 reel, and caption. Supports picking stories by hand (`--ids`) and one-story "hook" reels (`--single`). |
+| `make_insta.py` | Daily package: 1080×1350 carousel, 1080×1920 reel, and caption. Supports hand-picked stories (`--ids`) and one-story "hook" reels (`--single`). |
 | `reel_v2.py` | Motion-graphics reel renderer. A deterministic JS timeline is rendered frame by frame in headless Chrome, with cuts synced to the beat. |
-| `reel_audio.py` | Generates a copyright-free 120 BPM track plus whoosh and impact effects (NumPy). |
+| `reel_audio.py` | Copyright-free 120 BPM track plus whoosh and impact effects (NumPy). |
 | `stories/make_story_cards.py` | Static 1080×1920 story cards from a small JSON spec. |
 | `make_site_story.py` | 12-second looping story that scrolls the live site inside a phone mockup. |
 | `send_to_telegram.py` | Sends rendered media to the owner chat for review. |
@@ -188,25 +258,63 @@ python3 stories/make_story_cards.py stories/2026-10-04-evening/spec.json out/sto
 
 Rendered media (MP4, PNG, JPG, frames, QC images) is git-ignored. Only code, specs, captions, and fonts are tracked.
 
+## Configuration
+
+| File | Purpose |
+|---|---|
+| `scripts/feeds.json` | RSS sources: name, URL, default category, optional limits / keyword filters |
+| `config/telegram.json` | Telegram `chat_id` (channel) and `owner_chat_id` — no tokens |
+| `public/vercel.json` | `cleanUrls`, content-type for the RSS feed, cache headers for `/og/*` |
+| `data/og-manifest.json` | Cache of rendered OG images (hash → path); bump `OG_VERSION` in `sitegen.py` to force a redraw |
+| `.gitignore` | Keeps `.env*`, `.vercel/`, deploy state, screenshots, and rendered media out of git |
+
+Useful knobs on the scripts:
+
+- `fetch_news.py --hours` / `--per-cat` / `--max-per-source`
+- `update_stories.py fetch --hours` / `--max` / `--min-score`
+- `telegram_post.py nightly --max` / `--exclude` / `--id`
+
 ## Security
 
 - **This repository contains no secrets.** Tokens are read only from environment variables and are never printed;
   `telegram_post.py` removes the token from any error output.
 - `.env*`, `.vercel/`, deploy state, and cookies are covered by `.gitignore`.
 - `config/telegram.json` holds only chat IDs.
-- If a credential is ever exposed, revoke and rotate it right away in Vercel or BotFather. Do not just delete the commit.
+- If a credential is ever exposed, revoke and rotate it in Vercel or BotFather. Do not just delete the commit.
+
+## Roadmap
+
+Honest near-term work — not a promise of delivery dates:
+
+- **Designer logo.** The current pulse mark is a placeholder; a designer-made brand logo is pending.
+- **Instagram Graph API.** Meta's Graph API is not reachable from Iran, so publishing currently goes through a browser
+  session rather than the official API. A Graph API path will be added when a reachable environment is available.
+- **Trial reels.** Instagram Trial Reels require about 200 followers; A/B-style trial reels will start once the account
+  reaches that threshold.
+- **Source reliability.** Keep pruning quiet or broken feeds and tuning the stories scoring keywords.
+
+## Contributing
+
+Issues are welcome — bug reports, feed suggestions, and design notes are especially useful.
+
+Pull requests are welcome for this public repository. Please keep changes focused, do not commit secrets or generated
+media, and open an issue first for larger design or pipeline changes. By contributing you agree that your work is
+submitted under the same terms as the rest of this repository (see [License](#license)).
 
 ## License
 
 Copyright © 2026 Saman Yasin. **All rights reserved.**
 
-This is a private repository. No permission is granted to copy, modify, or distribute this code or content without
-written consent. The bundled Vazirmatn fonts are distributed under the SIL Open Font License 1.1. News headlines and
-summaries link back to their original publishers, who keep the rights to their reporting.
+No permission is granted to copy, modify, or redistribute this code or content without written consent, except as
+allowed by the licenses of third-party components listed below. News headlines and summaries link back to their
+original publishers, who retain the rights to their reporting.
 
-## Links
+## Acknowledgements
 
-- Website: https://nabz-farda.vercel.app
-- RSS feed: https://nabz-farda.vercel.app/feed.xml
-- Instagram: https://www.instagram.com/nabz_farda/
-- Telegram: Nabz-e Farda channel (bot `@Nabz_farda_bot`)
+- **Sources.** Stories are curated from English tech and gaming outlets including The Verge, TechCrunch, Ars Technica,
+  Wired, Engadget, Tom's Hardware, Hacker News, IGN, GameSpot, Polygon, Eurogamer, PC Gamer, Kotaku, Rock Paper Shotgun,
+  Gematsu, VentureBeat, MIT Technology Review, OpenAI, Google AI, Google DeepMind, and Hugging Face. Each item links to
+  the original article.
+- **Typography.** [Vazirmatn](https://github.com/rastikerdar/vazirmatn) by Saber Rastikerdar, distributed under the
+  [SIL Open Font License 1.1](https://scripts.sil.org/OFL).
+- **Hosting.** Deployed on [Vercel](https://vercel.com).
