@@ -25,7 +25,7 @@
   <sub>Homepage · <a href="https://nabz-farda.vercel.app">nabz-farda.vercel.app</a></sub>
 </p>
 
-## Table of contents
+## <img src="assets/svg/section-toc.svg" width="22" height="22" alt="">&nbsp;Table of contents
 
 - [Overview](#overview)
 - [Features](#features)
@@ -43,7 +43,7 @@
 - [License](#license)
 - [Acknowledgements](#acknowledgements)
 
-## Overview
+## <img src="assets/svg/section-overview.svg" width="22" height="22" alt="">&nbsp;Overview
 
 Nabz-e Farda ("Tomorrow's Pulse") collects the day's most important AI, tech, and gaming stories from about 26
 English-language sources, writes a Persian headline and summary for each one, and publishes them as a fast, static,
@@ -54,7 +54,7 @@ fresh in between. The same content feeds a Telegram channel and a set of Instagr
 
 There is no application server and no database. The `public/` folder *is* the website, and it deploys to Vercel as-is.
 
-## Features
+## <img src="assets/svg/section-features.svg" width="22" height="22" alt="">&nbsp;Features
 
 - <img src="assets/svg/icon-news.svg" width="16" height="16" alt=""> **Nightly news edition.** Fetches, de-duplicates, categorizes (AI / Tech / Gaming), and ranks stories, then adds
   Persian headlines and summaries. A new day is appended to a growing archive every night.
@@ -74,7 +74,7 @@ There is no application server and no database. The `public/` folder *is* the we
   issue with stock music.
 - <img src="assets/svg/icon-chart.svg" width="16" height="16" alt=""> **Privacy-friendly analytics.** Vercel Web Analytics on every page.
 
-## Live demos
+## <img src="assets/svg/section-live.svg" width="22" height="22" alt="">&nbsp;Live demos
 
 | | |
 |---|---|
@@ -84,7 +84,7 @@ There is no application server and no database. The `public/` folder *is* the we
 | Instagram | https://www.instagram.com/nabz_farda/ |
 | Telegram | Channel *Nabz-e Farda* · bot `@Nabz_farda_bot` |
 
-## Tech stack
+## <img src="assets/svg/section-stack.svg" width="22" height="22" alt="">&nbsp;Tech stack
 
 | Layer | Tools |
 |---|---|
@@ -95,7 +95,7 @@ There is no application server and no database. The `public/` folder *is* the we
 | Media | Headless Chrome / Playwright, ffmpeg, NumPy (audio synthesis) |
 | Typography | [Vazirmatn](https://github.com/rastikerdar/vazirmatn) (SIL Open Font License) |
 
-## Architecture
+## <img src="assets/svg/section-architecture.svg" width="22" height="22" alt="">&nbsp;Architecture
 
 <p align="center">
   <img src="assets/svg/architecture.svg" alt="Nightly pipeline: Feeds → Fetch → Translate → Build → Deploy (Vercel) → Telegram and Instagram; stories bar runs every 3 hours" width="100%">
@@ -113,7 +113,7 @@ There is no application server and no database. The `public/` folder *is* the we
 The nightly and stories paths both deploy the same `public/` folder. They never run at the same time — the 00:00 slot
 belongs to the nightly edition.
 
-## Repository structure
+## <img src="assets/svg/section-structure.svg" width="22" height="22" alt="">&nbsp;Repository structure
 
 ```
 .
@@ -147,15 +147,15 @@ belongs to the nightly edition.
 └── NIGHTLY.md              # Full operational runbook
 ```
 
-## Getting started
+## <img src="assets/svg/section-getting-started.svg" width="22" height="22" alt="">&nbsp;Getting started
 
-### Prerequisites
+### <img src="assets/svg/section-prerequisites.svg" width="18" height="18" alt="">&nbsp;Prerequisites
 
 - Python 3.11+
 - Node.js (for `npx vercel`)
 - For the Instagram tooling: Google Chrome or Chromium, `ffmpeg`, and Playwright
 
-### Clone and install
+### <img src="assets/svg/section-install.svg" width="18" height="18" alt="">&nbsp;Clone and install
 
 ```bash
 git clone https://github.com/yasinfallahati/nabz-farda.git
@@ -165,7 +165,7 @@ python3 -m venv .venv
 .venv/bin/pip install feedparser requests beautifulsoup4 pillow
 ```
 
-### Environment variables
+### <img src="assets/svg/section-env.svg" width="18" height="18" alt="">&nbsp;Environment variables
 
 | Variable | Required for | Description |
 |---|---|---|
@@ -179,7 +179,7 @@ export TELEGRAM_BOT_TOKEN=...
 export NF_FONTS="$PWD/insta/assets/fonts"
 ```
 
-### Link the Vercel project
+### <img src="assets/svg/section-link.svg" width="18" height="18" alt="">&nbsp;Link the Vercel project
 
 The `.vercel/` link file is intentionally not committed. Link `public/` to the `nabz-farda` project once:
 
@@ -189,7 +189,7 @@ npx vercel link --project nabz-farda
 cd ..
 ```
 
-### Preview locally
+### <img src="assets/svg/section-preview.svg" width="18" height="18" alt="">&nbsp;Preview locally
 
 ```bash
 .venv/bin/python scripts/build.py --pages-only     # regenerate the static layer from existing data
@@ -199,11 +199,11 @@ cd ..
 > Some scripts still assume the production layout under `/workspace/news-site` and `/workspace/insta`.
 > Adjust paths (or set `NF_FONTS`) when running elsewhere.
 
-## Workflows
+## <img src="assets/svg/section-workflows.svg" width="22" height="22" alt="">&nbsp;Workflows
 
 `NIGHTLY.md` is the complete runbook. The summary below covers the main steps.
 
-### Nightly edition (00:00 Asia/Tehran)
+### <img src="assets/svg/section-nightly.svg" width="18" height="18" alt="">&nbsp;Nightly edition (00:00 Asia/Tehran)
 
 ```bash
 DATE=$(TZ=Asia/Tehran date +%F)
@@ -220,7 +220,7 @@ curl -s https://nabz-farda.vercel.app/data/archive.json | head -c 200   # 5. ver
 Every day keeps its own `public/data/days/<date>.json`, so the archive grows automatically. A missed night can be
 rebuilt by running the same steps with that date.
 
-### Stories bar (every 3 hours)
+### <img src="assets/svg/section-schedule.svg" width="18" height="18" alt="">&nbsp;Stories bar (every 3 hours)
 
 ```bash
 .venv/bin/python scripts/update_stories.py fetch                       # score candidates → data/stories/pending.json
@@ -231,7 +231,7 @@ rebuilt by running the same steps with that date.
 `apply` checks the whole site in a scratch copy before deploying. It skips the deploy when nothing new was added, and
 it confirms the new stories are live before posting breaking alerts. The 00:00 slot is left to the nightly run.
 
-## Instagram tooling
+## <img src="assets/svg/section-instagram.svg" width="22" height="22" alt="">&nbsp;Instagram tooling
 
 All Instagram tooling lives in `insta/`. Everything renders offline from a day's JSON, except for downloading article
 images.
@@ -253,7 +253,7 @@ python3 stories/make_story_cards.py stories/2026-10-04-evening/spec.json out/sto
 
 Rendered media (MP4, PNG, JPG, frames, QC images) is git-ignored. Only code, specs, captions, and fonts are tracked.
 
-## Configuration
+## <img src="assets/svg/section-configuration.svg" width="22" height="22" alt="">&nbsp;Configuration
 
 | File | Purpose |
 |---|---|
@@ -269,7 +269,7 @@ Useful knobs on the scripts:
 - `update_stories.py fetch --hours` / `--max` / `--min-score`
 - `telegram_post.py nightly --max` / `--exclude` / `--id`
 
-## Security
+## <img src="assets/svg/section-security.svg" width="22" height="22" alt="">&nbsp;Security
 
 - **This repository contains no secrets.** Tokens are read only from environment variables and are never printed;
   `telegram_post.py` removes the token from any error output.
@@ -277,7 +277,7 @@ Useful knobs on the scripts:
 - `config/telegram.json` holds only chat IDs.
 - If a credential is ever exposed, revoke and rotate it in Vercel or BotFather. Do not just delete the commit.
 
-## Roadmap
+## <img src="assets/svg/section-roadmap.svg" width="22" height="22" alt="">&nbsp;Roadmap
 
 Honest near-term work — not a promise of delivery dates:
 
@@ -288,7 +288,7 @@ Honest near-term work — not a promise of delivery dates:
   reaches that threshold.
 - **Source reliability.** Keep pruning quiet or broken feeds and tuning the stories scoring keywords.
 
-## Contributing
+## <img src="assets/svg/section-contributing.svg" width="22" height="22" alt="">&nbsp;Contributing
 
 Issues are welcome — bug reports, feed suggestions, and design notes are especially useful.
 
@@ -296,7 +296,7 @@ Pull requests are welcome for this public repository. Please keep changes focuse
 media, and open an issue first for larger design or pipeline changes. By contributing you agree that your work is
 submitted under the same terms as the rest of this repository (see [License](#license)).
 
-## License
+## <img src="assets/svg/section-license.svg" width="22" height="22" alt="">&nbsp;License
 
 Copyright © 2026 Saman Yasin. **All rights reserved.**
 
@@ -304,7 +304,7 @@ No permission is granted to copy, modify, or redistribute this code or content w
 allowed by the licenses of third-party components listed below. News headlines and summaries link back to their
 original publishers, who retain the rights to their reporting.
 
-## Acknowledgements
+## <img src="assets/svg/section-acknowledgements.svg" width="22" height="22" alt="">&nbsp;Acknowledgements
 
 - **Sources.** Stories are curated from English tech and gaming outlets including The Verge, TechCrunch, Ars Technica,
   Wired, Engadget, Tom's Hardware, Hacker News, IGN, GameSpot, Polygon, Eurogamer, PC Gamer, Kotaku, Rock Paper Shotgun,
