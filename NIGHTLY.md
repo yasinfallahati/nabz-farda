@@ -33,12 +33,16 @@ Open `data/translations/$DATE.json`. For **every** id, fill:
 * `title_fa` — natural, journalistic Persian headline (keep product/company names in Latin where usual,
   e.g. OpenAI, PS5; use Persian punctuation « » ، ؛ and Persian digits ۰-۹ for numbers).
 * `summary_fa` — 1–2 Persian sentences explaining the story, based on `_title` / `_summary`
-  (fetch the article if `_summary` is empty). No invented facts.
+  (fetch the article if `_summary` is empty). No invented facts. Used on home/list cards and the «خلاصه» block on the article page.
+* `body_fa` — longer original Persian write-up for the article page «خبر کامل» section: roughly 3–6 short
+  paragraphs (~150–400 Persian words), paragraphs separated by a blank line. Paraphrase from `_title` /
+  `_summary` (and the linked article if needed); do not dump copyrighted English source text. Expand the
+  summary without inventing wild facts.
 * Optional: `"featured": true` on ONE strong story with an image (hero). Otherwise the newest item with an image is used.
 * Optional: `"drop": true` for duplicates of the same story from two sources (keep the better one),
   deal/coupon posts, or off-topic items.
-Only edit those four fields; leave `_`-prefixed fields alone. Easiest: write a small Python dict
-`{id: [title_fa, summary_fa]}` and merge it into the file with a few lines of Python.
+Only edit those fields; leave `_`-prefixed fields alone. Easiest: write a small Python dict
+`{id: [title_fa, summary_fa, body_fa]}` and merge it into the file with a few lines of Python.
 
 Then verify:
 ```bash

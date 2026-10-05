@@ -8,7 +8,14 @@
 .art-en{color:var(--dim);font-size:.9rem;line-height:1.6;margin-bottom:16px;text-align:right}
 .art-meta{font-size:.84rem}
 .art-media{aspect-ratio:16/9;border-radius:var(--r);margin:0 0 30px}
+.art-sec{margin-bottom:28px}
+.art-sec-h{font-size:.78rem;font-weight:700;letter-spacing:.04em;color:var(--mut);margin:0 0 10px;padding-bottom:8px;border-bottom:1px solid var(--line)}
+.art-sec-summary .art-summary{margin-bottom:0}
 .art-summary{font-size:1.16rem;line-height:2.15;color:var(--txt);margin-bottom:32px}
+.art-body{font-size:1.05rem;line-height:2.1;color:var(--txt)}
+.art-body p{margin:0 0 1.05em}
+.art-body p:last-child{margin-bottom:0}
+.art-sec-body{margin-bottom:32px}
 .art-actions{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:16px 24px;padding:20px 0;border-block:1px solid var(--line)}
 .btn{display:inline-flex;align-items:center;gap:10px;padding:11px 20px;border-radius:10px;background:var(--acc);color:#fff;font-weight:500;font-size:.95rem;transition:filter .2s}
 .btn:hover{filter:brightness(1.08)}
@@ -41,6 +48,8 @@
 .article h1{font-size:1.45rem;line-height:1.7}
 .art-media{margin:0 -16px 24px;border-radius:0}
 .art-summary{font-size:1.06rem;line-height:2.1}
+.art-body{font-size:1rem;line-height:2.05}
+.art-sec{margin-bottom:22px}
 .art-actions{flex-direction:column;align-items:stretch}
 .btn{justify-content:center;padding:13px 18px}
 .share{justify-content:center}

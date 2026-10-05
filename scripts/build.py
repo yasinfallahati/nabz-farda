@@ -30,12 +30,14 @@ def main():
         t = tr.get(it["id"], {})
         if t.get("drop"):
             continue
-        if not (t.get("title_fa") and t.get("summary_fa")):
+        if not (t.get("title_fa") and t.get("summary_fa") and t.get("body_fa")):
             missing.append(it["id"])
+        body = (t.get("body_fa") or "").strip()
         items.append({
             "id": it["id"], "category": it["category"], "source": it["source"],
             "title": it["title"], "title_fa": (t.get("title_fa") or "").strip(),
             "summary_fa": (t.get("summary_fa") or "").strip(),
+            **({"body_fa": body} if body else {}),
             "link": it["link"], "image": it.get("image"), "published": it["published"], "page": f"/news/{date}/{it['id']}",
             **({"featured": True} if t.get("featured") else {}),
         })

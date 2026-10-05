@@ -63,6 +63,7 @@
       </div>
       <button class="sv-nav sv-next" aria-label="بعدی">${I.left}</button>
       <div class="sv-hint">← → برای جابه‌جایی · Esc برای بستن</div>`;
+    el.hidden = true;
     document.body.appendChild(el);
     el.querySelector(".sv-x").addEventListener("click", (e) => { e.stopPropagation(); close(); });
     el.querySelector(".sv-pause").addEventListener("click", (e) => { e.stopPropagation(); setPaused(!paused); });

@@ -293,7 +293,7 @@ def head(title, desc, canonical, og_image, og_type="website", extra="", active=N
 <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/rastikerdar/vazirmatn@v33.003/Vazirmatn-font-face.css">
 <link rel="stylesheet" href="/assets/style.css?v=3">
-<link rel="stylesheet" href="/assets/article.css?v=2">
+<link rel="stylesheet" href="/assets/article.css?v=3">
 {ANALYTICS}
 </head>
 <body class="page">
@@ -369,6 +369,14 @@ def article_html(it, rel, is_latest):
     share_x = f"https://twitter.com/intent/tweet?url={E(url)}&amp;text={E(title)}"
     rel_html = "".join(mini_card(o) for o in rel)
     host = re.sub(r"^https?://(www\.)?", "", it["link"]).split("/")[0]
+    body_raw = (it.get("body_fa") or "").strip()
+    body_ps = "".join(f"<p>{E(para.strip())}</p>" for para in body_raw.split("\n\n") if para.strip()) if body_raw else ""
+    summary_sec = f'<section class="art-sec art-sec-summary"><h2 class="art-sec-h">خلاصه</h2><p class="art-summary">{E(summ)}</p></section>'
+    body_sec = (f'<section class="art-sec art-sec-body"><h2 class="art-sec-h">خبر کامل</h2><div class="art-body">{body_ps}</div></section>'
+                if body_ps else "")
+    note = (f'پوشش فارسی خبری از {E(it["source"])}؛ منبع: <a href="{E(it["link"])}" target="_blank" rel="noopener" dir="ltr">{E(host)}</a>'
+            if body_raw else
+            f'خلاصهٔ فارسی خبری از {E(it["source"])}؛ منبع: <a href="{E(it["link"])}" target="_blank" rel="noopener" dir="ltr">{E(host)}</a>')
     return (head(f"{title} | {NAME}", desc, url, og, "article", extra + ld(jl[0]) + ld(jl[1]), active=it["category"]) +
             f"""<main class="wrap art-wrap">
 <nav class="crumbs" aria-label="مسیر"><a href="/">{NAME}</a><span aria-hidden="true">/</span><a href="/news/{it['_date']}/">{day_label(it['_date'])}</a></nav>
@@ -380,12 +388,13 @@ def article_html(it, rel, is_latest):
     <div class="meta art-meta"><span class="src">{E(it['source'])}</span><i class="sep"></i><time datetime="{E(it['published'])}">{jdate(dt, weekday=True)}، ساعت {tehran_time(dt)}</time></div>
   </header>
   {img}
-  <p class="art-summary">{E(summ)}</p>
+  {summary_sec}
+  {body_sec}
   <div class="art-actions">
-    <a class="btn" href="{E(it['link'])}" target="_blank" rel="noopener">خواندن متن کامل در {E(it['source'])}<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 5h5v5M19 5l-8 8M17 14v4a1 1 0 0 1-1 1H6a1 1 0 0 1-1-1V8a1 1 0 0 1 1-1h4"/></svg></a>
+    <a class="btn" href="{E(it['link'])}" target="_blank" rel="noopener">خواندن در {E(it['source'])}<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 5h5v5M19 5l-8 8M17 14v4a1 1 0 0 1-1 1H6a1 1 0 0 1-1-1V8a1 1 0 0 1 1-1h4"/></svg></a>
     <div class="share"><span>اشتراک:</span><a href="{share_t}" target="_blank" rel="noopener">تلگرام</a><a href="{share_x}" target="_blank" rel="noopener">X</a></div>
   </div>
-  <p class="art-note">خلاصهٔ فارسی خبری از {E(it['source'])}؛ منبع: <a href="{E(it['link'])}" target="_blank" rel="noopener" dir="ltr">{E(host)}</a></p>
+  <p class="art-note">{note}</p>
 </article>
 {f'<section class="related"><h2>خبرهای مرتبط</h2><div class="list cols-2">{rel_html}</div></section>' if rel else ''}
 <a class="back-link" href="{back}">بازگشت به اخبار {'امروز' if is_latest else day_label(it['_date'])}</a>
