@@ -80,13 +80,33 @@
 
   async function load() {
     const ts = Date.now();
-    const arch = await fetch("/data/archive.json?t=" + ts).then((r) => r.json());
-    state.archive = arch.days || [];
     const want = params.get("d");
-    const day = want && state.archive.some((d) => d.date === want) ? want : state.archive[0]?.date;
-    state.day = day;
-    state.isLatest = day === state.archive[0]?.date;
-    const data = await fetch(`/data/days/${day}.json?t=${ts}`).then((r) => r.json());
+    // Parallel: archive + day JSON (latest.json mirror when viewing today — avoids sequential waterfall)
+    const archP = fetch("/data/archive.json?t=" + ts).then((r) => r.json());
+    const dayUrl = want
+      ? `/data/days/${want}.json?t=${ts}`
+      : `/data/latest.json?t=${ts}`;
+    const dayP = fetch(dayUrl).then((r) => {
+      if (!r.ok) throw new Error("day " + r.status);
+      return r.json();
+    });
+    let arch, data;
+    try {
+      [arch, data] = await Promise.all([archP, dayP]);
+    } catch (err) {
+      // Fallback if latest.json missing: wait for archive then fetch named day
+      arch = await archP;
+      const day = want && (arch.days || []).some((d) => d.date === want) ? want : arch.days?.[0]?.date;
+      data = await fetch(`/data/days/${day}.json?t=${ts}`).then((r) => r.json());
+    }
+    state.archive = arch.days || [];
+    const day = data.date || (want && state.archive.some((d) => d.date === want) ? want : state.archive[0]?.date);
+    // If ?d= pointed at a day but latest was fetched by mistake, re-fetch
+    if (want && data.date && data.date !== want) {
+      data = await fetch(`/data/days/${want}.json?t=${ts}`).then((r) => r.json());
+    }
+    state.day = data.date || day;
+    state.isLatest = state.day === state.archive[0]?.date;
     state.items = (data.items || []).slice().sort((a, b) => new Date(b.published) - new Date(a.published));
     state.ref = state.isLatest ? Date.now() : new Date(data.updated_at).getTime();
     const up = new Date(data.updated_at);
@@ -94,14 +114,14 @@
     if (!state.isLatest) {
       const n = $("#archiveNote");
       n.hidden = false;
-      n.innerHTML = `در حال مشاهدهٔ آرشیو <b>${dayLabel(day)}</b> هستید. <a href="/">بازگشت به اخبار امروز</a>`;
-      document.title = "آرشیو " + dayLabel(day) + " | نبض فردا";
+      n.innerHTML = `در حال مشاهدهٔ آرشیو <b>${dayLabel(state.day)}</b> هستید. <a href="/">بازگشت به اخبار امروز</a>`;
+      document.title = "آرشیو " + dayLabel(state.day) + " | نبض فردا";
     }
     $("#sources").textContent = [...new Set(state.items.map((i) => i.source))].sort().join(" · ");
     renderArchive(); setTab(state.cat, false);
   }
 
-  // UI wiring
+  // UI wiring — category chips filter in-DOM items only (no search-index on home)
   $("#today").textContent = fullDate(new Date());
   document.querySelectorAll(".tab").forEach((b) => b.addEventListener("click", () => { setTab(b.dataset.cat, true); }));
   const sBtn = $("#searchBtn"), sRow = $("#searchRow"), q = $("#q");

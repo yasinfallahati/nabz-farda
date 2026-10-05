@@ -26,14 +26,14 @@ Nabz-e Farda (“Tomorrow’s Pulse”) is a **fully static**, Persian-language 
 | PWA shell | Manifest + lightweight service worker + Persian offline page |
 | Article UX | Reading time, copy/Telegram/X share (no tracking SDKs), related articles, خلاصه + خبر کامل |
 
-Internal JSON under `/data/` (and optional mirrors) powers search and the ops dashboard; they are **not** a public product API and are not linked in the site chrome.
+Internal JSON under `/data/` powers search and the ops dashboard; there is **no public `/api/` product surface**. The automation dashboard is **unlisted** in main nav/footer — reach it from `/about/` (judges) or directly at https://nabz-farda.vercel.app/automation/.
 
 ## Judge walkthrough (≈5 minutes)
 
 1. **Home** — https://nabz-farda.vercel.app — RTL layout, stories bar, category chips, search.  
-2. **Automation** — https://nabz-farda.vercel.app/automation/ — pipeline stages + live ops stats.  
-3. **Article** — open any card; check خلاصه / خبر کامل, reading time, share, related.  
-4. **About** — https://nabz-farda.vercel.app/about/ — architecture + schedule in Persian/English.  
+2. **About (judges)** — https://nabz-farda.vercel.app/about/ — architecture + schedule; link to automation dashboard.  
+3. **Automation (unlisted)** — https://nabz-farda.vercel.app/automation/ — pipeline stages + live ops stats (also linked from About).  
+4. **Article** — open any card; check خلاصه / خبر کامل, reading time, share, related.  
 5. **Search / PWA** — `/search/`; optionally “Add to Home Screen”.
 
 ## How to demo live (no credentials needed)

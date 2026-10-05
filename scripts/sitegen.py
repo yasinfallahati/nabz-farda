@@ -274,11 +274,10 @@ def og_images(items):
 
 
 # ---------------------------------------------------------------- HTML
-ASSET_V = "4"
+ASSET_V = "5"
 SITE_NAV = [
     ("home", "/", "خانه"),
     ("archive", "/news/", "بایگانی"),
-    ("automation", "/automation/", "اتوماسیون"),
     ("about", "/about/", "درباره"),
 ]
 
@@ -316,8 +315,7 @@ def head(title, desc, canonical, og_image, og_type="website", extra="", active=N
 <link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
 <link rel="manifest" href="/manifest.webmanifest">
 <link rel="alternate" type="application/rss+xml" title="{NAME}" href="{SITE}/feed.xml">
-<link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/rastikerdar/vazirmatn@v33.003/Vazirmatn-font-face.css">
+<link rel="stylesheet" href="/assets/fonts.css?v={ASSET_V}">
 <link rel="stylesheet" href="/assets/style.css?v={ASSET_V}">
 <link rel="stylesheet" href="/assets/article.css?v={ASSET_V}">
 {ANALYTICS}
@@ -327,7 +325,6 @@ def head(title, desc, canonical, og_image, og_type="website", extra="", active=N
   <a class="logo" href="/" aria-label="{NAME}"><svg class="logo-mark" viewBox="0 0 48 48" aria-hidden="true"><path d="M3 26h9l4-10 7 20 6-26 5 16h11"/></svg><span>{NAME}</span></a>
   <nav class="nav site-nav" aria-label="منوی اصلی">{nav}</nav>
   <div class="hdr-tools">
-    <a class="auto-badge" href="/automation/" title="سیستم اتوماتیک">سیستم اتوماتیک</a>
     <a class="icon-btn" href="/search/" aria-label="جست‌وجو"><svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="6.5"/><path d="m20 20-4-4"/></svg></a>
   </div>
 </div></header>
@@ -340,8 +337,8 @@ FOOT = f"""<footer class="ftr">
     <nav class="ftr-links" aria-label="پیوندها">
       <a href="/">خانه</a>
       <a href="/news/">بایگانی</a>
-      <a href="/automation/">اتوماسیون</a>
       <a href="/about/">درباره</a>
+      <a href="/search/">جست‌وجو</a>
       <a href="/feed.xml">فید RSS</a>
     </nav>
   </div>
@@ -631,62 +628,22 @@ def write_ops(days, items):
     return ops
 
 
-def write_api(days, items, ops):
-    api = PUB / "api/v1"
-    api.mkdir(parents=True, exist_ok=True)
-    latest = days[0] if days else {"date": None, "items": []}
-    latest_items = []
-    for it in latest.get("items", []):
-        latest_items.append({
-            "id": it["id"],
-            "category": it["category"],
-            "source": it["source"],
-            "title_fa": it.get("title_fa") or it["title"],
-            "summary_fa": it.get("summary_fa") or "",
-            "published": it["published"],
-            "url": page_path(it["_date"], it["id"]),
-            "link": it.get("link"),
-        })
-    write(api / "latest.json", json.dumps({
-        "date": latest.get("date"),
-        "count": len(latest_items),
-        "items": latest_items,
-        "generated_at": ops.get("build_at"),
-    }, ensure_ascii=False, separators=(",", ":")))
-    arch = {"latest": days[0]["date"] if days else None,
-            "days": [{"date": d["date"], "count": len(d["items"]), "updated_at": d.get("updated_at")} for d in days]}
-    write(api / "archive.json", json.dumps(arch, ensure_ascii=False, separators=(",", ":")))
-    write(api / "ops.json", json.dumps(ops, ensure_ascii=False, indent=2))
-    openapi = {
-        "openapi": "3.0.3",
-        "info": {
-            "title": "Nabz-e Farda internal data",
-            "description": "Internal static JSON snapshots used by the site (ops/search). Not a public product API.",
-            "version": "1.0.0",
-        },
-        "servers": [{"url": SITE + "/api/v1"}],
-        "paths": {
-            "/latest.json": {
-                "get": {
-                    "summary": "Latest day items",
-                    "responses": {"200": {"description": "Today's (or newest) articles summary"}},
-                }
-            },
-            "/archive.json": {
-                "get": {
-                    "summary": "Archive day index",
-                    "responses": {"200": {"description": "Thin list of available days"}},
-                }
-            },
-            "/ops.json": {
-                "get": {
-                    "summary": "Pipeline / ops snapshot",
-                    "responses": {"200": {"description": "Build timestamp, counts, stories, telegram"}},
-                }
-            },
-        },
+def write_latest_day(days):
+    """Mirror newest day JSON at /data/latest.json so the homepage can fetch it in parallel with archive."""
+    if not days:
+        return
+    latest = days[0]
+    # days items already include _date from load_days — strip private keys for public mirror
+    payload = {
+        "date": latest["date"],
+        "updated_at": latest.get("updated_at"),
+        "fetched_at": latest.get("fetched_at"),
+        "items": [{k: v for k, v in it.items() if not str(k).startswith("_")} for it in latest.get("items", [])],
     }
-    write(api / "openapi.json", json.dumps(openapi, ensure_ascii=False, indent=2))
+    write(PUB / "data/latest.json", json.dumps(payload, ensure_ascii=False, separators=(",", ":")))
+
+
+
 
 
 
@@ -714,10 +671,10 @@ def generate():
     n_feed = rss(items)
     n_search = write_search_index(items)
     ops = write_ops(days, items)
-    write_api(days, items, ops)
+    write_latest_day(days)
     return (f"pages: {len(items)} articles + {len(days)} day pages; og images redrawn {made}; "
             f"sitemap {n_urls} urls; feed {n_feed} items; search-index {n_search}; "
-            f"ops+data written" + (f"; removed {len(stale)} stale" if stale else ""))
+            f"ops+latest+data written" + (f"; removed {len(stale)} stale" if stale else ""))
 
 
 if __name__ == "__main__":

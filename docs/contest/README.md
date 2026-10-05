@@ -20,8 +20,8 @@
 جمع‌آوری شبانه از فیدهای انگلیسی ← ترجمه و ساخت صفحات ← انتشار روی وب، تلگرام و اینستاگرام؛ به‌علاوهٔ به‌روزرسانی نوار استوری هر ۳ ساعت.
 
 سایت زنده: https://nabz-farda.vercel.app
-اتوماسیون: https://nabz-farda.vercel.app/automation/
 درباره: https://nabz-farda.vercel.app/about/
+اتوماسیون (لینک مستقیم، در منوی عمومی نیست): https://nabz-farda.vercel.app/automation/
 
 فایل یک‌صفحه‌ای بصری در پیوست است.
 ```

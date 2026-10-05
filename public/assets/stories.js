@@ -35,7 +35,7 @@
 
   function renderBar() {
     row.innerHTML = list.map((s, k) => `<button class="story ${seen.has(s.id) ? "seen" : "unseen"}" data-cat="${esc(s.category)}" data-i="${k}" style="--k:${k}" role="listitem" aria-label="${esc(s.title_fa)}">
-      <span class="ring"><span class="av">${s.image ? `<img src="${esc(s.image)}" alt="" loading="${k < 6 ? "eager" : "lazy"}" decoding="async" referrerpolicy="no-referrer" onerror="this.classList.add('broken')">` : ""}</span>
+      <span class="ring"><span class="av">${s.image ? `<img src="${esc(s.image)}" alt="" loading="${k < 3 ? "eager" : "lazy"}" decoding="async" referrerpolicy="no-referrer" onerror="this.classList.add('broken')">` : ""}</span>
       <span class="badge" aria-hidden="true">${(CAT[s.category] || CAT.tech).icon}</span></span>
       <span class="lbl">${esc(s.title_fa)}</span></button>`).join("");
   }
@@ -45,6 +45,7 @@
   let el, cur = 0, t0 = 0, elapsed = 0, paused = false, loading = false, raf = 0, isOpen = false, pushed = false, lastFocus = null;
   const hold = { on: false };
 
+  function ensure() { if (!el) build(); }
   function build() {
     el = document.createElement("div");
     el.className = "sv";
@@ -120,6 +121,7 @@
   function setPaused(p) { paused = p; el && el.classList.toggle("paused", p); }
 
   function open(i, push) {
+    ensure();
     if (!list.length) return;
     if (!el) build();
     lastFocus = document.activeElement;
