@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 330" width="1000" height="330" role="img" aria-label="Nightly pipeline: Feeds, Fetch, Translate, Build, Deploy, then Telegram and Instagram">
+  <defs>
+    <marker id="a" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto">
+      <path d="M1 1l7 4-7 4" fill="none" stroke="#ff5a4e" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+    </marker>
+    <style>
+      text{font-family:Inter,-apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif}
+      .t{font-size:16px;font-weight:600;fill:#e8eaed}
+      .s{font-size:12.5px;fill:#9aa0a6}
+      .n{font-size:11px;font-weight:600;fill:#ff5a4e;letter-spacing:1px}
+      .h{font-size:13px;font-weight:600;fill:#e8eaed;letter-spacing:.6px}
+      .b{fill:#14161b;stroke:#2a2d34}
+      .l{fill:none;stroke:#ff5a4e;stroke-width:1.6;stroke-linecap:round;stroke-linejoin:round}
+    </style>
+  </defs>
+  <rect x=".5" y=".5" width="999" height="329" rx="18" fill="#0b0c0f" stroke="#2a2d34"/>
+  <path d="M32 40h10l3-7 5 14 5-17 3 10h6" class="l" stroke-width="2"/>
+  <text x="76" y="45" class="h">NIGHTLY PIPELINE</text>
+  <text x="968" y="45" class="s" text-anchor="end">00:00 Asia/Tehran</text>
+
+  <g transform="translate(32 124)"><rect class="b" width="132" height="76" rx="12"/><text x="16" y="24" class="n">01</text><text x="16" y="46" class="t">Feeds</text><text x="16" y="64" class="s">26 RSS sources</text></g>
+  <g transform="translate(196 124)"><rect class="b" width="132" height="76" rx="12"/><text x="16" y="24" class="n">02</text><text x="16" y="46" class="t">Fetch</text><text x="16" y="64" class="s">dedupe · rank</text></g>
+  <g transform="translate(360 124)"><rect class="b" width="132" height="76" rx="12"/><text x="16" y="24" class="n">03</text><text x="16" y="46" class="t">Translate</text><text x="16" y="64" class="s">Persian copy</text></g>
+  <g transform="translate(524 124)"><rect class="b" width="132" height="76" rx="12"/><text x="16" y="24" class="n">04</text><text x="16" y="46" class="t">Build</text><text x="16" y="64" class="s">pages · OG · RSS</text></g>
+  <g transform="translate(688 124)"><rect width="132" height="76" rx="12" fill="#14161b" stroke="#ff5a4e"/><text x="16" y="24" class="n">05</text><text x="16" y="46" class="t">Deploy</text><text x="16" y="64" class="s">Vercel · static</text></g>
+  <g transform="translate(856 78)"><rect class="b" width="112" height="64" rx="12"/><text x="14" y="28" class="t">Telegram</text><text x="14" y="47" class="s">channel posts</text></g>
+  <g transform="translate(856 182)"><rect class="b" width="112" height="64" rx="12"/><text x="14" y="28" class="t">Instagram</text><text x="14" y="47" class="s">reels · stories</text></g>
+
+  <g class="l" marker-end="url(#a)">
+    <path d="M166 162h26"/><path d="M330 162h26"/><path d="M494 162h26"/><path d="M658 162h26"/>
+    <path d="M822 162h12a6 6 0 0 0 6-6v-40a6 6 0 0 1 6-6h6"/>
+    <path d="M822 162h12a6 6 0 0 1 6 6v40a6 6 0 0 0 6 6h6"/>
+  </g>
+
+  <path d="M32 270h936" stroke="#2a2d34"/>
+  <circle cx="40" cy="298" r="4" fill="#ff5a4e"/>
+  <text x="54" y="302" class="t" style="font-size:14px">Stories bar</text>
+  <text x="146" y="302" class="s">every 3 h · fetch candidates → curate → apply → verify → deploy → breaking alerts</text>
+</svg>

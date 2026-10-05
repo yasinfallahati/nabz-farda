@@ -1,13 +1,21 @@
-# Nabz-e Farda
+<p align="center">
+  <a href="https://nabz-farda.vercel.app"><img src="assets/svg/logo-mark.svg" alt="Nabz-e Farda logo" width="88" height="88"></a>
+</p>
 
-**A nightly, fully static Persian news site for AI, technology, and gaming — with Instagram and Telegram publishing.**
+<h1 align="center">Nabz-e Farda</h1>
 
-[![Live Site](https://img.shields.io/badge/Live-nabz--farda.vercel.app-black?style=flat-square&logo=vercel)](https://nabz-farda.vercel.app)
-[![Instagram](https://img.shields.io/badge/Instagram-nabz__farda-E4405F?style=flat-square&logo=instagram&logoColor=white)](https://www.instagram.com/nabz_farda/)
-[![Python](https://img.shields.io/badge/Python-3.11+-3776AB?style=flat-square&logo=python&logoColor=white)](https://www.python.org/)
-[![Vercel](https://img.shields.io/badge/Deploy-Vercel-000000?style=flat-square&logo=vercel)](https://nabz-farda.vercel.app)
-[![Last commit](https://img.shields.io/github/last-commit/yasinfallahati/nabz-farda?style=flat-square)](https://github.com/yasinfallahati/nabz-farda/commits/main)
-[![License](https://img.shields.io/badge/License-All%20Rights%20Reserved-lightgrey?style=flat-square)](#license)
+<p align="center">
+  <strong>A nightly, fully static Persian news site for AI, technology, and gaming — with Instagram and Telegram publishing.</strong>
+</p>
+
+<p align="center">
+  <a href="https://nabz-farda.vercel.app"><img src="https://img.shields.io/badge/Live-nabz--farda.vercel.app-black?style=flat-square&logo=vercel" alt="Live Site"></a>
+  <a href="https://www.instagram.com/nabz_farda/"><img src="https://img.shields.io/badge/Instagram-nabz__farda-E4405F?style=flat-square&logo=instagram&logoColor=white" alt="Instagram"></a>
+  <a href="https://www.python.org/"><img src="https://img.shields.io/badge/Python-3.11+-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python"></a>
+  <a href="https://nabz-farda.vercel.app"><img src="https://img.shields.io/badge/Deploy-Vercel-000000?style=flat-square&logo=vercel" alt="Vercel"></a>
+  <a href="https://github.com/yasinfallahati/nabz-farda/commits/main"><img src="https://img.shields.io/github/last-commit/yasinfallahati/nabz-farda?style=flat-square" alt="Last commit"></a>
+  <a href="#license"><img src="https://img.shields.io/badge/License-All%20Rights%20Reserved-lightgrey?style=flat-square" alt="License"></a>
+</p>
 
 <p align="center">
   <a href="https://nabz-farda.vercel.app">
@@ -48,23 +56,23 @@ There is no application server and no database. The `public/` folder *is* the we
 
 ## Features
 
-- **Nightly news edition.** Fetches, de-duplicates, categorizes (AI / Tech / Gaming), and ranks stories, then adds
+- <img src="assets/svg/icon-news.svg" width="16" height="16" alt=""> **Nightly news edition.** Fetches, de-duplicates, categorizes (AI / Tech / Gaming), and ranks stories, then adds
   Persian headlines and summaries. A new day is appended to a growing archive every night.
-- **Static article pages and SEO.** One page per story at `/news/<date>/<id>`, plus day pages and an archive. Each page
+- <img src="assets/svg/icon-seo.svg" width="16" height="16" alt=""> **Static article pages and SEO.** One page per story at `/news/<date>/<id>`, plus day pages and an archive. Each page
   carries canonical URLs, Open Graph / Twitter metadata, and JSON-LD (`NewsArticle`, `BreadcrumbList`). The build also
   writes `sitemap.xml`, a Google News sitemap, `robots.txt`, and an RSS 2.0 feed.
-- **Generated Open Graph images.** A 1200×630 social card for every story, rendered with Pillow + Raqm for correct
+- <img src="assets/svg/icon-image.svg" width="16" height="16" alt=""> **Generated Open Graph images.** A 1200×630 social card for every story, rendered with Pillow + Raqm for correct
   Persian shaping. Cards are cached, so only new or changed stories are redrawn.
-- **Stories bar.** An Instagram-style row of breaking stories under the header. Candidates are scored on signals such as
+- <img src="assets/svg/icon-stories.svg" width="16" height="16" alt=""> **Stories bar.** An Instagram-style row of breaking stories under the header. Candidates are scored on signals such as
   multi-outlet coverage, launches, breaches, and lawsuits. Each story expires after 24 hours (15 live at most) in the
   browser, so expiry never needs a deploy. Deep links use `/#s=<id>`.
-- **Telegram publishing.** About eight nightly picks go out as photo posts with their OG images, plus links back to the
+- <img src="assets/svg/icon-telegram.svg" width="16" height="16" alt=""> **Telegram publishing.** About eight nightly picks go out as photo posts with their OG images, plus links back to the
   article and the original source. Breaking stories get short alert posts. A state file guarantees nothing is posted
   twice.
-- **Instagram tooling.** Motion-graphics reels, carousels, and story cards rendered from any day's data. Headless Chrome
+- <img src="assets/svg/icon-reel.svg" width="16" height="16" alt=""> **Instagram tooling.** Motion-graphics reels, carousels, and story cards rendered from any day's data. Headless Chrome
   handles Persian typography; ffmpeg handles video. The soundtrack is synthesised in code, so there is no copyright
   issue with stock music.
-- **Privacy-friendly analytics.** Vercel Web Analytics on every page.
+- <img src="assets/svg/icon-chart.svg" width="16" height="16" alt=""> **Privacy-friendly analytics.** Vercel Web Analytics on every page.
 
 ## Live demos
 
@@ -89,31 +97,18 @@ There is no application server and no database. The `public/` folder *is* the we
 
 ## Architecture
 
-```
-feeds.json
-    │
-    ▼
-fetch_news.py ──► data/raw/DATE.json
-    │
-    ▼
-translate.py  ──► data/translations/DATE.json   (editorial / AI fills title_fa + summary_fa)
-    │
-    ▼
-build.py + sitegen.py
-    │                 ├── public/data/days/DATE.json + archive.json
-    │                 ├── public/news/DATE/*.html
-    │                 ├── public/og/DATE/*.png
-    │                 └── sitemap.xml · sitemap-news.xml · feed.xml · robots.txt
-    ▼
-deploy_cli.sh (VERCEL_TOKEN) ──► nabz-farda.vercel.app
-    │
-    ▼
-telegram_post.py ──► Telegram channel
+<p align="center">
+  <img src="assets/svg/architecture.svg" alt="Nightly pipeline: Feeds → Fetch → Translate → Build → Deploy (Vercel) → Telegram and Instagram; stories bar runs every 3 hours" width="100%">
+</p>
 
-Every 3 hours (parallel path):
-update_stories.py fetch → pending.json → apply --deploy --telegram
-                                         └──► public/data/stories.json
-```
+| Step | Script | Output |
+|---|---|---|
+| 01 Feeds | `scripts/feeds.json` | ~26 RSS sources across AI, tech, and gaming |
+| 02 Fetch | `fetch_news.py` | `data/raw/DATE.json` — de-duplicated, categorized, ranked |
+| 03 Translate | `translate.py` | `data/translations/DATE.json` — Persian headline + summary per item |
+| 04 Build | `build.py` + `sitegen.py` | Day data, article pages, OG images, sitemaps, RSS |
+| 05 Deploy | `deploy_cli.sh` | `public/` → https://nabz-farda.vercel.app |
+| Publish | `telegram_post.py`, `insta/` | Telegram posts; Instagram reels, carousels, stories |
 
 The nightly and stories paths both deploy the same `public/` folder. They never run at the same time — the 00:00 slot
 belongs to the nightly edition.
@@ -147,7 +142,7 @@ belongs to the nightly edition.
 ├── data/                   # Raw items, translations, applied stories, post state
 ├── deploy/                 # Generated deploy artifacts (git-ignored)
 ├── insta/                  # Instagram reel / carousel / story generators
-├── assets/                 # Repo assets (README screenshot)
+├── assets/                 # README screenshot + SVG artwork (assets/svg/)
 ├── redesign/               # Design notes
 └── NIGHTLY.md              # Full operational runbook
 ```
