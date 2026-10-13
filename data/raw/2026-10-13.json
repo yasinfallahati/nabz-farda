@@ -1,0 +1,637 @@
+{
+ "date": "2026-10-13",
+ "fetched_at": "2026-10-13T18:47:56.769845+00:00",
+ "counts": {
+  "ai": 12,
+  "game": 12,
+  "tech": 12
+ },
+ "feeds": [
+  {
+   "feed": "https://www.theverge.com/rss/index.xml",
+   "source": "The Verge",
+   "entries": 10,
+   "error": null
+  },
+  {
+   "feed": "https://www.theverge.com/rss/games/index.xml",
+   "source": "The Verge",
+   "entries": 10,
+   "error": null
+  },
+  {
+   "feed": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml",
+   "source": "The Verge",
+   "entries": 10,
+   "error": null
+  },
+  {
+   "feed": "https://techcrunch.com/feed/",
+   "source": "TechCrunch",
+   "entries": 20,
+   "error": null
+  },
+  {
+   "feed": "https://techcrunch.com/category/artificial-intelligence/feed/",
+   "source": "TechCrunch",
+   "entries": 20,
+   "error": null
+  },
+  {
+   "feed": "https://feeds.arstechnica.com/arstechnica/index",
+   "source": "Ars Technica",
+   "entries": 20,
+   "error": null
+  },
+  {
+   "feed": "https://arstechnica.com/gaming/feed/",
+   "source": "Ars Technica",
+   "entries": 20,
+   "error": null
+  },
+  {
+   "feed": "https://www.wired.com/feed/rss",
+   "source": "Wired",
+   "entries": 50,
+   "error": null
+  },
+  {
+   "feed": "https://www.wired.com/feed/tag/ai/latest/rss",
+   "source": "Wired",
+   "entries": 10,
+   "error": null
+  },
+  {
+   "feed": "https://www.engadget.com/rss.xml",
+   "source": "Engadget",
+   "entries": 20,
+   "error": null
+  },
+  {
+   "feed": "https://www.tomshardware.com/feeds/all",
+   "source": "Tom's Hardware",
+   "entries": 0,
+   "error": "HTTPConnectionPool(host='www.tomshardware.com', port=80): Max retries exceeded with url: /feeds.xml (Caused by ConnectTimeoutError(<HTTPConnection(host='www.tomshardware.com', port=80) at 0x7ffa49727890>, 'Connection to www.tomshardware.com timed out. (connect timeout=20)'))"
+  },
+  {
+   "feed": "https://hnrss.org/frontpage?points=100",
+   "source": "Hacker News",
+   "entries": 17,
+   "error": null
+  },
+  {
+   "feed": "https://feeds.feedburner.com/ign/all",
+   "source": "IGN",
+   "entries": 20,
+   "error": null
+  },
+  {
+   "feed": "https://www.gamespot.com/feeds/mashup/",
+   "source": "GameSpot",
+   "entries": 15,
+   "error": null
+  },
+  {
+   "feed": "https://www.polygon.com/rss/index.xml",
+   "source": "Polygon",
+   "entries": 10,
+   "error": null
+  },
+  {
+   "feed": "https://www.eurogamer.net/feed",
+   "source": "Eurogamer",
+   "entries": 100,
+   "error": null
+  },
+  {
+   "feed": "https://www.pcgamer.com/rss/",
+   "source": "PC Gamer",
+   "entries": 50,
+   "error": null
+  },
+  {
+   "feed": "https://kotaku.com/rss",
+   "source": "Kotaku",
+   "entries": 20,
+   "error": null
+  },
+  {
+   "feed": "https://www.rockpapershotgun.com/feed",
+   "source": "Rock Paper Shotgun",
+   "entries": 100,
+   "error": null
+  },
+  {
+   "feed": "https://www.gematsu.com/feed",
+   "source": "Gematsu",
+   "entries": 20,
+   "error": null
+  },
+  {
+   "feed": "https://feeds.feedburner.com/venturebeat/SZYF",
+   "source": "VentureBeat",
+   "entries": 7,
+   "error": null
+  },
+  {
+   "feed": "https://www.technologyreview.com/topic/artificial-intelligence/feed",
+   "source": "MIT Technology Review",
+   "entries": 10,
+   "error": null
+  },
+  {
+   "feed": "https://openai.com/news/rss.xml",
+   "source": "OpenAI",
+   "entries": 1287,
+   "error": null
+  },
+  {
+   "feed": "https://blog.google/technology/ai/rss/",
+   "source": "Google AI",
+   "entries": 20,
+   "error": null
+  },
+  {
+   "feed": "https://deepmind.google/blog/rss.xml",
+   "source": "Google DeepMind",
+   "entries": 100,
+   "error": null
+  },
+  {
+   "feed": "https://huggingface.co/blog/feed.xml",
+   "source": "Hugging Face",
+   "entries": 876,
+   "error": null
+  }
+ ],
+ "items": [
+  {
+   "id": "d3f06c5cb2",
+   "source": "TechCrunch",
+   "title": "Flox Intelligence is building AI to keep wildlife away from trains, airports, and roads",
+   "summary": "Flox's edge devices can identify animals and use species-specific sounds to drive them away from critical infrastructure.",
+   "link": "https://techcrunch.com/2026/10/13/flox-intelligence-is-building-ai-to-keep-wildlife-away-from-trains-airports-and-roads/",
+   "comments": null,
+   "image": "https://techcrunch.com/wp-content/uploads/2026/10/founders-sara-tomas-full.jpg?w=1200",
+   "published": "2026-10-13T18:30:00+00:00",
+   "category": "ai",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "6b0f0cdb86",
+   "source": "Engadget",
+   "title": "Apple TV 4K and HomePod mini 2 hands-on: A look at the audio updates and Siri AI",
+   "summary": "Listening to Apple's new audio features with Siri as our binge-watching companion.",
+   "link": "https://www.engadget.com/2285699/apple-tv-4k-2026-and-homepod-mini-2-hands-on-siri-ai-audio-upgrade/",
+   "comments": null,
+   "image": "https://www.engadget.com/img/gallery/homepod-mini-2-and-apple-tv-4k-hands-on-a-look-at-the-audio-updates-and-siri-ai/l-intro-1791914683.jpg",
+   "published": "2026-10-13T18:18:54+00:00",
+   "category": "ai",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "d59d959ca7",
+   "source": "TechCrunch",
+   "title": "Pluto Security raises $42M as AI gives enterprise security teams a new headache",
+   "summary": "The problem with giving everyone in a company access to AI tools is that people will use them in unexpected ways. And that fact is steadily seeding fears that companies now have new, gaping security holes in their systems or, at least, will soon.",
+   "link": "https://techcrunch.com/2026/10/13/pluto-security-raises-42m-as-ai-gives-enterprise-security-teams-a-new-headache/",
+   "comments": null,
+   "image": "https://techcrunch.com/wp-content/uploads/2026/10/Screenshot_20261013_211032.png?resize=1200,815",
+   "published": "2026-10-13T17:18:25+00:00",
+   "category": "ai",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "550c4c02e9",
+   "source": "Hugging Face",
+   "title": "Run fast, private agents on-device with LFM2.5-24B-A2B",
+   "summary": "",
+   "link": "https://huggingface.co/blog/LiquidAI/lfm25-24b-a2b",
+   "comments": null,
+   "image": "https://cdn-uploads.huggingface.co/production/uploads/644249b08443bce4c9890a0f/YxGx9U6yV6_mumklCyMsE.png",
+   "published": "2026-10-13T17:05:48+00:00",
+   "category": "ai",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "2081defa3a",
+   "source": "The Verge",
+   "title": "Facebook will let you customize your feed algorithm using AI",
+   "summary": "Facebook's new \"Your Algorithm\" feature will let you directly add and manage topics you want to see in your feed and Facebook Reels. Meta says your recommendations \"respond right away\" after you make updates using the new feature by hitting \"interested\" or \"not interested\" for different topics. Your Algorithm previously launched on Instagram earlier this […]",
+   "link": "https://www.theverge.com/tech/1010344/meta-facebook-your-algorithm-ai",
+   "comments": null,
+   "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/meta-your-algorithm-facebook.jpg?quality=90&strip=all&crop=0,0,100,100",
+   "published": "2026-10-13T17:01:31+00:00",
+   "category": "ai",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "64276da4ce",
+   "source": "The Verge",
+   "title": "Actress Mia Goth says it’s ‘incomprehensible’ that Instagram allowed an AI image of her to spread",
+   "summary": "Earlier this month, news broke that actress Mia Goth had filed for divorce from actor and filmmaker Shia LaBeouf. An Instagram post from the account miagoth_ - marked with a blue verified checkmark - quickly spread. The post shows Goth in a T-shirt that reads \"MY EX IS MY BIGGEST FAN\" in bold black letters. […]",
+   "link": "https://www.theverge.com/ai-artificial-intelligence/1010277/mia-goth-instagram-ai-shirt-deepfake-divorce",
+   "comments": null,
+   "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/gettyimages-2263775227.jpg?quality=90&strip=all&crop=0,0,100,100",
+   "published": "2026-10-13T16:42:51+00:00",
+   "category": "ai",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "d1f8258ec2",
+   "source": "Hacker News",
+   "title": "Gemini 4 Argon",
+   "summary": "",
+   "link": "https://deepmind.google/models/gemini/",
+   "comments": "https://news.ycombinator.com/item?id=50073879",
+   "image": "https://lh3.googleusercontent.com/ufe__EokQeN6itypUE9XmN6-HX9kqi1cNllSWZ688h8dXXOh8lDS_Ltc8c-hdbJSp86GcKcpbHmsXharkzaEaFzhOFLsbx7zFcoi20GqnwTREcto=w1200-h630-n-nu-rw",
+   "published": "2026-10-13T16:03:16+00:00",
+   "category": "ai",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "8b0463614a",
+   "source": "Google DeepMind",
+   "title": "Gemini 4 Argon for Robotics",
+   "summary": "",
+   "link": "https://deepmind.google/blog/gemini-4-argon-for-robotics/",
+   "comments": null,
+   "image": "https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/argon__robotics__hero.2e16d0ba.fill-1200x600.png",
+   "published": "2026-10-13T16:01:58+00:00",
+   "category": "ai",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "2bad0427cf",
+   "source": "Ars Technica",
+   "title": "Gemini 4 Argon begins rolling out in Gemini app and Antigravity, but only if you pay",
+   "summary": "Developers will get 50 percent discounted API rates through November.",
+   "link": "https://arstechnica.com/ai/2026/10/gemini-4-argon-begins-rolling-out-in-gemini-app-and-antigravity-but-only-if-you-pay/",
+   "comments": null,
+   "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/Gemini-4-Argon-1152x648.jpg",
+   "published": "2026-10-13T16:00:02+00:00",
+   "category": "ai",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "bd40ba4ccf",
+   "source": "Engadget",
+   "title": "Google's Gemini 4 Argon is now available in the Gemini app and AI Mode in Search",
+   "summary": "Google has rolled out Gemini 4 Argon to more users.",
+   "link": "https://www.engadget.com/2285023/google-gemini-4-argon-is-now-available-in-the-gemini-app-and-ai-mode-in-search/",
+   "comments": null,
+   "image": "https://www.engadget.com/img/gallery/googles-gemini-4-argon-is-now-available-in-the-gemini-app-and-ai-mode-in-search/l-intro-1791893304.jpg",
+   "published": "2026-10-13T16:00:00+00:00",
+   "category": "ai",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "cd4a609f74",
+   "source": "Wired",
+   "title": "Wikipedians Believed AI Would Come and Go. They Were Wrong",
+   "summary": "In a world of AI Overviews, Wikipedia usage declines. But the real loss may be far more existential than website traffic.",
+   "link": "https://www.wired.com/story/book-excerpt-the-last-best-place-on-the-internet-wikipedia-artificial-intelligence/",
+   "comments": null,
+   "image": "https://media.wired.com/photos/6acd26155e2bb341ef93eb39/master/pass/10122026_BE_Wikepidia_v2.jpg",
+   "published": "2026-10-13T11:00:00+00:00",
+   "category": "ai",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "a0ae48bb6d",
+   "source": "MIT Technology Review",
+   "title": "Open models have real benefits. Do they outweigh the risks?",
+   "summary": "MIT Technology Review Explains: Let our writers untangle the complex, messy world of science and technology to help you understand what’s coming next. You can read more from the series here. Late last month, Anthropic released a report arguing that the model GLM-5.3 poses a major cyberattack risk. The report’s core concern is that the…",
+   "link": "https://www.technologyreview.com/2026/10/13/1146366/open-models-have-real-benefits-do-they-outweigh-the-risks/",
+   "comments": null,
+   "image": "https://wp.technologyreview.com/wp-content/uploads/2026/09/260915_openaimodels.jpg?resize=1200,600",
+   "published": "2026-10-13T10:00:00+00:00",
+   "category": "ai",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "eaaf3581bb",
+   "source": "Rock Paper Shotgun",
+   "title": "Echoes of Delicious in Dungeon ring out in Deep Dish Dungeon, a co-op dungeon crawler about making meals with whatever you can scrounge up that's out now",
+   "summary": "I would really like it if someone made a Delicious in Dungeon game. It doesn't have to be official, it can be legally distinct! I've been asking for over two years now ! I imagine I'll have to keep waiting, but luckily for me, a new game is out today which certainly feels reminiscent of the delightful (and morbid) anime, while still going for its own thing: Deep Dish Dungeon, a co-op dungeon crawler about making do with the ingredients you find …",
+   "link": "https://www.rockpapershotgun.com/echoes-of-delicious-in-dungeon-ring-out-in-deep-dish-dungeon-a-co-op-dungeon-crawler-about-making-meals-with-whatever-you-can-scrounge-up-thats-out-now",
+   "comments": null,
+   "image": "https://assetsio.gnwcdn.com/deep-dish-dungeon.jpg?width=690&quality=85&format=jpg&auto=webp",
+   "published": "2026-10-13T18:30:00+00:00",
+   "category": "game",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "c02d75aad2",
+   "source": "Polygon",
+   "title": "Netflix Releases Official First Trailer for Greta Gerwig's Narnia Movie",
+   "summary": "Narnia: The Magician's Nephew comes to Netflix (and IMAX) in 2027. The first trailer for director Greta Gerwig's adaptation of CS Lewis' book is here.",
+   "link": "https://www.polygon.com/narnia-the-magicians-nephew-trailer-greta-gerwig-netflix/",
+   "comments": null,
+   "image": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/10/aaaaqd9uw16zckkd6g-pejy7ulkaanwb6nfueutbhlkfbjzr_gxezgyca-y9pfq1gr2-18crotjugmfmvfrgbv88ur3slkf-r4b-ivgmzupoymgrgnwe4zmndotqculoxeekj897uthdskdc6ncxqawecynyqqm.jpg",
+   "published": "2026-10-13T18:22:48+00:00",
+   "category": "game",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "02d9979781",
+   "source": "PC Gamer",
+   "title": "Grand Theft Auto 6 rumored to be launching on PC sooner than anyone expected, but I wouldn't get my hopes up too high",
+   "summary": "If the rumored release window is accurate, it means the new GTA will hit PC just a few months after consoles—something almost unheard of from Rockstar.",
+   "link": "https://www.pcgamer.com/games/grand-theft-auto/report-claims-grand-theft-auto-6-will-launch-on-pc-sooner-than-anyone-expected/",
+   "comments": null,
+   "image": "https://cdn.mos.cms.futurecdn.net/ehhtJ4zjCNwxiraXX986nD-1920-80.jpg",
+   "published": "2026-10-13T18:07:30+00:00",
+   "category": "game",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "ce05e0eed8",
+   "source": "Kotaku",
+   "title": "ConcernedApe Teases More Action-RPG Gameplay In Haunted Chocolatier: ‘It’s For The People In Stardew Valley That Go Into The Mines’",
+   "summary": "It'll still be what he calls a 'town game,' though",
+   "link": "https://kotaku.com/concernedape-teases-more-action-rpg-gameplay-in-haunted-chocolatier-its-for-the-people-in-stardew-valley-that-go-into-the-mines-2000745296",
+   "comments": null,
+   "image": "https://kotaku.com/app/uploads/2026/10/haunted-chocolatier.jpg",
+   "published": "2026-10-13T18:00:03+00:00",
+   "category": "game",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "d13d8e389f",
+   "source": "Rock Paper Shotgun",
+   "title": "Coming soon to Invincible VS, it's your copyright-friendly neighbourhood Agent Spider",
+   "summary": "Spider-Man might be one of the most parodied characters of all time, simply due to also being one of the most well-known characters of anything, well, ever. Everyone knows who Spider-Man is. Invincible VS' latest trailer plays into this cleverly, with the reveal of Agent Spider as an upcoming DLC character making frequent allusions to his Marvel counterpart. Read more",
+   "link": "https://www.rockpapershotgun.com/coming-soon-to-invincible-vs-its-your-copyright-friendly-neighbourhood-agent-spider",
+   "comments": null,
+   "image": "https://assetsio.gnwcdn.com/Agent-Spider.png?width=690&quality=85&format=jpg&auto=webp",
+   "published": "2026-10-13T18:00:00+00:00",
+   "category": "game",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "1b6326ca01",
+   "source": "Gematsu",
+   "title": "Paranormal legends story-driven adventure game We Don’t Exist announced for PC",
+   "summary": "Solo developer Versiris has announced We Don’t Exist, a story-driven adventure game inspired by real-world …",
+   "link": "https://www.gematsu.com/2026/10/paranormal-legends-story-driven-adventure-game-we-dont-exist-announced-for-pc",
+   "comments": null,
+   "image": "https://www.gematsu.com/wp-content/uploads/2026/10/We-Dont-Exist-Ann_10-13-26.jpg",
+   "published": "2026-10-13T17:52:26+00:00",
+   "category": "game",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "d25e5d2bf1",
+   "source": "GameSpot",
+   "title": "Red Dead’s Shocking Twist Ending Angered A Lot Of People, But It Was The Right Call, Rockstar Co-Founder Says",
+   "summary": "Rockstar co-founder Dan Houser has recalled the controversial ending to 2010's Red Dead Redemption in which the main character, John Marston, is killed. He said in an interview that the game's lead designer, Christian Cantamessa was on board with the idea to kill off Marston, but Houser wondered about the production realities of, \"How does an open-world game work if you've killed the protagonist?\" \"So I said, ‘I think maybe we have to kill him.’…",
+   "link": "https://www.gamespot.com/articles/red-deads-shocking-twist-ending-angered-a-lot-of-people-but-it-was-the-right-call-rockstar-co-founder-says/",
+   "comments": null,
+   "image": "https://www.gamespot.com/wp-content/uploads/2026/10/RDR.jpg?w=1200",
+   "published": "2026-10-13T17:52:01+00:00",
+   "category": "game",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "9fddef9551",
+   "source": "Engadget",
+   "title": "GTA 6 is reportedly coming to PC in early 2027",
+   "summary": "That would be a much smaller port time than GTA 5.",
+   "link": "https://www.engadget.com/2285602/gta-6-is-reportedly-coming-to-pc-in-early-2027/",
+   "comments": null,
+   "image": "https://www.engadget.com/img/gallery/gta-6-is-reportedly-coming-to-pc-in-early-2027/l-intro-1791912367.jpg",
+   "published": "2026-10-13T17:27:40+00:00",
+   "category": "game",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "10b76451b2",
+   "source": "IGN",
+   "title": "Over 1 Million Characters Have Been Made in the WoW Forever Beta",
+   "summary": "It's no secret that World of Warcraft Forever has been incredibly popular since entering its beta last month, but now, over 1 million characters have been made.",
+   "link": "https://www.ign.com/articles/over-1-million-characters-have-been-made-in-the-wow-forever-beta",
+   "comments": null,
+   "image": "https://assets-prd.ignimgs.com/2026/09/15/wowoo-1789495563832.png",
+   "published": "2026-10-13T16:51:32+00:00",
+   "category": "game",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "cebef38a90",
+   "source": "Eurogamer",
+   "title": "CD Projekt Red reassures players The Witcher 3 Switch 2 patch still due, as update rolls out for PS5 and PS5 Pro",
+   "summary": "CD Projekt Red has released an update for The Witcher 3 Remastered on PlayStation 5 and PS5 Pro , making \"various stability improvements to help ensure a more reliable experience\" to the game. And those are the entire patch notes for hotfix 5.01b , Eurogamer understands. Read more",
+   "link": "https://www.eurogamer.net/witcher-3-remastered-ps5-pro-switch-patch",
+   "comments": null,
+   "image": "https://assetsio.gnwcdn.com/20260925144028_1.jpg?width=690&quality=85&format=jpg&auto=webp",
+   "published": "2026-10-13T16:13:54+00:00",
+   "category": "game",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "f608394757",
+   "source": "The Verge",
+   "title": "Epic shifts to ‘AI-accelerated development’ for upcoming Disney game",
+   "summary": "Epic Games plans to use AI to generate code and art for an unannounced Disney game, which is now delayed from its original March release window, according to a report from Bloomberg. The project's developers have been given an \"AI-first\" mandate directing them to use tools like Anthropic's Claude more to finish the game. According […]",
+   "link": "https://www.theverge.com/games/1010097/epic-games-disney-project-ai-coding-art",
+   "comments": null,
+   "image": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/23932925/acastro_STK108__03.jpg?quality=90&strip=all&crop=0,0,100,100",
+   "published": "2026-10-13T15:12:59+00:00",
+   "category": "game",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "de69746aab",
+   "source": "Ars Technica",
+   "title": "Long-lost horror gaming cult classic P.T. gets a much-needed PC port",
+   "summary": "Kojima's discontinued \"playable trailer\" is no longer stuck on a few aging PS4 hard drives.",
+   "link": "https://arstechnica.com/gaming/2026/10/long-lost-horror-gaming-cult-classic-p-t-gets-a-much-needed-pc-port/",
+   "comments": null,
+   "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/ptpc-1152x648.png",
+   "published": "2026-10-12T16:01:08+00:00",
+   "category": "game",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "b10da47671",
+   "source": "The Verge",
+   "title": "The Nothing Headphone A are half off for the first time",
+   "summary": "One of the best deals we’ve seen today bundles together a great pair of headphones with a solid album. When you add the Nothing Headphone A in black or white and the CD version of the Charli XCX album Music, Fashion, Film to your Amazon cart, you’ll save 33 percent on your order, bringing the […]",
+   "link": "https://www.theverge.com/gadgets/1010384/nothing-headphone-a-charli-xcx-deal-sale",
+   "comments": null,
+   "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/03/268383_Nothing_Headphones_JHiggins_0004.jpg?quality=90&strip=all&crop=0,0,100,100",
+   "published": "2026-10-13T18:33:14+00:00",
+   "category": "tech",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "3aaa96b970",
+   "source": "The Verge",
+   "title": "Russian bot farms are still trolling, even after Ukraine’s drone strikes on Yandex",
+   "summary": "Days after Ukrainian military drones took down several Russian data centers, President Volodymyr Zelenskyy claimed that the campaign had hurt Russia's disinformation efforts. \"It suddenly became a little easier to breathe on many social platforms,\" Zelenskyy said Monday. \"There was less hate, less division, and fewer provocations.\" Zelenskyy isn't the first to assert that the […]",
+   "link": "https://www.theverge.com/news/1010424/yandex-drone-strike-outage-disinformation-zelenskyy",
+   "comments": null,
+   "image": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/24733136/1498885624.jpg?quality=90&strip=all&crop=0,0,100,100",
+   "published": "2026-10-13T18:31:31+00:00",
+   "category": "tech",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "e951e10e01",
+   "source": "TechCrunch",
+   "title": "Rivian spinoff Mind Robotics hires former Ford EV chief Doug Field",
+   "summary": "Field also worked on Apple's secretive car project and oversaw development of the Tesla Model 3.",
+   "link": "https://techcrunch.com/2026/10/13/rivian-spinoff-mind-robotics-hires-former-ford-ev-chief-doug-field/",
+   "comments": null,
+   "image": "https://techcrunch.com/wp-content/uploads/2026/04/Doug-Field.jpg?resize=800,1200",
+   "published": "2026-10-13T18:30:03+00:00",
+   "category": "tech",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "4b603adc82",
+   "source": "Engadget",
+   "title": "What is NVIDIA DLSS and how does it work?",
+   "summary": "NVIDIA's upscaling software is truly powerful when used in the right situations.",
+   "link": "https://www.engadget.com/2281734/what-is-nvidia-dlss-how-works/",
+   "comments": null,
+   "image": "https://www.engadget.com/img/gallery/what-is-nvidia-dlss-and-how-does-it-work/l-intro-1791492240.jpg",
+   "published": "2026-10-13T18:30:00+00:00",
+   "category": "tech",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "f70350466b",
+   "source": "Engadget",
+   "title": "Ryan Coogler's X-Files reboot gets a full series order from Hulu",
+   "summary": "It stars two new FBI agents that aren't named Mulder and Scully.",
+   "link": "https://www.engadget.com/2285678/ryan-cooglers-x-files-reboot-gets-a-full-series-order-from-hulu/",
+   "comments": null,
+   "image": "https://www.engadget.com/img/gallery/ryan-cooglers-x-files-reboot-gets-a-full-series-order-from-hulu/l-intro-1791914966.jpg",
+   "published": "2026-10-13T18:10:08+00:00",
+   "category": "tech",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "c06a934276",
+   "source": "TechCrunch",
+   "title": "Facebook is giving users more control over their algorithm",
+   "summary": "Meta announced the launch of its new AI-powered feature, “Your Algorithm,” a feature it first launched on Instagram.",
+   "link": "https://techcrunch.com/2026/10/13/facebook-is-giving-users-more-control-over-their-algorithm/",
+   "comments": null,
+   "image": "https://techcrunch.com/wp-content/uploads/2026/10/YourAlgorithm-FB.png?w=1200",
+   "published": "2026-10-13T18:05:24+00:00",
+   "category": "tech",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "ba34da7256",
+   "source": "Ars Technica",
+   "title": "The Paris Auto Show is full of interesting cars Americans can’t have",
+   "summary": "Small EVs and efficient people carriers update familiar names for the modern age.",
+   "link": "https://arstechnica.com/cars/2026/10/europe-shows-a-better-alternative-to-big-suvs-at-the-paris-auto-show/",
+   "comments": null,
+   "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/c2v-french-1152x648.jpg",
+   "published": "2026-10-13T17:33:20+00:00",
+   "category": "tech",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "f17adc20ac",
+   "source": "Ars Technica",
+   "title": "Google wants to host your personal vibe-coded apps in the Play Store",
+   "summary": "Google plans to help turn those personal AI-generated apps into wide releases.",
+   "link": "https://arstechnica.com/google/2026/10/google-wants-to-host-your-personal-vibe-coded-apps-in-the-play-store/",
+   "comments": null,
+   "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/06/play-store-1152x648.jpg",
+   "published": "2026-10-13T17:00:39+00:00",
+   "category": "tech",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "70ea00eb4d",
+   "source": "Wired",
+   "title": "The ‘Godzilla Minus Zero’ Filmmakers Terrified Bystanders With Their Monster Sounds",
+   "summary": "The team behind director Takashi Yamazaki’s new film created their kaiju roars by setting up speakers on top of an outdoor dam. The people walking by weren’t prepared for what they heard.",
+   "link": "https://www.wired.com/story/new-york-comic-con-panel/",
+   "comments": null,
+   "image": "https://media.wired.com/photos/6acd2d70e56eb9b1c9065004/master/pass/Godzilla-Minus-Zero-Filmmakers-Terrified-Bystanders-Culture-GMZ_KV1-Still_Godzilla-clean_2026-07-07_copyright.jpg",
+   "published": "2026-10-13T13:30:00+00:00",
+   "category": "tech",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "35f8e8b814",
+   "source": "Hacker News",
+   "title": "New Apple TV 4K",
+   "summary": "",
+   "link": "https://www.apple.com/newsroom/2026/10/apple-unveils-the-new-apple-tv-4k/",
+   "comments": "https://news.ycombinator.com/item?id=50071310",
+   "image": "https://www.apple.com/newsroom/images/2026/10/apple-unveils-the-new-apple-tv-4k/tile/Apple-TV-4K-261013-lp.jpg.og.jpg?202610131304",
+   "published": "2026-10-13T13:21:35+00:00",
+   "category": "tech",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "fa15e28c6b",
+   "source": "Hacker News",
+   "title": "Apple HomeView",
+   "summary": "",
+   "link": "https://www.apple.com/apple-homeview/",
+   "comments": "https://news.ycombinator.com/item?id=50071017",
+   "image": "https://www.apple.com/v/apple-homeview/a/images/meta/apple-homeview__lk7n65hb6bm2_og.png?202610121723",
+   "published": "2026-10-13T13:02:12+00:00",
+   "category": "tech",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "c8ab347249",
+   "source": "Wired",
+   "title": "The Apple HomeView Is Like a Giant Apple Watch for the Home",
+   "summary": "With customizable “faces,” this 7-inch smart display is a unique hybrid between an iPhone and an Apple Watch.",
+   "link": "https://www.wired.com/story/apple-homeview-smart-display/",
+   "comments": null,
+   "image": "https://media.wired.com/photos/6ace3cf10d6b03833a151dfa/master/pass/DSC_9867.jpg",
+   "published": "2026-10-13T13:00:00+00:00",
+   "category": "tech",
+   "title_fa": "",
+   "summary_fa": ""
+  }
+ ]
+}
