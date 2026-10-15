@@ -1,0 +1,637 @@
+{
+ "date": "2026-10-15",
+ "fetched_at": "2026-10-15T18:37:54.248232+00:00",
+ "counts": {
+  "ai": 12,
+  "game": 12,
+  "tech": 12
+ },
+ "feeds": [
+  {
+   "feed": "https://www.theverge.com/rss/index.xml",
+   "source": "The Verge",
+   "entries": 10,
+   "error": null
+  },
+  {
+   "feed": "https://www.theverge.com/rss/games/index.xml",
+   "source": "The Verge",
+   "entries": 10,
+   "error": null
+  },
+  {
+   "feed": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml",
+   "source": "The Verge",
+   "entries": 10,
+   "error": null
+  },
+  {
+   "feed": "https://techcrunch.com/feed/",
+   "source": "TechCrunch",
+   "entries": 20,
+   "error": null
+  },
+  {
+   "feed": "https://techcrunch.com/category/artificial-intelligence/feed/",
+   "source": "TechCrunch",
+   "entries": 20,
+   "error": null
+  },
+  {
+   "feed": "https://feeds.arstechnica.com/arstechnica/index",
+   "source": "Ars Technica",
+   "entries": 20,
+   "error": null
+  },
+  {
+   "feed": "https://arstechnica.com/gaming/feed/",
+   "source": "Ars Technica",
+   "entries": 20,
+   "error": null
+  },
+  {
+   "feed": "https://www.wired.com/feed/rss",
+   "source": "Wired",
+   "entries": 50,
+   "error": null
+  },
+  {
+   "feed": "https://www.wired.com/feed/tag/ai/latest/rss",
+   "source": "Wired",
+   "entries": 10,
+   "error": null
+  },
+  {
+   "feed": "https://www.engadget.com/rss.xml",
+   "source": "Engadget",
+   "entries": 20,
+   "error": null
+  },
+  {
+   "feed": "https://www.tomshardware.com/feeds/all",
+   "source": "Tom's Hardware",
+   "entries": 0,
+   "error": "HTTPConnectionPool(host='www.tomshardware.com', port=80): Max retries exceeded with url: /feeds.xml (Caused by ConnectTimeoutError(<HTTPConnection(host='www.tomshardware.com', port=80) at 0x7ff297021d10>, 'Connection to www.tomshardware.com timed out. (connect timeout=20)'))"
+  },
+  {
+   "feed": "https://hnrss.org/frontpage?points=100",
+   "source": "Hacker News",
+   "entries": 17,
+   "error": null
+  },
+  {
+   "feed": "https://feeds.feedburner.com/ign/all",
+   "source": "IGN",
+   "entries": 20,
+   "error": null
+  },
+  {
+   "feed": "https://www.gamespot.com/feeds/mashup/",
+   "source": "GameSpot",
+   "entries": 15,
+   "error": null
+  },
+  {
+   "feed": "https://www.polygon.com/rss/index.xml",
+   "source": "Polygon",
+   "entries": 10,
+   "error": null
+  },
+  {
+   "feed": "https://www.eurogamer.net/feed",
+   "source": "Eurogamer",
+   "entries": 100,
+   "error": null
+  },
+  {
+   "feed": "https://www.pcgamer.com/rss/",
+   "source": "PC Gamer",
+   "entries": 50,
+   "error": null
+  },
+  {
+   "feed": "https://kotaku.com/rss",
+   "source": "Kotaku",
+   "entries": 20,
+   "error": null
+  },
+  {
+   "feed": "https://www.rockpapershotgun.com/feed",
+   "source": "Rock Paper Shotgun",
+   "entries": 100,
+   "error": null
+  },
+  {
+   "feed": "https://www.gematsu.com/feed",
+   "source": "Gematsu",
+   "entries": 20,
+   "error": null
+  },
+  {
+   "feed": "https://feeds.feedburner.com/venturebeat/SZYF",
+   "source": "VentureBeat",
+   "entries": 7,
+   "error": null
+  },
+  {
+   "feed": "https://www.technologyreview.com/topic/artificial-intelligence/feed",
+   "source": "MIT Technology Review",
+   "entries": 10,
+   "error": null
+  },
+  {
+   "feed": "https://openai.com/news/rss.xml",
+   "source": "OpenAI",
+   "entries": 1294,
+   "error": null
+  },
+  {
+   "feed": "https://blog.google/technology/ai/rss/",
+   "source": "Google AI",
+   "entries": 20,
+   "error": null
+  },
+  {
+   "feed": "https://deepmind.google/blog/rss.xml",
+   "source": "Google DeepMind",
+   "entries": 100,
+   "error": null
+  },
+  {
+   "feed": "https://huggingface.co/blog/feed.xml",
+   "source": "Hugging Face",
+   "entries": 879,
+   "error": null
+  }
+ ],
+ "items": [
+  {
+   "id": "a4975bebfd",
+   "source": "The Verge",
+   "title": "Meta and Apple team up to make Muse AI models run better on Macs",
+   "summary": "Meta announced the Muse Spark Open AI model today, claiming that it's the \"most capable US open-weight model to date.\" But the company also says that it's the \"the first model in its class\" that can \"run on your desktop using two Apple M5 Ultra Mac Studios with the latest MLX framework.\" Meta and Apple, […]",
+   "link": "https://www.theverge.com/news/1012293/meta-apple-muse-spark-open-ai-model-mlx",
+   "comments": null,
+   "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/268742_Mac_Studio_AKrales_0025.jpg?quality=90&strip=all&crop=0,0,100,100",
+   "published": "2026-10-15T18:15:36+00:00",
+   "category": "ai",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "6fd6a93f77",
+   "source": "The Verge",
+   "title": "Google is making inline links more prominent in AI responses",
+   "summary": "Google is updating its AI search results to make inline links appear \"higher up in responses more frequently,\" according to a blog post. The company's search results from AI Overviews and AI Mode give you answers in a customized view instead of the traditional list of links, but there are concerns that the format reduces […]",
+   "link": "https://www.theverge.com/tech/1012206/google-ai-mode-overview-inline-links",
+   "comments": null,
+   "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/01/STK093_GOOGLE_D.jpg?quality=90&strip=all&crop=0,0,100,100",
+   "published": "2026-10-15T17:22:15+00:00",
+   "category": "ai",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "2af8241101",
+   "source": "Hacker News",
+   "title": "More on Anthropic's Scion ripping off Mononoke",
+   "summary": "Redesigning source control at Anthropic - https://news.ycombinator.com/item?id=50073633 (996 comments) Anthropic's Scion is heavily inspired by Mononoke - https://news.ycombinator.com/item?id=50094694 (149 comments)",
+   "link": "https://sunshowers.io/posts/anthropic-mononoke-2/",
+   "comments": "https://news.ycombinator.com/item?id=50106738",
+   "image": "https://sunshowers.io/images/og-image.png",
+   "published": "2026-10-15T17:05:19+00:00",
+   "category": "ai",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "f2856f8e5b",
+   "source": "Engadget",
+   "title": "Meta built a huge open-weight AI model for Macs, but you'll need 1TB of RAM to run it",
+   "summary": "Muse Spark Open is \"the most capable US open-weight model to date,\" the company says.",
+   "link": "https://www.engadget.com/2287833/meta-built-a-huge-open-weight-ai-model-for-macs-but-youll-need-1tb-of-ram-to-run-it/",
+   "comments": null,
+   "image": "https://www.engadget.com/img/gallery/meta-built-a-huge-open-weight-ai-model-for-macs-but-youll-need-1tb-of-ram-to-run-it/l-intro-1792083589.jpg",
+   "published": "2026-10-15T17:02:48+00:00",
+   "category": "ai",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "1d4cff712a",
+   "source": "Google DeepMind",
+   "title": "Accelerating the search for antimicrobial peptides with Google Antigravity",
+   "summary": "Accelerating the search for novel antimicrobial peptides using Google Antigravity for Science.",
+   "link": "https://deepmind.google/blog/accelerating-antimicrobial-discovery/",
+   "comments": null,
+   "image": "https://lh3.googleusercontent.com/Xgnc_DxAUS2Fs9H2rokxsYwPnnM_KOkPyPtKm7V2C_sjZ7YS4N1-D6lD8wjYIRQoKaiSwHUXB7qmw77m6FCfHLZenWdNymO7B_JLChlB6ied6emR=w528-h297-n-nu-rw-lo",
+   "published": "2026-10-15T16:08:03+00:00",
+   "category": "ai",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "bc34be66cc",
+   "source": "Hacker News",
+   "title": "Neural networks are clean",
+   "summary": "https://twitter.com/nickcammarata/status/2110757819427574056",
+   "link": "https://already-clean.goodfire.com/",
+   "comments": "https://news.ycombinator.com/item?id=50105647",
+   "image": "https://already-clean.goodfire.com/assets/social/city-and-knot-20261015.png",
+   "published": "2026-10-15T16:04:01+00:00",
+   "category": "ai",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "12f70f9144",
+   "source": "Ars Technica",
+   "title": "Report: FTC probes Anthropic, OpenAI after Trump dismissed AI fears as “hoax”",
+   "summary": "FTC may fine AI firms on par with companies that delay data breach reports.",
+   "link": "https://arstechnica.com/tech-policy/2026/10/ftc-probes-if-openai-anthropic-security-incidents-harmed-americans-report-says/",
+   "comments": null,
+   "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/GettyImages-2277824748-1024x648.jpg",
+   "published": "2026-10-15T15:43:24+00:00",
+   "category": "ai",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "2c9392a52f",
+   "source": "TechCrunch",
+   "title": "AI agents are coming to Rivian’s cars",
+   "summary": "We'll likely learn more about how this will work at the company's upcoming \"AI & Autonomy Day\" event in December.",
+   "link": "https://techcrunch.com/2026/10/15/ai-agents-are-coming-to-rivians-cars/",
+   "comments": null,
+   "image": "https://techcrunch.com/wp-content/uploads/2026/10/55587802359_b756c3c3bd_k.jpg?resize=1200,800",
+   "published": "2026-10-15T15:02:36+00:00",
+   "category": "ai",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "fa14b8f7db",
+   "source": "OpenAI",
+   "title": "Teaching students to think and learn through questions",
+   "summary": "Celebrate Teachers’ Day with AI for Educators in Brazilian Portuguese and see how Study Mode can help teachers support active, step-by-step learning.",
+   "link": "https://openai.com/index/teaching-students-to-think-and-learn-through-questions",
+   "comments": null,
+   "image": null,
+   "published": "2026-10-15T13:00:00+00:00",
+   "category": "ai",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "6de1dd3d16",
+   "source": "Engadget",
+   "title": "NVIDIA's RTX Spark is good for Windows, even if you don't need local AI",
+   "summary": "NVIDIA's RTX Spark is meant for AI fiends, but it could end up helping Windows PCs in general",
+   "link": "https://www.engadget.com/2287239/nvidia-rtx-spark-good-for-windows-even-if-you-do-not-need-local-ai/",
+   "comments": null,
+   "image": "https://www.engadget.com/img/gallery/nvidias-rtx-spark-is-good-for-windows-even-if-you-dont-need-local-ai/l-intro-1792037724.jpg",
+   "published": "2026-10-15T13:00:00+00:00",
+   "category": "ai",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "e3c36d4422",
+   "source": "Hugging Face",
+   "title": "Apertus 1.5 Release Notes",
+   "summary": "",
+   "link": "https://huggingface.co/blog/swiss-ai/apertus-v15-release-notes",
+   "comments": null,
+   "image": "https://cdn-uploads.huggingface.co/production/uploads/61f1877a168a0b52fda88455/2mHXxCtfos6CgwFSNKFVi.jpeg",
+   "published": "2026-10-15T09:08:45+00:00",
+   "category": "ai",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "4edb4571d6",
+   "source": "Wired",
+   "title": "AI Came for Math. Now It’s Chasing the Rest of Science",
+   "summary": "AI may soon be the default way to solve theoretical problems in economics, high-energy physics, and other fields, MIT researchers tell WIRED.",
+   "link": "https://www.wired.com/story/ai-is-coming-for-science-next-watch-out/",
+   "comments": null,
+   "image": "https://media.wired.com/photos/6ace87bed95d506835d511b4/master/pass/AI-Lab-AI-Coming-for-Other-Areas-of-Science-Businesspsd.jpg",
+   "published": "2026-10-14T18:15:00+00:00",
+   "category": "ai",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "7a28f440dc",
+   "source": "PC Gamer",
+   "title": "Control Resonant sells 1 million copies in 3 weeks to become Remedy's fastest-selling game ever",
+   "summary": "It's not a huge number, but it's big news for Remedy.",
+   "link": "https://www.pcgamer.com/games/action/control-resonant-sells-1-million-copies-in-3-weeks-to-become-remedys-fastest-selling-game-ever/",
+   "comments": null,
+   "image": "https://cdn.mos.cms.futurecdn.net/WcjUWGKChMoMQDoCxmjz3P-1920-80.jpg",
+   "published": "2026-10-15T18:15:22+00:00",
+   "category": "game",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "7ff1288755",
+   "source": "Polygon",
+   "title": "What time are the Fortnitemares power hours in Fortnite Chapter 7 Season 4?",
+   "summary": "This weekend's Fortnite power hours feature Trick or Treat sprites. Here's when they are in your time zone.",
+   "link": "https://www.polygon.com/fortnite-chapter-7-season-4-power-hours-what-time/",
+   "comments": null,
+   "image": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/10/jlee_261015_1001_fn_fortntiemares.jpg",
+   "published": "2026-10-15T18:01:18+00:00",
+   "category": "game",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "9440c60c6d",
+   "source": "IGN",
+   "title": "K/DA Is Getting an Official Louis Vuitton Art Book Ahead of 'Start a Fire' Comeback",
+   "summary": "Riot Games has teamed up with fashion house Louis Vuitton on a K/DA Travel Book. The book’s reveal comes just after the League of Legends girl group announced their return from a six-year hiatus. Tempo Point will collect new illustrations of the virtual girl group, envisioning “24 hours within the individual lives of K/DA members Ahri (vocalist), Akali (rapper), Evelynn (vocalist), and Kai’Sa (vocalist and lead dancer/choreographer).” A Standard…",
+   "link": "https://www.ign.com/articles/riot-games-louis-vuitton-kda-travel-book-announcement",
+   "comments": null,
+   "image": "https://assets-prd.ignimgs.com/2026/10/15/kdavuitton-1792083048684.jpg",
+   "published": "2026-10-15T17:47:00+00:00",
+   "category": "game",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "309c9691cc",
+   "source": "GameSpot",
+   "title": "007 First Light On Switch 2 Includes Something No Other Platform Gets, And It’s Ridiculous",
+   "summary": "IO Interactive has announced the release date for 007 First Light's long-delayed Switch 2 version--March 18, 2027--and that's not all. People who preorder the game for Switch 2 are getting something no other platform has: a ridiculously oversized tie. Not just any ridiculously oversized tie, however. People who preorder First Light for Switch 2 get the GoldenEye Suit, and it includes the suit and tie that Pierce Brosnan wore in the famous 1995 m…",
+   "link": "https://www.gamespot.com/articles/007-first-light-on-switch-2-includes-something-no-other-platform-gets-and-its-ridiculous/",
+   "comments": null,
+   "image": "https://www.gamespot.com/wp-content/uploads/2026/10/007-Large.jpeg?w=1200",
+   "published": "2026-10-15T17:32:43+00:00",
+   "category": "game",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "42de3ebd52",
+   "source": "Kotaku",
+   "title": "The Ocarina Of Time Remake Doesn’t Do Everyone’s Favorite Bombchu-Bowling Baddie Justice",
+   "summary": "But her updated goth look is a vibe, though",
+   "link": "https://kotaku.com/the-ocarina-of-time-remake-doesnt-do-everyones-favorite-bombchu-bowling-baddie-justice-2000746378",
+   "comments": null,
+   "image": "https://kotaku.com/app/uploads/2026/10/bombchu-baddie-1280x720.jpg",
+   "published": "2026-10-15T17:30:13+00:00",
+   "category": "game",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "0ca7c07d7f",
+   "source": "The Verge",
+   "title": "Alienware’s latest 34-inch QD-OLED gaming monitor is $50 off",
+   "summary": "The Alienware AW3426DW is discounted to $742.22 at Amazon, just over $50 off its usual price of $799.99. It’s not quite the lowest price we’ve seen on this well-equipped gaming monitor, but still a decent discount. The 34-inch screen just came out a couple months ago, and is equipped with Penta Tandem quantum dots for […]",
+   "link": "https://www.theverge.com/gadgets/1012134/alienware-34-ultrawide-qd-oled-belkin-screen-skinz-deal-sale",
+   "comments": null,
+   "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/alienware-aw3426dw-roundup.png?quality=90&strip=all&crop=0,0,100,100",
+   "published": "2026-10-15T17:30:00+00:00",
+   "category": "game",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "0a28c99c19",
+   "source": "Gematsu",
+   "title": "A Bird Story now available for PS5, Xbox Series, and Switch",
+   "summary": "Publisher Serenity Forge and To the Moon developer Freebird Games have released A Bird Story, …",
+   "link": "https://www.gematsu.com/2026/10/a-bird-story-now-available-for-ps5-xbox-series-and-switch",
+   "comments": null,
+   "image": "https://www.gematsu.com/wp-content/uploads/2026/10/Bird-Story-Consoles_10-15-26.jpg",
+   "published": "2026-10-15T17:18:01+00:00",
+   "category": "game",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "5957fd84b2",
+   "source": "Rock Paper Shotgun",
+   "title": "After almost three years of early access, Enshrouded has hit 1.0 with a complete story, bigger map, and way too much more to mention",
+   "summary": "The increasing number of early access games always throws me off, because one day you're seeing an announcement of a game releasing, and then a while (normally years) later, you see another announcement for said game releasing. Feels like I'm in a constant Groundhog Day situation, probably not good for my sense of the passage of time. Anyway! Existentialism aside, after launching into early access almost three years ago, Enshrouded is now out in…",
+   "link": "https://www.rockpapershotgun.com/after-almost-three-years-of-early-access-enshrouded-has-hit-10-with-a-complete-story-bigger-map-and-way-too-much-more-to-mention",
+   "comments": null,
+   "image": "https://assetsio.gnwcdn.com/enshrouded-launch-key-art.jpg?width=690&quality=85&format=jpg&auto=webp",
+   "published": "2026-10-15T17:01:56+00:00",
+   "category": "game",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "ecab50f6af",
+   "source": "Engadget",
+   "title": "GuliKit TT Max review: The granddaddy of Switch 2 controllers",
+   "summary": "This is the Switch 2 gamepad for big hands.",
+   "link": "https://www.engadget.com/2287745/gulikit-tt-max-review/",
+   "comments": null,
+   "image": "https://www.engadget.com/img/gallery/gulikit-tt-max-review-the-granddaddy-of-switch-2-controllers/l-intro-1792080217.jpg",
+   "published": "2026-10-15T16:30:00+00:00",
+   "category": "game",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "bdfeadad5e",
+   "source": "Eurogamer",
+   "title": "GTA 6 squeaks into eligibility for The Game Awards 2026 by the smallest of margins - but can it break Clair Obscur: Expedition 33's record number of wins?",
+   "summary": "This generation's mega-game, Grand Theft Auto 6 , will be eligible for The Game Awards 2026 by a matter of one day. Read more",
+   "link": "https://www.eurogamer.net/gta-6-the-game-awards-eligibility-geoff-keighley",
+   "comments": null,
+   "image": "https://assetsio.gnwcdn.com/VINTAGE_VICE_CITY_PACK_EXCLUSIVE_LOOKS_04.jpg?width=690&quality=85&format=jpg&auto=webp",
+   "published": "2026-10-15T16:10:34+00:00",
+   "category": "game",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "730e8d4b8d",
+   "source": "Hacker News",
+   "title": "Steam Client Is Now Faster Than Epic's New Vibe Coded Launcher",
+   "summary": "",
+   "link": "https://respawnfirst.com/steam-client-is-now-faster-than-epics-new-vibe-coded-launcher/",
+   "comments": "https://news.ycombinator.com/item?id=50105635",
+   "image": "https://respawnfirst.com/wp-content/uploads/2026/10/New-Steam-client-is-faster.webp",
+   "published": "2026-10-15T16:03:19+00:00",
+   "category": "game",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "b6b8162a5b",
+   "source": "Ars Technica",
+   "title": "Legendary FPS level designer Richard \"Levelord\" Gray dies at 68",
+   "summary": "Tributes pour in for the man behind iconic Duke Nukem 3D levels and much more.",
+   "link": "https://arstechnica.com/gaming/2026/10/legendary-fps-level-designer-richard-levelord-gray-passes-away-at-68/",
+   "comments": null,
+   "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/levelord-1152x648.png",
+   "published": "2026-10-14T16:02:08+00:00",
+   "category": "game",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "3844d23d36",
+   "source": "Engadget",
+   "title": "Riot will sunset League of Legends Classic in January 2027",
+   "summary": "The throwback League of Legends Classic mode may reappear as a limited-time event in the future.",
+   "link": "https://www.engadget.com/2287985/riot-will-sunset-league-of-legends-classic-in-january-2027/",
+   "comments": null,
+   "image": "https://www.engadget.com/img/gallery/riot-will-sunset-league-of-legends-classic-in-january-2027/l-intro-1792088892.jpg",
+   "published": "2026-10-15T18:30:08+00:00",
+   "category": "tech",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "7a9064810d",
+   "source": "Engadget",
+   "title": "Alexa Tablet 12 Pro review: Amazon's premium tablet gets almost everything right",
+   "summary": "This tablet is a great value, even if Android apps still aren't great on a big screen.",
+   "link": "https://www.engadget.com/2287955/amazon-alexa-tablet-12-pro-review/",
+   "comments": null,
+   "image": "https://www.engadget.com/img/gallery/alexa-tablet-12-pro-review-amazons-premium-tablet-gets-almost-everything-right/l-intro-1792087746.jpg",
+   "published": "2026-10-15T18:30:00+00:00",
+   "category": "tech",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "d9d8114df7",
+   "source": "TechCrunch",
+   "title": "Last chance to save up to $200 on your TechCrunch Founder Summit pass: Early booking ends October 16",
+   "summary": "Savings of up to $200 end October 16 for TechCrunch Founder Summit. These savings for Founder and Investor Passes vanish after Friday. Join 1,000 founders and investors on November 4 at Boston’s SoWa Power Station. Bring your toughest questions and make the day count for your business.",
+   "link": "https://techcrunch.com/2026/10/15/last-chance-to-save-up-to-200-on-techcrunch-founder-summit-early-booking-ends-oct-16/",
+   "comments": null,
+   "image": "https://techcrunch.com/wp-content/uploads/2025/12/TC-All-Stage-2025-roundtable.jpg?resize=1200,800",
+   "published": "2026-10-15T18:00:00+00:00",
+   "category": "tech",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "1dc8532775",
+   "source": "The Verge",
+   "title": "Sony made a $5,900 gold-plated Walkman MP3 player",
+   "summary": "Sony has announced a trio of new Walkman portable media players that start at an already absurd $1,899.99 for the NW-ZX900 and climb all the way up to $5,899 for the gold-plated NW-WM1ZM3. Sandwiched in between is the $2,999.99 Walkman NW-WM1AM3, which is nearly identical to the WM1ZM3, just minus the gaudy gold shell. All […]",
+   "link": "https://www.theverge.com/tech/1012200/sony-made-a-5900-gold-plated-walkman-mp3-player",
+   "comments": null,
+   "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/sony_walkman_WM1ZM3.jpg?quality=90&strip=all&crop=0,0,100,100",
+   "published": "2026-10-15T17:48:57+00:00",
+   "category": "tech",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "ec6617c3f5",
+   "source": "Engadget",
+   "title": "Trump ballroom's biggest donors were overwelmingly tech and telecom companies",
+   "summary": "Not that anyone's terribly surprised.",
+   "link": "https://www.engadget.com/2287913/trump-ballrooms-biggest-donors-were-overwelmingly-tech-and-telecom-companies/",
+   "comments": null,
+   "image": "https://www.engadget.com/img/gallery/trump-ballrooms-biggest-donors-were-overwelmingly-tech-and-telecom-companies/l-intro-1792086397.jpg",
+   "published": "2026-10-15T17:48:17+00:00",
+   "category": "tech",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "3218dd2117",
+   "source": "TechCrunch",
+   "title": "Volvo makes a bigger bet on Nvidia",
+   "summary": "Volvo is leveling up its automated driving system through an expansion of its nearly decade-long partnership with Nvidia that will extend beyond its battery electric vehicles.",
+   "link": "https://techcrunch.com/2026/10/15/volvo-makes-a-bigger-bet-on-nvidia/",
+   "comments": null,
+   "image": "https://techcrunch.com/wp-content/uploads/2026/05/volvo-s90.jpg?resize=1200,900",
+   "published": "2026-10-15T17:34:40+00:00",
+   "category": "tech",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "066954ab16",
+   "source": "The Verge",
+   "title": "Volvo will use Nvidia’s tech for hands-free, point-to-point driving",
+   "summary": "Volvo plans to launch hands-free, point-to-point driving by 2030, powered by Nvidia's latest AI technology. The Chinese-owned, Swedish-designed automaker said Thursday it would use Nvidia's autonomous driving stack to power a new partially automated driving system similar to Tesla's Full Self-Driving (Supervised). Volvo says the new point-to-point system will be Level 2++, meaning it can […]",
+   "link": "https://www.theverge.com/transportation/1011653/volvo-nvidia-autonomous-driving-level-2-hands-free-urban",
+   "comments": null,
+   "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/05/Volvo-EX60-Oculus-7.jpg?quality=90&strip=all&crop=0,0,100,100",
+   "published": "2026-10-15T17:30:00+00:00",
+   "category": "tech",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "8d5ef5c4be",
+   "source": "Wired",
+   "title": "White House Press Secretary Katie Zacharia Was an Affiliate Marketer for a Fitness MLM",
+   "summary": "Trump's newly installed press secretary tells WIRED that in the early 2010s, she promoted a product for a company then called Beachbody, which she described as “sort of a pyramid scheme.”",
+   "link": "https://www.wired.com/story/white-house-press-secretary-katie-zacharia-was-an-affiliate-marketer-for-a-fitness-mlm/",
+   "comments": null,
+   "image": "https://media.wired.com/photos/6acfbfe28180da3345611aef/master/pass/GettyImages-2299988078.jpg",
+   "published": "2026-10-15T17:05:19+00:00",
+   "category": "tech",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "e42d6132ca",
+   "source": "Ars Technica",
+   "title": "Rocket Lab announces another delay for its medium-lift Neutron rocket",
+   "summary": "Rocket Lab announced the Neutron rocket in 2021, aiming for a first flight in 2024.",
+   "link": "https://arstechnica.com/space/2026/10/rocket-lab-announces-another-delay-for-its-medium-lift-neutron-rocket/",
+   "comments": null,
+   "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/53194639182_2982a6d6de_h-1152x648.jpg",
+   "published": "2026-10-15T16:57:24+00:00",
+   "category": "tech",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "ea0bee2c7a",
+   "source": "Ars Technica",
+   "title": "Rewilding could help vulnerable islands keep pace with rising seas",
+   "summary": "Seabirds, native plants, and healthy reefs can help atolls build as seas rise.",
+   "link": "https://arstechnica.com/science/2026/10/seabirds-forests-and-coral-could-help-save-sinking-islands/",
+   "comments": null,
+   "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/researchersatoll-1152x648.jpg",
+   "published": "2026-10-15T15:05:40+00:00",
+   "category": "tech",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "1a68fad776",
+   "source": "Wired",
+   "title": "Junji Ito’s Manga Horrors Hit Harder as Live-Action TV",
+   "summary": "The artist’s macabre short works have been adapted into eerily freaky 30-minute bites for television. We got a sneak preview of the next episode airing on HBO Max.",
+   "link": "https://www.wired.com/story/new-york-comic-con-panel-2/",
+   "comments": null,
+   "image": "https://media.wired.com/photos/6acec4974eea6509d95be967/master/pass/Junji-Ito-Manga-Horrors-Culture-2276601648.jpg",
+   "published": "2026-10-15T13:30:00+00:00",
+   "category": "tech",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "8ea001b974",
+   "source": "Hacker News",
+   "title": "Wayland desktop for Linux with skeuomorphic design",
+   "summary": "",
+   "link": "https://github.com/fyzugx/DEsk",
+   "comments": "https://news.ycombinator.com/item?id=50103338",
+   "image": "https://opengraph.githubassets.com/5b0e30100deb727ff87a07eac4c15edc06589c688d71f56c6e22da2d3ce7178a/fyzugx/DEsk",
+   "published": "2026-10-15T13:23:44+00:00",
+   "category": "tech",
+   "title_fa": "",
+   "summary_fa": ""
+  }
+ ]
+}
