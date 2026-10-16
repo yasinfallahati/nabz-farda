@@ -1,0 +1,637 @@
+{
+ "date": "2026-10-16",
+ "fetched_at": "2026-10-16T18:37:45.740565+00:00",
+ "counts": {
+  "ai": 12,
+  "game": 12,
+  "tech": 12
+ },
+ "feeds": [
+  {
+   "feed": "https://www.theverge.com/rss/index.xml",
+   "source": "The Verge",
+   "entries": 10,
+   "error": null
+  },
+  {
+   "feed": "https://www.theverge.com/rss/games/index.xml",
+   "source": "The Verge",
+   "entries": 10,
+   "error": null
+  },
+  {
+   "feed": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml",
+   "source": "The Verge",
+   "entries": 10,
+   "error": null
+  },
+  {
+   "feed": "https://techcrunch.com/feed/",
+   "source": "TechCrunch",
+   "entries": 20,
+   "error": null
+  },
+  {
+   "feed": "https://techcrunch.com/category/artificial-intelligence/feed/",
+   "source": "TechCrunch",
+   "entries": 20,
+   "error": null
+  },
+  {
+   "feed": "https://feeds.arstechnica.com/arstechnica/index",
+   "source": "Ars Technica",
+   "entries": 20,
+   "error": null
+  },
+  {
+   "feed": "https://arstechnica.com/gaming/feed/",
+   "source": "Ars Technica",
+   "entries": 20,
+   "error": null
+  },
+  {
+   "feed": "https://www.wired.com/feed/rss",
+   "source": "Wired",
+   "entries": 50,
+   "error": null
+  },
+  {
+   "feed": "https://www.wired.com/feed/tag/ai/latest/rss",
+   "source": "Wired",
+   "entries": 10,
+   "error": null
+  },
+  {
+   "feed": "https://www.engadget.com/rss.xml",
+   "source": "Engadget",
+   "entries": 20,
+   "error": null
+  },
+  {
+   "feed": "https://www.tomshardware.com/feeds/all",
+   "source": "Tom's Hardware",
+   "entries": 0,
+   "error": "HTTPConnectionPool(host='www.tomshardware.com', port=80): Max retries exceeded with url: /feeds.xml (Caused by ConnectTimeoutError(<HTTPConnection(host='www.tomshardware.com', port=80) at 0x7ffa5ec27d90>, 'Connection to www.tomshardware.com timed out. (connect timeout=20)'))"
+  },
+  {
+   "feed": "https://hnrss.org/frontpage?points=100",
+   "source": "Hacker News",
+   "entries": 12,
+   "error": null
+  },
+  {
+   "feed": "https://feeds.feedburner.com/ign/all",
+   "source": "IGN",
+   "entries": 20,
+   "error": null
+  },
+  {
+   "feed": "https://www.gamespot.com/feeds/mashup/",
+   "source": "GameSpot",
+   "entries": 15,
+   "error": null
+  },
+  {
+   "feed": "https://www.polygon.com/rss/index.xml",
+   "source": "Polygon",
+   "entries": 10,
+   "error": null
+  },
+  {
+   "feed": "https://www.eurogamer.net/feed",
+   "source": "Eurogamer",
+   "entries": 100,
+   "error": null
+  },
+  {
+   "feed": "https://www.pcgamer.com/rss/",
+   "source": "PC Gamer",
+   "entries": 50,
+   "error": null
+  },
+  {
+   "feed": "https://kotaku.com/rss",
+   "source": "Kotaku",
+   "entries": 20,
+   "error": null
+  },
+  {
+   "feed": "https://www.rockpapershotgun.com/feed",
+   "source": "Rock Paper Shotgun",
+   "entries": 100,
+   "error": null
+  },
+  {
+   "feed": "https://www.gematsu.com/feed",
+   "source": "Gematsu",
+   "entries": 20,
+   "error": null
+  },
+  {
+   "feed": "https://feeds.feedburner.com/venturebeat/SZYF",
+   "source": "VentureBeat",
+   "entries": 7,
+   "error": null
+  },
+  {
+   "feed": "https://www.technologyreview.com/topic/artificial-intelligence/feed",
+   "source": "MIT Technology Review",
+   "entries": 10,
+   "error": null
+  },
+  {
+   "feed": "https://openai.com/news/rss.xml",
+   "source": "OpenAI",
+   "entries": 1296,
+   "error": null
+  },
+  {
+   "feed": "https://blog.google/technology/ai/rss/",
+   "source": "Google AI",
+   "entries": 20,
+   "error": null
+  },
+  {
+   "feed": "https://deepmind.google/blog/rss.xml",
+   "source": "Google DeepMind",
+   "entries": 100,
+   "error": null
+  },
+  {
+   "feed": "https://huggingface.co/blog/feed.xml",
+   "source": "Hugging Face",
+   "entries": 880,
+   "error": null
+  }
+ ],
+ "items": [
+  {
+   "id": "c74e5a79a0",
+   "source": "TechCrunch",
+   "title": "India becomes the latest country to report rogue AI agent activity",
+   "summary": "The agents got in through credentials and connection settings left exposed in app configurations, public code repositories, and overly permissive cloud roles.",
+   "link": "https://techcrunch.com/2026/10/16/india-becomes-the-latest-country-to-report-rogue-ai-agent-activity/",
+   "comments": null,
+   "image": "https://techcrunch.com/wp-content/uploads/2026/10/india-cyber-attack.jpg?w=1200",
+   "published": "2026-10-16T17:52:24+00:00",
+   "category": "ai",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "2425f31539",
+   "source": "Hacker News",
+   "title": "90% of US working hours are spent on tasks not covered well by AI benchmarks",
+   "summary": "",
+   "link": "https://www.mercor.com/research/labor-index/benchmark-map/",
+   "comments": "https://news.ycombinator.com/item?id=50121179",
+   "image": "https://www.mercor.com/mercor-logo-white.png",
+   "published": "2026-10-16T17:08:38+00:00",
+   "category": "ai",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "84c2c565c3",
+   "source": "TechCrunch",
+   "title": "An Nvidia insider-turned-VC on why robotics hasn’t hit its ChatGPT moment, yet",
+   "summary": "Amulya Vishwanath, who spent seven years leading product marketing for NVIDIA’s robotics platforms, says robotics is currently in its “Lego era,” with the basic building blocks like actuators, robotic hands, software, and safety standards still being rebuilt. This view runs counter to those who believe that robotics, powered by a general foundation model, is about to have […]",
+   "link": "https://techcrunch.com/video/a-nvidia-insider-turned-vc-on-why-robotics-hasnt-hit-its-chatgpt-moment-yet/",
+   "comments": null,
+   "image": "https://techcrunch.com/wp-content/uploads/2026/06/unitree-robots.jpg?resize=1200,800",
+   "published": "2026-10-16T16:30:00+00:00",
+   "category": "ai",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "f0a5f325be",
+   "source": "Hacker News",
+   "title": "Postgres 19 delayed after AI reviewers find more bugs than humans can fix",
+   "summary": "",
+   "link": "https://www.theregister.com/databases/2026/10/16/postgres-19-delayed-after-ai-reviewers-find-more-bugs-than-humans-can-fix/5303471",
+   "comments": "https://news.ycombinator.com/item?id=50119991",
+   "image": "https://image.theregister.com/228745.jpg?imageId=228745&x=0&y=0&cropw=100&croph=100&panox=0&panoy=0&panow=100&panoh=100&width=1200&height=683",
+   "published": "2026-10-16T15:55:40+00:00",
+   "category": "ai",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "3c203c9854",
+   "source": "Ars Technica",
+   "title": "Meta may use sweeping new commercial TOS to avoid millions in AI licensing fees",
+   "summary": "Meta “streamlined” its commercial TOS. Legal experts warn it’s an AI power grab.",
+   "link": "https://arstechnica.com/tech-policy/2026/10/meta-may-use-sweeping-new-commercial-tos-to-avoid-millions-in-ai-licensing-fees/",
+   "comments": null,
+   "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/GettyImages-2296621320-1024x648.jpg",
+   "published": "2026-10-16T15:41:00+00:00",
+   "category": "ai",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "e874f1181e",
+   "source": "The Verge",
+   "title": "Meta’s new terms may allow it to train AI on news sites for free",
+   "summary": "Meta's new terms appear to give it permission to crawl and scrape websites \"associated\" with the businesses that use its platforms - including online publishers, according to a report from Nieman Lab. The new terms, which go into effect on October 30th, say Meta can use this outside content to \"develop, improve, research,\" and \"train\" […]",
+   "link": "https://www.theverge.com/tech/1012846/meta-business-terms-scrape-news-publishers",
+   "comments": null,
+   "image": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/25546023/STK043_META_CVIRGINIA_A.jpg?quality=90&strip=all&crop=0,0,100,100",
+   "published": "2026-10-16T14:02:40+00:00",
+   "category": "ai",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "35008e897b",
+   "source": "Wired",
+   "title": "Microsoft Surface Laptop Ultra Review: The First Real AI PC",
+   "summary": "The Surface Laptop Ultra is a true MacBook Pro competitor for Windows, and Microsoft has never been so close to dethroning Apple—if only it weren't for the lack of battery life.",
+   "link": "https://www.wired.com/review/microsoft-surface-laptop-ultra/",
+   "comments": null,
+   "image": "https://media.wired.com/photos/6ad13db2947d3d6c92ec6bb7/master/pass/Review%20Surface%20Laptop%20Ultra%20102026%20top%20art%20SOURCE%20BH%20Photo.jpg",
+   "published": "2026-10-16T13:00:00+00:00",
+   "category": "ai",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "f82f1b983a",
+   "source": "Engadget",
+   "title": "An OpenAI research agent 'stole' test Ethereum to finish a coding task",
+   "summary": "An OpenAI research model hit a nebulous milestone today by pilfering test Ethereum tokens.",
+   "link": "https://www.engadget.com/2288645/an-openai-test-agent-stole-test-ethereum-to-finish-a-coding-task/",
+   "comments": null,
+   "image": "https://www.engadget.com/img/gallery/an-openai-research-agent-stole-test-ethereum-to-finish-a-coding-task/l-intro-1792154835.jpg",
+   "published": "2026-10-16T12:50:24+00:00",
+   "category": "ai",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "ba4e7337ab",
+   "source": "Hugging Face",
+   "title": "Scaling Indic Pretraining: 2.8 Trillion Tokens and an Open Data Generation Pipeline",
+   "summary": "",
+   "link": "https://huggingface.co/blog/nvidia/scaling-indic-pretraining",
+   "comments": null,
+   "image": "https://cdn-uploads.huggingface.co/production/uploads/68d2fec8856b85d927e44d32/x0aObe_0mduBjWFuKBGoV.png",
+   "published": "2026-10-16T01:44:47+00:00",
+   "category": "ai",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "a72d1e4da6",
+   "source": "OpenAI",
+   "title": "Bringing GPT-Rosalind to academic research labs",
+   "summary": "Introducing the Rosalind Academic Plan, offering eligible academic labs sponsored access to GPT-Rosalind and tools to advance life sciences research.",
+   "link": "https://openai.com/index/introducing-the-rosalind-academic-plan",
+   "comments": null,
+   "image": null,
+   "published": "2026-10-15T19:00:00+00:00",
+   "category": "ai",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "1d4cff712a",
+   "source": "Google DeepMind",
+   "title": "Accelerating the search for antimicrobial peptides with Google Antigravity",
+   "summary": "Accelerating the search for novel antimicrobial peptides using Google Antigravity for Science.",
+   "link": "https://deepmind.google/blog/accelerating-antimicrobial-discovery/",
+   "comments": null,
+   "image": "https://lh3.googleusercontent.com/Xgnc_DxAUS2Fs9H2rokxsYwPnnM_KOkPyPtKm7V2C_sjZ7YS4N1-D6lD8wjYIRQoKaiSwHUXB7qmw77m6FCfHLZenWdNymO7B_JLChlB6ied6emR=w528-h297-n-nu-rw-lo",
+   "published": "2026-10-15T16:08:03+00:00",
+   "category": "ai",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "12f70f9144",
+   "source": "Ars Technica",
+   "title": "Report: FTC probes Anthropic, OpenAI after Trump dismissed AI fears as “hoax”",
+   "summary": "FTC may fine AI firms on par with companies that delay data breach reports.",
+   "link": "https://arstechnica.com/tech-policy/2026/10/ftc-probes-if-openai-anthropic-security-incidents-harmed-americans-report-says/",
+   "comments": null,
+   "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/GettyImages-2277824748-1024x648.jpg",
+   "published": "2026-10-15T15:43:24+00:00",
+   "category": "ai",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "690f01a5f5",
+   "source": "Gematsu",
+   "title": "The Wolf Among Us Remastered for Switch delayed to unannounced date",
+   "summary": "Telltale Games has delayed the Switch version of The Wolf Among Us Remastered from its …",
+   "link": "https://www.gematsu.com/2026/10/the-wolf-among-us-remastered-for-switch-delayed-to-unannounced-date",
+   "comments": null,
+   "image": "https://www.gematsu.com/wp-content/uploads/2026/10/TWAU-Remastered-Delay-Switch_10-16-26.jpg",
+   "published": "2026-10-16T18:36:20+00:00",
+   "category": "game",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "38296a99fb",
+   "source": "Kotaku",
+   "title": "Anime Gambling Horror Game Ditches Free Steam Demo Over Fears Of Getting Ripped Off By AI",
+   "summary": "Drunken Goddess Reflux will have a closed beta instead",
+   "link": "https://kotaku.com/anime-gambling-horror-game-ditches-free-steam-demo-over-fears-of-getting-ripped-off-by-ai-2000746794",
+   "comments": null,
+   "image": "https://kotaku.com/app/uploads/2026/10/something-fun-1280x720.jpg",
+   "published": "2026-10-16T18:30:00+00:00",
+   "category": "game",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "d4360c5c3f",
+   "source": "GameSpot",
+   "title": "Shrek 2 Remaster Leaks, Looks Amazing And I Need It Now",
+   "summary": "A remaster of 2004's Shrek 2: The Game is on the way, according to an Xbox.com listing that seems to have been published too soon. The page for the unannounced game--which has since been removed--says the remaster will feature better textures, enhanced UI, and 4K resolution. Like the original PS2, Xbox, and GameCube game, the remaster lets you play solo or in co-op with up to three friends, locally or online. The playable characters include Shre…",
+   "link": "https://www.gamespot.com/articles/shrek-2-remaster-leaks-looks-amazing-and-i-need-it-now/",
+   "comments": null,
+   "image": "https://www.gamespot.com/wp-content/uploads/2026/10/shrek2.jpg?w=1200",
+   "published": "2026-10-16T18:21:13+00:00",
+   "category": "game",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "6e492e4210",
+   "source": "Polygon",
+   "title": "GTA 6 Recaptures What Made GTA’s Best DLC So Great",
+   "summary": "Vice City's lavish clubs, high-speed getaways, and over-the-top heists recall GTA's most extravagant era.",
+   "link": "https://www.polygon.com/gta-6-ballad-of-gay-tony/",
+   "comments": null,
+   "image": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/09/lucia_caminos_10.jpg",
+   "published": "2026-10-16T18:00:18+00:00",
+   "category": "game",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "897a4ca6fd",
+   "source": "Rock Paper Shotgun",
+   "title": "Nonolith traps you in a living maze and challenges you to find hidden terrain magic using good old copy-paste",
+   "summary": "After enjoying Echo Weaver last week, I'm in the market for games that gaze with utmost scorn upon the concept of unlockable abilities, smugly declaring that everything you need to complete them is available to you from the word go. Read more",
+   "link": "https://www.rockpapershotgun.com/nonolith-traps-you-in-a-living-maze-and-challenges-you-to-find-hidden-terrain-magic-using-good-old-copy-paste",
+   "comments": null,
+   "image": "https://assetsio.gnwcdn.com/nonolith.jpg?width=690&quality=85&format=jpg&auto=webp",
+   "published": "2026-10-16T17:44:15+00:00",
+   "category": "game",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "04d3e8e552",
+   "source": "Eurogamer",
+   "title": "Analogue is reviving its Mega SG and Super Nt consoles, and they'll play all your old Sega and Nintendo cartridges with some modern enhancements",
+   "summary": "Analogue - creator of various fancy retro-focused game consoles - has detailed its newly announced Mega Sg+ and Super Nt+: revised editions of its earlier Mega Sg and Super Nt machines, capable of playing original Sega and Nintendo cartridges with modern advancements. Read more",
+   "link": "https://www.eurogamer.net/analogue-mega-sg-super-nt-plus-revealed",
+   "comments": null,
+   "image": "https://assetsio.gnwcdn.com/analogue-new-consoles-header.jpg?width=690&quality=85&format=jpg&auto=webp",
+   "published": "2026-10-16T17:11:28+00:00",
+   "category": "game",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "90a6ee09c7",
+   "source": "PC Gamer",
+   "title": "My career as a weed farmer was derailed by my unslakeable lust for golf",
+   "summary": "Same old story.",
+   "link": "https://www.pcgamer.com/games/grand-theft-auto/my-career-as-a-weed-farmer-was-derailed-by-my-unslakeable-lust-for-golf/",
+   "comments": null,
+   "image": "https://cdn.mos.cms.futurecdn.net/diX8JrbQusyGiBcCAEMm7n-1920-80.jpg",
+   "published": "2026-10-16T17:06:21+00:00",
+   "category": "game",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "ba06bf6588",
+   "source": "IGN",
+   "title": "Get a Switch 2-Ready 512GB MicroSD Express Card for $85",
+   "summary": "This microSD Express card deal lets you expand your Switch 2 storage for as cheap as you'll find in 2026.",
+   "link": "https://www.ign.com/articles/switch-2-ready-512gb-onn-microsd-express-card-on-sale",
+   "comments": null,
+   "image": "https://assets-prd.ignimgs.com/2026/10/16/copy-of-untitled-1792167706969.png",
+   "published": "2026-10-16T16:30:34+00:00",
+   "category": "game",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "32f36225ab",
+   "source": "Wired",
+   "title": "Razer Barracuda V2 Pro Review: A Gaming Headset for the Office",
+   "summary": "The Razer Barracuda V2 Pro headset has a place in the office as well as at your gaming battle station.",
+   "link": "https://www.wired.com/review/razer-barracuda-v2-pro/",
+   "comments": null,
+   "image": "https://media.wired.com/photos/6ad23b95526f09405ee8956f/master/pass/Razer%20Barracuda%20V2%20Pro%20Review%20102026%20top%20art%20SOURCE%20Amazon.jpg",
+   "published": "2026-10-16T16:30:00+00:00",
+   "category": "game",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "166c402455",
+   "source": "Hacker News",
+   "title": "US Rep Announces Congressional Legislation to Protect Video Game Ownership",
+   "summary": "",
+   "link": "https://ritchietorres.house.gov/posts/rep-torres-announces-power-to-the-players-act-legislation-to-ensure-gamers-own-their-games",
+   "comments": "https://news.ycombinator.com/item?id=50120101",
+   "image": "https://d12t4t5x3vyizu.cloudfront.net/ritchietorres.house.gov/uploads/2026/10/image-3-scaled.png",
+   "published": "2026-10-16T16:03:02+00:00",
+   "category": "game",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "60a4b57efb",
+   "source": "Engadget",
+   "title": "Steam Achievement Sets will stop DLCs from ruining your 100 percent record",
+   "summary": "Steam has launched Achievement Sets in beta.",
+   "link": "https://www.engadget.com/2288624/steam-achievement-sets-protect-100-percent-record-from-dlcs/",
+   "comments": null,
+   "image": "https://www.engadget.com/img/gallery/steam-achievement-sets-will-stop-dlcs-from-ruining-your-100-percent-record/l-intro-1792151622.jpg",
+   "published": "2026-10-16T11:54:54+00:00",
+   "category": "game",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "01d30e83a5",
+   "source": "The Verge",
+   "title": "Steam can now show game achievements in separate ‘sets’",
+   "summary": "Valve is introducing a major new feature for Steam achievements called \"achievement sets\" that lets developers list different groups of achievements for a base game and DLCs. \"In games that support sets, you still unlock achievements by playing the game as usual,\" Valve says. \"But when you browse what you have unlocked afterward, Steam will […]",
+   "link": "https://www.theverge.com/games/1012541/valve-steam-achievement-sets",
+   "comments": null,
+   "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/09/STK138_Stream_Kradtke_01.jpg?quality=90&strip=all&crop=0,0,100,100",
+   "published": "2026-10-15T23:18:28+00:00",
+   "category": "game",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "2eaf13ba67",
+   "source": "The Verge",
+   "title": "Why Apple is finally making its own smart home devices",
+   "summary": "For more than a decade, Apple has told other companies to build smart home devices for its platform. This week, Apple launched its own. The Apple Home Collection is a lineup of cameras, thermostats, sensors, a smart door lock, and a video doorbell, all codeveloped with LG Electronics and Schneider Electric. They arrive alongside HomeView, […]",
+   "link": "https://www.theverge.com/tech/1013025/apple-home-collection-products-lg-schneider-smart-home",
+   "comments": null,
+   "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/IMG_0432-1.jpeg?quality=90&strip=all&crop=0,0,100,100",
+   "published": "2026-10-16T18:30:27+00:00",
+   "category": "tech",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "548dc11e3f",
+   "source": "Wired",
+   "title": "Chicago-Area Cops Helped HSI Spy on Minnesota Anti-ICE Activists",
+   "summary": "Despite Illinois’ sanctuary laws, local police in and around Chicago helped ICE investigative agents track activists engaged in First Amendment–protected activities.",
+   "link": "https://www.wired.com/story/chicago-area-cops-helped-hsi-spy-on-minnesota-anti-ice-activists/",
+   "comments": null,
+   "image": "https://media.wired.com/photos/6acf9d6f3ad68bc4076ddf49/master/pass/GettyImages-2296548226.jpg",
+   "published": "2026-10-16T18:21:54+00:00",
+   "category": "tech",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "87567ef2f8",
+   "source": "Engadget",
+   "title": "Analogue returns to the 16-bit era with the Mega Sg+ and Super Nt+",
+   "summary": "Dust off your old Sega Genesis and Super Nintendo cartridges.",
+   "link": "https://www.engadget.com/2288966/analogue-returns-to-the-16-bit-era-with-the-mega-sg-and-super-nt/",
+   "comments": null,
+   "image": "https://www.engadget.com/img/gallery/analogue-returns-to-the-16-bit-era-with-the-mega-sg-and-super-nt/l-intro-1792170102.jpg",
+   "published": "2026-10-16T17:03:29+00:00",
+   "category": "tech",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "811cbccb4b",
+   "source": "Engadget",
+   "title": "If memory shortages last, tech companies should offer cheap battery replacements",
+   "summary": "If a company like Apple could offer $29 batteries before, it can do so again.",
+   "link": "https://www.engadget.com/2288908/if-memory-shortages-last-tech-companies-should-offer-cheap-battery-replacements/",
+   "comments": null,
+   "image": "https://www.engadget.com/img/gallery/if-memory-shortages-last-tech-companies-should-offer-cheap-battery-replacements/l-intro-1792168203.jpg",
+   "published": "2026-10-16T16:32:00+00:00",
+   "category": "tech",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "5798060031",
+   "source": "Wired",
+   "title": "Here’s Exactly How Tesla Made Its New 230-Mph Car ‘Fly’",
+   "summary": "It turns out the Roadster 2 both sucks and blows.",
+   "link": "https://www.wired.com/story/how-tesla-made-its-new-230-mph-car-fly/",
+   "comments": null,
+   "image": "https://media.wired.com/photos/6ad23cf9596e9f773d31db35/master/pass/Roadster_94.jpg",
+   "published": "2026-10-16T16:30:12+00:00",
+   "category": "tech",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "6bb605f3ee",
+   "source": "TechCrunch",
+   "title": "Waymo’s robotaxis are headed to Canada",
+   "summary": "The company will start off by testing its self-driving vehicles on Toronto's streets.",
+   "link": "https://techcrunch.com/2026/10/16/waymos-robotaxis-are-headed-to-canada/",
+   "comments": null,
+   "image": "https://techcrunch.com/wp-content/uploads/2026/08/waymo-ojai.jpg?resize=1200,675",
+   "published": "2026-10-16T16:06:38+00:00",
+   "category": "tech",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "1b81886e29",
+   "source": "TechCrunch",
+   "title": "Tressfecta wants to make hair braiding a less arduous task for hairstylists",
+   "summary": "Tressfecta builds products for textured hair. Its first project is a tool called Plait Pilot that helps braiders with the initial process of separating hair from packs before braiding begins.",
+   "link": "https://techcrunch.com/2026/10/16/tressfecta-wants-to-make-hair-braiding-a-less-arduous-task-for-hairstylists/",
+   "comments": null,
+   "image": "https://techcrunch.com/wp-content/uploads/2026/09/GettyImages-2066870225.jpg?resize=1200,800",
+   "published": "2026-10-16T16:00:00+00:00",
+   "category": "tech",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "ecb15f18a6",
+   "source": "The Verge",
+   "title": "Apple’s HomeView has an app problem",
+   "summary": "It's been a couple of days since Apple's big smart home announcement, and we have some more information - and a bunch of new questions - about the Apple HomeView. The device has plenty of computing oomph, is always connected to power, and looks like a perfect place to run a bunch of apps. And […]",
+   "link": "https://www.theverge.com/podcast/1012911/apple-homeview-apps-carplay-vergecast",
+   "comments": null,
+   "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/VRG_VST_101626_YTB.jpg?quality=90&strip=all&crop=0,0,100,100",
+   "published": "2026-10-16T15:38:17+00:00",
+   "category": "tech",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "e083958888",
+   "source": "Hacker News",
+   "title": "Big Fish: Exploiting a 37-Year-Old Kernel Bug in OpenBSD",
+   "summary": "",
+   "link": "https://calif.io/research/big-fish",
+   "comments": "https://news.ycombinator.com/item?id=50118977",
+   "image": "https://calif.io/og/big-fish.jpg",
+   "published": "2026-10-16T14:44:02+00:00",
+   "category": "tech",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "aaf5ed2197",
+   "source": "Ars Technica",
+   "title": "Polymarket saw $600 million in election trades after the elections were over",
+   "summary": "Millions kept changing hands long after the election outcomes were effectively settled.",
+   "link": "https://arstechnica.com/tech-policy/2026/10/polymarket-saw-600-million-in-election-trades-after-the-elections-were-over/",
+   "comments": null,
+   "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/polymarket-1024x648.jpg",
+   "published": "2026-10-16T14:19:22+00:00",
+   "category": "tech",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "f1b22ddabf",
+   "source": "Ars Technica",
+   "title": "Tesla turns to 50-year-old stunt technology as it tries to Roadster again",
+   "summary": "If you want to make a car spin in the air, compressed gas is a good way to do it.",
+   "link": "https://arstechnica.com/cars/2026/10/tesla-turns-to-50-year-old-stunt-technology-as-it-tries-to-roadster-again/",
+   "comments": null,
+   "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/Roadster_87-1152x648.jpg",
+   "published": "2026-10-16T14:03:25+00:00",
+   "category": "tech",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "98e6a11f87",
+   "source": "Hacker News",
+   "title": "Apple ML Research: Muse Spark Open with MLX on Mac Studio",
+   "summary": "",
+   "link": "https://machinelearning.apple.com/research/mlx-distributed-inference",
+   "comments": "https://news.ycombinator.com/item?id=50118320",
+   "image": "https://mlr.cdn-apple.com/media/MLX_icon_F001_TC_2048_2600_6439f2ba0f.png",
+   "published": "2026-10-16T13:43:48+00:00",
+   "category": "tech",
+   "title_fa": "",
+   "summary_fa": ""
+  }
+ ]
+}
