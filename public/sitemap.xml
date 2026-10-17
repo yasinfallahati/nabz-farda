@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-<url><loc>https://nabz-farda.vercel.app/</loc><lastmod>2026-10-16T18:42:40+00:00</lastmod><changefreq>hourly</changefreq><priority>1.0</priority></url>
-<url><loc>https://nabz-farda.vercel.app/news/</loc><lastmod>2026-10-16T18:42:40+00:00</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
-<url><loc>https://nabz-farda.vercel.app/automation/</loc><lastmod>2026-10-16T18:42:40+00:00</lastmod><changefreq>daily</changefreq><priority>0.5</priority></url>
-<url><loc>https://nabz-farda.vercel.app/about/</loc><lastmod>2026-10-16T18:42:40+00:00</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url>
-<url><loc>https://nabz-farda.vercel.app/search/</loc><lastmod>2026-10-16T18:42:40+00:00</lastmod><changefreq>weekly</changefreq><priority>0.4</priority></url>
+<url><loc>https://nabz-farda.vercel.app/</loc><lastmod>2026-10-17T18:43:32+00:00</lastmod><changefreq>hourly</changefreq><priority>1.0</priority></url>
+<url><loc>https://nabz-farda.vercel.app/news/</loc><lastmod>2026-10-17T18:43:32+00:00</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
+<url><loc>https://nabz-farda.vercel.app/automation/</loc><lastmod>2026-10-17T18:43:32+00:00</lastmod><changefreq>daily</changefreq><priority>0.5</priority></url>
+<url><loc>https://nabz-farda.vercel.app/about/</loc><lastmod>2026-10-17T18:43:32+00:00</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url>
+<url><loc>https://nabz-farda.vercel.app/search/</loc><lastmod>2026-10-17T18:43:32+00:00</lastmod><changefreq>weekly</changefreq><priority>0.4</priority></url>
+<url><loc>https://nabz-farda.vercel.app/news/2026-10-17/</loc><lastmod>2026-10-17T18:43:32+00:00</lastmod><changefreq>daily</changefreq><priority>0.5</priority></url>
 <url><loc>https://nabz-farda.vercel.app/news/2026-10-16/</loc><lastmod>2026-10-16T18:42:40+00:00</lastmod><changefreq>daily</changefreq><priority>0.5</priority></url>
 <url><loc>https://nabz-farda.vercel.app/news/2026-10-15/</loc><lastmod>2026-10-15T18:43:23+00:00</lastmod><changefreq>daily</changefreq><priority>0.5</priority></url>
 <url><loc>https://nabz-farda.vercel.app/news/2026-10-14/</loc><lastmod>2026-10-14T18:38:08+00:00</lastmod><changefreq>daily</changefreq><priority>0.5</priority></url>
@@ -19,6 +20,28 @@
 <url><loc>https://nabz-farda.vercel.app/news/2026-10-03/</loc><lastmod>2026-10-03T22:56:03+00:00</lastmod><changefreq>daily</changefreq><priority>0.5</priority></url>
 <url><loc>https://nabz-farda.vercel.app/news/2026-10-02/</loc><lastmod>2026-10-03T22:49:21+00:00</lastmod><changefreq>daily</changefreq><priority>0.5</priority></url>
 <url><loc>https://nabz-farda.vercel.app/news/2026-10-01/</loc><lastmod>2026-10-03T22:49:20+00:00</lastmod><changefreq>daily</changefreq><priority>0.5</priority></url>
+<url><loc>https://nabz-farda.vercel.app/news/2026-10-17/40553235c5</loc><lastmod>2026-10-17T18:28:40+00:00</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+<url><loc>https://nabz-farda.vercel.app/news/2026-10-17/13e0066b18</loc><lastmod>2026-10-17T18:12:35+00:00</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+<url><loc>https://nabz-farda.vercel.app/news/2026-10-17/3417060c63</loc><lastmod>2026-10-17T18:00:18+00:00</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+<url><loc>https://nabz-farda.vercel.app/news/2026-10-17/9b3df0f5b0</loc><lastmod>2026-10-17T18:00:00+00:00</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+<url><loc>https://nabz-farda.vercel.app/news/2026-10-17/78f55e8a63</loc><lastmod>2026-10-17T17:29:52+00:00</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+<url><loc>https://nabz-farda.vercel.app/news/2026-10-17/1dd2404a5b</loc><lastmod>2026-10-17T17:04:18+00:00</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+<url><loc>https://nabz-farda.vercel.app/news/2026-10-17/d95021e929</loc><lastmod>2026-10-17T17:00:00+00:00</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+<url><loc>https://nabz-farda.vercel.app/news/2026-10-17/937644b7e4</loc><lastmod>2026-10-17T16:39:44+00:00</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+<url><loc>https://nabz-farda.vercel.app/news/2026-10-17/7c952f7038</loc><lastmod>2026-10-17T16:15:11+00:00</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+<url><loc>https://nabz-farda.vercel.app/news/2026-10-17/fa79682430</loc><lastmod>2026-10-17T16:04:23+00:00</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+<url><loc>https://nabz-farda.vercel.app/news/2026-10-17/a781a3b225</loc><lastmod>2026-10-17T16:00:00+00:00</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+<url><loc>https://nabz-farda.vercel.app/news/2026-10-17/2f4aed04c6</loc><lastmod>2026-10-17T15:52:41+00:00</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+<url><loc>https://nabz-farda.vercel.app/news/2026-10-17/3e7a8c9174</loc><lastmod>2026-10-17T15:04:36+00:00</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+<url><loc>https://nabz-farda.vercel.app/news/2026-10-17/f155d49d33</loc><lastmod>2026-10-17T13:00:00+00:00</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+<url><loc>https://nabz-farda.vercel.app/news/2026-10-17/7ad2073c79</loc><lastmod>2026-10-17T12:35:56+00:00</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+<url><loc>https://nabz-farda.vercel.app/news/2026-10-17/e53ab92a5b</loc><lastmod>2026-10-17T12:00:00+00:00</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+<url><loc>https://nabz-farda.vercel.app/news/2026-10-17/dc01b1847c</loc><lastmod>2026-10-17T11:00:21+00:00</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+<url><loc>https://nabz-farda.vercel.app/news/2026-10-17/f8d655888d</loc><lastmod>2026-10-17T09:00:00+00:00</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+<url><loc>https://nabz-farda.vercel.app/news/2026-10-17/9b13d6a721</loc><lastmod>2026-10-17T08:21:25+00:00</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+<url><loc>https://nabz-farda.vercel.app/news/2026-10-17/18f9fd0105</loc><lastmod>2026-10-16T21:22:28+00:00</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+<url><loc>https://nabz-farda.vercel.app/news/2026-10-17/65442e7082</loc><lastmod>2026-10-16T19:00:00+00:00</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+<url><loc>https://nabz-farda.vercel.app/news/2026-10-17/61baa7c2d3</loc><lastmod>2026-10-16T18:00:00+00:00</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
 <url><loc>https://nabz-farda.vercel.app/news/2026-10-16/690f01a5f5</loc><lastmod>2026-10-16T18:36:20+00:00</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
 <url><loc>https://nabz-farda.vercel.app/news/2026-10-16/2eaf13ba67</loc><lastmod>2026-10-16T18:30:27+00:00</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
 <url><loc>https://nabz-farda.vercel.app/news/2026-10-16/38296a99fb</loc><lastmod>2026-10-16T18:30:00+00:00</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>

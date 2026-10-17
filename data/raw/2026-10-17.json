@@ -1,0 +1,637 @@
+{
+ "date": "2026-10-17",
+ "fetched_at": "2026-10-17T18:38:47.501292+00:00",
+ "counts": {
+  "ai": 12,
+  "game": 12,
+  "tech": 12
+ },
+ "feeds": [
+  {
+   "feed": "https://www.theverge.com/rss/index.xml",
+   "source": "The Verge",
+   "entries": 10,
+   "error": null
+  },
+  {
+   "feed": "https://www.theverge.com/rss/games/index.xml",
+   "source": "The Verge",
+   "entries": 10,
+   "error": null
+  },
+  {
+   "feed": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml",
+   "source": "The Verge",
+   "entries": 10,
+   "error": null
+  },
+  {
+   "feed": "https://techcrunch.com/feed/",
+   "source": "TechCrunch",
+   "entries": 20,
+   "error": null
+  },
+  {
+   "feed": "https://techcrunch.com/category/artificial-intelligence/feed/",
+   "source": "TechCrunch",
+   "entries": 20,
+   "error": null
+  },
+  {
+   "feed": "https://feeds.arstechnica.com/arstechnica/index",
+   "source": "Ars Technica",
+   "entries": 20,
+   "error": null
+  },
+  {
+   "feed": "https://arstechnica.com/gaming/feed/",
+   "source": "Ars Technica",
+   "entries": 20,
+   "error": null
+  },
+  {
+   "feed": "https://www.wired.com/feed/rss",
+   "source": "Wired",
+   "entries": 50,
+   "error": null
+  },
+  {
+   "feed": "https://www.wired.com/feed/tag/ai/latest/rss",
+   "source": "Wired",
+   "entries": 10,
+   "error": null
+  },
+  {
+   "feed": "https://www.engadget.com/rss.xml",
+   "source": "Engadget",
+   "entries": 20,
+   "error": null
+  },
+  {
+   "feed": "https://www.tomshardware.com/feeds/all",
+   "source": "Tom's Hardware",
+   "entries": 0,
+   "error": "HTTPConnectionPool(host='www.tomshardware.com', port=80): Max retries exceeded with url: /feeds.xml (Caused by ConnectTimeoutError(<HTTPConnection(host='www.tomshardware.com', port=80) at 0x7f697ca04910>, 'Connection to www.tomshardware.com timed out. (connect timeout=20)'))"
+  },
+  {
+   "feed": "https://hnrss.org/frontpage?points=100",
+   "source": "Hacker News",
+   "entries": 11,
+   "error": null
+  },
+  {
+   "feed": "https://feeds.feedburner.com/ign/all",
+   "source": "IGN",
+   "entries": 20,
+   "error": null
+  },
+  {
+   "feed": "https://www.gamespot.com/feeds/mashup/",
+   "source": "GameSpot",
+   "entries": 15,
+   "error": null
+  },
+  {
+   "feed": "https://www.polygon.com/rss/index.xml",
+   "source": "Polygon",
+   "entries": 10,
+   "error": null
+  },
+  {
+   "feed": "https://www.eurogamer.net/feed",
+   "source": "Eurogamer",
+   "entries": 100,
+   "error": null
+  },
+  {
+   "feed": "https://www.pcgamer.com/rss/",
+   "source": "PC Gamer",
+   "entries": 50,
+   "error": null
+  },
+  {
+   "feed": "https://kotaku.com/rss",
+   "source": "Kotaku",
+   "entries": 20,
+   "error": null
+  },
+  {
+   "feed": "https://www.rockpapershotgun.com/feed",
+   "source": "Rock Paper Shotgun",
+   "entries": 100,
+   "error": null
+  },
+  {
+   "feed": "https://www.gematsu.com/feed",
+   "source": "Gematsu",
+   "entries": 20,
+   "error": null
+  },
+  {
+   "feed": "https://feeds.feedburner.com/venturebeat/SZYF",
+   "source": "VentureBeat",
+   "entries": 7,
+   "error": null
+  },
+  {
+   "feed": "https://www.technologyreview.com/topic/artificial-intelligence/feed",
+   "source": "MIT Technology Review",
+   "entries": 10,
+   "error": null
+  },
+  {
+   "feed": "https://openai.com/news/rss.xml",
+   "source": "OpenAI",
+   "entries": 1299,
+   "error": null
+  },
+  {
+   "feed": "https://blog.google/technology/ai/rss/",
+   "source": "Google AI",
+   "entries": 20,
+   "error": null
+  },
+  {
+   "feed": "https://deepmind.google/blog/rss.xml",
+   "source": "Google DeepMind",
+   "entries": 100,
+   "error": null
+  },
+  {
+   "feed": "https://huggingface.co/blog/feed.xml",
+   "source": "Hugging Face",
+   "entries": 880,
+   "error": null
+  }
+ ],
+ "items": [
+  {
+   "id": "fa79682430",
+   "source": "Hacker News",
+   "title": "Amazon uses AI to monitor union risk in UK warehouses",
+   "summary": "",
+   "link": "https://www.opendemocracy.net/amazon-ai-surveillance-monitor-union-activity-uk-warehouses-birmingham-coventry-atlas-sutton-coldfield/",
+   "comments": "https://news.ycombinator.com/item?id=50132278",
+   "image": "https://storage.ghost.io/c/3f/80/3f804bea-4b2d-4ddf-9ff0-6ec7d0afa5fa/content/images/size/w1200/2026/10/Amazon-AI-question-openDemocracy-edit.jpg",
+   "published": "2026-10-17T16:04:23+00:00",
+   "category": "ai",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "f155d49d33",
+   "source": "The Verge",
+   "title": "Websites are closing their doors to AI agents",
+   "summary": "Autonomous agents are the hottest thing in AI. OpenAI, Meta, Google, Instinct, and others promise their agents can scour the internet on your behalf, doing anything from booking a dinner reservation and cleaning out your inbox to buying new shoes. But what happens when the rest of the internet won't play nice? In recent weeks, […]",
+   "link": "https://www.theverge.com/ai-artificial-intelligence/1013195/ai-agents-blocked-web",
+   "comments": null,
+   "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/03/STK414_AI_CVIRGINIA_C.jpg?quality=90&strip=all&crop=0,0,100,100",
+   "published": "2026-10-17T13:00:00+00:00",
+   "category": "ai",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "7ad2073c79",
+   "source": "Engadget",
+   "title": "Apple updates App Store rules to ensure it doesn't offer AI nudify apps",
+   "summary": "Apple has tightened the App Store's rules against AI-generated nonconsensual intimate imagery.",
+   "link": "https://www.engadget.com/2289567/apple-updates-app-store-rules-ai-nudify-apps/",
+   "comments": null,
+   "image": "https://www.engadget.com/img/gallery/apple-updates-app-store-rules-to-ensure-it-doesnt-offer-ai-nudify-apps/l-intro-1792240353.jpg",
+   "published": "2026-10-17T12:35:56+00:00",
+   "category": "ai",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "f8d655888d",
+   "source": "Wired",
+   "title": "Why AI Isn’t Ready to Tackle Our Convoluted Genomes",
+   "summary": "The DNA inside our cells isn’t just a series of instructions, but something far more dynamic. Like scientists, AI models don't yet have the data to properly decode it.",
+   "link": "https://www.wired.com/story/why-ai-isnt-ready-to-tackle-our-convoluted-genomes/",
+   "comments": null,
+   "image": "https://media.wired.com/photos/6acf63d6b06331734b2e70d7/master/pass/Physical%20Genome%20cr-Samuel%20Velasco%20and%20Hannah%20Waters_Quanta%20Magazine-Lede.jpg",
+   "published": "2026-10-17T09:00:00+00:00",
+   "category": "ai",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "9b13d6a721",
+   "source": "Hacker News",
+   "title": "DeepSeek-v4.1-Flash-1017",
+   "summary": "https://api-docs.deepseek.com/news/news261017/ https://openrouter.ai/deepseek/deepseek-v4.1-flash-1017",
+   "link": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017",
+   "comments": "https://news.ycombinator.com/item?id=50129045",
+   "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/models/deepseek-ai/DeepSeek-V4.1-Flash-1017.png",
+   "published": "2026-10-17T08:21:25+00:00",
+   "category": "ai",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "18f9fd0105",
+   "source": "TechCrunch",
+   "title": "Replit is no longer working with Anthropic, CEO says",
+   "summary": "Masad said the decision was made for a number of different reasons, including cost. Replit announced a partnership with OpenAI in August, but there was never any indication that it was no longer with Anthropic.",
+   "link": "https://techcrunch.com/2026/10/16/replit-is-no-longer-working-with-anthropic-ceo-says/",
+   "comments": null,
+   "image": "https://techcrunch.com/wp-content/uploads/2026/10/replit-ceo-masad.jpg?resize=1200,800",
+   "published": "2026-10-16T21:22:28+00:00",
+   "category": "ai",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "e86f92efb2",
+   "source": "Ars Technica",
+   "title": "OpenAI models hacked a crypto wallet and breached more websites",
+   "summary": "The actions could have resulted in criminal charges had humans been behind the keyboard.",
+   "link": "https://arstechnica.com/security/2026/10/openai-models-hacked-a-crypto-wallet-and-breached-more-websites/",
+   "comments": null,
+   "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/ai-agents-1152x648.jpg",
+   "published": "2026-10-16T20:59:01+00:00",
+   "category": "ai",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "acafffd394",
+   "source": "Wired",
+   "title": "Katie Zacharia Was Linked to an AI Rare-Earths Startup. It’s Even Weirder Than It Sounds",
+   "summary": "The short-lived White House press secretary was listed as an adviser to a Kristi Noem–linked company that aims to use AI for mining. Both the company and she say she never worked there.",
+   "link": "https://www.wired.com/story/katie-zacharia-was-linked-to-an-ai-rare-earths-startup-its-even-weirder-than-it-sounds/",
+   "comments": null,
+   "image": "https://media.wired.com/photos/6ad24f19ed303ecbe8441980/master/pass/GettyImages-2299989251.jpg",
+   "published": "2026-10-16T20:05:08+00:00",
+   "category": "ai",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "65442e7082",
+   "source": "OpenAI",
+   "title": "How Itaú is building generative AI for its entire customer base",
+   "summary": "With ia.i, a conversational interface, and the IARA governance platform, Itaú is applying its AI First strategy to customers and employees — in one of Brazil’s most regulated sectors.",
+   "link": "https://openai.com/index/itau-generative-ai",
+   "comments": null,
+   "image": null,
+   "published": "2026-10-16T19:00:00+00:00",
+   "category": "ai",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "61baa7c2d3",
+   "source": "MIT Technology Review",
+   "title": "Roundtables: A Conversation With the Creator of AI-Designed Viruses",
+   "summary": "Listen to the session or watch below Can AI design new life forms? In 2025, Stanford University PhD student Samuel King came up with a preliminary answer when he used a generative AI model to propose genetic blueprints for microscopic viruses. It isn’t yet an example of AI-generated life, but that could be next. Watch…",
+   "link": "https://www.technologyreview.com/2026/10/16/1146224/roundtables-a-conversation-with-the-creator-of-ai-designed-viruses/",
+   "comments": null,
+   "image": "https://wp.technologyreview.com/wp-content/uploads/2024/01/MIT-TR-Roundtables_Oct-2-Thumbnail.png?resize=1200,600",
+   "published": "2026-10-16T18:00:00+00:00",
+   "category": "ai",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "c74e5a79a0",
+   "source": "TechCrunch",
+   "title": "India becomes the latest country to report rogue AI agent activity",
+   "summary": "The agents got in through credentials and connection settings left exposed in app configurations, public code repositories, and overly permissive cloud roles.",
+   "link": "https://techcrunch.com/2026/10/16/india-becomes-the-latest-country-to-report-rogue-ai-agent-activity/",
+   "comments": null,
+   "image": "https://techcrunch.com/wp-content/uploads/2026/10/india-cyber-attack.jpg?w=1200",
+   "published": "2026-10-16T17:52:24+00:00",
+   "category": "ai",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "e874f1181e",
+   "source": "The Verge",
+   "title": "Meta’s new terms may allow it to train AI on news sites for free",
+   "summary": "Meta's new terms appear to give it permission to crawl and scrape websites \"associated\" with the businesses that use its platforms - including online publishers, according to a report from Nieman Lab. The new terms, which go into effect on October 30th, say Meta can use this outside content to \"develop, improve, research,\" and \"train\" […]",
+   "link": "https://www.theverge.com/tech/1012846/meta-business-terms-scrape-news-publishers",
+   "comments": null,
+   "image": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/25546023/STK043_META_CVIRGINIA_A.jpg?quality=90&strip=all&crop=0,0,100,100",
+   "published": "2026-10-16T14:02:40+00:00",
+   "category": "ai",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "8d6c573bf5",
+   "source": "PC Gamer",
+   "title": "'I am overwhelmed and overstimulated': The actor behind Star Wars: Galactic Racer’s Biddy Blas is scribbing doon all your enthusiasm",
+   "summary": "Ding dong pookie.",
+   "link": "https://www.pcgamer.com/games/racing/i-am-overwhelmed-and-overstimulated-the-actor-behind-star-wars-galactic-racers-biddy-blas-is-scribbing-doon-all-your-enthusiasm/",
+   "comments": null,
+   "image": "https://cdn.mos.cms.futurecdn.net/dh6TAMjUaWdDijWxXyscPS-1920-80.png",
+   "published": "2026-10-17T18:34:02+00:00",
+   "category": "game",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "40553235c5",
+   "source": "Eurogamer",
+   "title": "Vampire: The Masquerade - Bloodlines remaster rumoured, with leaker insisting it's not a remake",
+   "summary": "A remaster of cult 2004 RPG Vampire: The Masquerade - Bloodlines may be in the works. Read more",
+   "link": "https://www.eurogamer.net/vampire-the-masquerade-bloodlines-remaster-rumour",
+   "comments": null,
+   "image": "https://assetsio.gnwcdn.com/0000001155.1920x1080.jpg?width=690&quality=85&format=jpg&auto=webp",
+   "published": "2026-10-17T18:28:40+00:00",
+   "category": "game",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "3417060c63",
+   "source": "Polygon",
+   "title": "The Zelda: Ocarina of Time Remake Sounds Meaningfully Better Than the Original",
+   "summary": "Previews indicate Nintendo cares as much about the 2026 Switch 2 revival as it does about physical media",
+   "link": "https://www.polygon.com/switchboard-zelda-ocarina-of-time-previews/",
+   "comments": null,
+   "image": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/09/ns2_thelegendofzeldaocarinaoftime_scrn_15.png",
+   "published": "2026-10-17T18:00:18+00:00",
+   "category": "game",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "78f55e8a63",
+   "source": "Kotaku",
+   "title": "Debra Wilson Also Confused On Why Games Keep Using Her Likeness",
+   "summary": "In an interview with Joseph Shepherd, the prolific Wolverine and Wolfenstein voice actor addresses the amusing trend, but says she prefers to play characters that don’t resemble her",
+   "link": "https://kotaku.com/debra-wilson-also-confused-on-why-games-keep-using-her-likeness-2000747061",
+   "comments": null,
+   "image": "https://kotaku.com/app/uploads/2026/10/callistowolverinedebrawilson.jpg",
+   "published": "2026-10-17T17:29:52+00:00",
+   "category": "game",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "1dd2404a5b",
+   "source": "Rock Paper Shotgun",
+   "title": "As too much of the industry embrace their own death through genAI, Konami say it's real people that are most important for making good games",
+   "summary": "I've taken a habit, recently, to proclaim my desire to explode in lieu of anything more realistically violent I could wish upon myself when I feel stressed. And, in what would likely be more concerning if I were a sentient bomb talking to a bomb diffusal squad, I've been saying that a lot lately, primarily because of the copious amounts of AI nonsense I've been seeing… everywhere. Epic Games , the ever-boycottable company called Microsoft , the …",
+   "link": "https://www.rockpapershotgun.com/as-too-much-of-the-industry-embrace-their-own-death-through-genai-konami-say-its-real-people-that-are-most-important-for-making-good-games",
+   "comments": null,
+   "image": "https://assetsio.gnwcdn.com/silent-hill-2-remake-review-6.jpg?width=690&quality=85&format=jpg&auto=webp",
+   "published": "2026-10-17T17:04:18+00:00",
+   "category": "game",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "7c952f7038",
+   "source": "Engadget",
+   "title": "Anbernic's RG DDS is almost double the price of the original Nintendo 3DS",
+   "summary": "The premium handheld is expected to start shipping in December.",
+   "link": "https://www.engadget.com/2289602/anbernics-rg-dds-is-almost-double-the-price-of-the-original-nintendo-3ds/",
+   "comments": null,
+   "image": "https://www.engadget.com/img/gallery/anbernics-rg-dds-is-almost-double-the-price-of-the-original-nintendo-3ds/l-intro-1792253250.jpg",
+   "published": "2026-10-17T16:15:11+00:00",
+   "category": "game",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "a781a3b225",
+   "source": "GameSpot",
+   "title": "No Publisher Wanted Outlast. 60 Million Players Later, The Horror Juggernaut Is Doing Just Fine.",
+   "summary": "Let's play Family Feud. Poll 100 people on the scariest game they've ever played. What's on the board? Surely a Silent Hill, and a Resident Evil, too. Alien Isolation seems likely. One of the Fatal Frames has a good shot. Those who know ball may call out a deeper cut like Siren, Sylvio, or Visage. One name I'm certain makes it on the board--to the tune of my family cheering me on with \"Good answer! Good answer!\"--is Outlast . The horror game fro…",
+   "link": "https://www.gamespot.com/articles/no-publisher-wanted-outlast-60-million-players-later-the-horror-juggernaut-is-doing-just-fine/",
+   "comments": null,
+   "image": "https://www.gamespot.com/wp-content/uploads/2026/10/9vm06c8nntx91.jpg?w=1200",
+   "published": "2026-10-17T16:00:00+00:00",
+   "category": "game",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "2f4aed04c6",
+   "source": "IGN",
+   "title": "Captain Price Actor Sends Message to Fans as Call of Duty: Modern Warfare 4 Campaign Praise Rolls in",
+   "summary": "Barry Sloane, the actor behind Call of Duty's Captain Price, has shared a message with fans as praise for Modern Warfare 4's campaign rolls in.",
+   "link": "https://www.ign.com/articles/captain-price-actor-sends-message-to-fans-as-call-of-duty-modern-warfare-4-campaign-praise-rolls-in",
+   "comments": null,
+   "image": "https://assets-prd.ignimgs.com/2026/10/16/ss-6b8f4040a1e923f036e04d9eb21ecb0f866be57e-1920x1080-1792164596496.jpg",
+   "published": "2026-10-17T15:52:41+00:00",
+   "category": "game",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "85305c9862",
+   "source": "The Verge",
+   "title": "Pikmin 4 is $20 off ahead of its $10 Nintendo Switch 2 update",
+   "summary": "If you’re wondering what video game to play this weekend, my colleague Sheena Vasani spotted a discounted Nintendo Switch title with instant digital delivery. Walmart has the digital version of Pikmin 4 for Switch discounted to $39.88, just over $20 lower than its usual price. This version of the game follows the same puzzle formula […]",
+   "link": "https://www.theverge.com/gadgets/1013105/pikmin-4-nintendo-switch-deal-sale",
+   "comments": null,
+   "image": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/24018761/Nintendo_Direct_9.13.2022_60_17_screenshot.png?quality=90&strip=all&crop=0,0,100,100",
+   "published": "2026-10-17T15:00:00+00:00",
+   "category": "game",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "2929bbdc29",
+   "source": "Ars Technica",
+   "title": "US Rep proposes bill to give video game buyers \"ownership,\" not \"a license\"",
+   "summary": "There are still significant hurdles ahead, both technical and legislative.",
+   "link": "https://arstechnica.com/gaming/2026/10/us-rep-proposes-bill-to-give-video-game-buyers-ownership-not-a-license/",
+   "comments": null,
+   "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/Torres-headshot-1152x648.jpg",
+   "published": "2026-10-16T19:41:18+00:00",
+   "category": "game",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "690f01a5f5",
+   "source": "Gematsu",
+   "title": "The Wolf Among Us Remastered for Switch delayed to unannounced date",
+   "summary": "Telltale Games has delayed the Switch version of The Wolf Among Us Remastered from its …",
+   "link": "https://www.gematsu.com/2026/10/the-wolf-among-us-remastered-for-switch-delayed-to-unannounced-date",
+   "comments": null,
+   "image": "https://www.gematsu.com/wp-content/uploads/2026/10/TWAU-Remastered-Delay-Switch_10-16-26.jpg",
+   "published": "2026-10-16T18:36:20+00:00",
+   "category": "game",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "32f36225ab",
+   "source": "Wired",
+   "title": "Razer Barracuda V2 Pro Review: A Gaming Headset for the Office",
+   "summary": "The Razer Barracuda V2 Pro headset has a place in the office as well as at your gaming battle station.",
+   "link": "https://www.wired.com/review/razer-barracuda-v2-pro/",
+   "comments": null,
+   "image": "https://media.wired.com/photos/6ad23b95526f09405ee8956f/master/pass/Razer%20Barracuda%20V2%20Pro%20Review%20102026%20top%20art%20SOURCE%20Amazon.jpg",
+   "published": "2026-10-16T16:30:00+00:00",
+   "category": "game",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "13e0066b18",
+   "source": "Engadget",
+   "title": "iPhone Duo shipping estimates have already been pushed back to 2027",
+   "summary": "Apple called the early demand \"nothing short of extraordinary.\"",
+   "link": "https://www.engadget.com/2289629/iphone-duo-shipping-estimates-have-already-been-pushed-back-to-2027/",
+   "comments": null,
+   "image": "https://www.engadget.com/img/gallery/iphone-duo-shipping-estimates-have-already-been-pushed-back-to-2027/l-intro-1792260615.jpg",
+   "published": "2026-10-17T18:12:35+00:00",
+   "category": "tech",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "9b3df0f5b0",
+   "source": "Engadget",
+   "title": "You might be surprised by how much the Slate truck can carry",
+   "summary": "Don't underestimate this compact pickup.",
+   "link": "https://www.engadget.com/2289615/slate-truck-how-much-can-carry/",
+   "comments": null,
+   "image": "https://www.engadget.com/img/gallery/you-might-be-surprised-by-how-much-the-slate-truck-can-carry/l-intro-1792256579.jpg",
+   "published": "2026-10-17T18:00:00+00:00",
+   "category": "tech",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "d95021e929",
+   "source": "The Verge",
+   "title": "Mercedes-AMG’s first ground-up SUV is a 1,150hp electric beast",
+   "summary": "Earlier this year, Mercedes' AMG performance brand grabbed our attention with the GT four-door coupe, a souped-up sports sedan with three axial flux motors delivering over 1,150 horsepower. Well, now meet its beefier cousin, the 2028 Mercedes-AMG GT SUV, an equally powerful, ultra-fast-charging electric people-hauler. The AMG GT SUV (say that five times fast) marks […]",
+   "link": "https://www.theverge.com/transportation/1013088/mercedes-amg-gt-suv-price-specs-performance",
+   "comments": null,
+   "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/26C0332_071.jpg?quality=90&strip=all&crop=0,0,100,100",
+   "published": "2026-10-17T17:00:00+00:00",
+   "category": "tech",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "937644b7e4",
+   "source": "The Verge",
+   "title": "Elon Musk settles lawsuits over $1 million voter giveaway",
+   "summary": "In 2024, Elon Musk promised to give away $1 million a day to a randomly selected registered voter in a swing state. That prompted legal challenges, raised questions about its legality, and drew lawsuits from two Arizona residents claiming the lottery was a fraud. Musk has now agreed to settle the two lawsuits filed in […]",
+   "link": "https://www.theverge.com/tech/1013431/elon-musk-settles-lawsuits-over-1-million-voter-giveaway",
+   "comments": null,
+   "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/06/STKE012_SPACEX_IPO_2026_A.jpg?quality=90&strip=all&crop=0,0,100,100",
+   "published": "2026-10-17T16:39:44+00:00",
+   "category": "tech",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "5eafe9a799",
+   "source": "Engadget",
+   "title": "What does the yellow light on your Alexa device mean and how do you clear it?",
+   "summary": "Don't panic if your Amazon Echo is flashing a yellow light. Here's what that color means, how to clear it and how to tweak your Alexa notification settings.",
+   "link": "https://www.engadget.com/2284036/amazon-alexa-device-yellow-light-meaning/",
+   "comments": null,
+   "image": "https://www.engadget.com/img/gallery/what-does-the-yellow-light-on-your-alexa-device-mean-and-how-do-you-clear-it/l-intro-1791547994.jpg",
+   "published": "2026-10-17T16:30:00+00:00",
+   "category": "tech",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "8fbb397072",
+   "source": "TechCrunch",
+   "title": "Ember’s new temperature-controlled mug makes my nightly tea ritual even better",
+   "summary": "The biggest change about Ember's new mug is that you no longer have to open the app to adjust your drink’s temperature.",
+   "link": "https://techcrunch.com/2026/10/17/embers-new-temperature-controlled-mug-makes-my-nightly-tea-ritual-even-better/",
+   "comments": null,
+   "image": "https://techcrunch.com/wp-content/uploads/2026/10/Ember_Table-with-Phone-Dark-Black-10oz_030326.png?w=1200",
+   "published": "2026-10-17T15:30:00+00:00",
+   "category": "tech",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "3e7a8c9174",
+   "source": "The Verge",
+   "title": "Meta removes language that may have allowed it to scrape news sites",
+   "summary": "After backlash, Meta is updating its terms again to remove language that suggested it could scrape content from sites, including news sites, to train its AI. Specifically, the following language no longer appears on the commercial terms page: … Meta may use any content from such domains, web pages, or URLs to provide, develop, improve, […]",
+   "link": "https://www.theverge.com/tech/1013409/meta-removes-language-that-may-have-allowed-it-to-scrape-news-sites",
+   "comments": null,
+   "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/02/STK043_VRG_Illo_N_Barclay_2_Meta.jpg?quality=90&strip=all&crop=0,0,100,100",
+   "published": "2026-10-17T15:04:36+00:00",
+   "category": "tech",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "e53ab92a5b",
+   "source": "Wired",
+   "title": "Encryption Is Getting Squeezed From All Sides",
+   "summary": "Canada’s planned surveillance law is the latest grim step in a series of threats to encryption that are spreading around the world.",
+   "link": "https://www.wired.com/story/kernel-panic-encryption-is-getting-squeezed-from-all-sides/",
+   "comments": null,
+   "image": "https://media.wired.com/photos/6ad14bcb1efa7811b4f5a5a5/master/pass/Kernel-Panic-Encription-Being-Squeezed-to-Death-Security.jpg",
+   "published": "2026-10-17T12:00:00+00:00",
+   "category": "tech",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "f014802fdb",
+   "source": "Wired",
+   "title": "The Best LED Grow Lights for Houseplants This Winter (2026)",
+   "summary": "Shorter days don’t have to spell trouble for your houseplants. These are the lights we’ve used and loved in our own homes.",
+   "link": "https://www.wired.com/story/best-led-grow-lights/",
+   "comments": null,
+   "image": "https://media.wired.com/photos/6ad289e71199c1e96d7dcb14/master/pass/The%20Best%20LED%20Grow%20Lights%20to%20Keep%20Your%20Plants%20Thriving%20All%20Winter%20102026%20top%20art%20SOURCE%20Amazon.jpg",
+   "published": "2026-10-17T11:30:00+00:00",
+   "category": "tech",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "a73522a3fe",
+   "source": "Ars Technica",
+   "title": "Science says your boss should talk less in meetings",
+   "summary": "Research suggests listening more while talking less. Killing aimless meetings can help, too.",
+   "link": "https://arstechnica.com/science/2026/10/science-says-your-boss-should-talk-less-in-meetings/",
+   "comments": null,
+   "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/meetingboredom-1152x648.jpg",
+   "published": "2026-10-17T11:15:11+00:00",
+   "category": "tech",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "dc01b1847c",
+   "source": "Ars Technica",
+   "title": "Why BioWare's Neverwinter Nights still has thousands of active players",
+   "summary": "The single-player is just OK, but according to the players, that doesn't matter.",
+   "link": "https://arstechnica.com/gaming/2026/10/why-biowares-neverwinter-nights-still-has-thousands-of-active-players/",
+   "comments": null,
+   "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/NWN-header-1152x648.jpg",
+   "published": "2026-10-17T11:00:21+00:00",
+   "category": "tech",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "ee6f53a9b3",
+   "source": "TechCrunch",
+   "title": "Mark Wahlberg wants to take on the longevity-startup crowd with an affordable gym concept",
+   "summary": "Mark Wahlberg, who once sank money into a gym chain that got kicked off the NYSE, is now building his own, and he promises you’ll get a cold plunge, a blood panel and a protein muffin without needing a trust fund.",
+   "link": "https://techcrunch.com/2026/10/16/mark-wahlberg-wants-to-take-on-the-longevity-startup-crowd-with-an-affordable-gym-concept/",
+   "comments": null,
+   "image": "https://techcrunch.com/wp-content/uploads/2026/10/Mark-Wahlberg.jpg?w=1024",
+   "published": "2026-10-17T02:36:18+00:00",
+   "category": "tech",
+   "title_fa": "",
+   "summary_fa": ""
+  }
+ ]
+}
