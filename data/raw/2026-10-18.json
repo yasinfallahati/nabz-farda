@@ -1,0 +1,637 @@
+{
+ "date": "2026-10-18",
+ "fetched_at": "2026-10-18T18:38:02.734755+00:00",
+ "counts": {
+  "ai": 12,
+  "game": 12,
+  "tech": 12
+ },
+ "feeds": [
+  {
+   "feed": "https://www.theverge.com/rss/index.xml",
+   "source": "The Verge",
+   "entries": 10,
+   "error": null
+  },
+  {
+   "feed": "https://www.theverge.com/rss/games/index.xml",
+   "source": "The Verge",
+   "entries": 10,
+   "error": null
+  },
+  {
+   "feed": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml",
+   "source": "The Verge",
+   "entries": 10,
+   "error": null
+  },
+  {
+   "feed": "https://techcrunch.com/feed/",
+   "source": "TechCrunch",
+   "entries": 20,
+   "error": null
+  },
+  {
+   "feed": "https://techcrunch.com/category/artificial-intelligence/feed/",
+   "source": "TechCrunch",
+   "entries": 20,
+   "error": null
+  },
+  {
+   "feed": "https://feeds.arstechnica.com/arstechnica/index",
+   "source": "Ars Technica",
+   "entries": 20,
+   "error": null
+  },
+  {
+   "feed": "https://arstechnica.com/gaming/feed/",
+   "source": "Ars Technica",
+   "entries": 20,
+   "error": null
+  },
+  {
+   "feed": "https://www.wired.com/feed/rss",
+   "source": "Wired",
+   "entries": 50,
+   "error": null
+  },
+  {
+   "feed": "https://www.wired.com/feed/tag/ai/latest/rss",
+   "source": "Wired",
+   "entries": 10,
+   "error": null
+  },
+  {
+   "feed": "https://www.engadget.com/rss.xml",
+   "source": "Engadget",
+   "entries": 20,
+   "error": null
+  },
+  {
+   "feed": "https://www.tomshardware.com/feeds/all",
+   "source": "Tom's Hardware",
+   "entries": 0,
+   "error": "HTTPConnectionPool(host='www.tomshardware.com', port=80): Max retries exceeded with url: /feeds.xml (Caused by ConnectTimeoutError(<HTTPConnection(host='www.tomshardware.com', port=80) at 0x7fdec0d4a210>, 'Connection to www.tomshardware.com timed out. (connect timeout=20)'))"
+  },
+  {
+   "feed": "https://hnrss.org/frontpage?points=100",
+   "source": "Hacker News",
+   "entries": 14,
+   "error": null
+  },
+  {
+   "feed": "https://feeds.feedburner.com/ign/all",
+   "source": "IGN",
+   "entries": 20,
+   "error": null
+  },
+  {
+   "feed": "https://www.gamespot.com/feeds/mashup/",
+   "source": "GameSpot",
+   "entries": 15,
+   "error": null
+  },
+  {
+   "feed": "https://www.polygon.com/rss/index.xml",
+   "source": "Polygon",
+   "entries": 10,
+   "error": null
+  },
+  {
+   "feed": "https://www.eurogamer.net/feed",
+   "source": "Eurogamer",
+   "entries": 100,
+   "error": null
+  },
+  {
+   "feed": "https://www.pcgamer.com/rss/",
+   "source": "PC Gamer",
+   "entries": 50,
+   "error": null
+  },
+  {
+   "feed": "https://kotaku.com/rss",
+   "source": "Kotaku",
+   "entries": 20,
+   "error": null
+  },
+  {
+   "feed": "https://www.rockpapershotgun.com/feed",
+   "source": "Rock Paper Shotgun",
+   "entries": 100,
+   "error": null
+  },
+  {
+   "feed": "https://www.gematsu.com/feed",
+   "source": "Gematsu",
+   "entries": 20,
+   "error": null
+  },
+  {
+   "feed": "https://feeds.feedburner.com/venturebeat/SZYF",
+   "source": "VentureBeat",
+   "entries": 7,
+   "error": null
+  },
+  {
+   "feed": "https://www.technologyreview.com/topic/artificial-intelligence/feed",
+   "source": "MIT Technology Review",
+   "entries": 10,
+   "error": null
+  },
+  {
+   "feed": "https://openai.com/news/rss.xml",
+   "source": "OpenAI",
+   "entries": 1299,
+   "error": null
+  },
+  {
+   "feed": "https://blog.google/technology/ai/rss/",
+   "source": "Google AI",
+   "entries": 20,
+   "error": null
+  },
+  {
+   "feed": "https://deepmind.google/blog/rss.xml",
+   "source": "Google DeepMind",
+   "entries": 100,
+   "error": null
+  },
+  {
+   "feed": "https://huggingface.co/blog/feed.xml",
+   "source": "Hugging Face",
+   "entries": 880,
+   "error": null
+  }
+ ],
+ "items": [
+  {
+   "id": "218f77bb95",
+   "source": "TechCrunch",
+   "title": "Disney agrees to hire the majority of Character.AI’s workforce",
+   "summary": "After chatbot startup Character.AI filed for bankruptcy earlier this week, many of its employees will have the opportunity to take jobs at Disney. Character.AI’s former CEO Karandeep Anand recently became the entertainment giant’s first CTO, and the startup previously said that Disney had agreed to acquire some of its assets for $20 million. A legal […]",
+   "link": "https://techcrunch.com/2026/10/18/disney-agrees-to-hire-the-majority-of-character-ais-workforce/",
+   "comments": null,
+   "image": "https://techcrunch.com/wp-content/uploads/2024/01/character-ai-alexa.jpg?resize=1200,675",
+   "published": "2026-10-18T16:30:00+00:00",
+   "category": "ai",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "56b1c8aea7",
+   "source": "Ars Technica",
+   "title": "Anthropic gives outside AI watchdog “employee-like” access",
+   "summary": "The outside watchdog can publish its findings without Anthropic's approval.",
+   "link": "https://arstechnica.com/ai/2026/10/anthropic-gives-outside-ai-watchdog-employee-like-access/",
+   "comments": null,
+   "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/09/claudebyanthropic-1024x648.jpg",
+   "published": "2026-10-18T16:25:19+00:00",
+   "category": "ai",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "48479cd719",
+   "source": "Hacker News",
+   "title": "DeepSeek search and fetch – $0.75 per 1000 successful requests",
+   "summary": "",
+   "link": "https://api-docs.deepseek.com/guides/search/",
+   "comments": "https://news.ycombinator.com/item?id=50138531",
+   "image": "https://api-docs.deepseek.com/img/deepseek-social-card.jpeg",
+   "published": "2026-10-18T06:50:36+00:00",
+   "category": "ai",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "40d691da45",
+   "source": "Hacker News",
+   "title": "Show HN: Sphinx – A hook that quizzes you on your AI's code before shipping",
+   "summary": "FOSS, Basically it plugs into your existing coding agent workflow and every time you push to prod it'll throw up a questionnaire that checks if you understand how the code you're pushing works.",
+   "link": "https://sphinx-six-theta.vercel.app/",
+   "comments": "https://news.ycombinator.com/item?id=50137950",
+   "image": null,
+   "published": "2026-10-18T04:33:49+00:00",
+   "category": "ai",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "3ba2676679",
+   "source": "Engadget",
+   "title": "OpenAI is building a humanoid robot, but the body isn't the real challenge",
+   "summary": "OpenAI CEO Sam Altman wants a humanoid that can operate in a world designed for people, though the CEO says a robot 'brain' is a much bigger challenge.",
+   "link": "https://www.engadget.com/2285040/openai-humanoid-robot-sam-altman-statement-real-challenge/",
+   "comments": null,
+   "image": "https://www.engadget.com/img/gallery/openai-is-building-a-humanoid-robot-but-the-body-isnt-the-real-challenge/l-intro-1791892991.jpg",
+   "published": "2026-10-17T23:45:00+00:00",
+   "category": "ai",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "d4d8a21bd9",
+   "source": "TechCrunch",
+   "title": "Meta removes language that raised scraping and AI training concerns",
+   "summary": "A Meta spokesperson insisted that the updated terms did not reflect a change in the way Meta crawls the web.",
+   "link": "https://techcrunch.com/2026/10/17/meta-removes-language-that-raised-scraping-and-ai-training-concerns/",
+   "comments": null,
+   "image": "https://techcrunch.com/wp-content/uploads/2026/05/meta-ai-GettyImages-2264943773.jpg?w=1024",
+   "published": "2026-10-17T21:31:32+00:00",
+   "category": "ai",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "3e7a8c9174",
+   "source": "The Verge",
+   "title": "Meta removes language that may have allowed it to scrape news sites",
+   "summary": "After backlash, Meta is updating its terms again to remove language that suggested it could scrape content from sites, including news sites, to train its AI. Specifically, the following language no longer appears on the commercial terms page: … Meta may use any content from such domains, web pages, or URLs to provide, develop, improve, […]",
+   "link": "https://www.theverge.com/tech/1013409/meta-removes-language-that-may-have-allowed-it-to-scrape-news-sites",
+   "comments": null,
+   "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/02/STK043_VRG_Illo_N_Barclay_2_Meta.jpg?quality=90&strip=all&crop=0,0,100,100",
+   "published": "2026-10-17T15:04:36+00:00",
+   "category": "ai",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "f155d49d33",
+   "source": "The Verge",
+   "title": "Websites are closing their doors to AI agents",
+   "summary": "Autonomous agents are the hottest thing in AI. OpenAI, Meta, Google, Instinct, and others promise their agents can scour the internet on your behalf, doing anything from booking a dinner reservation and cleaning out your inbox to buying new shoes. But what happens when the rest of the internet won't play nice? In recent weeks, […]",
+   "link": "https://www.theverge.com/ai-artificial-intelligence/1013195/ai-agents-blocked-web",
+   "comments": null,
+   "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/03/STK414_AI_CVIRGINIA_C.jpg?quality=90&strip=all&crop=0,0,100,100",
+   "published": "2026-10-17T13:00:00+00:00",
+   "category": "ai",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "f8d655888d",
+   "source": "Wired",
+   "title": "Why AI Isn’t Ready to Tackle Our Convoluted Genomes",
+   "summary": "The DNA inside our cells isn’t just a series of instructions, but something far more dynamic. Like scientists, AI models don't yet have the data to properly decode it.",
+   "link": "https://www.wired.com/story/why-ai-isnt-ready-to-tackle-our-convoluted-genomes/",
+   "comments": null,
+   "image": "https://media.wired.com/photos/6acf63d6b06331734b2e70d7/master/pass/Physical%20Genome%20cr-Samuel%20Velasco%20and%20Hannah%20Waters_Quanta%20Magazine-Lede.jpg",
+   "published": "2026-10-17T09:00:00+00:00",
+   "category": "ai",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "e86f92efb2",
+   "source": "Ars Technica",
+   "title": "OpenAI models hacked a crypto wallet and breached more websites",
+   "summary": "The actions could have resulted in criminal charges had humans been behind the keyboard.",
+   "link": "https://arstechnica.com/security/2026/10/openai-models-hacked-a-crypto-wallet-and-breached-more-websites/",
+   "comments": null,
+   "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/ai-agents-1152x648.jpg",
+   "published": "2026-10-16T20:59:01+00:00",
+   "category": "ai",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "65442e7082",
+   "source": "OpenAI",
+   "title": "How Itaú is building generative AI for its entire customer base",
+   "summary": "With ia.i, a conversational interface, and the IARA governance platform, Itaú is applying its AI First strategy to customers and employees — in one of Brazil’s most regulated sectors.",
+   "link": "https://openai.com/index/itau-generative-ai",
+   "comments": null,
+   "image": "https://images.ctfassets.net/kftzwdyauwt9/5f6g1v0mGiFwS4OuWQJpZ/ea1b571975a4668874331d6d068bfdcb/itau-social-optical-r2.png?w=1600&h=900&fit=fill",
+   "published": "2026-10-16T19:00:00+00:00",
+   "category": "ai",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "61baa7c2d3",
+   "source": "MIT Technology Review",
+   "title": "Roundtables: A Conversation With the Creator of AI-Designed Viruses",
+   "summary": "Listen to the session or watch below Can AI design new life forms? In 2025, Stanford University PhD student Samuel King came up with a preliminary answer when he used a generative AI model to propose genetic blueprints for microscopic viruses. It isn’t yet an example of AI-generated life, but that could be next. Watch…",
+   "link": "https://www.technologyreview.com/2026/10/16/1146224/roundtables-a-conversation-with-the-creator-of-ai-designed-viruses/",
+   "comments": null,
+   "image": "https://wp.technologyreview.com/wp-content/uploads/2024/01/MIT-TR-Roundtables_Oct-2-Thumbnail.png?resize=1200,600",
+   "published": "2026-10-16T18:00:00+00:00",
+   "category": "ai",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "eb13fbe24a",
+   "source": "Polygon",
+   "title": "36 Years Later, Robert De Niro's Greatest Gangster Movie Quote Is Still One of a Kind",
+   "summary": "Robert De Niro's iconic gangster quote from Goodfellas reveals the deadly truth about mob loyalty and betrayal.",
+   "link": "https://www.polygon.com/robert-de-niro-best-gangster-movie-quote-goodfellas/",
+   "comments": null,
+   "image": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/10/goodfellas-3.jpg",
+   "published": "2026-10-18T18:00:18+00:00",
+   "category": "game",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "50ddc38a4a",
+   "source": "Eurogamer",
+   "title": "Battlefield 6 devs to fix \"Secuty\" skin typo, but five-pistol outfit was intentional",
+   "summary": "Battlefield Studios has responded after fans accused it of using AI to generate cosmetics after spotting a \"Secuty\" typo on a Battlefield 6 Season 5 skin. Read more",
+   "link": "https://www.eurogamer.net/battlefield-6-secuty-typo-five-pistol-skin-devs-respond",
+   "comments": null,
+   "image": "https://assetsio.gnwcdn.com/Screenshot-2026-10-18-at-18.30.22.png?width=690&quality=85&format=jpg&auto=webp",
+   "published": "2026-10-18T17:37:38+00:00",
+   "category": "game",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "9c3f79495b",
+   "source": "PC Gamer",
+   "title": "The Outlast Trials' initial playtests went poorly: Designer says 6-year development took 'a f**king long time' and 'a s**t-ton of prototypes'",
+   "summary": "Red Barrels co-founder Philippe Morin recently spoke on the trials The Outlast Trials outlasted.",
+   "link": "https://www.pcgamer.com/games/horror/the-outlast-trials-initial-playtests-went-poorly-designer-says-6-year-development-took-a-f-king-long-time-and-a-s-t-ton-of-prototypes/",
+   "comments": null,
+   "image": "https://cdn.mos.cms.futurecdn.net/wsP8ZYqL3zitGswbKBRwrd-1920-80.jpg",
+   "published": "2026-10-18T17:18:53+00:00",
+   "category": "game",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "9a6698b1fb",
+   "source": "Eurogamer",
+   "title": "The PS6's memory and storage alone reportedly cost more than $680",
+   "summary": "The PS6's memory and storage reportedly cost more than $680 between them. Read more",
+   "link": "https://www.eurogamer.net/ps6-ram-nand-costs-over-680-keplerl2",
+   "comments": null,
+   "image": "https://assetsio.gnwcdn.com/ps6-games-calendar.jpg?width=690&quality=85&format=jpg&auto=webp",
+   "published": "2026-10-18T17:10:29+00:00",
+   "category": "game",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "1ea193fd85",
+   "source": "Polygon",
+   "title": "8 Mass Effect Replay Ideas That Make the Trilogy Feel Brand-New",
+   "summary": "Swap your class, tank a choice on purpose, or finish with one gun: eight Mass Effect challenge runs that make the trilogy feel brand new.",
+   "link": "https://www.polygon.com/mass-effect-challenge-runs/",
+   "comments": null,
+   "image": "https://static0.polygonimages.com/wordpress/wp-content/uploads/chorus/uploads/chorus_asset/file/2664976/mass_20effect__203__20captain_20shepard_verge_super_wide.1351111923.jpeg",
+   "published": "2026-10-18T17:00:18+00:00",
+   "category": "game",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "c3dfa0f9d6",
+   "source": "Engadget",
+   "title": "Should you limit your FPS in games? Here's when it makes sense",
+   "summary": "While it's natural to want to get as many fps from your rig as possible, there are reasons to limit frame output from your GPU.",
+   "link": "https://www.engadget.com/2286478/limit-frames-per-second-gaming-when-makes-sense/",
+   "comments": null,
+   "image": "https://www.engadget.com/img/gallery/should-you-limit-your-fps-in-games-heres-when-it-makes-sense/l-intro-1791988078.jpg",
+   "published": "2026-10-18T16:45:00+00:00",
+   "category": "game",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "3604ce5cc0",
+   "source": "The Verge",
+   "title": "Video game ownership bill introduced in Congress",
+   "summary": "Rep. Ritchie Torres of New York's 15th congressional district in the Bronx introduced the Power To The Players Act this week. If passed, the bill would direct the Federal Trade Commission to establish regulations that guarantee consumers ownership of a game when they pay for it, rather than a licensing agreement. It's increasingly common for […]",
+   "link": "https://www.theverge.com/policy/1013521/video-game-ownership-bill-congress-power-to-the-players-act",
+   "comments": null,
+   "image": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/25544255/2162439650.jpg?quality=90&strip=all&crop=0,0,100,100",
+   "published": "2026-10-18T16:27:51+00:00",
+   "category": "game",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "1910bd7d0d",
+   "source": "Kotaku",
+   "title": "The PlayStation 6’s Memory Components Alone Could Cost More Than $700",
+   "summary": "The speculated price tags on the next generation of consoles already has fans sweating as the AI-driven crunch shows no end in sight",
+   "link": "https://kotaku.com/the-playstation-6s-memory-components-alone-could-cost-more-than-700-2000747289",
+   "comments": null,
+   "image": "https://kotaku.com/app/uploads/2026/10/astrobotflower.jpg",
+   "published": "2026-10-18T16:14:24+00:00",
+   "category": "game",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "5a6869a569",
+   "source": "IGN",
+   "title": "Quentin Tarantino Says He's 'Written a Script' for 10th and Final Film, But He Wants to 'Live' Before Making It",
+   "summary": "Quentin Tarantino has confirmed he's \"written a script\" for his 10th and final film, but he's going to \"live\" a little before making it.",
+   "link": "https://www.ign.com/articles/quentin-tarantino-says-hes-written-a-script-for-10th-and-final-film-but-he-wants-to-live-before-making-it",
+   "comments": null,
+   "image": "https://assets-prd.ignimgs.com/2026/10/18/quentin-tarantino-1792338519262.png",
+   "published": "2026-10-18T15:56:06+00:00",
+   "category": "game",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "710030ab1f",
+   "source": "Hacker News",
+   "title": "Show HN: The Zelda timeline to catch up before the Ocarina of Time remake",
+   "summary": "I made this ahead of the Ocarina of Time remake which comes out in 17 days. I remember the feeling of playing it as a kid but I hadn’t kept up with the story so I built a timeline to catch up before the Door of Time reopens. Nintendo’s own timeline is the authority here (Hyrule Historia and their chronicle page). The fun part was rethinking how to visualize it. It branches at the end of Ocarina into three eras depending on whether Link wins or l…",
+   "link": "https://legendofhyrule.com/",
+   "comments": "https://news.ycombinator.com/item?id=50140769",
+   "image": "https://legendofhyrule.com/opengraph-image?a05cedcc808b59be",
+   "published": "2026-10-18T13:06:54+00:00",
+   "category": "game",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "035ff2147b",
+   "source": "GameSpot",
+   "title": "Fire Emblem’s Remarkable Comeback",
+   "summary": "Though it may not be a sales juggernaut on the scale of Mario or The Legend of Zelda, Fire Emblem is one of Nintendo's preeminent franchises. Like so many of its vaunted stablemates, the series is almost as old as Nintendo's gaming ambitions, debuting on the Famicom and appearing on nearly every home and handheld console since. Given this prominence, it's almost difficult to believe that Fire Emblem's future was ever in jeopardy, but such was in…",
+   "link": "https://www.gamespot.com/articles/fire-emblems-remarkable-comeback/",
+   "comments": null,
+   "image": "https://www.gamespot.com/wp-content/uploads/2026/10/FEFW-Screenshot.png?w=1200",
+   "published": "2026-10-18T13:00:00+00:00",
+   "category": "game",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "05eefae1de",
+   "source": "Rock Paper Shotgun",
+   "title": "The Sunday Papers",
+   "summary": "Sundays are for firing up Twine again and thinking you know what, if this swanky IF plotter had been around when I was an undergraduate, I might have preserved all my exam revision notes in text adventure form. I still have two, reassuringly heavy boxes of tabbed and colour-coded index cards that you could plausibly lay out to form a maze, navigable by compass commands. Head down the western corridor from Middle English to the Renaissance, and –…",
+   "link": "https://www.rockpapershotgun.com/the-sunday-papers-832",
+   "comments": null,
+   "image": "https://assetsio.gnwcdn.com/the-sunday-papers-big.jpg?width=690&quality=85&format=jpg&auto=webp",
+   "published": "2026-10-18T10:00:00+00:00",
+   "category": "game",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "f1180bde7a",
+   "source": "The Verge",
+   "title": "A woman was arrested in Philly for blocking a delivery robot",
+   "summary": "Carolyn Marvin was arrested and charged with disorderly conduct after blocking the path of an Uber delivery robot and refusing to get out of the way. Marvin told Philadelphia's ABC13 \"I know they're taking the jobs of human delivery workers and so, I have been protesting them whenever I saw them by standing in front […]",
+   "link": "https://www.theverge.com/ai-artificial-intelligence/1013541/a-woman-was-arrested-in-philly-for-blocking-a-delivery-robot",
+   "comments": null,
+   "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/02/avride-uber-delivery.webp?quality=90&strip=all&crop=0,0,100,100",
+   "published": "2026-10-18T18:28:10+00:00",
+   "category": "tech",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "158098cf36",
+   "source": "Engadget",
+   "title": "From the Royole FlexPai to the iPhone Duo: How the modern foldable phone has evolved",
+   "summary": "Apple's iPhone Duo likely forecasts a shift in the market toward foldables becoming more common. But it took a while to get here.",
+   "link": "https://www.engadget.com/2286505/how-modern-foldable-phone-evolved-from-royole-flexpai-to-iphone-duo/",
+   "comments": null,
+   "image": "https://www.engadget.com/img/gallery/from-the-royole-flexpai-to-the-iphone-duo-how-the-modern-foldable-phone-has-evolved/l-intro-1791988871.jpg",
+   "published": "2026-10-18T18:00:00+00:00",
+   "category": "tech",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "3157edeffe",
+   "source": "Engadget",
+   "title": "TikTok reportedly bans ads for Musk documentary before its wider US release",
+   "summary": "The platform attributed the decision to \"political content that goes against its policy.\"",
+   "link": "https://www.engadget.com/2289782/tiktok-reportedly-bans-ads-for-musk-documentary-before-its-wider-us-release/",
+   "comments": null,
+   "image": "https://www.engadget.com/img/gallery/tiktok-reportedly-bans-ads-for-musk-documentary-before-its-wider-us-release/l-intro-1792341551.jpg",
+   "published": "2026-10-18T16:42:15+00:00",
+   "category": "tech",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "7b0c0e7db3",
+   "source": "Engadget",
+   "title": "How to fix scaling and app size issues on your Samsung Galaxy Z Fold 8",
+   "summary": "If you have trouble getting apps to scale properly on your foldable, read on.",
+   "link": "https://www.engadget.com/2286431/how-to-fix-scaling-app-size-issues-samsung-galaxy-z-fold-8/",
+   "comments": null,
+   "image": "https://www.engadget.com/img/gallery/how-to-fix-scaling-and-app-size-issues-on-your-samsung-galaxy-z-fold-8/l-intro-1791985713.jpg",
+   "published": "2026-10-18T16:15:00+00:00",
+   "category": "tech",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "8ae21e9248",
+   "source": "TechCrunch",
+   "title": "TechCrunch Mobility: Rivian’s next act",
+   "summary": "Welcome back to TechCrunch Mobility, your hub for the future of transportation and now, more than ever, the role AI is playing in it.",
+   "link": "https://techcrunch.com/2026/10/18/techcrunch-mobility-rivians-next-act/",
+   "comments": null,
+   "image": "https://techcrunch.com/wp-content/uploads/2026/10/Techcrunch-disrupt-RJ-Scaringe.jpg?resize=1200,801",
+   "published": "2026-10-18T16:05:00+00:00",
+   "category": "tech",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "50a3b3dad1",
+   "source": "The Verge",
+   "title": "Lenovo’s fast, comfy SteamOS handheld is hundreds off",
+   "summary": "The Legion Go S with SteamOS is a pretty solid alternative to the $789 Steam Deck OLED. It runs identical software, but ships in a design with two-stage triggers, a bigger eight-inch IPS screen (1080p and up to 120Hz versus 800p and 90Hz in the Deck OLED), and it’s got double the RAM and storage […]",
+   "link": "https://www.theverge.com/gadgets/1013436/lenovo-legion-go-s-steamos-handheld-deal-sale",
+   "comments": null,
+   "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/07/lenovo-legion-go-s-steamos-sean-hollister-331A1224.jpg?quality=90&strip=all&crop=0,0,100,100",
+   "published": "2026-10-18T15:00:00+00:00",
+   "category": "tech",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "b5941a2d8f",
+   "source": "The Verge",
+   "title": "J Mascis has nothing better to do",
+   "summary": "Dinosaur Jr. frontman J Mascis is known as something of a slacker guitar god. He stands stoically onstage, barely moving, as he seemingly effortlessly works through deft guitar solos and lopsided riffs. Unfortunately, Mascis has developed a similar reputation as an interview subject, quietly sitting and offering deft nonanswers. That's not to say that Mascis […]",
+   "link": "https://www.theverge.com/entertainment/1012442/j-mascis-dinosaur-jr-fender-interview",
+   "comments": null,
+   "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/J-Mascis-Dinosaur-Jr-interview-Babys-All-Right.jpg?quality=90&strip=all&crop=0,0,100,100",
+   "published": "2026-10-18T14:00:00+00:00",
+   "category": "tech",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "c8c07b214b",
+   "source": "Wired",
+   "title": "20 Best Gifts for Men, Manly Men, and Manly Man Men (2026)",
+   "summary": "When you need something that’s as mannishly masculinized as you can get for the Man™ in your life, we have you covered.",
+   "link": "https://www.wired.com/gallery/best-gifts-for-manly-men-2026/",
+   "comments": null,
+   "image": "https://media.wired.com/photos/6ad2adfc85712117ad7fac60/master/pass/The%20Best%20Gifts%20for%20Men,%20Manly%20Men,%20and%20Menly%20Man%20Men%20top%20art%20SOURCE%20Amazon-Home%20Depot.jpg",
+   "published": "2026-10-18T11:01:00+00:00",
+   "category": "tech",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "5f3fe56efc",
+   "source": "Wired",
+   "title": "OnlyFans Creators Are Pissed That Meta Lets Muse Talk Dirty",
+   "summary": "Adult performers are questioning why Meta allows its AI agent to sext while restricting their social media accounts.",
+   "link": "https://www.wired.com/story/onlyfans-creators-are-pissed-that-meta-lets-muse-talk-dirty/",
+   "comments": null,
+   "image": "https://media.wired.com/photos/6ad240695195eb0dd6087017/master/pass/101626_Naughty%20Meta%20Muse%20OnlyFans.jpg",
+   "published": "2026-10-18T10:30:00+00:00",
+   "category": "tech",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "229575f154",
+   "source": "Hacker News",
+   "title": "Legal experts warn Meta's new terms still grant broad scraping permissions",
+   "summary": "",
+   "link": "https://www.niemanlab.org/2026/10/legal-experts-warn-metas-new-terms-still-grant-broad-scraping-permissions-despite-language-changes/",
+   "comments": "https://news.ycombinator.com/item?id=50139692",
+   "image": "https://www.niemanlab.org/images/AdobeStock_1108807119_Editorial_Use_Only-700x440.jpeg",
+   "published": "2026-10-18T10:21:51+00:00",
+   "category": "tech",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "63669a3458",
+   "source": "TechCrunch",
+   "title": "TikTok permanently bans ‘Musk’ documentary advertising account",
+   "summary": "A four-hour documentary about Elon Musk continues to meet resistance from social media platforms.",
+   "link": "https://techcrunch.com/2026/10/17/tiktok-permanently-bans-musk-documentary-advertising-account/",
+   "comments": null,
+   "image": "https://techcrunch.com/wp-content/uploads/2026/10/GettyImages-2297262633.jpg?resize=1200,800",
+   "published": "2026-10-17T20:55:52+00:00",
+   "category": "tech",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "8fbb397072",
+   "source": "TechCrunch",
+   "title": "Ember’s new temperature-controlled mug makes my nightly tea ritual even better",
+   "summary": "The biggest change about Ember's new mug is that you no longer have to open the app to adjust your drink’s temperature.",
+   "link": "https://techcrunch.com/2026/10/17/embers-new-temperature-controlled-mug-makes-my-nightly-tea-ritual-even-better/",
+   "comments": null,
+   "image": "https://techcrunch.com/wp-content/uploads/2026/10/Ember_Table-with-Phone-Dark-Black-10oz_030326.png?w=1200",
+   "published": "2026-10-17T15:30:00+00:00",
+   "category": "tech",
+   "title_fa": "",
+   "summary_fa": ""
+  }
+ ]
+}
