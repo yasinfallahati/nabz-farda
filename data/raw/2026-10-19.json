@@ -1,0 +1,637 @@
+{
+ "date": "2026-10-19",
+ "fetched_at": "2026-10-19T18:35:07.837860+00:00",
+ "counts": {
+  "ai": 12,
+  "game": 12,
+  "tech": 12
+ },
+ "feeds": [
+  {
+   "feed": "https://www.theverge.com/rss/index.xml",
+   "source": "The Verge",
+   "entries": 10,
+   "error": null
+  },
+  {
+   "feed": "https://www.theverge.com/rss/games/index.xml",
+   "source": "The Verge",
+   "entries": 10,
+   "error": null
+  },
+  {
+   "feed": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml",
+   "source": "The Verge",
+   "entries": 10,
+   "error": null
+  },
+  {
+   "feed": "https://techcrunch.com/feed/",
+   "source": "TechCrunch",
+   "entries": 20,
+   "error": null
+  },
+  {
+   "feed": "https://techcrunch.com/category/artificial-intelligence/feed/",
+   "source": "TechCrunch",
+   "entries": 20,
+   "error": null
+  },
+  {
+   "feed": "https://feeds.arstechnica.com/arstechnica/index",
+   "source": "Ars Technica",
+   "entries": 20,
+   "error": null
+  },
+  {
+   "feed": "https://arstechnica.com/gaming/feed/",
+   "source": "Ars Technica",
+   "entries": 20,
+   "error": null
+  },
+  {
+   "feed": "https://www.wired.com/feed/rss",
+   "source": "Wired",
+   "entries": 50,
+   "error": null
+  },
+  {
+   "feed": "https://www.wired.com/feed/tag/ai/latest/rss",
+   "source": "Wired",
+   "entries": 10,
+   "error": null
+  },
+  {
+   "feed": "https://www.engadget.com/rss.xml",
+   "source": "Engadget",
+   "entries": 20,
+   "error": null
+  },
+  {
+   "feed": "https://www.tomshardware.com/feeds/all",
+   "source": "Tom's Hardware",
+   "entries": 0,
+   "error": "HTTPConnectionPool(host='www.tomshardware.com', port=80): Max retries exceeded with url: /feeds.xml (Caused by ConnectTimeoutError(<HTTPConnection(host='www.tomshardware.com', port=80) at 0x7f32339c0a50>, 'Connection to www.tomshardware.com timed out. (connect timeout=20)'))"
+  },
+  {
+   "feed": "https://hnrss.org/frontpage?points=100",
+   "source": "Hacker News",
+   "entries": 12,
+   "error": null
+  },
+  {
+   "feed": "https://feeds.feedburner.com/ign/all",
+   "source": "IGN",
+   "entries": 20,
+   "error": null
+  },
+  {
+   "feed": "https://www.gamespot.com/feeds/mashup/",
+   "source": "GameSpot",
+   "entries": 15,
+   "error": null
+  },
+  {
+   "feed": "https://www.polygon.com/rss/index.xml",
+   "source": "Polygon",
+   "entries": 10,
+   "error": null
+  },
+  {
+   "feed": "https://www.eurogamer.net/feed",
+   "source": "Eurogamer",
+   "entries": 100,
+   "error": null
+  },
+  {
+   "feed": "https://www.pcgamer.com/rss/",
+   "source": "PC Gamer",
+   "entries": 50,
+   "error": null
+  },
+  {
+   "feed": "https://kotaku.com/rss",
+   "source": "Kotaku",
+   "entries": 20,
+   "error": null
+  },
+  {
+   "feed": "https://www.rockpapershotgun.com/feed",
+   "source": "Rock Paper Shotgun",
+   "entries": 100,
+   "error": null
+  },
+  {
+   "feed": "https://www.gematsu.com/feed",
+   "source": "Gematsu",
+   "entries": 20,
+   "error": null
+  },
+  {
+   "feed": "https://feeds.feedburner.com/venturebeat/SZYF",
+   "source": "VentureBeat",
+   "entries": 7,
+   "error": null
+  },
+  {
+   "feed": "https://www.technologyreview.com/topic/artificial-intelligence/feed",
+   "source": "MIT Technology Review",
+   "entries": 10,
+   "error": null
+  },
+  {
+   "feed": "https://openai.com/news/rss.xml",
+   "source": "OpenAI",
+   "entries": 1299,
+   "error": null
+  },
+  {
+   "feed": "https://blog.google/technology/ai/rss/",
+   "source": "Google AI",
+   "entries": 20,
+   "error": null
+  },
+  {
+   "feed": "https://deepmind.google/blog/rss.xml",
+   "source": "Google DeepMind",
+   "entries": 100,
+   "error": null
+  },
+  {
+   "feed": "https://huggingface.co/blog/feed.xml",
+   "source": "Hugging Face",
+   "entries": 881,
+   "error": null
+  }
+ ],
+ "items": [
+  {
+   "id": "5b7e0b7861",
+   "source": "MIT Technology Review",
+   "title": "Making the internet better for AI agents might make it worse for everyone else",
+   "summary": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. Until recently, you could divide internet users into just two categories: bots and people. Websites have long allowed bots to perform automated tasks, like capturing the content of web pages, but rules…",
+   "link": "https://www.technologyreview.com/2026/10/19/1147186/making-the-internet-better-for-ai-agents-might-make-it-worse-for-everyone-else/",
+   "comments": null,
+   "image": "https://wp.technologyreview.com/wp-content/uploads/2026/10/261016_Algo.jpg?resize=1200,600",
+   "published": "2026-10-19T18:22:47+00:00",
+   "category": "ai",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "8a61882c5d",
+   "source": "TechCrunch",
+   "title": "AI assistant startup Town nabs unicorn valuation four months after launch",
+   "summary": "AI assistant startup Town nabbed a unicorn valuation on Monday, announcing a $108 million Series B round co-led by Forerunner Ventures and Menlo Ventures.",
+   "link": "https://techcrunch.com/2026/10/19/ai-assistant-startup-town-nabs-unicorn-valuation-four-months-after-launch/",
+   "comments": null,
+   "image": "https://techcrunch.com/wp-content/uploads/2026/10/GettyImages-2294590819.jpg?resize=1200,675",
+   "published": "2026-10-19T18:00:39+00:00",
+   "category": "ai",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "92c294f17f",
+   "source": "MIT Technology Review",
+   "title": "“We were looking at it wrong”: The explosive claim that’s upended the AI world",
+   "summary": "“I think I have good news about the nature of neural networks.” With those simple words of optimism, Nick Cammarata, a researcher at the AI startup Goodfire, kicked off a 26,000-word blog post that has knocked the AI world on its head, sparking wild speculation as well as cautious (and not-so-cautious) celebration. Cammarata’s claim is…",
+   "link": "https://www.technologyreview.com/2026/10/19/1147149/we-were-looking-at-it-wrong-the-explosive-claim-thats-upended-the-ai-world/",
+   "comments": null,
+   "image": "https://wp.technologyreview.com/wp-content/uploads/2026/10/261016_LLMsNotcomplicated_V2.jpg?resize=1200,600",
+   "published": "2026-10-19T17:45:55+00:00",
+   "category": "ai",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "7735a4d13a",
+   "source": "Engadget",
+   "title": "Homeland Security bans DeepSeek use in federal civilian agencies",
+   "summary": "The decision comes a couple of days after the release of Deepseek's latest AI model.",
+   "link": "https://www.engadget.com/2290535/homeland-security-bans-deepseek-use-in-federal-civilian-agencies/",
+   "comments": null,
+   "image": "https://www.engadget.com/img/gallery/homeland-security-bans-deepseek-use-in-federal-civilian-agencies/l-intro-1792429083.jpg",
+   "published": "2026-10-19T16:59:28+00:00",
+   "category": "ai",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "69bd463197",
+   "source": "TechCrunch",
+   "title": "People are using AI to make their smart TVs dumb again",
+   "summary": "Fed up with ads, tracking and sluggish interfaces, some smart TV owners are turning to AI agents to strip away bloatware and take back control of their TVs.",
+   "link": "https://techcrunch.com/2026/10/19/people-are-using-ai-to-make-their-smart-tvs-dumb-again/",
+   "comments": null,
+   "image": "https://techcrunch.com/wp-content/uploads/2024/05/Google-TV.jpeg?w=1200",
+   "published": "2026-10-19T16:13:22+00:00",
+   "category": "ai",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "190687157a",
+   "source": "Wired",
+   "title": "WhatsApp Help Pages Leaked Hidden Instructions for a Meta Chatbot",
+   "summary": "Around 80 pages on WhatsApp’s website exposed instructions that were designed for its chatbot, including “WHAT NOT TO SAY.” Meta says a bug caused the issue.",
+   "link": "https://www.wired.com/story/whatsapp-help-pages-leaked-hidden-instructions-for-a-meta-chatbot/",
+   "comments": null,
+   "image": "https://media.wired.com/photos/6ad61af88d7b5cce41c3ec77/master/pass/GettyImages-2262950720.jpg",
+   "published": "2026-10-19T16:00:00+00:00",
+   "category": "ai",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "dd8ec3bec8",
+   "source": "Hacker News",
+   "title": "CERN and Mistral sign a statement of intent to establish a strategic partnership",
+   "summary": "",
+   "link": "https://home.cern/cern-and-mistral-join-forces-to-accelerate-ai-for-science/",
+   "comments": "https://news.ycombinator.com/item?id=50153630",
+   "image": null,
+   "published": "2026-10-19T15:28:24+00:00",
+   "category": "ai",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "b3d4118246",
+   "source": "Ars Technica",
+   "title": "Disney found a way to buy Character.AI without buying its lawsuits",
+   "summary": "Character.AI faces claims its bots encouraged minors to self-harm and kill their parents.",
+   "link": "https://arstechnica.com/tech-policy/2026/10/disney-found-a-way-to-buy-character-ai-without-buying-its-lawsuits/",
+   "comments": null,
+   "image": "https://cdn.arstechnica.net/wp-content/uploads/2018/06/getty-disney-1152x648.jpg",
+   "published": "2026-10-19T14:45:43+00:00",
+   "category": "ai",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "99c5023d5e",
+   "source": "The Verge",
+   "title": "JB Pritzker thinks AI could help us live to 100 — or threaten us like nukes",
+   "summary": "Today, I’m talking with Illinois Gov. JB Pritzker, who has a lot of thoughts about AI, tech, and privacy. If you’ve been listening to the show, you know that one of my running theories is that those issues are driving a big and maybe kind of unexpected political realignment — and with the midterms coming […]",
+   "link": "https://www.theverge.com/podcast/1012839/pritzker-ai-privacy-data-centers-flock-congress-laws",
+   "comments": null,
+   "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/DCD_20261019_Pritzker.jpg?quality=90&strip=all&crop=0,0,100,100",
+   "published": "2026-10-19T14:30:00+00:00",
+   "category": "ai",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "bb2f910493",
+   "source": "Hacker News",
+   "title": "Show HN: Qwen3-4B with the AI writing tics trained out",
+   "summary": "",
+   "link": "https://100toolkit.com/blog/deslop-model/",
+   "comments": "https://news.ycombinator.com/item?id=50151928",
+   "image": "https://100toolkit.com/blog/deslop-model/og.png",
+   "published": "2026-10-19T13:00:47+00:00",
+   "category": "ai",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "2a0781626e",
+   "source": "Engadget",
+   "title": "Google Gemini 4 agents just beat Minecraft with no human intervention",
+   "summary": "Four Gemini 4 Argon agents beat Minecraft's Ender Dragon with no human intervention by sharing tips, threats and mistakes.",
+   "link": "https://www.engadget.com/2289944/google-gemini-4-agents-just-beat-minecraft-with-no-human-intervention/",
+   "comments": null,
+   "image": "https://www.engadget.com/img/gallery/google-gemini-4-agents-just-beat-minecraft-with-no-human-intervention/l-intro-1792401444.jpg",
+   "published": "2026-10-19T09:19:19+00:00",
+   "category": "ai",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "03710f6c99",
+   "source": "Wired",
+   "title": "Disney Asked Character.AI to Go Bankrupt for a Get-Out-of-Lawsuits Card",
+   "summary": "The entertainment giant hopes to get trust and safety tech, among other IP, from a startup whose chatbots dozens of states allege encouraged minors to self-harm and kill their parents.",
+   "link": "https://www.wired.com/story/disney-asked-characterai-to-go-bankrupt-for-a-get-out-of-lawsuits-card/",
+   "comments": null,
+   "image": "https://media.wired.com/photos/6acfe36ba2733753393886b8/master/pass/Disney-Asked-Character.AI-to-Go-Bankrupt-Business-1530260396.jpg",
+   "published": "2026-10-19T09:00:00+00:00",
+   "category": "ai",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "f9a439e9a6",
+   "source": "Eurogamer",
+   "title": "Final Fantasy 7 Revelation's Hard Mode is available from the start this time, so you won't need to replay the mammoth RPG to get to the good stuff",
+   "summary": "Final Fantasy 7 Revelation will let players access Hard Mode from the very beginning of the journey, unlike FF7 Remake and Rebirth, which made folks complete the mammoth adventures before unlocking the tougher difficulty option. Read more",
+   "link": "https://www.eurogamer.net/final-fantasy-7-revelation-hard-mode-start-replay-rpg",
+   "comments": null,
+   "image": "https://assetsio.gnwcdn.com/final-fantasy-7-revelation-sephiroth.png?width=690&quality=85&format=jpg&auto=webp",
+   "published": "2026-10-19T18:27:17+00:00",
+   "category": "game",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "15bedcbaef",
+   "source": "Engadget",
+   "title": "We might finally know what's written on that mysterious plaque in Super Mario 64",
+   "summary": "The plaque's message has haunted the internet for 30 years.",
+   "link": "https://www.engadget.com/2290685/we-might-finally-know-whats-written-on-that-mysterious-plaque-in-super-mario-64/",
+   "comments": null,
+   "image": "https://www.engadget.com/img/gallery/we-might-finally-know-whats-written-on-that-mysterious-plaque-in-super-mario-64/l-intro-1792433283.jpg",
+   "published": "2026-10-19T18:10:14+00:00",
+   "category": "game",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "11290177f3",
+   "source": "Polygon",
+   "title": "The 10 Best Steam Next Fest Demos to Play Right Now",
+   "summary": "Steam Next Fest is back again, and it features tons of free demos for some promising upcoming games.",
+   "link": "https://www.polygon.com/steam-next-fest-demos-best-october-2026/",
+   "comments": null,
+   "image": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/10/dumpster-gang-raccoon-group.jpg",
+   "published": "2026-10-19T18:00:56+00:00",
+   "category": "game",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "1aa03ee08a",
+   "source": "GameSpot",
+   "title": "This LA Noire Spinoff Idea Sounds Incredible",
+   "summary": "British actor Rahul Kohli (Saros, Midnight Mass) has a pitch for a new L.A. Noire game, and it sounds pretty great. Speaking to BAFTA Games , Kohli said he would like to see the franchise return with a spinoff that takes players through different time periods, as a cop, as they investigate different crimes. One such setting could be Victorian England, with a storyline focused on hunting down Jack the Ripper, Kohli said. Another could take player…",
+   "link": "https://www.gamespot.com/articles/this-la-noire-spinoff-idea-sounds-incredible/",
+   "comments": null,
+   "image": "https://www.gamespot.com/wp-content/uploads/2026/10/LANoire.jpg?w=1200",
+   "published": "2026-10-19T17:47:18+00:00",
+   "category": "game",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "8880dc257b",
+   "source": "Kotaku",
+   "title": "Pokémon Skateboards Sold In Blind Bags Sell Out Immediately",
+   "summary": "The Santa Cruz designs are selling on eBay for at least double their retail cost",
+   "link": "https://kotaku.com/pokemon-santa-cruz-skateboard-sold-out-moonbreon-charizard-2000747579",
+   "comments": null,
+   "image": "https://kotaku.com/app/uploads/2026/10/pokemon-skateboard.jpg",
+   "published": "2026-10-19T17:32:06+00:00",
+   "category": "game",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "915b54e778",
+   "source": "Gematsu",
+   "title": "RPG Maker U2U ‘P2D Map Editor Demo’ now available",
+   "summary": "Gotcha Gotcha Games has released the RPG Maker U2U “P2D Map Editor Demo” for PC via …",
+   "link": "https://www.gematsu.com/2026/10/rpg-maker-u2u-p2d-map-editor-demo-now-available",
+   "comments": null,
+   "image": "https://www.gematsu.com/wp-content/uploads/2026/10/RPG-Maker-U2U-Demo_10-19-26.jpg",
+   "published": "2026-10-19T17:03:51+00:00",
+   "category": "game",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "7fa275d8b2",
+   "source": "Rock Paper Shotgun",
+   "title": "\"Too big a risk\": Moonlighter devs delay new game's demo for fear of genAI cloning, calling on platforms to \"keep strengthening protections for original work\"",
+   "summary": "Moonlighter and Cataclismo developers Digital Sun Games have postponed a public Steam playtest for their new game ReVamp , for fear of people using generative AI to clone their work before release. Read more",
+   "link": "https://www.rockpapershotgun.com/too-big-a-risk-moonlighter-devs-delay-new-games-demo-for-fear-of-genai-cloning-calling-on-platforms-to-keep-strengthening-protections-for-original-work",
+   "comments": null,
+   "image": "https://assetsio.gnwcdn.com/revamp_WenWzly.jpg?width=690&quality=85&format=jpg&auto=webp",
+   "published": "2026-10-19T17:02:28+00:00",
+   "category": "game",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "2a084a2542",
+   "source": "PC Gamer",
+   "title": "I have added completely realistic Uber driving to Grand Theft Auto 5",
+   "summary": "Your driver is nearby.",
+   "link": "https://www.pcgamer.com/games/grand-theft-auto/i-have-added-completely-realistic-uber-driving-to-grand-theft-auto-5/",
+   "comments": null,
+   "image": "https://cdn.mos.cms.futurecdn.net/oafp8zDNSqeYVLhg6QzTXD-1920-80.jpg",
+   "published": "2026-10-19T17:00:00+00:00",
+   "category": "game",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "1375bb961f",
+   "source": "Ars Technica",
+   "title": "AI game clones are making indie developers afraid to show their work",
+   "summary": "Delayed Steam Next Fest demo is a sign of a growing problem for indie devs.",
+   "link": "https://arstechnica.com/gaming/2026/10/ai-game-clones-are-making-indie-developers-afraid-to-show-their-work/",
+   "comments": null,
+   "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/ss_c6067e139d8dd2cbf79c41a9c4e41e3bb088c95a.1920x1080-1152x648.jpg",
+   "published": "2026-10-19T16:59:22+00:00",
+   "category": "game",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "5447b5c773",
+   "source": "IGN",
+   "title": "Abbott & Costello Join Forces With Kolchak the Night Stalker in Horror Crossover Special",
+   "summary": "Comedy icons Abbott & Costello are returning to comics for the first time in half a century, and they're joining forces with none other than Kolchak the Night Stalker.",
+   "link": "https://www.ign.com/articles/abbott-costello-join-forces-with-kolchak-the-night-stalker-in-horror-crossover-special",
+   "comments": null,
+   "image": "https://assets-prd.ignimgs.com/2026/10/19/mixcollage-18-oct-2026-10-16-pm-3633-1792376189244.jpg",
+   "published": "2026-10-19T16:00:00+00:00",
+   "category": "game",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "9430f29120",
+   "source": "Wired",
+   "title": "How the Xbox’s Disc-to-Digital Program Works",
+   "summary": "Microsoft is letting players digitize their game discs for free, but don't sell your physical collection just yet.",
+   "link": "https://www.wired.com/story/xbox-disc-to-digital/",
+   "comments": null,
+   "image": "https://media.wired.com/photos/6ac9144496a91d67fca310c1/master/pass/Xbox%20Disc.jpg",
+   "published": "2026-10-19T10:30:00+00:00",
+   "category": "game",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "3604ce5cc0",
+   "source": "The Verge",
+   "title": "Video game ownership bill introduced in Congress",
+   "summary": "Rep. Ritchie Torres of New York's 15th congressional district in the Bronx introduced the Power To The Players Act this week. If passed, the bill would direct the Federal Trade Commission to establish regulations that guarantee consumers ownership of a game when they pay for it, rather than a licensing agreement. It's increasingly common for […]",
+   "link": "https://www.theverge.com/policy/1013521/video-game-ownership-bill-congress-power-to-the-players-act",
+   "comments": null,
+   "image": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/25544255/2162439650.jpg?quality=90&strip=all&crop=0,0,100,100",
+   "published": "2026-10-18T16:27:51+00:00",
+   "category": "game",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "73010bcabe",
+   "source": "Engadget",
+   "title": "Here's how we would build out the perfect modular electric Slate truck",
+   "summary": "A Bronco for the modern age.",
+   "link": "https://www.engadget.com/2289274/heres-how-we-would-build-out-the-perfect-modular-electric-slate-truck/",
+   "comments": null,
+   "image": "https://www.engadget.com/img/gallery/heres-how-we-would-build-out-the-perfect-modular-electric-slate-truck/l-intro-1792004130.jpg",
+   "published": "2026-10-19T18:30:00+00:00",
+   "category": "tech",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "0b1b69b05b",
+   "source": "Engadget",
+   "title": "Is paid antivirus actually a waste of money for your PC in 2026?",
+   "summary": "Subscribing to an antivirus suite kept you safe a long time ago, but they're much less useful for most people today.",
+   "link": "https://www.engadget.com/2287979/is-paid-antivirus-for-pc-waste-of-money/",
+   "comments": null,
+   "image": "https://www.engadget.com/img/gallery/is-paid-antivirus-actually-a-waste-of-money-for-your-pc-in-2026/l-intro-1792088590.jpg",
+   "published": "2026-10-19T18:00:00+00:00",
+   "category": "tech",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "0dcabea656",
+   "source": "TechCrunch",
+   "title": "Rivian’s CEO says autonomy will enable ‘dramatically different’ vehicle designs",
+   "summary": "His vision will culminate with the R4 vehicle.",
+   "link": "https://techcrunch.com/2026/10/19/rivians-ceo-says-autonomy-will-enable-dramatically-different-vehicle-designs/",
+   "comments": null,
+   "image": "https://techcrunch.com/wp-content/uploads/2026/10/rj-scaringe-disrupt-2026-getty.jpg?resize=1200,800",
+   "published": "2026-10-19T17:39:51+00:00",
+   "category": "tech",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "203cb0bac9",
+   "source": "TechCrunch",
+   "title": "Amazon to fund 12 small nuclear reactors at former Indiana coal plant",
+   "summary": "Amazon and X-energy have inked another deal to deploy nuclear power to the grid. This one will generate nearly 1 gigawatt of electricity.",
+   "link": "https://techcrunch.com/2026/10/19/amazon-to-fund-12-small-nuclear-reactors-at-former-indiana-coal-plant/",
+   "comments": null,
+   "image": "https://techcrunch.com/wp-content/uploads/2024/09/GettyImages-487821.jpeg?resize=1200,792",
+   "published": "2026-10-19T16:55:56+00:00",
+   "category": "tech",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "9ed9888ca9",
+   "source": "Engadget",
+   "title": "At what distance does a video doorbell stop detecting motion?",
+   "summary": "Your video doorbell might see a visitor without sending an alert. Detection depends on more than distance, and some surprising factors can affect its reach.",
+   "link": "https://www.engadget.com/2287906/video-doorbell-distance-stop-detecting-motion/",
+   "comments": null,
+   "image": "https://www.engadget.com/img/gallery/at-what-distance-does-a-video-doorbell-stop-detecting-motion/l-intro-1792085683.jpg",
+   "published": "2026-10-19T16:45:00+00:00",
+   "category": "tech",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "f39e4c398b",
+   "source": "Ars Technica",
+   "title": "Huge DMV data breach impacted current and former Florida residents",
+   "summary": "Florida issues alerts after statewide DMV data breach linked to ShinyHunters.",
+   "link": "https://arstechnica.com/tech-policy/2026/10/huge-dmv-data-breach-impacted-current-and-former-florida-residents/",
+   "comments": null,
+   "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/GettyImages-1384284626-1152x648.jpg",
+   "published": "2026-10-19T16:38:13+00:00",
+   "category": "tech",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "2eb017a958",
+   "source": "The Verge",
+   "title": "Apple teases MacBook Pro event next week",
+   "summary": "Apple has sent invites to a second product launch this month, and it's scheduled for October 28th at 1PM ET in Los Angeles. At the event, Apple is set to announce new Macs and a refreshed iPad Mini, according to Bloomberg. The big announcement is expected to be a new MacBook Pro with an OLED […]",
+   "link": "https://www.theverge.com/tech/1013028/apple-second-october-product-launch-announcement",
+   "comments": null,
+   "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/pro.jpg?quality=90&strip=all&crop=0,0,100,100",
+   "published": "2026-10-19T16:04:29+00:00",
+   "category": "tech",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "cb4f90f374",
+   "source": "Hacker News",
+   "title": "Degraded availability for GitHub Actions, GitHub Pages and Webhooks",
+   "summary": "",
+   "link": "https://www.githubstatus.com/incidents/8tzbpcnl75jp",
+   "comments": "https://news.ycombinator.com/item?id=50153934",
+   "image": "https://dka575ofm4ao0.cloudfront.net/pages-twitter_logos/original/36420/GitHub-Mark-120px-plus.png",
+   "published": "2026-10-19T15:52:26+00:00",
+   "category": "tech",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "34d9eee9f3",
+   "source": "The Verge",
+   "title": "Amazon is funding a new nuclear plant in Indiana",
+   "summary": "Amazon has signed an agreement with X-energy and American Electric Power (AEP) to fund the building of a new nuclear energy facility in Indiana. The proposed plant, which would replace the now defunct coal-fueled Breed Generating Station in Fairbanks, Sullivan County, aims to provide up to 960 megawatts of carbon-free energy for both the regional […]",
+   "link": "https://www.theverge.com/tech/1013735/amazon-x-energy-aep-nuclear-indiana",
+   "comments": null,
+   "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/Amazon-nuclear-power-plant-Indiana-.jpg?quality=90&strip=all&crop=0,0,100,100",
+   "published": "2026-10-19T15:44:20+00:00",
+   "category": "tech",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "3d2cf87c0c",
+   "source": "Ars Technica",
+   "title": "A Chinese rocket deorbited over Minnesota and left this in a farmer's cornfield",
+   "summary": "All the evidence points to the debris being part of a Chinese Zhuque-2E rocket.",
+   "link": "https://arstechnica.com/space/2026/10/a-chinese-rocket-deorbited-over-minnesota-and-left-this-in-a-farmers-cornfield/",
+   "comments": null,
+   "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/848413061_1584132123754825_2260017497965151960_n-1152x648-1792421844.jpg",
+   "published": "2026-10-19T14:35:01+00:00",
+   "category": "tech",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "5fe939f20f",
+   "source": "Wired",
+   "title": "Nathan Fielder’s Surprise Call From Elizabeth Holmes: ‘I Trust You’",
+   "summary": "The codirector of “You Can See Everything” talks exclusively to WIRED about truth, lies, and Theranos.",
+   "link": "https://www.wired.com/story/nathan-fielder-tells-us-everything/",
+   "comments": null,
+   "image": "https://media.wired.com/photos/6ad1463d540188983e952ca6/master/pass/Oshiro_-(5)_final_web.jpg",
+   "published": "2026-10-19T11:30:00+00:00",
+   "category": "tech",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "ca481e8ae2",
+   "source": "Wired",
+   "title": "Maricopa County, Arizona, Is Again Ground Zero of Election Conspiracy Theories",
+   "summary": "In 2020, Maricopa County became the epicenter for Trump’s claims the election was stolen. Six years, later the president and his allies are dusting off their “rigged” playbook ahead of the midterms.",
+   "link": "https://www.wired.com/story/maricopa-county-arizona-is-again-ground-zero-of-election-conspiracy-theories/",
+   "comments": null,
+   "image": "https://media.wired.com/photos/6ad0f8d0a53f318078ec0b33/master/pass/101526-Maricopa%20County%202.jpg",
+   "published": "2026-10-19T10:30:00+00:00",
+   "category": "tech",
+   "title_fa": "",
+   "summary_fa": ""
+  }
+ ]
+}
