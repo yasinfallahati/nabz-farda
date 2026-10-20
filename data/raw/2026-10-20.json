@@ -1,0 +1,637 @@
+{
+ "date": "2026-10-20",
+ "fetched_at": "2026-10-20T18:36:03.938488+00:00",
+ "counts": {
+  "ai": 12,
+  "game": 12,
+  "tech": 12
+ },
+ "feeds": [
+  {
+   "feed": "https://www.theverge.com/rss/index.xml",
+   "source": "The Verge",
+   "entries": 10,
+   "error": null
+  },
+  {
+   "feed": "https://www.theverge.com/rss/games/index.xml",
+   "source": "The Verge",
+   "entries": 10,
+   "error": null
+  },
+  {
+   "feed": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml",
+   "source": "The Verge",
+   "entries": 10,
+   "error": null
+  },
+  {
+   "feed": "https://techcrunch.com/feed/",
+   "source": "TechCrunch",
+   "entries": 20,
+   "error": null
+  },
+  {
+   "feed": "https://techcrunch.com/category/artificial-intelligence/feed/",
+   "source": "TechCrunch",
+   "entries": 20,
+   "error": null
+  },
+  {
+   "feed": "https://feeds.arstechnica.com/arstechnica/index",
+   "source": "Ars Technica",
+   "entries": 20,
+   "error": null
+  },
+  {
+   "feed": "https://arstechnica.com/gaming/feed/",
+   "source": "Ars Technica",
+   "entries": 20,
+   "error": null
+  },
+  {
+   "feed": "https://www.wired.com/feed/rss",
+   "source": "Wired",
+   "entries": 50,
+   "error": null
+  },
+  {
+   "feed": "https://www.wired.com/feed/tag/ai/latest/rss",
+   "source": "Wired",
+   "entries": 10,
+   "error": null
+  },
+  {
+   "feed": "https://www.engadget.com/rss.xml",
+   "source": "Engadget",
+   "entries": 20,
+   "error": null
+  },
+  {
+   "feed": "https://www.tomshardware.com/feeds/all",
+   "source": "Tom's Hardware",
+   "entries": 0,
+   "error": "HTTPConnectionPool(host='www.tomshardware.com', port=80): Max retries exceeded with url: /feeds.xml (Caused by ConnectTimeoutError(<HTTPConnection(host='www.tomshardware.com', port=80) at 0x7fb7cd8a9090>, 'Connection to www.tomshardware.com timed out. (connect timeout=20)'))"
+  },
+  {
+   "feed": "https://hnrss.org/frontpage?points=100",
+   "source": "Hacker News",
+   "entries": 16,
+   "error": null
+  },
+  {
+   "feed": "https://feeds.feedburner.com/ign/all",
+   "source": "IGN",
+   "entries": 20,
+   "error": null
+  },
+  {
+   "feed": "https://www.gamespot.com/feeds/mashup/",
+   "source": "GameSpot",
+   "entries": 15,
+   "error": null
+  },
+  {
+   "feed": "https://www.polygon.com/rss/index.xml",
+   "source": "Polygon",
+   "entries": 10,
+   "error": null
+  },
+  {
+   "feed": "https://www.eurogamer.net/feed",
+   "source": "Eurogamer",
+   "entries": 100,
+   "error": null
+  },
+  {
+   "feed": "https://www.pcgamer.com/rss/",
+   "source": "PC Gamer",
+   "entries": 50,
+   "error": null
+  },
+  {
+   "feed": "https://kotaku.com/rss",
+   "source": "Kotaku",
+   "entries": 20,
+   "error": null
+  },
+  {
+   "feed": "https://www.rockpapershotgun.com/feed",
+   "source": "Rock Paper Shotgun",
+   "entries": 100,
+   "error": null
+  },
+  {
+   "feed": "https://www.gematsu.com/feed",
+   "source": "Gematsu",
+   "entries": 20,
+   "error": null
+  },
+  {
+   "feed": "https://feeds.feedburner.com/venturebeat/SZYF",
+   "source": "VentureBeat",
+   "entries": 7,
+   "error": null
+  },
+  {
+   "feed": "https://www.technologyreview.com/topic/artificial-intelligence/feed",
+   "source": "MIT Technology Review",
+   "entries": 10,
+   "error": null
+  },
+  {
+   "feed": "https://openai.com/news/rss.xml",
+   "source": "OpenAI",
+   "entries": 1302,
+   "error": null
+  },
+  {
+   "feed": "https://blog.google/technology/ai/rss/",
+   "source": "Google AI",
+   "entries": 20,
+   "error": null
+  },
+  {
+   "feed": "https://deepmind.google/blog/rss.xml",
+   "source": "Google DeepMind",
+   "entries": 100,
+   "error": null
+  },
+  {
+   "feed": "https://huggingface.co/blog/feed.xml",
+   "source": "Hugging Face",
+   "entries": 886,
+   "error": null
+  }
+ ],
+ "items": [
+  {
+   "id": "4eb9f7080b",
+   "source": "Hugging Face",
+   "title": "NVIDIA Cosmos3-H-Dreams: Bringing Clinical Surgery to Life Through Generative Simulation",
+   "summary": "",
+   "link": "https://huggingface.co/blog/nvidia/cosmos3-h-dreams",
+   "comments": null,
+   "image": "https://cdn-uploads.huggingface.co/production/uploads/67a4f15057fb66b9db6dac82/45XSEtdQHqTdspRe3wkYs.png",
+   "published": "2026-10-20T18:17:47+00:00",
+   "category": "ai",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "4168438b63",
+   "source": "The Verge",
+   "title": "Meta pauses Muse sharing after researchers find AI chats on the web",
+   "summary": "Meta says it paused a Muse feature that lets you share conversations with the AI assistant after researchers found the URLs publicly available on the web, as reported by Ars Technica. In a report published this week, researchers at the security firm Claroc say they found more than 6,800 Muse links through public DNS records. […]",
+   "link": "https://www.theverge.com/tech/1014627/meta-muse-ai-sharing-ai-chats",
+   "comments": null,
+   "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/STKB394_MUSE_AI_CVIRGINIA_A.png?quality=90&strip=all&crop=0,0,100,100",
+   "published": "2026-10-20T18:07:34+00:00",
+   "category": "ai",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "7fe075e5e5",
+   "source": "TechCrunch",
+   "title": "Eric Schmidt reportedly owns about half as much of Anthropic as CEO Dario Amodei",
+   "summary": "The former Google CEO owns about 1% stake in the leading AI lab, Bloomberg reported.",
+   "link": "https://techcrunch.com/2026/10/20/eric-schmidt-reportedly-owns-about-half-as-much-of-anthropic-as-ceo-dario-amodei/",
+   "comments": null,
+   "image": "https://techcrunch.com/wp-content/uploads/2023/06/hqdefault_c79236.jpg?w=1200",
+   "published": "2026-10-20T17:55:12+00:00",
+   "category": "ai",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "01d10aeaf7",
+   "source": "Engadget",
+   "title": "Spotify is dancing around its AI 'slop and spam' problem",
+   "summary": "The company said it removed 50 million such tracks from recommendations, but hasn't necessarily wiped them entirely.",
+   "link": "https://www.engadget.com/2291954/spotify-is-dancing-around-its-ai-slop-and-spam-problem/",
+   "comments": null,
+   "image": "https://www.engadget.com/img/gallery/spotify-is-dancing-around-its-ai-slop-and-spam-problem/l-intro-1792516193.jpg",
+   "published": "2026-10-20T17:11:26+00:00",
+   "category": "ai",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "2d379e8ffc",
+   "source": "TechCrunch",
+   "title": "Ex-Nvidia-turned-VC Amulya Vishwanath: ‘Physical AI is in it’s LEGO era’",
+   "summary": "It’s the moment everyone is waiting for — the ChatGPT moment for robotics, Amulya Vishwanath explained to TechCrunch’s Equity.",
+   "link": "https://techcrunch.com/2026/10/20/ex-nvidia-turned-vc-amulya-vishwanath-physical-ai-is-in-its-lego-era/",
+   "comments": null,
+   "image": "https://techcrunch.com/wp-content/uploads/2026/10/GettyImages-1404749040.jpg?resize=1200,675",
+   "published": "2026-10-20T16:20:06+00:00",
+   "category": "ai",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "ca293d8533",
+   "source": "Hugging Face",
+   "title": "FairStress: A deeper evaluation of fairness in LLM decision-making",
+   "summary": "",
+   "link": "https://huggingface.co/blog/allenai/fairstress",
+   "comments": null,
+   "image": "https://cdn-uploads.huggingface.co/production/uploads/638e39b249de7ae552d977b5/7zYjyTWswjO2erWsO5HNf.png",
+   "published": "2026-10-20T16:09:19+00:00",
+   "category": "ai",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "a87757c6fb",
+   "source": "Hacker News",
+   "title": "Steam Users Beg for \"No AI\" Filter as Vibecoders Flood Next Fest",
+   "summary": "",
+   "link": "https://www.ign.com/articles/steam-fans-are-begging-for-a-no-ai-filter-as-steam-next-fest-is-filled-with-slop",
+   "comments": "https://news.ycombinator.com/item?id=50168190",
+   "image": "https://assets-prd.ignimgs.com/2023/07/01/steam-blogroll-logos-1663887576752-1673156937925-1688244430676.jpg?width=1280&format=jpg&auto=webp&quality=80",
+   "published": "2026-10-20T15:48:26+00:00",
+   "category": "ai",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "c6c2448352",
+   "source": "MIT Technology Review",
+   "title": "The new economics of enterprise AI",
+   "summary": "Imagine your company just discovered electricity. At first only a few machines run on it, and nobody worries about efficiency — consumption is low and the value is obvious. But once electricity becomes infrastructure, every process depends on it, and the question changes from “can we use it?” to “how efficiently are we using it?”…",
+   "link": "https://www.technologyreview.com/2026/10/20/1146937/the-new-economics-of-enterprise-ai/",
+   "comments": null,
+   "image": "https://wp.technologyreview.com/wp-content/uploads/2026/10/HPE-iStock-1168748420.jpg?w=1200",
+   "published": "2026-10-20T15:20:25+00:00",
+   "category": "ai",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "5afa1bd218",
+   "source": "Wired",
+   "title": "An AI Agent Joined a Listserv of Top Internet Researchers. The Reply-All Chaos Is Still Unfolding",
+   "summary": "Hysteria over the agent's appearance in a 7,500-person group reveals that internet experts have outdated notions of privacy.",
+   "link": "https://www.wired.com/story/an-ai-agent-joined-a-listserv-of-top-internet-researchers-the-reply-all-chaos-is-still-unfolding/",
+   "comments": null,
+   "image": "https://media.wired.com/photos/6ad2cc7064b24534a6bc5044/master/pass/culture_ai_agent_internet_research_listserv.jpg",
+   "published": "2026-10-20T15:07:43+00:00",
+   "category": "ai",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "5b6885c6ef",
+   "source": "The Verge",
+   "title": "Spotify pulled 50 million AI slop and spam tracks from its recommendations",
+   "summary": "Spotify says it has removed more than 50 million songs considered AI-generated slop or spam from user recommendations over the past year. That's according to an announcement on Tuesday that says Spotify has also made changes to its recommendation system to highlight more music made by human artists. \"Our editors hold the same standard and […]",
+   "link": "https://www.theverge.com/entertainment/1014284/spotify-ai-slop-spam-songs-removed",
+   "comments": null,
+   "image": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/23951391/STK088_VRG_Illo_N_Barclay_4_spotify.jpg?quality=90&strip=all&crop=0,0,100,100",
+   "published": "2026-10-20T14:18:37+00:00",
+   "category": "ai",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "b3fcb2e42d",
+   "source": "OpenAI",
+   "title": "Franchisee reconciles cash in 94% less time with ChatGPT Work",
+   "summary": "An independent Schlotzsky’s and Cinnabon franchisee cut menu repricing time by 95% and built a workflow that could free up $100K in cash flow.",
+   "link": "https://openai.com/index/ted-taylor-restaurant",
+   "comments": null,
+   "image": null,
+   "published": "2026-10-20T10:00:00+00:00",
+   "category": "ai",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "fef6e80895",
+   "source": "Ars Technica",
+   "title": "Accused OpenAI spy had folder called “Saudi Gov Docs,” FBI says",
+   "summary": "US fears Saudi government will help ex-OpenAI engineer flee spying charges.",
+   "link": "https://arstechnica.com/tech-policy/2026/10/accused-openai-spy-had-folder-called-saudi-gov-docs-fbi-says/",
+   "comments": null,
+   "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/GettyImages-2214263510-1024x648.jpg",
+   "published": "2026-10-19T20:21:53+00:00",
+   "category": "ai",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "093b0388f5",
+   "source": "Polygon",
+   "title": "New Cheaper PS5 Officially Available for Pre-Order Now",
+   "summary": "Sony's new PlayStation 5 Digital Edition Midnight Black for Japan is now available for pre-order and costs much less than other PS5 models.",
+   "link": "https://www.polygon.com/ps5-midnight-edition-preorders-open-now-japan/",
+   "comments": null,
+   "image": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/10/ps5-midnight-black.jpg",
+   "published": "2026-10-20T18:31:44+00:00",
+   "category": "game",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "268f1f7277",
+   "source": "Engadget",
+   "title": "How long can you expect your original Steam Deck to last?",
+   "summary": "The original Steam Deck has been around for a while, but unless you only play the heaviest games, it should be great for some time more.",
+   "link": "https://www.engadget.com/2289277/how-long-steam-deck-last-lifespan-support/",
+   "comments": null,
+   "image": "https://www.engadget.com/img/gallery/how-long-can-you-expect-your-original-steam-deck-to-last/l-intro-1791573909.jpg",
+   "published": "2026-10-20T18:30:00+00:00",
+   "category": "game",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "9145670c91",
+   "source": "PC Gamer",
+   "title": "Helldivers 2 studio warns mods may break as it switches to new anti-cheat, and the negative reviews are dropping on Steam like Hellbombs",
+   "summary": "Arrowhead says Easy Anti-Cheat will be more effective in combatting recent cheat mods, but the change has resulted in more than 1,000 negative user reviews on Steam in a single day.",
+   "link": "https://www.pcgamer.com/games/third-person-shooter/helldivers-2-studio-warns-mods-may-break-as-it-switches-to-new-anti-cheat-and-the-negative-reviews-are-dropping-on-steam-like-hellbombs/",
+   "comments": null,
+   "image": "https://cdn.mos.cms.futurecdn.net/gfsxvNdYDyTKiyUdidRJJc-1920-80.png",
+   "published": "2026-10-20T18:19:34+00:00",
+   "category": "game",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "429cdd132d",
+   "source": "Engadget",
+   "title": "AMD is bringing its next-gen FSR 4.1 upscaling tech to Xbox",
+   "summary": "Coming soon to the X/S and Ally devices.",
+   "link": "https://www.engadget.com/2292103/amd-is-bringing-its-next-gen-fsr-41-upscaling-tech-to-xbox/",
+   "comments": null,
+   "image": "https://www.engadget.com/img/gallery/amd-is-bringing-its-next-gen-fsr-4-1-upscaling-tech-to-xbox/l-intro-1792520179.jpg",
+   "published": "2026-10-20T18:17:00+00:00",
+   "category": "game",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "83e5ec1033",
+   "source": "Polygon",
+   "title": "Marvel Rivals Officially Brings Avengers: Endgame's Final Fight to Life",
+   "summary": "NetEase Games released the first footage of 'Marvel Rivals’ chaotic new PvE mode where 50 players fight Thanos.",
+   "link": "https://www.polygon.com/marvel-rivals-50-player-pve-avengers-endgame/",
+   "comments": null,
+   "image": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/10/marvel-rivals-thanos-screenshot.jpg",
+   "published": "2026-10-20T18:13:03+00:00",
+   "category": "game",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "bfaa5df1c4",
+   "source": "Kotaku",
+   "title": "Magic: The Gathering’s Star Trek Set Is Gargantuan—Check Out Brand New Card Arts",
+   "summary": "We've got a bunch of details about the new mechanics and special arts",
+   "link": "https://kotaku.com/magic-the-gathering-star-trek-card-art-commander-picard-spock-2000747929",
+   "comments": null,
+   "image": "https://kotaku.com/app/uploads/2026/10/mtg-st-main-1280x720.jpg",
+   "published": "2026-10-20T18:00:48+00:00",
+   "category": "game",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "bb54e3e3d3",
+   "source": "GameSpot",
+   "title": "Here Are The Mechanics and Dozens Of New Cards From Magic: The Gathering’s Star Trek Set",
+   "summary": "After a year that featured alternate realities, ninja turtles, superheroes, and hobbits, the final Magic: The Gathering expansion of 2026 is going where no Universes Beyond set has gone before, as Star Trek is scheduled to launch in November. Today, Wizards of the Coast revealed the mechanics players can expect in the set, along with dozens of new cards from both the main set and the preconstructed Commander decks. We also got a glimpse at some …",
+   "link": "https://www.gamespot.com/articles/here-are-the-mechanics-and-dozens-of-new-cards-from-magic-the-gatherings-star-trek-set/",
+   "comments": null,
+   "image": "https://www.gamespot.com/wp-content/uploads/2026/10/cover.jpg?w=1200",
+   "published": "2026-10-20T18:00:00+00:00",
+   "category": "game",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "69ad5537c0",
+   "source": "IGN",
+   "title": "The Clash Royale Board Game Reaches Its Crowdfunding Goal in Less Than an Hour",
+   "summary": "Clash Royale: The Grand Arena has officially launched on Kickstarter and it's already off to a solid start. The upcoming board game adaptation has blown past its initial $25K goal in less than an hour after going live. IGN had the chance to reveal the first trailer for the game last week and found it to be a faithful adaptation to the very popular mobile game. If you want to get in on the game before it officially launches, pledges start at $49 …",
+   "link": "https://www.ign.com/articles/the-clash-royale-board-game-reaches-its-crowdfunding-goal-in-less-than-an-hour",
+   "comments": null,
+   "image": "https://assets-prd.ignimgs.com/2025/11/10/clash-royale-1762796186181.jpg",
+   "published": "2026-10-20T17:59:49+00:00",
+   "category": "game",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "4b50d5c175",
+   "source": "Gematsu",
+   "title": "Mouthwashing coming to PS5, Xbox Series, PS4, and Switch on October 29",
+   "summary": "Publisher CRITICAL REFLEX and developer Wrong Organ will release horror game Mouthwashing for PlayStation 5, …",
+   "link": "https://www.gematsu.com/2026/10/mouthwashing-coming-to-ps5-xbox-series-ps4-and-switch-on-october-29",
+   "comments": null,
+   "image": "https://www.gematsu.com/wp-content/uploads/2026/10/Mouthwashing-Consoles_10-20-26.jpg",
+   "published": "2026-10-20T17:59:07+00:00",
+   "category": "game",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "b0ff8c499f",
+   "source": "Rock Paper Shotgun",
+   "title": "I know you probably don't have mushroom in your backlog, but fungus looter shooter Mycopunk is now out in 1.0 and looks like the opposite of a shiitake time",
+   "summary": "And lo, mushrooms! This is what I imagine an old timey tour guide might say while on a hiking trail, but we aren't on one of those, so get that wonderful fungi image out of your brain. No, today is the day that Mycopunk has arrived into 1.0, an online co-op looter shooter about embodying robot rejects fending off hordes challenging champignon. Read more",
+   "link": "https://www.rockpapershotgun.com/i-know-you-probably-dont-have-mushroom-in-your-backlog-but-fungus-looter-shooter-mycopunk-is-now-out-in-10-and-looks-like-the-opposite-of-a-shiitake-time",
+   "comments": null,
+   "image": "https://assetsio.gnwcdn.com/mycopunk-launch.jpg?width=690&quality=85&format=jpg&auto=webp",
+   "published": "2026-10-20T17:34:58+00:00",
+   "category": "game",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "b6c54e4df4",
+   "source": "The Verge",
+   "title": "AMD is bringing FSR 4.1 to Xbox consoles and handhelds",
+   "summary": "AMD has just revealed that it's bringing its latest upscaling technology, FSR 4.1, to the Xbox Series S and X consoles, as well as laptops, 6000-series GPUs, and handhelds like the Xbox Ally X devices. FSR 4.1 will start appearing for Radeon RX 6000-series GPUs today, as well as Ryzen AI Max 300 and 400 […]",
+   "link": "https://www.theverge.com/news/1014455/amd-fsr-4-1-xbox-consoles-handhelds-laptops",
+   "comments": null,
+   "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/3b4peqgb3j7f1.jpg?quality=90&strip=all&crop=0,0,100,100",
+   "published": "2026-10-20T16:21:18+00:00",
+   "category": "game",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "c521bfcfa8",
+   "source": "Eurogamer",
+   "title": "Ex-Call of Duty designer \"who survived the crunch\" in order to launch Black Ops 1 & 2 calls out executives \"raking it in\" from sales of remasters",
+   "summary": "A former long-time Call of Duty developer has called out Activision executives profiteering from the re-release of games like Black Ops 1 and 2, whereas the developers who contributed \"blood, sweat, and tears\" to make them gained nothing. Read more",
+   "link": "https://www.eurogamer.net/call-of-duty-black-ops-1-2-re-release-controversy",
+   "comments": null,
+   "image": "https://assetsio.gnwcdn.com/black-ops-box-art.jpg?width=690&quality=85&format=jpg&auto=webp",
+   "published": "2026-10-20T15:45:04+00:00",
+   "category": "game",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "6ce6b1ab6d",
+   "source": "Engadget",
+   "title": "How often should you restart your Apple Watch?",
+   "summary": "Your Apple Watch doesn't need frequent restarts like a computer, but you might still want to shut down when something's off.",
+   "link": "https://www.engadget.com/2288986/how-often-should-restart-apple-watch/",
+   "comments": null,
+   "image": "https://www.engadget.com/img/gallery/how-often-should-you-restart-your-apple-watch/l-intro-1792170963.jpg",
+   "published": "2026-10-20T18:00:00+00:00",
+   "category": "tech",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "da21bf829d",
+   "source": "The Verge",
+   "title": "The $20,000 Voxel bot will help you find misplaced things around your home",
+   "summary": "Tuesday Labs, a New York City-based robotics lab and design studio, has opened reservations for Voxel, its new bi-pedal robot designed to learn and take over routine tasks throughout your home. Similar to other robots like Weave Robotics' Issac 1 that are designed for household chores beyond mopping or vacuuming floors, Voxel features a pair […]",
+   "link": "https://www.theverge.com/tech/1014533/tuesday-labs-voxel-series-1-home-robot-reservation",
+   "comments": null,
+   "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/voxel1.jpg?quality=90&strip=all&crop=0,0,100,100",
+   "published": "2026-10-20T17:49:55+00:00",
+   "category": "tech",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "f6b7a6dee8",
+   "source": "Wired",
+   "title": "French Government Calls Emergency Meetings With Platforms Over Protests",
+   "summary": "TikTok and other sites were told to curb protest footage and AI-altered images, while online retailers like Vinted and eBay reportedly signed an agreement stop looted goods from flooding resale sites.",
+   "link": "https://www.wired.com/story/french-government-calls-emergency-meetings-with-platforms-over-protests/",
+   "comments": null,
+   "image": "https://media.wired.com/photos/6ad772c1fca8f52b99e9eedc/master/pass/GettyImages-2300075055.jpg",
+   "published": "2026-10-20T17:41:58+00:00",
+   "category": "tech",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "319f79c551",
+   "source": "TechCrunch",
+   "title": "Meta’s Muse hits 10M U.S. downloads in 40 days, a milestone reached by only 11 other apps",
+   "summary": "Meta's AI companion Muse has surpassed 10 million U.S. downloads in its first 40 days, joining an exclusive group of apps that includes Threads. New data also shows Muse is retaining users at higher rates than its AI rivals.",
+   "link": "https://techcrunch.com/2026/10/20/metas-muse-hits-10m-u-s-downloads-in-40-days-a-milestone-reached-by-only-11-other-apps/",
+   "comments": null,
+   "image": "https://techcrunch.com/wp-content/uploads/2026/09/meta-muse-app-GettyImages-2293792137.jpg?w=1024",
+   "published": "2026-10-20T17:12:48+00:00",
+   "category": "tech",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "1a617cc5d8",
+   "source": "The Verge",
+   "title": "Chrome will now show a warning before you visit ‘suspicious’ sites",
+   "summary": "Google is launching a new browser safety feature for Chrome that aims to keep you better informed about how malicious a website might be before you open it. The new suspicious site warnings, available when Chrome's Enhanced Protection is on, build on a similar two-stage system introduced for Chrome file downloads in 2024, which provides […]",
+   "link": "https://www.theverge.com/tech/1014446/google-chrome-suspicious-website-warning",
+   "comments": null,
+   "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/Google-Chrome-suspicious-website-warning-hero.jpg?quality=90&strip=all&crop=0,0,100,100",
+   "published": "2026-10-20T17:00:00+00:00",
+   "category": "tech",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "94aaede4e6",
+   "source": "Engadget",
+   "title": "Don't put your phone in the TSA bin — do this instead",
+   "summary": "Let's be honest, TSA bins are just gross.",
+   "link": "https://www.engadget.com/2288969/why-shouldnt-put-phone-tsa-bin/",
+   "comments": null,
+   "image": "https://www.engadget.com/img/gallery/dont-put-your-phone-in-the-tsa-bin-do-this-instead/l-intro-1792170181.jpg",
+   "published": "2026-10-20T16:45:00+00:00",
+   "category": "tech",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "345d80ab20",
+   "source": "Wired",
+   "title": "Hatch Sleep Clock Review: A Contactless Sleep Tracker (2026)",
+   "summary": "I’m obsessed with sleep data, but I don’t love wearing a smartwatch to bed. Can the Hatch Sleep Clock give me the best of both worlds at an affordable price?",
+   "link": "https://www.wired.com/review/review-hatch-sleep-clock/",
+   "comments": null,
+   "image": "https://media.wired.com/photos/6ad67177f85dfee471db0a6b/master/pass/Review%20Hatch%20Sleep%20Clock%20102026%20top%20art%20SOURCE%20Hatch.jpg",
+   "published": "2026-10-20T16:03:17+00:00",
+   "category": "tech",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "3b29865c98",
+   "source": "TechCrunch",
+   "title": "Streaming guide JustWatch becomes a streamer itself",
+   "summary": "JustWatch, the popular streaming search guide used by 50 million people, is launching its own streaming service, offering free, ad-supported movies and shows alongside a $3.99-per-month ad-free tier and movie rentals.",
+   "link": "https://techcrunch.com/2026/10/20/streaming-guide-justwatch-becomes-a-streamer-itself/",
+   "comments": null,
+   "image": "https://techcrunch.com/wp-content/uploads/2026/10/Multi_device_mock.png?resize=1200,675",
+   "published": "2026-10-20T16:01:24+00:00",
+   "category": "tech",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "1e30a53d9c",
+   "source": "Ars Technica",
+   "title": "Polestar tries to quantify what it’s like to drive a performance car",
+   "summary": "Drivers had electrodes strapped to their heads as they tested EVs on track.",
+   "link": "https://arstechnica.com/cars/2026/10/polestar-tries-to-quantify-what-its-like-to-drive-a-performance-car/",
+   "comments": null,
+   "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/HERO_The-anatomy-of-performance-18-1152x648.jpg",
+   "published": "2026-10-20T14:53:07+00:00",
+   "category": "tech",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "5e24186783",
+   "source": "Hacker News",
+   "title": "Tsrs: A Port of TypeScript to Rust",
+   "summary": "",
+   "link": "https://blog.cloudflare.com/typescript-rust-port/",
+   "comments": "https://news.ycombinator.com/item?id=50165953",
+   "image": "https://blog.cloudflare.com/_emdash/api/media/file/01M5C82XAYSWX571T82A8AZRKS.png",
+   "published": "2026-10-20T13:18:07+00:00",
+   "category": "tech",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "add383da2f",
+   "source": "Ars Technica",
+   "title": "Meta Muse exposes users' personal and business secrets when they share conversations",
+   "summary": "Meta is suspending the sharing feature while it investigates its privacy.",
+   "link": "https://arstechnica.com/security/2026/10/meta-muse-exposes-users-personal-and-business-secrets-when-they-share-conversations/",
+   "comments": null,
+   "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/ai-robot-hand-caution-1152x648.jpg",
+   "published": "2026-10-20T12:33:13+00:00",
+   "category": "tech",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "bfb6da0751",
+   "source": "Hacker News",
+   "title": "Apple broke an essential presentation feature of iPads",
+   "summary": "",
+   "link": "https://teddysvoronos.com/2026-10-19-apple-broke-an-essential-presentation-feature-of-ipads/",
+   "comments": "https://news.ycombinator.com/item?id=50165208",
+   "image": "https://teddysvoronos.com/assets/img/headshot-nav.jpg",
+   "published": "2026-10-20T12:17:28+00:00",
+   "category": "tech",
+   "title_fa": "",
+   "summary_fa": ""
+  }
+ ]
+}
