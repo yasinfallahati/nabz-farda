@@ -1,0 +1,637 @@
+{
+ "date": "2026-10-21",
+ "fetched_at": "2026-10-21T18:34:40.174819+00:00",
+ "counts": {
+  "ai": 12,
+  "game": 12,
+  "tech": 12
+ },
+ "feeds": [
+  {
+   "feed": "https://www.theverge.com/rss/index.xml",
+   "source": "The Verge",
+   "entries": 10,
+   "error": null
+  },
+  {
+   "feed": "https://www.theverge.com/rss/games/index.xml",
+   "source": "The Verge",
+   "entries": 10,
+   "error": null
+  },
+  {
+   "feed": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml",
+   "source": "The Verge",
+   "entries": 10,
+   "error": null
+  },
+  {
+   "feed": "https://techcrunch.com/feed/",
+   "source": "TechCrunch",
+   "entries": 20,
+   "error": null
+  },
+  {
+   "feed": "https://techcrunch.com/category/artificial-intelligence/feed/",
+   "source": "TechCrunch",
+   "entries": 20,
+   "error": null
+  },
+  {
+   "feed": "https://feeds.arstechnica.com/arstechnica/index",
+   "source": "Ars Technica",
+   "entries": 20,
+   "error": null
+  },
+  {
+   "feed": "https://arstechnica.com/gaming/feed/",
+   "source": "Ars Technica",
+   "entries": 20,
+   "error": null
+  },
+  {
+   "feed": "https://www.wired.com/feed/rss",
+   "source": "Wired",
+   "entries": 50,
+   "error": null
+  },
+  {
+   "feed": "https://www.wired.com/feed/tag/ai/latest/rss",
+   "source": "Wired",
+   "entries": 10,
+   "error": null
+  },
+  {
+   "feed": "https://www.engadget.com/rss.xml",
+   "source": "Engadget",
+   "entries": 20,
+   "error": null
+  },
+  {
+   "feed": "https://www.tomshardware.com/feeds/all",
+   "source": "Tom's Hardware",
+   "entries": 0,
+   "error": "HTTPConnectionPool(host='www.tomshardware.com', port=80): Max retries exceeded with url: /feeds.xml (Caused by ConnectTimeoutError(<HTTPConnection(host='www.tomshardware.com', port=80) at 0x7f7997a1fd90>, 'Connection to www.tomshardware.com timed out. (connect timeout=20)'))"
+  },
+  {
+   "feed": "https://hnrss.org/frontpage?points=100",
+   "source": "Hacker News",
+   "entries": 12,
+   "error": null
+  },
+  {
+   "feed": "https://feeds.feedburner.com/ign/all",
+   "source": "IGN",
+   "entries": 20,
+   "error": null
+  },
+  {
+   "feed": "https://www.gamespot.com/feeds/mashup/",
+   "source": "GameSpot",
+   "entries": 15,
+   "error": null
+  },
+  {
+   "feed": "https://www.polygon.com/rss/index.xml",
+   "source": "Polygon",
+   "entries": 10,
+   "error": null
+  },
+  {
+   "feed": "https://www.eurogamer.net/feed",
+   "source": "Eurogamer",
+   "entries": 100,
+   "error": null
+  },
+  {
+   "feed": "https://www.pcgamer.com/rss/",
+   "source": "PC Gamer",
+   "entries": 50,
+   "error": null
+  },
+  {
+   "feed": "https://kotaku.com/rss",
+   "source": "Kotaku",
+   "entries": 20,
+   "error": null
+  },
+  {
+   "feed": "https://www.rockpapershotgun.com/feed",
+   "source": "Rock Paper Shotgun",
+   "entries": 100,
+   "error": null
+  },
+  {
+   "feed": "https://www.gematsu.com/feed",
+   "source": "Gematsu",
+   "entries": 20,
+   "error": null
+  },
+  {
+   "feed": "https://feeds.feedburner.com/venturebeat/SZYF",
+   "source": "VentureBeat",
+   "entries": 7,
+   "error": null
+  },
+  {
+   "feed": "https://www.technologyreview.com/topic/artificial-intelligence/feed",
+   "source": "MIT Technology Review",
+   "entries": 10,
+   "error": null
+  },
+  {
+   "feed": "https://openai.com/news/rss.xml",
+   "source": "OpenAI",
+   "entries": 1309,
+   "error": null
+  },
+  {
+   "feed": "https://blog.google/technology/ai/rss/",
+   "source": "Google AI",
+   "entries": 20,
+   "error": null
+  },
+  {
+   "feed": "https://deepmind.google/blog/rss.xml",
+   "source": "Google DeepMind",
+   "entries": 100,
+   "error": null
+  },
+  {
+   "feed": "https://huggingface.co/blog/feed.xml",
+   "source": "Hugging Face",
+   "entries": 888,
+   "error": null
+  }
+ ],
+ "items": [
+  {
+   "id": "7104bc51c2",
+   "source": "Hugging Face",
+   "title": "NVIDIA Kumo Relational Outperforms Supervised Machine Learning on Relational Data, No Training Required",
+   "summary": "",
+   "link": "https://huggingface.co/blog/nvidia/kumo-relational",
+   "comments": null,
+   "image": "https://cdn-uploads.huggingface.co/production/uploads/6ad8e88370f69967fafc8703/i-Flass3NMPRmc6lVfwO_.png",
+   "published": "2026-10-21T18:26:30+00:00",
+   "category": "ai",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "7c5ac7acb9",
+   "source": "TechCrunch",
+   "title": "GM is giving OnStar an AI makeover",
+   "summary": "It's one of the biggest overhauls ever to the 30-year-old connected car product.",
+   "link": "https://techcrunch.com/2026/10/21/gm-is-giving-onstar-an-ai-makeover/",
+   "comments": null,
+   "image": "https://techcrunch.com/wp-content/uploads/2026/10/OnStar-AI-Assistant.jpg?resize=1200,624",
+   "published": "2026-10-21T18:00:00+00:00",
+   "category": "ai",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "a61190ef2d",
+   "source": "TechCrunch",
+   "title": "PHP armageddon: OpenAI, Google’s Wiz find ancient holes, panicking the internet",
+   "summary": "This is the kind of security issue that was found and prevented by AI, but is also a high risk because of AI.",
+   "link": "https://techcrunch.com/2026/10/21/php-armageddon-openai-googles-wiz-find-ancient-holes-panicking-the-internet/",
+   "comments": null,
+   "image": "https://techcrunch.com/wp-content/uploads/2021/12/GettyImages-460689215.jpg?resize=1200,801",
+   "published": "2026-10-21T17:59:12+00:00",
+   "category": "ai",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "354f89a6c7",
+   "source": "Hugging Face",
+   "title": "How Specializing the Vocabulary of SLMs Can Cut Inference Cost by 77% in Real Applications",
+   "summary": "",
+   "link": "https://huggingface.co/blog/Dharma-AI/vocabx-vocabulary-specialization",
+   "comments": null,
+   "image": "https://cdn-uploads.huggingface.co/production/uploads/6a725daa5ca641a21ab61956/OWGtXjnbBov-7SI_04o4z.png",
+   "published": "2026-10-21T17:35:36+00:00",
+   "category": "ai",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "4ab93569e2",
+   "source": "OpenAI",
+   "title": "How AT&T is rethinking in-house legal work with OpenAI",
+   "summary": "AT&T is working with OpenAI to make legal knowledge easier to access. Learn how its LegalEdge team is rethinking intake and scaling legal judgment.",
+   "link": "https://openai.com/index/att-legal",
+   "comments": null,
+   "image": null,
+   "published": "2026-10-21T17:00:00+00:00",
+   "category": "ai",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "a25875e508",
+   "source": "Ars Technica",
+   "title": "The $15 billion ad-powered AI startup your doctor may already be using",
+   "summary": "OpenEvidence is booming despite questions about accuracy and ads.",
+   "link": "https://arstechnica.com/ai/2026/10/the-15-billion-ad-powered-ai-startup-your-doctor-may-already-be-using/",
+   "comments": null,
+   "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/openevidencelist-1152x648.jpg",
+   "published": "2026-10-21T15:14:07+00:00",
+   "category": "ai",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "3dba8c3e0d",
+   "source": "The Verge",
+   "title": "Conversational Gemini navigation comes to Apple CarPlay",
+   "summary": "After introducing its Gemini AI assistant to Android Auto last year, Google is now bringing it to Apple CarPlay users. The conversational Gemini in navigation is available today for US drivers, with \"rollout happening globally too,\" according to Google (we've asked for specific regional availability details). It's taken almost 12 months for Google to bring […]",
+   "link": "https://www.theverge.com/transportation/1015281/gemini-ai-apple-carplay-voice-google-maps",
+   "comments": null,
+   "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/02/STK255_Google_Gemini_B_474198.jpg?quality=90&strip=all&crop=0,0,100,100",
+   "published": "2026-10-21T15:00:00+00:00",
+   "category": "ai",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "86941ad7b4",
+   "source": "Engadget",
+   "title": "Now you can chat with Gemini while using Google Maps through CarPlay",
+   "summary": "Just tap the new Gemini icon to get started.",
+   "link": "https://www.engadget.com/2292912/now-you-can-chat-with-gemini-while-using-google-maps-through-carplay/",
+   "comments": null,
+   "image": "https://www.engadget.com/img/gallery/now-you-can-chat-with-gemini-while-using-google-maps-through-carplay/l-intro-1792593259.jpg",
+   "published": "2026-10-21T15:00:00+00:00",
+   "category": "ai",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "4d4e231edf",
+   "source": "Wired",
+   "title": "AI Guardrails Aren’t Stopping Criminal Hackers",
+   "summary": "Hackers around the world are all-in on using agentic AI to wage attacks—and manipulating tools like Anthropic’s Claude to help them carry out their crimes.",
+   "link": "https://www.wired.com/story/ai-guardrails-arent-stopping-criminal-hackers/",
+   "comments": null,
+   "image": "https://media.wired.com/photos/6ad7cd65322aff8e01d3ff70/master/pass/Security_Claude%20Code's%20Guardrails%20Aren't%20Stopping%20Real-Life%20Attacks_v2.jpg",
+   "published": "2026-10-21T14:00:00+00:00",
+   "category": "ai",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "1bfd140f40",
+   "source": "Hacker News",
+   "title": "PHP2Shell: AI uncovers critical RCE in PHP",
+   "summary": "https://www.php2shell.com/",
+   "link": "https://www.wiz.io/blog/php2shell-php-rce",
+   "comments": "https://news.ycombinator.com/item?id=50180836",
+   "image": "https://www.datocms-assets.com/75231/1792534907-img_7274.png?fm=webp",
+   "published": "2026-10-21T13:43:19+00:00",
+   "category": "ai",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "6bc0a4e087",
+   "source": "Google AI",
+   "title": "Southeast Asia’s digital economy to hit $368 billion",
+   "summary": "Cover image for the e-Conomy SEA 2026 report titled Building the intelligent economy by Google, Temasek, and Bain and Company. A 3D illustration features a glowing yellow star surrounded by miniature scenes representing digital sectors, including data cen",
+   "link": "https://blog.google/company-news/inside-google/around-the-globe/google-asia/e-conomy-sea-report-2026/",
+   "comments": null,
+   "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/e-Conomy_SEA_hero.max-600x600.format-webp.webp",
+   "published": "2026-10-21T04:00:00+00:00",
+   "category": "ai",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "c6c2448352",
+   "source": "MIT Technology Review",
+   "title": "The new economics of enterprise AI",
+   "summary": "Imagine your company just discovered electricity. At first only a few machines run on it, and nobody worries about efficiency — consumption is low and the value is obvious. But once electricity becomes infrastructure, every process depends on it, and the question changes from “can we use it?” to “how efficiently are we using it?”…",
+   "link": "https://www.technologyreview.com/2026/10/20/1146937/the-new-economics-of-enterprise-ai/",
+   "comments": null,
+   "image": "https://wp.technologyreview.com/wp-content/uploads/2026/10/HPE-iStock-1168748420.jpg?w=1200",
+   "published": "2026-10-20T15:20:25+00:00",
+   "category": "ai",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "b2bcfb2386",
+   "source": "The Verge",
+   "title": "Xbox mandates a four-day return to office",
+   "summary": "Microsoft asked its employees to return to the office three days per week last year, and it's now upping this requirement to four days a week for most Xbox employees. An internal memo, seen by The Verge, describes the change as a \"need to create more opportunities for people to work together\" after feedback from […]",
+   "link": "https://www.theverge.com/report/1015733/xbox-return-to-office-policy-four-days",
+   "comments": null,
+   "image": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/25485114/STK048_XBOX2__A.png?quality=90&strip=all&crop=0,0,100,100",
+   "published": "2026-10-21T18:31:15+00:00",
+   "category": "game",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "ae66b3d8dd",
+   "source": "The Verge",
+   "title": "Star Wars Zero Company is a must-play strategy game at 20 percent off",
+   "summary": "If you’ve been curious about Star Wars Zero Company, the XCOM-like strategy game set in the Star Wars universe, Amazon has both the PlayStation 5 and Xbox Series S/X physical editions on sale for $47.99 and $49.99, respectively. The game usually sells for $59.99. While I’m not usually enthused by turn-based strategy games, I’ve been […]",
+   "link": "https://www.theverge.com/gadgets/1015624/star-wars-zero-company-deal-sale",
+   "comments": null,
+   "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/04/SWZC_AnnGP_Screenshot_1_WM.jpg?quality=90&strip=all&crop=0,0,100,100",
+   "published": "2026-10-21T18:30:00+00:00",
+   "category": "game",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "644dcc9b82",
+   "source": "Polygon",
+   "title": "Stranger Than Heaven Director Says the Game Is a ‘Serious Work’ and Comedy Isn’t a Focus",
+   "summary": "Stranger Than Heaven director Mikinobu Abe told Polygon the team was more interested in telling a serious story \"rather than actively pursuing comedy\"",
+   "link": "https://www.polygon.com/stranger-than-heaven-director-comedy-funny/",
+   "comments": null,
+   "image": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/05/screenshot-2026-05-06-at-3-53-56-pm.jpg",
+   "published": "2026-10-21T18:27:20+00:00",
+   "category": "game",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "63447f05b5",
+   "source": "Kotaku",
+   "title": "Here Are The Games EA Says It Will Still Make Amid Cancelations And 400 Layoffs: ‘We’re The Number One Publisher In Western HD Gaming’",
+   "summary": "The post-sale bloodbath has begun",
+   "link": "https://kotaku.com/here-are-the-games-ea-says-it-will-still-make-amid-cancelations-and-400-layoffs-were-the-number-one-publisher-in-western-hd-gaming-2000748390",
+   "comments": null,
+   "image": "https://kotaku.com/app/uploads/2019/05/pmkmwgjkyyokbkrmbyjo-1280x720.jpg",
+   "published": "2026-10-21T18:19:47+00:00",
+   "category": "game",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "4e805b7ae3",
+   "source": "GameSpot",
+   "title": "Rayman Legends Retold’s New Baguette Costumes Are A Tip Of The Beret To Expedition 33",
+   "summary": "Rayman Legends Retold is almost here, and as you'd expect from this remake, it's a pretty noticeable graphical glow-up of Rayman Legends and it includes a very French outfit for you to dress the phantom-limbed hero and his partner Barbara up in. Clair Obscur: Expedition 33 fans, this is where you do the Leonardo DiCaprio pointing meme. Even though Ubisoft doesn't mention Sandfall Interactive or Expedition 33 by name, it did confirm that the new …",
+   "link": "https://www.gamespot.com/articles/rayman-legends-retold-new-baguette-costumes-are-a-tip-of-the-beret-to-expedition-33/",
+   "comments": null,
+   "image": "https://www.gamespot.com/wp-content/uploads/2026/10/Baguette-1.jpg?w=1200",
+   "published": "2026-10-21T18:02:00+00:00",
+   "category": "game",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "0eb7cfe7ee",
+   "source": "IGN",
+   "title": "Xbox Insiders Can Now Stream Games by Buying Cloud Playtime Without Game Pass, Introductory Launch Pricing Revealed",
+   "summary": "Microsoft is now letting Xbox Insiders stream games by buying cloud playtime without a Game Pass subscription. Here's how much it costs.",
+   "link": "https://www.ign.com/articles/xbox-insiders-can-now-stream-games-by-buying-cloud-playtime-without-game-pass-introductory-launch-pricing-revealed",
+   "comments": null,
+   "image": "https://assets-prd.ignimgs.com/2023/05/03/xbox-showcase-1683121552988.jpg",
+   "published": "2026-10-21T18:00:23+00:00",
+   "category": "game",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "280839f7d8",
+   "source": "Eurogamer",
+   "title": "BioWare is closing down and Mass Effect 5 is cancelled, months after Saudi Arabia's $55bn EA buyout",
+   "summary": "After over three decades of iconic RPGs, developer BioWare is closing down and its in-development Mass Effect game is no more. The move comes just months after corporate owner EA was bought out by a group of investment firms for $55 billion. Read more",
+   "link": "https://www.eurogamer.net/bioware-closing-down-mass-effect-5-cancelled",
+   "comments": null,
+   "image": "https://assetsio.gnwcdn.com/image-(4)_hn7CZkQ.png?width=690&quality=85&format=jpg&auto=webp",
+   "published": "2026-10-21T17:55:57+00:00",
+   "category": "game",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "4e05809cca",
+   "source": "Gematsu",
+   "title": "Electronic Arts to lay off 400 staff, shut down BioWare [Update]",
+   "summary": "Electronic Arts will lay off staff and close BioWare, the developer behind the Mass Effect …",
+   "link": "https://www.gematsu.com/2026/10/electronic-arts-to-lay-off-400-staff-shut-down-bioware",
+   "comments": null,
+   "image": "https://www.gematsu.com/wp-content/uploads/2026/10/EA-BioWare-Closure_10-21-26.jpg",
+   "published": "2026-10-21T17:20:08+00:00",
+   "category": "game",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "7c55e20d56",
+   "source": "PC Gamer",
+   "title": "RIP BioWare: EA has shut down the legendary RPG developer",
+   "summary": "Bloomberg also reports that EA is cutting \"around 400 jobs\" across the company.",
+   "link": "https://www.pcgamer.com/gaming-industry/rip-bioware-ea-has-shut-down-the-legendary-rpg-developer/",
+   "comments": null,
+   "image": "https://cdn.mos.cms.futurecdn.net/vj466ettjps3vrm8mMDeQe-1920-80.jpg",
+   "published": "2026-10-21T17:16:53+00:00",
+   "category": "game",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "70ac7c0948",
+   "source": "Rock Paper Shotgun",
+   "title": "Cyberpunk 2077's Edgerunners 2 update adds two new quests, handgun dual wielding and the ability to pimp your mantis blades",
+   "summary": "A beefy new Cyberpunk 2077 update arrives tomorrow, October 22nd, fresh on the heels of the second series of the Cyberpunk Edgerunners anime which dropped earlier this week. It's dubbed update 2.5 and delivers an Edgerunners 2-themed quest alongside a heap of other additions. Read more",
+   "link": "https://www.rockpapershotgun.com/cyberpunk-2077s-edgerunners-2-update-adds-two-new-quests-handgun-dual-wielding-and-the-ability-to-pimp-your-mantis-blades",
+   "comments": null,
+   "image": "https://assetsio.gnwcdn.com/cyberpunk-2077-update-edgerunners-2-01.jpg?width=690&quality=85&format=jpg&auto=webp",
+   "published": "2026-10-21T16:09:58+00:00",
+   "category": "game",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "d3697ee23f",
+   "source": "Engadget",
+   "title": "Sony's PlayStation Pulse headset arrives on November 19 for $100",
+   "summary": "Pre-orders open on October 29.",
+   "link": "https://www.engadget.com/2293077/sonys-playstation-pulse-headset-arrives-on-november-19-for-dollar100/",
+   "comments": null,
+   "image": "https://www.engadget.com/img/gallery/sonys-playstation-pulse-headset-arrives-on-november-19-for-100/l-intro-1792598917.jpg",
+   "published": "2026-10-21T16:09:48+00:00",
+   "category": "game",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "4e848886bc",
+   "source": "Wired",
+   "title": "Gaming Can’t Afford More Games the Size of ‘Grand Theft Auto VI’",
+   "summary": "Between crushing layoffs, ballooning budgets, and bland end products, video game makers need to stop chasing AAA glory.",
+   "link": "https://www.wired.com/story/make-big-games-smaller/",
+   "comments": null,
+   "image": "https://media.wired.com/photos/6ad7a0764809649ec79b3fcd/master/pass/Jason_and_Lucia_02.jpg",
+   "published": "2026-10-21T11:00:00+00:00",
+   "category": "game",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "24b41df3f8",
+   "source": "The Verge",
+   "title": "Will TP-Link really make routers in the US? Here’s what it told us",
+   "summary": "TP-Link, one of the world's leading manufacturers of consumer Wi-Fi routers, is in a precarious position in the US. The company just launched its first Wi-Fi 8 routers, but can't bring them here because of President Donald Trump's foreign router ban. Even though competitors Netgear and Asus make their routers in Asia, they've mysteriously obtained […]",
+   "link": "https://www.theverge.com/policy/1013807/tp-link-router-us-onshoring-manufacturing-assembly-interview",
+   "comments": null,
+   "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/tp-link-wifi-8.jpg?quality=90&strip=all&crop=0,0,100,100",
+   "published": "2026-10-21T18:00:00+00:00",
+   "category": "tech",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "de50da1423",
+   "source": "Wired",
+   "title": "GM Wants Your Car to Do Your Chores",
+   "summary": "The Detroit automaker wants your next vehicle to be a personal assistant, a best friend, and an autonomous errand-runner.",
+   "link": "https://www.wired.com/story/gm-wants-your-car-to-do-your-chores/",
+   "comments": null,
+   "image": "https://media.wired.com/photos/6ad86a30ddab9d722491775f/master/pass/2027%20Cadillac%20Escalade%20IQ.jpg",
+   "published": "2026-10-21T18:00:00+00:00",
+   "category": "tech",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "5148b87927",
+   "source": "The Verge",
+   "title": "GM promises smarter cars, faster updates, and autonomous dry-cleaning runs",
+   "summary": "General Motors is still very much in the business of selling gas-guzzling trucks and massive SUVs. But if you listen to its leadership, the Detroit giant is rapidly transforming into a nimble, software-defined tech player with a tightened grip on AI. That was the pitch today, when GM hosted its tech-focused Onward event to unveil […]",
+   "link": "https://www.theverge.com/transportation/1014322/gm-onward-ai-ev-battery-compute-av",
+   "comments": null,
+   "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/10/gettyimages-97616875.jpg?quality=90&strip=all&crop=0,0,100,100",
+   "published": "2026-10-21T18:00:00+00:00",
+   "category": "tech",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "5cb3f9fdfa",
+   "source": "Engadget",
+   "title": "There's a new Apple Music logo and it looks like ripples in water",
+   "summary": "Maybe they should use it as the app logo instead.",
+   "link": "https://www.engadget.com/2293262/theres-a-new-apple-music-logo-and-it-looks-like-ripples-in-water/",
+   "comments": null,
+   "image": "https://www.engadget.com/img/gallery/theres-a-new-apple-music-logo-and-it-looks-like-ripples-in-water/l-intro-1792604071.jpg",
+   "published": "2026-10-21T17:35:47+00:00",
+   "category": "tech",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "adb8f9927f",
+   "source": "The Verge",
+   "title": "Samsung’s latest 55-inch Frame TV is down to its lowest price yet",
+   "summary": "If you want a TV but prefer something that won’t clash with your room’s decor, Samsung’s The Frame is a standout option that’s designed to look like a piece of framed art instead of a black, monolithic rectangle mounted to your wall. You can buy the latest version of the 55-inch Samsung Frame TV on […]",
+   "link": "https://www.theverge.com/gadgets/1015568/samsung-the-frame-tv-2026-deal-sale",
+   "comments": null,
+   "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/samsungtheframetv2026.jpg.png?quality=90&strip=all&crop=0,0,100,100",
+   "published": "2026-10-21T17:35:40+00:00",
+   "category": "tech",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "7427c42a84",
+   "source": "TechCrunch",
+   "title": "Blacksmith hits unicorn valuation after Sequoia leads Series C",
+   "summary": "Blacksmith, a platform that lets companies build and test AI code more effectively, just announced a $66 million Series C round led by Sequoia that values the company at $1 billion.",
+   "link": "https://techcrunch.com/2026/10/21/blacksmith-hits-unicorn-valuation-after-sequoia-leads-series-c/",
+   "comments": null,
+   "image": "https://techcrunch.com/wp-content/uploads/2026/10/Blacksmith.jpg?resize=1200,800",
+   "published": "2026-10-21T17:18:27+00:00",
+   "category": "tech",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "27160a9176",
+   "source": "TechCrunch",
+   "title": "Waymo starts offering rides at the Las Vegas airport",
+   "summary": "Pickups and dropoffs will happen at dedicated \"autonomous vehicle zones\" at Terminal 1 and Terminal 3.",
+   "link": "https://techcrunch.com/2026/10/21/waymo-starts-offering-rides-at-the-las-vegas-airport/",
+   "comments": null,
+   "image": "https://techcrunch.com/wp-content/uploads/2026/09/waymo-ojai-street.jpg?resize=1200,801",
+   "published": "2026-10-21T16:59:44+00:00",
+   "category": "tech",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "5fc05b0f30",
+   "source": "Ars Technica",
+   "title": "SpaceX to attempt Starship catch on next flight, with eye on rapid cadence increase",
+   "summary": "\"We have had significant constructive engagement with the FAA.\"",
+   "link": "https://arstechnica.com/space/2026/10/spacex-will-attempt-to-reach-weekly-starship-launches-by-early-2027/",
+   "comments": null,
+   "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/09/HTU8ja-XgAE6GwQ-1152x648.jpg",
+   "published": "2026-10-21T16:46:19+00:00",
+   "category": "tech",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "136e8f1f2f",
+   "source": "Wired",
+   "title": "This Startup Is All In on Recursive Self-Improvement. Its Latest Model Is Scary Good",
+   "summary": "Recursive makes the case that the benefits of using AI to build AI outweigh the risks.",
+   "link": "https://www.wired.com/story/recursive-self-improvement-flint-latest-model-scary-good/",
+   "comments": null,
+   "image": "https://media.wired.com/photos/6ad8079d19d8dd7213438cc0/master/pass/business_ai_lab_recursive_improvement.jpg",
+   "published": "2026-10-21T16:00:00+00:00",
+   "category": "tech",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "eff81c797d",
+   "source": "Engadget",
+   "title": "Supernatural's VR exercise app has relaunched on Meta VR headsets",
+   "summary": "It's in early access and subscriptions cost $20 per month or $200 each year.",
+   "link": "https://www.engadget.com/2293056/supernaturals-vr-exercise-app-has-relaunched-on-meta-vr-headsets/",
+   "comments": null,
+   "image": "https://www.engadget.com/img/gallery/supernaturals-vr-exercise-app-has-relaunched-on-meta-vr-headsets/l-intro-1792598064.jpg",
+   "published": "2026-10-21T16:00:00+00:00",
+   "category": "tech",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "2ce3f32518",
+   "source": "Hacker News",
+   "title": "Today's PHP security release, and how we're strengthening security",
+   "summary": "",
+   "link": "https://thephp.foundation/blog/2026/10/21/todays-php-security-release-and-how-were-strengthening-php-security/",
+   "comments": "https://news.ycombinator.com/item?id=50182987",
+   "image": "https://thephp.foundation/assets/share/2026-10-21-todays-php-security-release-and-how-were-strengthening-php-security.png",
+   "published": "2026-10-21T15:48:56+00:00",
+   "category": "tech",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "45486bf125",
+   "source": "Ars Technica",
+   "title": "Review: Carrie is a triumphant remix with one major flaw",
+   "summary": "Mike Flanagan's re-imagining of Stephen King's classic is well worth watching.",
+   "link": "https://arstechnica.com/culture/2026/10/review-carrie-is-a-triumphant-remix-with-one-major-flaw/",
+   "comments": null,
+   "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/carrieTOP-1152x648.jpg",
+   "published": "2026-10-21T11:19:12+00:00",
+   "category": "tech",
+   "title_fa": "",
+   "summary_fa": ""
+  }
+ ]
+}
