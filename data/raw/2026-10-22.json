@@ -1,0 +1,637 @@
+{
+ "date": "2026-10-22",
+ "fetched_at": "2026-10-22T18:39:03.844109+00:00",
+ "counts": {
+  "ai": 12,
+  "game": 12,
+  "tech": 12
+ },
+ "feeds": [
+  {
+   "feed": "https://www.theverge.com/rss/index.xml",
+   "source": "The Verge",
+   "entries": 10,
+   "error": null
+  },
+  {
+   "feed": "https://www.theverge.com/rss/games/index.xml",
+   "source": "The Verge",
+   "entries": 10,
+   "error": null
+  },
+  {
+   "feed": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml",
+   "source": "The Verge",
+   "entries": 10,
+   "error": null
+  },
+  {
+   "feed": "https://techcrunch.com/feed/",
+   "source": "TechCrunch",
+   "entries": 20,
+   "error": null
+  },
+  {
+   "feed": "https://techcrunch.com/category/artificial-intelligence/feed/",
+   "source": "TechCrunch",
+   "entries": 20,
+   "error": null
+  },
+  {
+   "feed": "https://feeds.arstechnica.com/arstechnica/index",
+   "source": "Ars Technica",
+   "entries": 20,
+   "error": null
+  },
+  {
+   "feed": "https://arstechnica.com/gaming/feed/",
+   "source": "Ars Technica",
+   "entries": 20,
+   "error": null
+  },
+  {
+   "feed": "https://www.wired.com/feed/rss",
+   "source": "Wired",
+   "entries": 50,
+   "error": null
+  },
+  {
+   "feed": "https://www.wired.com/feed/tag/ai/latest/rss",
+   "source": "Wired",
+   "entries": 10,
+   "error": null
+  },
+  {
+   "feed": "https://www.engadget.com/rss.xml",
+   "source": "Engadget",
+   "entries": 20,
+   "error": null
+  },
+  {
+   "feed": "https://www.tomshardware.com/feeds/all",
+   "source": "Tom's Hardware",
+   "entries": 0,
+   "error": "HTTPConnectionPool(host='www.tomshardware.com', port=80): Max retries exceeded with url: /feeds.xml (Caused by ConnectTimeoutError(<HTTPConnection(host='www.tomshardware.com', port=80) at 0x7f91c45e0050>, 'Connection to www.tomshardware.com timed out. (connect timeout=20)'))"
+  },
+  {
+   "feed": "https://hnrss.org/frontpage?points=100",
+   "source": "Hacker News",
+   "entries": 16,
+   "error": null
+  },
+  {
+   "feed": "https://feeds.feedburner.com/ign/all",
+   "source": "IGN",
+   "entries": 20,
+   "error": null
+  },
+  {
+   "feed": "https://www.gamespot.com/feeds/mashup/",
+   "source": "GameSpot",
+   "entries": 15,
+   "error": null
+  },
+  {
+   "feed": "https://www.polygon.com/rss/index.xml",
+   "source": "Polygon",
+   "entries": 10,
+   "error": null
+  },
+  {
+   "feed": "https://www.eurogamer.net/feed",
+   "source": "Eurogamer",
+   "entries": 100,
+   "error": null
+  },
+  {
+   "feed": "https://www.pcgamer.com/rss/",
+   "source": "PC Gamer",
+   "entries": 50,
+   "error": null
+  },
+  {
+   "feed": "https://kotaku.com/rss",
+   "source": "Kotaku",
+   "entries": 20,
+   "error": null
+  },
+  {
+   "feed": "https://www.rockpapershotgun.com/feed",
+   "source": "Rock Paper Shotgun",
+   "entries": 100,
+   "error": null
+  },
+  {
+   "feed": "https://www.gematsu.com/feed",
+   "source": "Gematsu",
+   "entries": 20,
+   "error": null
+  },
+  {
+   "feed": "https://feeds.feedburner.com/venturebeat/SZYF",
+   "source": "VentureBeat",
+   "entries": 7,
+   "error": null
+  },
+  {
+   "feed": "https://www.technologyreview.com/topic/artificial-intelligence/feed",
+   "source": "MIT Technology Review",
+   "entries": 10,
+   "error": null
+  },
+  {
+   "feed": "https://openai.com/news/rss.xml",
+   "source": "OpenAI",
+   "entries": 1314,
+   "error": null
+  },
+  {
+   "feed": "https://blog.google/technology/ai/rss/",
+   "source": "Google AI",
+   "entries": 20,
+   "error": null
+  },
+  {
+   "feed": "https://deepmind.google/blog/rss.xml",
+   "source": "Google DeepMind",
+   "entries": 100,
+   "error": null
+  },
+  {
+   "feed": "https://huggingface.co/blog/feed.xml",
+   "source": "Hugging Face",
+   "entries": 888,
+   "error": null
+  }
+ ],
+ "items": [
+  {
+   "id": "2203bd1a77",
+   "source": "TechCrunch",
+   "title": "Former OpenAI science lead launches Warp Science to automate wet labs with robots",
+   "summary": "The new startup raised a $215 million round led by Lightspeed.",
+   "link": "https://techcrunch.com/2026/10/22/former-openai-science-lead-launches-warp-science-to-automate-wet-labs-with-robots/",
+   "comments": null,
+   "image": "https://techcrunch.com/wp-content/uploads/2016/10/4528869007_4484c3d401_b-1.jpg?w=1024",
+   "published": "2026-10-22T18:38:47+00:00",
+   "category": "ai",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "176c9dfd38",
+   "source": "Engadget",
+   "title": "Unauthorized AI agents are reportedly already accessing US bank accounts",
+   "summary": "Sources at several banks have indicated that they have been taking actions independent of user instructions.",
+   "link": "https://www.engadget.com/2294523/unauthorized-ai-agents-are-reportedly-already-accessing-us-bank-accounts/",
+   "comments": null,
+   "image": "https://www.engadget.com/img/gallery/unauthorized-ai-agents-are-reportedly-already-accessing-us-bank-accounts/l-intro-1792692008.jpg",
+   "published": "2026-10-22T18:02:04+00:00",
+   "category": "ai",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "7bc6770bad",
+   "source": "The Verge",
+   "title": "Microsoft says its AI tool is better than doctors at diagnosing conditions",
+   "summary": "For years, AI leaders have touted healthcare as one of the clearest examples of where their technology will improve lives. Now \"it is finally here,\" Microsoft AI CEO Mustafa Suleyman tells The Verge. The company claims to have developed an AI-powered tool it says can diagnose conditions up to four times more accurately than human […]",
+   "link": "https://www.theverge.com/ai-artificial-intelligence/1016690/suleyman-microsoft-diagnostic-orchestrator-science-medical-superintelligence",
+   "comments": null,
+   "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/06/gettyimages-2207866106.jpg?quality=90&strip=all&crop=0,0,100,100",
+   "published": "2026-10-22T18:00:00+00:00",
+   "category": "ai",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "eaa0ebff7d",
+   "source": "Hugging Face",
+   "title": "OlmoEarth v1.3: State-of-the-art embeddings for the whole planet",
+   "summary": "",
+   "link": "https://huggingface.co/blog/allenai/olmoearth-v1-3",
+   "comments": null,
+   "image": "https://cdn-uploads.huggingface.co/production/uploads/638e39b249de7ae552d977b5/VEmSzlLjei8J3cUVNe7G6.png",
+   "published": "2026-10-22T16:11:31+00:00",
+   "category": "ai",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "2e9a4426b9",
+   "source": "TechCrunch",
+   "title": "Uber puts all 30,000 employees on ChatGPT Work",
+   "summary": "The ride-share giant previously deployed a much smaller pilot for ChatGPT Work but is now taking the enterprise agent company-wide.",
+   "link": "https://techcrunch.com/2026/10/22/uber-puts-all-30000-employees-on-chatgpt-work/",
+   "comments": null,
+   "image": "https://techcrunch.com/wp-content/uploads/2026/06/wayve-uber-uk.jpg?resize=1200,800",
+   "published": "2026-10-22T16:00:00+00:00",
+   "category": "ai",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "655df0fb22",
+   "source": "Google DeepMind",
+   "title": "Beyond tree cover: mapping the world’s forest types",
+   "summary": "A global map categorizing every 10-meter patch of land on Earth into distinct forest types.",
+   "link": "https://deepmind.google/blog/beyond-tree-cover-mapping-the-worlds-forest-types/",
+   "comments": null,
+   "image": "https://lh3.googleusercontent.com/Et3g0tNB_bC00f6cP94Y40QbqshCvf7_fg_gRVfZQoeVSc3Hn9g6jIenf1udZdACY4x-wpY_5tyy_LznFSlu0yhGCqfxKos6QFRRj4lad_hQHOBV8Q=w528-h297-n-nu-rw-lo",
+   "published": "2026-10-22T14:30:24+00:00",
+   "category": "ai",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "ac422fe690",
+   "source": "Engadget",
+   "title": "1Password will let Muse, Dots and Grok Bot sign in to sites for you without getting your credentials",
+   "summary": "If you're willing to let AI book or buy things on your behalf, 1Password just made that easier.",
+   "link": "https://www.engadget.com/2293844/1password-opens-up-ai-agents-muse-dots-grok/",
+   "comments": null,
+   "image": "https://www.engadget.com/img/gallery/1password-opens-up-ai-agents-muse-dots-grok/l-intro-1792691414.jpg",
+   "published": "2026-10-22T13:00:00+00:00",
+   "category": "ai",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "d524ded129",
+   "source": "Wired",
+   "title": "Hugging Face’s New AI Biology Model Lets You Chat With DNA",
+   "summary": "The new open-source model speaks the language of DNA and can help researchers understand the effects of any changes on gene activity and health.",
+   "link": "https://www.wired.com/story/hugging-face-new-ai-biology-model-chat-with-dna/",
+   "comments": null,
+   "image": "https://media.wired.com/photos/6ad9279b7f825128a68bc73a/master/pass/Science_HuggingFacesPowerfulNewDNAModelIsSmallEnou-ezgif.com-video-to-gif-converter.gif",
+   "published": "2026-10-22T10:00:00+00:00",
+   "category": "ai",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "3b1852bb00",
+   "source": "MIT Technology Review",
+   "title": "Making the case for context-aware AI",
+   "summary": "Enterprise AI can generate recommendations, automate tasks, and help organizations make decisions faster. But without an understanding of how a business actually operates, even powerful models can miss the constraints and relationships that determine whether a decision is the right one. As companies look to move AI from experimentation into everyday operations, the challenge ahead…",
+   "link": "https://www.technologyreview.com/2026/10/22/1146812/making-the-case-for-context-aware-ai/",
+   "comments": null,
+   "image": "https://wp.technologyreview.com/wp-content/uploads/2026/10/MITTR-Celonis-social-card.png?resize=1200,600",
+   "published": "2026-10-22T10:00:00+00:00",
+   "category": "ai",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "63c31ca523",
+   "source": "OpenAI",
+   "title": "What FDE means at OpenAI",
+   "summary": "What forward deployed engineering means at OpenAI",
+   "link": "https://openai.com/index/forward-deployed-engineering-means",
+   "comments": null,
+   "image": null,
+   "published": "2026-10-22T06:00:00+00:00",
+   "category": "ai",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "939258c0eb",
+   "source": "Ars Technica",
+   "title": "The new human-crafted Apple Music brand matters in an AI world",
+   "summary": "Opinion: In a world of AI slop, showing the human hands making things helps.",
+   "link": "https://arstechnica.com/culture/2026/10/the-new-human-crafted-apple-music-brand-matters-in-an-ai-world/",
+   "comments": null,
+   "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/apple-music-rebrand-icon-1152x648.jpg",
+   "published": "2026-10-21T19:44:40+00:00",
+   "category": "ai",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "5dbb54a005",
+   "source": "Hacker News",
+   "title": "Claude Duet",
+   "summary": "",
+   "link": "https://claude.com/product/claude-duet",
+   "comments": "https://news.ycombinator.com/item?id=50186037",
+   "image": "https://claude.com/static/claude-duet/og.jpg",
+   "published": "2026-10-21T19:14:01+00:00",
+   "category": "ai",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "1049f9bbc8",
+   "source": "The Verge",
+   "title": "Refurbished PS5 consoles include second controller for an extra $18",
+   "summary": "A lot of people are snagging a PlayStation 5 ahead of Grand Theft Auto VI’s November 19th launch. You could pay full price at one of many retailers, but why do that when you can save $100 on a Sony-refurbished console that has the same one-year warranty? It’s a great time to consider one because […]",
+   "link": "https://www.theverge.com/gadgets/1016959/refurbished-playstation-5-ps5-console-dualsense-deal-sale-bundle",
+   "comments": null,
+   "image": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/25072864/110923_new_Playstation_5_Slim_ADiBenedetto_0001.jpg?quality=90&strip=all&crop=0,0,100,100",
+   "published": "2026-10-22T18:38:50+00:00",
+   "category": "game",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "6be4298efb",
+   "source": "Kotaku",
+   "title": "Here’s Three Actors In The Final Running For James Bond And They’re All Aggressively Fine",
+   "summary": "Yawn, James Yawn",
+   "link": "https://kotaku.com/heres-three-actors-in-the-final-running-for-james-bond-and-theyre-all-aggressively-fine-2000748875",
+   "comments": null,
+   "image": "https://kotaku.com/app/uploads/2025/06/bfb725166a99ccabb7cd25ed810a4e8e-1280x720.jpg",
+   "published": "2026-10-22T18:30:52+00:00",
+   "category": "game",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "f64e36626c",
+   "source": "GameSpot",
+   "title": "This Single Turn Takes 5 Minutes To Finish In FF Resonance",
+   "summary": "Final Fantasy Resonance lets players build parties that attacks multiple times. Pushing this system to its limits makes some turns make minutes to finish. Timestamps: 0:00 Setup 2:24 5 Minute Turn 8:04 Outro",
+   "link": "https://www.gamespot.com/videos/this-single-turn-takes-5-minutes-to-finish-in-ff-resonance/",
+   "comments": null,
+   "image": "https://www.gamespot.com/wp-content/uploads/2026/10/Gameplay_FFR5MinTurn_Thumb4.jpg?w=1200",
+   "published": "2026-10-22T18:00:00+00:00",
+   "category": "game",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "353b80d0f8",
+   "source": "PC Gamer",
+   "title": "'No other studio in the world did it better' than BioWare at its peak, says former Dragon Age lead writer David Gaider",
+   "summary": "Just because we saw this coming doesn't mean it hurts less.",
+   "link": "https://www.pcgamer.com/games/dragon-age/no-other-studio-in-the-world-did-it-better-than-bioware-at-its-peak-says-former-dragon-age-lead-writer-david-gaider/",
+   "comments": null,
+   "image": "https://cdn.mos.cms.futurecdn.net/zbuCBKBrtXuEzbQkqCSz8S-1920-80.jpg",
+   "published": "2026-10-22T17:57:26+00:00",
+   "category": "game",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "d7c699f4ba",
+   "source": "Polygon",
+   "title": "Forgotten Pokémon Card Collection Goes for $2 Million",
+   "summary": "A British retiree sold their forgotten Pokémon card collection for roughly $2 million at auction.",
+   "link": "https://www.polygon.com/pokemon-card-forgotten-collection-millionaire-auction/",
+   "comments": null,
+   "image": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/03/fainted-pokemon-go-pikachu-glitch.avif",
+   "published": "2026-10-22T17:55:55+00:00",
+   "category": "game",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "3371e865cf",
+   "source": "Rock Paper Shotgun",
+   "title": "An internal Mass Effect 5 trailer has reportedly leaked, offering you a glimpse at the sequel you'll never get to play",
+   "summary": "Yesterday, only a couple of months after EA went private after having been acquired by Saudi Arabia's Public Investment Fund, equity firm Silver Lake, and Jared Kushner's Affinity, it was announced that BioWare are being shut down , with development on their next Mass Effect game cancelled. Now, only a day after this was announced, a trailer that was meant for internal use only has been shared, showing off a rough idea of what the game would be …",
+   "link": "https://www.rockpapershotgun.com/an-internal-mass-effect-5-trailer-has-reportedly-leaked-offering-you-a-glimpse-at-the-sequel-youll-never-get-to-play",
+   "comments": null,
+   "image": "https://assetsio.gnwcdn.com/mass-effect-5-liara.jpg?width=690&quality=85&format=jpg&auto=webp",
+   "published": "2026-10-22T17:45:41+00:00",
+   "category": "game",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "74cffde4e2",
+   "source": "IGN",
+   "title": "LEGO Disney Sets Are Hitting All-Time Low Prices on Amazon Right Now",
+   "summary": "We're almost at the end of the year, which means LEGO is starting to offload its extra stock and \" retiring soon \" sets through various sales. Magical, I know. In just the past few days, Amazon has dropped prices on a range of LEGO Disney sets, including adult-oriented sets from the LEGO Ideas line and toddler-friendly LEGO Duplo builds. Any of these sets would make a great winter activity that nets you a toy or decoration, but they could also b…",
+   "link": "https://www.ign.com/articles/lego-disney-sets-are-hitting-all-time-low-prices-on-amazon-right-now",
+   "comments": null,
+   "image": "https://assets-prd.ignimgs.com/2026/10/22/legodisneysale-1792690354265.jpg",
+   "published": "2026-10-22T17:42:23+00:00",
+   "category": "game",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "814eee4217",
+   "source": "Eurogamer",
+   "title": "Smash Bros. director Masahiro Sakurai thinks gen-AI will cause a surge of unoriginal games, but says human creativity can't be replicated",
+   "summary": "Masahiro Sakurai has spoken about the pitfalls of generative AI use in game development, saying that while he believes the technology will result in a surge of unoriginal video games, human creativity - such as that shown by designers like Ico's Fumito Ueda - can't be replicated. Read more",
+   "link": "https://www.eurogamer.net/smash-bros-masahiro-sakurai-generative-ai-unoriginal-games",
+   "comments": null,
+   "image": "https://assetsio.gnwcdn.com/Kirby-Air-Riders-Direct-8.19.2025-27-3-screenshot.png?width=690&quality=85&format=jpg&auto=webp",
+   "published": "2026-10-22T17:00:49+00:00",
+   "category": "game",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "0b05e9965a",
+   "source": "Gematsu",
+   "title": "Dispatch coming to iOS, Android on December 9; Deluxe Edition Commentary and Storyboard modes update now available",
+   "summary": "AdHoc Studio will release superhero workplace comedy adventure game Dispatch for iOS and Android on …",
+   "link": "https://www.gematsu.com/2026/10/dispatch-coming-to-ios-android-on-december-9-deluxe-edition-commentary-and-storyboard-modes-update-now-available",
+   "comments": null,
+   "image": "https://www.gematsu.com/wp-content/uploads/2026/10/Dispatch-Mobile_10-22-26.jpg",
+   "published": "2026-10-22T16:56:36+00:00",
+   "category": "game",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "16dbe370a2",
+   "source": "Ars Technica",
+   "title": "This emulator reimagines Nintendo’s Virtual Boy with a full color display",
+   "summary": "Tile-based color palettes go way beyond the four shades of red on original hardware.",
+   "link": "https://arstechnica.com/gaming/2026/10/this-emulator-reimagines-nintendos-virtual-boy-with-a-full-color-display/",
+   "comments": null,
+   "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/mtcolor.png",
+   "published": "2026-10-22T15:59:40+00:00",
+   "category": "game",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "80383c4c6d",
+   "source": "Engadget",
+   "title": "Fortnite is coming back to Apple's Australian App Store following court ruling",
+   "summary": "Fortnite is back on the App Store in Australia after a federal court ordered Apple to open its iOS ecosystem up to competition.",
+   "link": "https://www.engadget.com/2293801/fortnite-is-back-on-apple-australian-app-store-following-court-ruling/",
+   "comments": null,
+   "image": "https://www.engadget.com/img/gallery/fortnite-is-back-on-apple-australian-app-store-following-court-ruling/l-intro-1792671387.jpg",
+   "published": "2026-10-22T08:18:58+00:00",
+   "category": "game",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "49bb51281c",
+   "source": "Hacker News",
+   "title": "Jailbreaking the Switch 2",
+   "summary": "",
+   "link": "https://pepsipu.com/blog/2026-10-switch2-jailbreak-ns2jb/",
+   "comments": "https://news.ycombinator.com/item?id=50192536",
+   "image": null,
+   "published": "2026-10-22T08:01:52+00:00",
+   "category": "game",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "cb6dbeec47",
+   "source": "The Verge",
+   "title": "Delta can turn the iPhone Duo into your favorite folding handheld",
+   "summary": "The Delta gaming emulator has been upgraded with a plethora of new goodies and support updates, which includes optimizing it for Apple's iPhone Duo. Delta 2.0 also introduces Sega Genesis games, animated controller skins, custom Pokémon DLC experiences, and a new UI that was built around supporting Liquid Glass. Adding support for the iPhone Duo […]",
+   "link": "https://www.theverge.com/games/1016524/delta-2-version-ios-duo-gaming-emulator-update",
+   "comments": null,
+   "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/Delta-2.0-lineup-update.jpg?quality=90&strip=all&crop=0,0,100,100",
+   "published": "2026-10-22T18:30:00+00:00",
+   "category": "tech",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "0a52bd6070",
+   "source": "Engadget",
+   "title": "Bluesky adds iPad support in latest feature update",
+   "summary": "Profile links to third-party platforms have also arrived on the social network.",
+   "link": "https://www.engadget.com/2294583/bluesky-adds-ipad-support-in-latest-feature-update/",
+   "comments": null,
+   "image": "https://www.engadget.com/img/gallery/bluesky-adds-ipad-support-in-latest-feature-update/l-intro-1792692851.jpg",
+   "published": "2026-10-22T18:26:03+00:00",
+   "category": "tech",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "8bd29f6029",
+   "source": "The Verge",
+   "title": "In Meta’s version of the future, I’ll have my Muse call your Muse",
+   "summary": "Mark Zuckerberg is barrelling toward a future in which an autonomous network of AI agents will run our lives - shopping for us, working for us, talking to other people's AI agents for us. Are humans ready for this very specific and unrelenting vision of a life in which we communicate primarily through bot proxies? […]",
+   "link": "https://www.theverge.com/tech/1016905/meta-earnings-fall-2026-muse-network",
+   "comments": null,
+   "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/STKB394_MUSE_AI_CVIRGINIA_D.png?quality=90&strip=all&crop=0,0,100,100",
+   "published": "2026-10-22T18:15:00+00:00",
+   "category": "tech",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "4ef0248e96",
+   "source": "Engadget",
+   "title": "Amazon rebrands Kindle Unlimited to Kindle+",
+   "summary": "The service still offers a library of books, magazines and comics, and now includes a larger selection of audiobooks.",
+   "link": "https://www.engadget.com/2294533/amazon-rebrands-kindle-unlimited-to-kindle/",
+   "comments": null,
+   "image": "https://www.engadget.com/img/gallery/amazon-rebrands-kindle-unlimited-to-kindle/l-intro-1792692263.jpg",
+   "published": "2026-10-22T18:10:00+00:00",
+   "category": "tech",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "62261fe39c",
+   "source": "Wired",
+   "title": "Anker Soundcore Space 2 Are Their Lowest Price Ever",
+   "summary": "The Anker Soundcore Space 2 are a good deal even at full price. The fact they’re 18 percent off is just icing on the cake.",
+   "link": "https://www.wired.com/story/anker-soundcore-space-2-deal-october-2026/",
+   "comments": null,
+   "image": "https://media.wired.com/photos/6ada4bc4d53570f6403f714a/master/pass/Soundcore%20by%20Anker%20Space%202%20deal%20102026%20top%20art%20SOURCE%20Amazon.jpg",
+   "published": "2026-10-22T18:03:44+00:00",
+   "category": "tech",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "28a63be860",
+   "source": "Wired",
+   "title": "A New Ice Age Was Beginning. Then Humans Started Burning Fossil Fuels",
+   "summary": "Ancient plants reveal that the vestiges of the North American ice sheet started expanding a few thousand years ago, but that climate change caused it to reverse course.",
+   "link": "https://www.wired.com/story/ice-age-beginning-then-humans-started-burning-fossil-fuels/",
+   "comments": null,
+   "image": "https://media.wired.com/photos/6ad93d4fded54679300f8db7/master/pass/GettyImages-53043931.jpg",
+   "published": "2026-10-22T18:00:00+00:00",
+   "category": "tech",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "35b2195707",
+   "source": "TechCrunch",
+   "title": "Elon Musk made a $1 billion investment in Skydance, report says",
+   "summary": "The investment will provide a much needed financial boost as the company seeks to cut costs and lift its stock price.",
+   "link": "https://techcrunch.com/2026/10/22/elon-musk-made-a-1-billion-investment-in-skydance-report-says/",
+   "comments": null,
+   "image": "https://techcrunch.com/wp-content/uploads/2026/04/musk-court-2273245544.jpg?resize=1200,801",
+   "published": "2026-10-22T17:36:38+00:00",
+   "category": "tech",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "c8eb7f023a",
+   "source": "Ars Technica",
+   "title": "Meta shocked by $25B fine after N.M. refused to join multistate settlement",
+   "summary": "Meta will appeal a ruling imposing the largest fine Mark Zuckerberg has ever seen.",
+   "link": "https://arstechnica.com/tech-policy/2026/10/meta-whines-new-mexico-is-impossible-to-please-after-historic-25-billion-fine/",
+   "comments": null,
+   "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/GettyImages-1968308632-1024x648.jpg",
+   "published": "2026-10-22T17:04:31+00:00",
+   "category": "tech",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "d1b1903753",
+   "source": "TechCrunch",
+   "title": "Chinese hackers spied on thousands of companies after breaching IT giant ConnectWise",
+   "summary": "Microsoft points the blame for ConnectWise's breach at a China-aligned hacker, which relied on AI agents to rapidly hack into thousands of its customers.",
+   "link": "https://techcrunch.com/2026/10/22/chinese-hackers-spied-on-thousands-of-companies-after-breaching-it-giant-connectwise/",
+   "comments": null,
+   "image": "https://techcrunch.com/wp-content/uploads/2025/01/GettyImages-591881449.jpg?resize=1200,799",
+   "published": "2026-10-22T16:47:17+00:00",
+   "category": "tech",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "616693450d",
+   "source": "Ars Technica",
+   "title": "US-backed vaccine trial on babies canceled after international outcry",
+   "summary": "The decried trial was canceled last week before police seized vaccine doses.",
+   "link": "https://arstechnica.com/health/2026/10/unethical-vaccine-trial-on-babies-backed-by-rfk-jr-is-formally-canceled/",
+   "comments": null,
+   "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/02/GettyImages-629400903-1152x648.jpg",
+   "published": "2026-10-22T16:37:00+00:00",
+   "category": "tech",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "d631a25b06",
+   "source": "Hacker News",
+   "title": "A farewell to Arc browser",
+   "summary": "",
+   "link": "https://arc.net/",
+   "comments": "https://news.ycombinator.com/item?id=50197601",
+   "image": "https://arc.net/farewell/og.png",
+   "published": "2026-10-22T16:27:47+00:00",
+   "category": "tech",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "88acb5159f",
+   "source": "Hacker News",
+   "title": "Google cleared 300 hectares of Finnish forest",
+   "summary": "",
+   "link": "https://www.techspot.com/news/114100-google-cleared-300-hectares-finnish-forest-data-center.html",
+   "comments": "https://news.ycombinator.com/item?id=50196837",
+   "image": "https://www.techspot.com/images2/news/bigimage/2026/10/2026-10-05-image-22.jpg",
+   "published": "2026-10-22T15:32:46+00:00",
+   "category": "tech",
+   "title_fa": "",
+   "summary_fa": ""
+  }
+ ]
+}
