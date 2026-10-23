@@ -1,0 +1,637 @@
+{
+ "date": "2026-10-23",
+ "fetched_at": "2026-10-23T18:38:30.699076+00:00",
+ "counts": {
+  "ai": 12,
+  "game": 12,
+  "tech": 12
+ },
+ "feeds": [
+  {
+   "feed": "https://www.theverge.com/rss/index.xml",
+   "source": "The Verge",
+   "entries": 10,
+   "error": null
+  },
+  {
+   "feed": "https://www.theverge.com/rss/games/index.xml",
+   "source": "The Verge",
+   "entries": 10,
+   "error": null
+  },
+  {
+   "feed": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml",
+   "source": "The Verge",
+   "entries": 10,
+   "error": null
+  },
+  {
+   "feed": "https://techcrunch.com/feed/",
+   "source": "TechCrunch",
+   "entries": 20,
+   "error": null
+  },
+  {
+   "feed": "https://techcrunch.com/category/artificial-intelligence/feed/",
+   "source": "TechCrunch",
+   "entries": 20,
+   "error": null
+  },
+  {
+   "feed": "https://feeds.arstechnica.com/arstechnica/index",
+   "source": "Ars Technica",
+   "entries": 20,
+   "error": null
+  },
+  {
+   "feed": "https://arstechnica.com/gaming/feed/",
+   "source": "Ars Technica",
+   "entries": 20,
+   "error": null
+  },
+  {
+   "feed": "https://www.wired.com/feed/rss",
+   "source": "Wired",
+   "entries": 50,
+   "error": null
+  },
+  {
+   "feed": "https://www.wired.com/feed/tag/ai/latest/rss",
+   "source": "Wired",
+   "entries": 10,
+   "error": null
+  },
+  {
+   "feed": "https://www.engadget.com/rss.xml",
+   "source": "Engadget",
+   "entries": 20,
+   "error": null
+  },
+  {
+   "feed": "https://www.tomshardware.com/feeds/all",
+   "source": "Tom's Hardware",
+   "entries": 0,
+   "error": "HTTPConnectionPool(host='www.tomshardware.com', port=80): Max retries exceeded with url: /feeds.xml (Caused by ConnectTimeoutError(<HTTPConnection(host='www.tomshardware.com', port=80) at 0x7fa292a1f250>, 'Connection to www.tomshardware.com timed out. (connect timeout=20)'))"
+  },
+  {
+   "feed": "https://hnrss.org/frontpage?points=100",
+   "source": "Hacker News",
+   "entries": 12,
+   "error": null
+  },
+  {
+   "feed": "https://feeds.feedburner.com/ign/all",
+   "source": "IGN",
+   "entries": 20,
+   "error": null
+  },
+  {
+   "feed": "https://www.gamespot.com/feeds/mashup/",
+   "source": "GameSpot",
+   "entries": 15,
+   "error": null
+  },
+  {
+   "feed": "https://www.polygon.com/rss/index.xml",
+   "source": "Polygon",
+   "entries": 10,
+   "error": null
+  },
+  {
+   "feed": "https://www.eurogamer.net/feed",
+   "source": "Eurogamer",
+   "entries": 100,
+   "error": null
+  },
+  {
+   "feed": "https://www.pcgamer.com/rss/",
+   "source": "PC Gamer",
+   "entries": 50,
+   "error": null
+  },
+  {
+   "feed": "https://kotaku.com/rss",
+   "source": "Kotaku",
+   "entries": 20,
+   "error": null
+  },
+  {
+   "feed": "https://www.rockpapershotgun.com/feed",
+   "source": "Rock Paper Shotgun",
+   "entries": 100,
+   "error": null
+  },
+  {
+   "feed": "https://www.gematsu.com/feed",
+   "source": "Gematsu",
+   "entries": 20,
+   "error": null
+  },
+  {
+   "feed": "https://feeds.feedburner.com/venturebeat/SZYF",
+   "source": "VentureBeat",
+   "entries": 7,
+   "error": null
+  },
+  {
+   "feed": "https://www.technologyreview.com/topic/artificial-intelligence/feed",
+   "source": "MIT Technology Review",
+   "entries": 10,
+   "error": null
+  },
+  {
+   "feed": "https://openai.com/news/rss.xml",
+   "source": "OpenAI",
+   "entries": 1317,
+   "error": null
+  },
+  {
+   "feed": "https://blog.google/technology/ai/rss/",
+   "source": "Google AI",
+   "entries": 20,
+   "error": null
+  },
+  {
+   "feed": "https://deepmind.google/blog/rss.xml",
+   "source": "Google DeepMind",
+   "entries": 100,
+   "error": null
+  },
+  {
+   "feed": "https://huggingface.co/blog/feed.xml",
+   "source": "Hugging Face",
+   "entries": 890,
+   "error": null
+  }
+ ],
+ "items": [
+  {
+   "id": "298c8de07d",
+   "source": "OpenAI",
+   "title": "Rapidly scaling online storage to serve over 1 billion ChatGPT users (Part II)",
+   "summary": "Learn how OpenAI scaled Habitat with reliable multi-tenancy, global caching, and Azure Cosmos DB to deliver 12× faster reads for ChatGPT.",
+   "link": "https://openai.com/index/scaling-storage-one-billion-users-part-two",
+   "comments": null,
+   "image": null,
+   "published": "2026-10-23T17:00:00+00:00",
+   "category": "ai",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "d5dfb55b01",
+   "source": "Hugging Face",
+   "title": "LitPivot: Developing research ideas through dynamic contextualization within the literature landscape",
+   "summary": "",
+   "link": "https://huggingface.co/blog/allenai/litpivot",
+   "comments": null,
+   "image": "https://cdn-uploads.huggingface.co/production/uploads/638e39b249de7ae552d977b5/7F9q8BZloWigwe7m5YGLG.png",
+   "published": "2026-10-23T16:15:50+00:00",
+   "category": "ai",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "989bc7148e",
+   "source": "TechCrunch",
+   "title": "What some of Anthropic’s backers are reportedly worth before its IPO",
+   "summary": "Early-stage and follow-on investors in the AI lab are already sitting on major paper returns.",
+   "link": "https://techcrunch.com/2026/10/23/what-some-of-anthropics-backers-are-reportedly-worth-before-its-ipo/",
+   "comments": null,
+   "image": "https://techcrunch.com/wp-content/uploads/2024/10/GettyImages-2181797246.jpg?resize=1200,800",
+   "published": "2026-10-23T16:02:43+00:00",
+   "category": "ai",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "47740c8fb2",
+   "source": "The Verge",
+   "title": "Meta delays new business terms after publisher pushback on AI scraping",
+   "summary": "Meta is delaying the enforcement of its new business terms after publishers raised concerns that they could allow the company to scrape news sites for AI training, as reported earlier by Fast Company. In a statement to The Verge, Meta spokesperson Daniel Roberts says the terms will go into effect on November 20th \"to allow […]",
+   "link": "https://www.theverge.com/tech/1017450/meta-business-terms-delayed-ai-scraping",
+   "comments": null,
+   "image": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/23951350/STK043_VRG_Illo_N_Barclay_6_Meta.jpg?quality=90&strip=all&crop=0,0,100,100",
+   "published": "2026-10-23T14:47:41+00:00",
+   "category": "ai",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "3602c8887b",
+   "source": "TechCrunch",
+   "title": "Uber rival inDrive eyes 2027 robotaxi tests in Central Asia with Pony AI and Nvidia",
+   "summary": "The company plans to begin testing Pony.ai's robotaxis in Kazakhstan's capital in the first half of 2027.",
+   "link": "https://techcrunch.com/2026/10/22/uber-rival-indrive-eyes-2027-robotaxi-tests-in-central-asia-with-pony-ai-and-nvidia/",
+   "comments": null,
+   "image": "https://techcrunch.com/wp-content/uploads/2026/10/indrive-pony-ai-kazakhstan.jpg?resize=1200,800",
+   "published": "2026-10-23T04:00:00+00:00",
+   "category": "ai",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "15c1f8ef7a",
+   "source": "OpenAI",
+   "title": "OpenAI and Poland’s NASK partner to advance AI safety and security",
+   "summary": "OpenAI and Poland’s NASK are partnering on AI safety, security, and technical research to strengthen safeguards and support a more resilient digital ecosystem.",
+   "link": "https://openai.com/index/openai-nask-ai-safety-security-partnership",
+   "comments": null,
+   "image": null,
+   "published": "2026-10-23T00:00:00+00:00",
+   "category": "ai",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "6430909168",
+   "source": "Hugging Face",
+   "title": "Does Your Model Run on AWS Trainium? Look It Up",
+   "summary": "",
+   "link": "https://huggingface.co/blog/torch-neuronx-model-support",
+   "comments": null,
+   "image": "https://huggingface.co/blog/assets/torch-neuronx-model-support/thumbnail.jpg",
+   "published": "2026-10-23T00:00:00+00:00",
+   "category": "ai",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "4e9bfd07ae",
+   "source": "Hacker News",
+   "title": "LLMs are making formal software verification feasible at a much larger scale",
+   "summary": "",
+   "link": "https://www.anthropic.com/research/formal-verification",
+   "comments": "https://news.ycombinator.com/item?id=50202217",
+   "image": "https://www-cdn.anthropic.com/images/4zrzovbb/website/80cf520cb540989c3643907f004b2514ec4d01f1-1200x630.jpg",
+   "published": "2026-10-22T22:54:43+00:00",
+   "category": "ai",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "712bc0d815",
+   "source": "MIT Technology Review",
+   "title": "Designing an AI serving harness built to last",
+   "summary": "The next competitive advantage in enterprise AI has less to do with which model you choose than with what you build around it. That’s an important shift. For the past several years, much of the AI conversation has centered on model capability: bigger models, better reasoning, larger context windows, higher benchmark scores. Those advances have…",
+   "link": "https://www.technologyreview.com/2026/10/22/1146109/designing-an-ai-serving-harness-built-to-last/",
+   "comments": null,
+   "image": "https://wp.technologyreview.com/wp-content/uploads/2026/10/GettyImages-2188328005_9f1d59-e1791493652782.jpg?w=1200",
+   "published": "2026-10-22T21:17:29+00:00",
+   "category": "ai",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "70399cbe26",
+   "source": "Wired",
+   "title": "The Social Society Helping Women Join the AI Boom",
+   "summary": "WIRED spoke with the founders of the Aged Intelligence Society, a fast-growing events startup that brings women together to “solve midlife problems using frontier tools.”",
+   "link": "https://www.wired.com/story/aged-intelligence-society-interview/",
+   "comments": null,
+   "image": "https://media.wired.com/photos/6ada7db9ecc44326fbe9e386/master/pass/Model-Behavior-Illo-102226-2.jpg",
+   "published": "2026-10-22T19:56:32+00:00",
+   "category": "ai",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "176c9dfd38",
+   "source": "Engadget",
+   "title": "Unauthorized AI agents are reportedly already accessing US bank accounts",
+   "summary": "Sources at several banks have indicated that they have been taking actions independent of user instructions.",
+   "link": "https://www.engadget.com/2294523/unauthorized-ai-agents-are-reportedly-already-accessing-us-bank-accounts/",
+   "comments": null,
+   "image": "https://www.engadget.com/img/gallery/unauthorized-ai-agents-are-reportedly-already-accessing-us-bank-accounts/l-intro-1792692008.jpg",
+   "published": "2026-10-22T18:02:04+00:00",
+   "category": "ai",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "655df0fb22",
+   "source": "Google DeepMind",
+   "title": "Beyond tree cover: mapping the world’s forest types",
+   "summary": "A global map categorizing every 10-meter patch of land on Earth into distinct forest types.",
+   "link": "https://deepmind.google/blog/beyond-tree-cover-mapping-the-worlds-forest-types/",
+   "comments": null,
+   "image": "https://lh3.googleusercontent.com/Et3g0tNB_bC00f6cP94Y40QbqshCvf7_fg_gRVfZQoeVSc3Hn9g6jIenf1udZdACY4x-wpY_5tyy_LznFSlu0yhGCqfxKos6QFRRj4lad_hQHOBV8Q=w528-h297-n-nu-rw-lo",
+   "published": "2026-10-22T14:30:24+00:00",
+   "category": "ai",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "1e4b866069",
+   "source": "Polygon",
+   "title": "Mass Effect 5 Pitched as 'John Wick and James Bond' in Space, Report Says",
+   "summary": "New Mass Effect: Universe details have surfaced. Reportedly it would have been a spy thriller inspired by John Wick and James Bond.",
+   "link": "https://www.polygon.com/mass-effect-5-leaked-plot-details-john-wick-james-bond-in-space/",
+   "comments": null,
+   "image": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/10/malequarian.JPG",
+   "published": "2026-10-23T18:34:46+00:00",
+   "category": "game",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "ea035375f2",
+   "source": "Polygon",
+   "title": "Best Visions to use in Final Fantasy Resonance",
+   "summary": "The best Visions in Final Fantasy Resonance combine excellent skills with universally useful mastery abilities",
+   "link": "https://www.polygon.com/final-fantasy-resonance-best-visions/",
+   "comments": null,
+   "image": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/10/final-fantasy-resonance-best-visions.jpg",
+   "published": "2026-10-23T18:27:34+00:00",
+   "category": "game",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "e4ef18751d",
+   "source": "Eurogamer",
+   "title": "As devastating Xbox \"reset\" continues, Dishonored studio Arkane Lyon reportedly only has until November to find a new buyer before it's closed",
+   "summary": "After getting caught up in Xbox CEO Asha Sharma's devastating layoffs and cuts earlier this year, Arkane Lyon - the beloved immersive sim studio behind the likes of Dishonored and Deathloop - reportedly only has until November to find a buyer. If the search fails, it will be shut down. Read more",
+   "link": "https://www.eurogamer.net/xbox-layoffs-marvels-blade-arkane-lyon-closure",
+   "comments": null,
+   "image": "https://assetsio.gnwcdn.com/marvels-blade-header.jpg?width=690&quality=85&format=jpg&auto=webp",
+   "published": "2026-10-23T18:09:03+00:00",
+   "category": "game",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "dbad034380",
+   "source": "GameSpot",
+   "title": "Shepard Actor Reacts To Leaked Mass Effect Trailer, Is “Holding Hope” The Game Will Live On",
+   "summary": "Prolific and veteran gaming actor Jennifer Hale, who is known for voicing Commander Shepard in the Mass Effect series, has reacted to the closure of BioWare and the cancellation of the next game in the series. After footage of the new project, Mass Effect Universe , was released, Hale said , \"It's extraordinary.\" She added: \"I’m holding hope for magic to happen. This community and you incredible vevs deserve that and more.\" A \"Save Mass Effect\" …",
+   "link": "https://www.gamespot.com/articles/shepard-actor-reacts-to-leaked-mass-effect-trailer-is-holding-hope-the-game-will-live-on/",
+   "comments": null,
+   "image": "https://www.gamespot.com/wp-content/uploads/2026/10/masseffect-Large-2.jpeg?w=1200",
+   "published": "2026-10-23T18:01:01+00:00",
+   "category": "game",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "b7e9ad3852",
+   "source": "PC Gamer",
+   "title": "'I'm forever grateful to BioWare': 16 game developers share the moment a BioWare game inspired them to join the industry",
+   "summary": "BioWare was the catalyst for a generation of game development careers.",
+   "link": "https://www.pcgamer.com/gaming-industry/im-forever-grateful-to-bioware-16-game-developers-share-the-moment-a-bioware-game-inspired-them-to-join-the-industry/",
+   "comments": null,
+   "image": "https://cdn.mos.cms.futurecdn.net/5bSRVE6nkVSLTztwHnEjg6-1920-80.jpg",
+   "published": "2026-10-23T17:56:29+00:00",
+   "category": "game",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "8ba4217610",
+   "source": "IGN",
+   "title": "Mass Effect 5 Details Revealed Following Cancellation, Including 'Hitman-Style Freedom' in Missions",
+   "summary": "Following the cancellation of Mass Effect 5, purportedly called Mass Effect Universe, last week – alongside the closure of the entire BioWare development studio – new gameplay details about the role-playing game revival have emerged, including handcrafted missions that gave players Hitman-style freedom, the abililty to hack the environment, brutal close-range executions, the return of Liara, and much more.",
+   "link": "https://www.ign.com/articles/mass-effect-5-details-revealed-following-cancellation-including-hitman-style-freedom-in-missions",
+   "comments": null,
+   "image": "https://assets-prd.ignimgs.com/2026/10/23/ss-8994024759b1e6afb09a99381637c8b6fb4e4075-1920x1080-1792777224379.jpg",
+   "published": "2026-10-23T17:40:59+00:00",
+   "category": "game",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "ea89f7adcf",
+   "source": "Rock Paper Shotgun",
+   "title": "Factorio's final major update has rolled off the assembly line, adding \"the things we wanted to do for 2.0 but didn't have time for\"",
+   "summary": "In one of the happier endings to occur in games this week, impossibly enormous resource management sim Factorio has just released its last-ever major update – version 2.1 – on its stable branch. As previously heads-upped by developers Wube Software, 2.1 doesn’t make any big new additions to its planets or tech trees, but does sneak in more than 30 quality of life improvements and minor new features for both the base game and its Space Age expans…",
+   "link": "https://www.rockpapershotgun.com/factorios-final-major-update-has-rolled-off-the-assembly-line-adding-the-things-we-wanted-to-do-for-20-but-didnt-have-time-for",
+   "comments": null,
+   "image": "https://assetsio.gnwcdn.com/Factorio-final-update-train.jpg?width=690&quality=85&format=jpg&auto=webp",
+   "published": "2026-10-23T17:30:00+00:00",
+   "category": "game",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "cb00e64cfb",
+   "source": "Kotaku",
+   "title": "Arkane Devs Say Blade Is Nearly Finished But If It Can’t Find A Buyer Soon, The Studio Will Close",
+   "summary": "Union reps say it'd be a 'monumental waste' for Blade to remain unfinished",
+   "link": "https://kotaku.com/arkane-devs-say-blade-is-nearly-finished-but-if-it-cant-find-a-buyer-soon-the-studio-will-close-2000749096",
+   "comments": null,
+   "image": "https://kotaku.com/app/uploads/2026/06/Blade_LargeHeroCenter_Announce-1280x720.jpg",
+   "published": "2026-10-23T17:15:30+00:00",
+   "category": "game",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "44d3d94503",
+   "source": "Ars Technica",
+   "title": "Everybody panic: A Valve developer said \"HLX\" in public",
+   "summary": "Sound designer lets Half Life-related codename slip at a conference.",
+   "link": "https://arstechnica.com/gaming/2026/10/everybody-panic-a-valve-developer-said-hlx-in-public/",
+   "comments": null,
+   "image": "https://cdn.arstechnica.net/wp-content/uploads/2017/08/024-1152x648-1740609184.jpg",
+   "published": "2026-10-23T16:35:00+00:00",
+   "category": "game",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "b194eaa0f3",
+   "source": "Gematsu",
+   "title": "Look Outside coming to PS5, Switch 2, PS4, and Switch on October 30",
+   "summary": "Publisher Devolver Digital and developer Francis Coulombe will release pixel art survival horror RPG Look …",
+   "link": "https://www.gematsu.com/2026/10/look-outside-coming-to-ps5-switch-2-ps4-and-switch-on-october-30",
+   "comments": null,
+   "image": "https://www.gematsu.com/wp-content/uploads/2026/10/Look-Outside-Consoles_10-23-26.jpg",
+   "published": "2026-10-23T16:08:35+00:00",
+   "category": "game",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "73558bf560",
+   "source": "The Verge",
+   "title": "Retro gaming is being overrun with AI",
+   "summary": "Retro video games are everywhere lately - especially in places where they aren't supposed to be. Halo in a web browser, Wind Waker on the iPhone, Super Smash Bros. in mixed reality. Over the past month or so, these kinds of unexpected projects have gone viral with incredible frequency thanks to new AI tools, as […]",
+   "link": "https://www.theverge.com/ai-artificial-intelligence/1015430/ai-retro-games-decomp-recomp-port",
+   "comments": null,
+   "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/01/STK465_VIDEO_GAMES_EMULATOR__CVirginia_D.jpg?quality=90&strip=all&crop=0,0,100,100",
+   "published": "2026-10-23T12:00:00+00:00",
+   "category": "game",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "2190513d86",
+   "source": "Engadget",
+   "title": "GuliKit TT Pro review: The ideal Switch 2 controller for players on the go",
+   "summary": "A protective case and an accessory box make it easy to travel with the TT Pro.",
+   "link": "https://www.engadget.com/2294411/gulikit-tt-pro-review/",
+   "comments": null,
+   "image": "https://www.engadget.com/img/gallery/gulikit-tt-pro-review-the-ideal-switch-2-controller-for-players-on-the-go/l-intro-1792685476.jpg",
+   "published": "2026-10-23T11:30:00+00:00",
+   "category": "game",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "6ad09b0e7f",
+   "source": "The Verge",
+   "title": "Elon Musk’s dangerous grip on outer space",
+   "summary": "Last week, Starshield - the version of SpaceX's Starlink used by the Ukrainian military - was throttled to block terminals traveling above certain speeds from accessing the service. The Ukrainian army's interceptors, which counter Russian drones carrying bombs, suddenly stopped working at high speeds, making it easier for Russia to attack the country's energy infrastructure […]",
+   "link": "https://www.theverge.com/science/1017443/spacex-starlink-ukraine-elon-musk-monopoly",
+   "comments": null,
+   "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/03/STKB355_SPACE_X_IPO_B.jpg?quality=90&strip=all&crop=0,0,100,100",
+   "published": "2026-10-23T17:35:15+00:00",
+   "category": "tech",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "347637be15",
+   "source": "Ars Technica",
+   "title": "Crows can evaluate visual info twice as fast as mammals",
+   "summary": "Birds' compact nervous system seems to help them handle tasks very quickly.",
+   "link": "https://arstechnica.com/science/2026/10/crows-can-evaluate-visual-info-twice-as-fast-as-mammals/",
+   "comments": null,
+   "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/GettyImages-1472974929-1152x648.jpg",
+   "published": "2026-10-23T17:32:58+00:00",
+   "category": "tech",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "b2b7ebe673",
+   "source": "Ars Technica",
+   "title": "Intel gets waiver after worries fuzzy US ban on foreign-made robots may hit fabs",
+   "summary": "Company says foreign-made robotic vehicles are crucial to US chip production.",
+   "link": "https://arstechnica.com/ai/2026/10/intel-gets-waiver-after-worries-fuzzy-us-ban-on-foreign-made-robots-may-hit-fabs/",
+   "comments": null,
+   "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/Intel-fab-interior-1152x648.jpg",
+   "published": "2026-10-23T17:18:31+00:00",
+   "category": "tech",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "4e972ac672",
+   "source": "The Verge",
+   "title": "The iPhone Duo should have been an iPad",
+   "summary": "We gave the iPhone Duo a 7 /10. But that wasn't always the score we planned, and it might not be the right score forever. Such are the challenges of reviewing - and assessing - a big, new idea about the most popular smartphone in history. On this episode of The Vergecast, David and Nilay […]",
+   "link": "https://www.theverge.com/podcast/1017447/iphone-duo-ipad-review-score-vergecast",
+   "comments": null,
+   "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/VRG_VST_102326_Site_attempt.jpg?quality=90&strip=all&crop=0,0,100,100",
+   "published": "2026-10-23T17:00:18+00:00",
+   "category": "tech",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "7946178934",
+   "source": "TechCrunch",
+   "title": "Agent cloud startup Daytona hits $1B valuation backed by FirstMark and a who’s who of angels",
+   "summary": "Daytona is building a cloud for agents that's like giving every agent its own computer. It has attracted founders of Stripe, Perplextity, Datadog, Mercor, and others as angels, it says.",
+   "link": "https://techcrunch.com/2026/10/23/agent-cloud-startup-daytona-hits-1b-valuation-backed-by-firstmark-and-a-whos-who-of-angels/",
+   "comments": null,
+   "image": "https://techcrunch.com/wp-content/uploads/2023/11/Daytona_Founders-e1698845569762.jpg?resize=1200,676",
+   "published": "2026-10-23T16:26:29+00:00",
+   "category": "tech",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "46834880ed",
+   "source": "Hacker News",
+   "title": "Today, we hacked what we'd set out to hack: the iPhone",
+   "summary": "",
+   "link": "https://blog.calif.io/p/iphone",
+   "comments": "https://news.ycombinator.com/item?id=50211474",
+   "image": "https://substackcdn.com/image/youtube/w_728,c_limit/_GJVKVNMczM",
+   "published": "2026-10-23T16:21:50+00:00",
+   "category": "tech",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "2c268d0851",
+   "source": "TechCrunch",
+   "title": "Commonwealth Fusion Systems gets $85M to build better fusion-ready semiconductors",
+   "summary": "Top-funded fusion startup Commonwealth Fusion Systems received an $85 million award from the federal government to advance conductors for fusion power plants.",
+   "link": "https://techcrunch.com/2026/10/23/commonwealth-fusion-systems-gets-85m-to-build-better-fusion-ready-semiconductors/",
+   "comments": null,
+   "image": "https://techcrunch.com/wp-content/uploads/2026/10/CFS-Brandon-Sorbom-Disrupt-2026.jpg?resize=1200,800",
+   "published": "2026-10-23T16:20:28+00:00",
+   "category": "tech",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "384ebfe598",
+   "source": "Wired",
+   "title": "Elon Musk Just Dumped Another $76 Million Into the Midterms",
+   "summary": "The trillionaire has given more than $445 million to Republican political groups this election cycle, as Democrats vow to investigate him.",
+   "link": "https://www.wired.com/story/elon-musk-just-dumped-another-dollar76-million-into-the-midterms/",
+   "comments": null,
+   "image": "https://media.wired.com/photos/6adb5fd2c971dd84b8dc4ea5/master/pass/GettyImages-2246892016.jpg",
+   "published": "2026-10-23T16:12:49+00:00",
+   "category": "tech",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "b9fe60ff50",
+   "source": "Engadget",
+   "title": "Meta is charging government and nonprofit pages to post links on Facebook",
+   "summary": "The new restrictions are a test which is explicitly not supposed to impact these entities.",
+   "link": "https://www.engadget.com/2295422/meta-is-charging-government-and-nonprofit-pages-to-post-links-on-facebook/",
+   "comments": null,
+   "image": "https://www.engadget.com/img/gallery/meta-is-charging-government-and-nonprofit-pages-to-post-links-on-facebook/l-intro-1792771543.jpg",
+   "published": "2026-10-23T16:09:39+00:00",
+   "category": "tech",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "9dd76e4dd7",
+   "source": "Engadget",
+   "title": "Apple Music has a fun Easter egg for the iPod's 25th anniversary",
+   "summary": "Time to dust off the click wheel.",
+   "link": "https://www.engadget.com/2295392/apple-music-has-a-fun-easter-egg-for-the-ipods-25th-anniversary/",
+   "comments": null,
+   "image": "https://www.engadget.com/img/gallery/apple-music-has-a-fun-easter-egg-for-the-ipods-25th-anniversary/l-intro-1792770156.jpg",
+   "published": "2026-10-23T15:47:03+00:00",
+   "category": "tech",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "170770d39c",
+   "source": "Wired",
+   "title": "How Many Billions Would It Take to Hold Meta Accountable?",
+   "summary": "Meta got hit this week with its biggest fine yet, the latest in a mounting pile of court-ordered payments.",
+   "link": "https://www.wired.com/story/how-many-billions-would-it-take-to-hold-meta-accountable/",
+   "comments": null,
+   "image": "https://media.wired.com/photos/6ada8957133035a6bb08c0f2/master/pass/Business_How%20Many%20Billions%20Would%20It%20Take%20to%20Hold%20Meta%20Accountable_v1.jpg",
+   "published": "2026-10-23T15:00:00+00:00",
+   "category": "tech",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "87a00f0d5a",
+   "source": "Hacker News",
+   "title": "The foolishness of \"natural language programming\" (1978)",
+   "summary": "",
+   "link": "https://www.cs.utexas.edu/~EWD/transcriptions/EWD06xx/EWD667.html",
+   "comments": "https://news.ycombinator.com/item?id=50203161",
+   "image": null,
+   "published": "2026-10-23T00:52:01+00:00",
+   "category": "tech",
+   "title_fa": "",
+   "summary_fa": ""
+  }
+ ]
+}
