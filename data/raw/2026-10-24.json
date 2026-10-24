@@ -1,0 +1,624 @@
+{
+ "date": "2026-10-24",
+ "fetched_at": "2026-10-24T18:31:02.872120+00:00",
+ "counts": {
+  "ai": 11,
+  "game": 12,
+  "tech": 12
+ },
+ "feeds": [
+  {
+   "feed": "https://www.theverge.com/rss/index.xml",
+   "source": "The Verge",
+   "entries": 10,
+   "error": null
+  },
+  {
+   "feed": "https://www.theverge.com/rss/games/index.xml",
+   "source": "The Verge",
+   "entries": 10,
+   "error": null
+  },
+  {
+   "feed": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml",
+   "source": "The Verge",
+   "entries": 10,
+   "error": null
+  },
+  {
+   "feed": "https://techcrunch.com/feed/",
+   "source": "TechCrunch",
+   "entries": 20,
+   "error": null
+  },
+  {
+   "feed": "https://techcrunch.com/category/artificial-intelligence/feed/",
+   "source": "TechCrunch",
+   "entries": 20,
+   "error": null
+  },
+  {
+   "feed": "https://feeds.arstechnica.com/arstechnica/index",
+   "source": "Ars Technica",
+   "entries": 20,
+   "error": null
+  },
+  {
+   "feed": "https://arstechnica.com/gaming/feed/",
+   "source": "Ars Technica",
+   "entries": 20,
+   "error": null
+  },
+  {
+   "feed": "https://www.wired.com/feed/rss",
+   "source": "Wired",
+   "entries": 50,
+   "error": null
+  },
+  {
+   "feed": "https://www.wired.com/feed/tag/ai/latest/rss",
+   "source": "Wired",
+   "entries": 10,
+   "error": null
+  },
+  {
+   "feed": "https://www.engadget.com/rss.xml",
+   "source": "Engadget",
+   "entries": 20,
+   "error": null
+  },
+  {
+   "feed": "https://www.tomshardware.com/feeds/all",
+   "source": "Tom's Hardware",
+   "entries": 0,
+   "error": "HTTPConnectionPool(host='www.tomshardware.com', port=80): Max retries exceeded with url: /feeds.xml (Caused by ConnectTimeoutError(<HTTPConnection(host='www.tomshardware.com', port=80) at 0x7f25510aa350>, 'Connection to www.tomshardware.com timed out. (connect timeout=20)'))"
+  },
+  {
+   "feed": "https://hnrss.org/frontpage?points=100",
+   "source": "Hacker News",
+   "entries": 19,
+   "error": null
+  },
+  {
+   "feed": "https://feeds.feedburner.com/ign/all",
+   "source": "IGN",
+   "entries": 20,
+   "error": null
+  },
+  {
+   "feed": "https://www.gamespot.com/feeds/mashup/",
+   "source": "GameSpot",
+   "entries": 15,
+   "error": null
+  },
+  {
+   "feed": "https://www.polygon.com/rss/index.xml",
+   "source": "Polygon",
+   "entries": 10,
+   "error": null
+  },
+  {
+   "feed": "https://www.eurogamer.net/feed",
+   "source": "Eurogamer",
+   "entries": 100,
+   "error": null
+  },
+  {
+   "feed": "https://www.pcgamer.com/rss/",
+   "source": "PC Gamer",
+   "entries": 50,
+   "error": null
+  },
+  {
+   "feed": "https://kotaku.com/rss",
+   "source": "Kotaku",
+   "entries": 20,
+   "error": null
+  },
+  {
+   "feed": "https://www.rockpapershotgun.com/feed",
+   "source": "Rock Paper Shotgun",
+   "entries": 100,
+   "error": null
+  },
+  {
+   "feed": "https://www.gematsu.com/feed",
+   "source": "Gematsu",
+   "entries": 20,
+   "error": null
+  },
+  {
+   "feed": "https://feeds.feedburner.com/venturebeat/SZYF",
+   "source": "VentureBeat",
+   "entries": 7,
+   "error": null
+  },
+  {
+   "feed": "https://www.technologyreview.com/topic/artificial-intelligence/feed",
+   "source": "MIT Technology Review",
+   "entries": 10,
+   "error": null
+  },
+  {
+   "feed": "https://openai.com/news/rss.xml",
+   "source": "OpenAI",
+   "entries": 1318,
+   "error": null
+  },
+  {
+   "feed": "https://blog.google/technology/ai/rss/",
+   "source": "Google AI",
+   "entries": 20,
+   "error": null
+  },
+  {
+   "feed": "https://deepmind.google/blog/rss.xml",
+   "source": "Google DeepMind",
+   "entries": 100,
+   "error": null
+  },
+  {
+   "feed": "https://huggingface.co/blog/feed.xml",
+   "source": "Hugging Face",
+   "entries": 890,
+   "error": null
+  }
+ ],
+ "items": [
+  {
+   "id": "864723f4a3",
+   "source": "Engadget",
+   "title": "The UK is investing $134 million into an AI Biosecurity Lab",
+   "summary": "The UK has established the AI Biosecurity Lab, which will help it detect biological threats and develop vaccines with AI.",
+   "link": "https://www.engadget.com/2296211/the-uk-is-investing-134-million-into-an-ai-biosecurity-lab/",
+   "comments": null,
+   "image": "https://www.engadget.com/img/gallery/the-uk-is-investing-134-million-into-an-ai-biosecurity-lab/l-intro-1792858052.jpg",
+   "published": "2026-10-24T16:11:53+00:00",
+   "category": "ai",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "e4ac1d3f29",
+   "source": "TechCrunch",
+   "title": "Forced to pick, Grok’s AI model chooses Republicans. OpenAI’s picks Democrats.",
+   "summary": "A new study found Grok's AI overwhelmingly recommends Republican candidates while OpenAI's GPT favors Democrats, with the two AI models disagreeing in more than 90% of nearly 500 election races.",
+   "link": "https://techcrunch.com/2026/10/24/forced-to-pick-groks-ai-model-chooses-republicans-openais-picks-democrats/",
+   "comments": null,
+   "image": "https://techcrunch.com/wp-content/uploads/2026/10/GettyImages-1777713346.jpg?resize=1200,900",
+   "published": "2026-10-24T15:00:00+00:00",
+   "category": "ai",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "4a535eced6",
+   "source": "TechCrunch",
+   "title": "Here are the top AI agents that can live in your text messages",
+   "summary": "We created a list of the most notable AI agents that can live in your text messages, from general assistants to agents designed for families, travel, and work.",
+   "link": "https://techcrunch.com/2026/10/24/all-the-ai-agents-that-can-live-in-your-text-messages/",
+   "comments": null,
+   "image": "https://techcrunch.com/wp-content/uploads/2017/12/gettyimages-673436934.jpg?resize=1200,813",
+   "published": "2026-10-24T14:00:00+00:00",
+   "category": "ai",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "128c778d03",
+   "source": "Wired",
+   "title": "The PHP Meltdown Shows How AI Makes Bugs More Exploitable",
+   "summary": "Security researchers used AI tools to help uncover years-old vulnerabilities in the PHP web scripting language. Then the AI-assisted attacks began.",
+   "link": "https://www.wired.com/story/kernel-panic-the-php-meltdown-shows-how-ai-makes-bugs-more-exploitable/",
+   "comments": null,
+   "image": "https://media.wired.com/photos/6adbb8a7e6d0c133525c3e7c/master/pass/KernelPanic_The%20PHP%20Meltdown%20Shows%20How%20AI%20Makes%20Bugs%20More%20Exploitable.jpg",
+   "published": "2026-10-24T12:00:00+00:00",
+   "category": "ai",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "f699a3e5cd",
+   "source": "TechCrunch",
+   "title": "OpenAI says it will no longer train its AI models on the live internet, citing “significant risks”",
+   "summary": "OpenAI will cut frontier models off from the internet weeks after one of its engineers said that solution wouldn't work.",
+   "link": "https://techcrunch.com/2026/10/23/openai-says-it-will-no-longer-train-its-ai-models-on-the-live-internet-citing-significant-risks/",
+   "comments": null,
+   "image": "https://techcrunch.com/wp-content/uploads/2026/05/openai-logo-code-background.jpg?resize=1200,798",
+   "published": "2026-10-23T23:05:49+00:00",
+   "category": "ai",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "ba6ab1376d",
+   "source": "Engadget",
+   "title": "OpenAI says it's cutting off internet access for frontier model training",
+   "summary": "OpenAI says it will no longer allow frontier models to access the internet during training in an effort to put in new safety measures after a series of incidents.",
+   "link": "https://www.engadget.com/2296019/openai-says-its-cutting-off-internet-access-for-frontier-model-training/",
+   "comments": null,
+   "image": "https://www.engadget.com/img/gallery/openai-says-its-cutting-off-internet-access-for-frontier-model-training/l-intro-1792794862.jpg",
+   "published": "2026-10-23T22:37:02+00:00",
+   "category": "ai",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "67972bfe49",
+   "source": "The Verge",
+   "title": "OpenAI now trains its frontier AI models with no internet access",
+   "summary": "OpenAI is now training its most advanced AI models without internet access following a string of rogue hacking incidents. In a blog post on Friday, OpenAI says it built an offline testing environment where AI models can interact with indexed and cached web content \"without risk of affecting external systems.\" OpenAI paused training its frontier […]",
+   "link": "https://www.theverge.com/ai-artificial-intelligence/1018021/openai-training-top-ai-models-no-internet",
+   "comments": null,
+   "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/02/STK155_OPEN_AI_2025_CVirgiia_B_d6ffc8.jpg?quality=90&strip=all&crop=0,0,100,100",
+   "published": "2026-10-23T21:11:07+00:00",
+   "category": "ai",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "4f1a69c73f",
+   "source": "The Verge",
+   "title": "Jack Dorsey’s Block made an AI model that talks to you like an awkward new friend",
+   "summary": "Jack Dorsey's Block announced an AI model called Dessa that's trained \"from scratch on nothing but human conversation,\" and to show off the model, Block shared chats it has had with humans that can occasionally be a little awkward and uncanny. Take this one, for example, shared by Dessa lead Ragavan Thurairatnam. The conversation between […]",
+   "link": "https://www.theverge.com/ai-artificial-intelligence/1017906/jack-dorsey-block-dessa-ai-voice-speech",
+   "comments": null,
+   "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/STKS536_AI_HALLUCINATION_B.png?quality=90&strip=all&crop=0,0,100,100",
+   "published": "2026-10-23T19:32:39+00:00",
+   "category": "ai",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "4e972ac672",
+   "source": "The Verge",
+   "title": "The iPhone Duo should have been an iPad",
+   "summary": "We gave the iPhone Duo a 7 /10. But that wasn't always the score we planned, and it might not be the right score forever. Such are the challenges of reviewing - and assessing - a big, new idea about the most popular smartphone in history. On this episode of The Vergecast, David and Nilay […]",
+   "link": "https://www.theverge.com/podcast/1017447/iphone-duo-ipad-review-score-vergecast",
+   "comments": null,
+   "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/VRG_VST_102326_Site_attempt.jpg?quality=90&strip=all&crop=0,0,100,100",
+   "published": "2026-10-23T17:00:18+00:00",
+   "category": "ai",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "298c8de07d",
+   "source": "OpenAI",
+   "title": "Rapidly scaling online storage to serve over 1 billion ChatGPT users (Part II)",
+   "summary": "Learn how OpenAI scaled Habitat with reliable multi-tenancy, global caching, and Azure Cosmos DB to deliver 12× faster reads for ChatGPT.",
+   "link": "https://openai.com/index/scaling-storage-one-billion-users-part-two",
+   "comments": null,
+   "image": null,
+   "published": "2026-10-23T17:00:00+00:00",
+   "category": "ai",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "d5dfb55b01",
+   "source": "Hugging Face",
+   "title": "LitPivot: Developing research ideas through dynamic contextualization within the literature landscape",
+   "summary": "",
+   "link": "https://huggingface.co/blog/allenai/litpivot",
+   "comments": null,
+   "image": "https://cdn-uploads.huggingface.co/production/uploads/638e39b249de7ae552d977b5/7F9q8BZloWigwe7m5YGLG.png",
+   "published": "2026-10-23T16:15:50+00:00",
+   "category": "ai",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "6f7b6e992f",
+   "source": "Kotaku",
+   "title": "Call Of Duty: Modern Warfare 4 Director Says There’s Probably No Such Thing As ‘Perfected’ Matchmaking",
+   "summary": "With the latest Call of Duty landing, seemingly without matchmaking features, multiplayer director Joe Cecot says he doesn't believe a system to satisfy all is possible",
+   "link": "https://kotaku.com/call-of-duty-modern-warfare-4-director-says-theres-probably-no-such-thing-as-perfected-matchmaking-2000749327",
+   "comments": null,
+   "image": "https://kotaku.com/app/uploads/2026/10/modernwarfare4duo-1280x872.jpg",
+   "published": "2026-10-24T18:25:14+00:00",
+   "category": "game",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "803fd6ee02",
+   "source": "Polygon",
+   "title": "Commander Shepard Voice Actors Call for Action to Save Mass Effect",
+   "summary": "Jennifer Hale and Mark Meer join fans in the fight to save Mass Effect after EA shut down its development project.",
+   "link": "https://www.polygon.com/mass-effect-universe-canceled-jennifer-hale-mark-meer-support-petition/",
+   "comments": null,
+   "image": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/01/mass-effect-commander-shepard-femshep-2.png",
+   "published": "2026-10-24T18:22:49+00:00",
+   "category": "game",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "90d7ced12b",
+   "source": "PC Gamer",
+   "title": "Penguin Colony review: A daringly weird horror game whose atmosphere and surprises overcome its rough edges",
+   "summary": "Something ancient and horrible stirs in the farthest south: Are you bad enough penguin to… not really do much about it?",
+   "link": "https://www.pcgamer.com/games/horror/penguin-colony-review/",
+   "comments": null,
+   "image": "https://cdn.mos.cms.futurecdn.net/zZTTjF3rcB8LvDfbHX23jU-1920-80.jpg",
+   "published": "2026-10-24T18:10:01+00:00",
+   "category": "game",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "a4f795337d",
+   "source": "Engadget",
+   "title": "Steam rolls out Personal Calendar feature that constantly updates recommended games",
+   "summary": "You can try out the new feature on the Steam store's homepage.",
+   "link": "https://www.engadget.com/2296237/steam-rolls-out-personal-calendar-feature-that-constantly-updates-recommended-games/",
+   "comments": null,
+   "image": "https://www.engadget.com/img/gallery/steam-rolls-out-personal-calendar-feature-that-constantly-updates-recommended-games/l-intro-1792865304.jpg",
+   "published": "2026-10-24T18:09:54+00:00",
+   "category": "game",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "774f65c3b9",
+   "source": "Eurogamer",
+   "title": "Stalker 2's next update has already leaked",
+   "summary": "PlayStation Asia has reportedly leaked details of an unannounced update coming to Stalker 2: Heart of Chornobyl , 2.1, next week. Read more",
+   "link": "https://www.eurogamer.net/stalker-2-update-2-1-zone-lookout-playstation-asia-leak",
+   "comments": null,
+   "image": "https://assetsio.gnwcdn.com/S.T.A.L.K.E.R.-2_-Heart-of-Chornobyl-%E2%80%94-Launch-Trailer-1-18-screenshot.png?width=690&quality=85&format=jpg&auto=webp",
+   "published": "2026-10-24T18:08:22+00:00",
+   "category": "game",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "5f3be48ed9",
+   "source": "Kotaku",
+   "title": "Xbox’s Chief Operating Officer Out Three Months After Role’s Creation",
+   "summary": "As turmoil continues to pile up, Microsoft veteran Helen Chiang departs the company just a few months after taking a newly created post to assure long-term stability",
+   "link": "https://kotaku.com/xboxs-chief-operating-officer-out-three-months-after-roles-creation-2000749324",
+   "comments": null,
+   "image": "https://kotaku.com/app/uploads/2026/07/Xbox-bad1-1280x720.jpg",
+   "published": "2026-10-24T17:27:51+00:00",
+   "category": "game",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "b02ea4a1fa",
+   "source": "Rock Paper Shotgun",
+   "title": "Paralives' first major update slips to next year, but when it comes you can expect some pretty meaty improvements for all of its main features",
+   "summary": "Since launch back in May of this year, life sim Paralives appears to have been trucking along nicely, with the dev team offering up fairly regular updates with all sorts of tweaks big and small. Certainly confidence-inspiring for an early access game, especially one as systems-driven as it is. And now, the Paralives team have outlined their plans for the game's first major update, which seem very catered to improving the core experience. Read mo…",
+   "link": "https://www.rockpapershotgun.com/paralives-first-major-update-slips-to-next-year-but-when-it-comes-you-can-expect-some-pretty-meaty-improvements-for-all-of-its-main-features",
+   "comments": null,
+   "image": "https://assetsio.gnwcdn.com/paralives-first-major-updated.jpg?width=690&quality=85&format=jpg&auto=webp",
+   "published": "2026-10-24T17:03:55+00:00",
+   "category": "game",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "12931e5487",
+   "source": "IGN",
+   "title": "12 Anime Worth Watching This Fall",
+   "summary": "From a return to Night City to a legendary blacksmith and bizarre race, we run down the new and returning anime titles you need to check out.",
+   "link": "https://www.ign.com/articles/new-anime-to-watch-in-fall-2006",
+   "comments": null,
+   "image": "https://assets-prd.ignimgs.com/2026/10/22/newanimefall26-oo-1792630117402.jpg",
+   "published": "2026-10-24T12:00:00+00:00",
+   "category": "game",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "829359a568",
+   "source": "Gematsu",
+   "title": "Xbox chief operating officer Helen Chiang steps down after three months",
+   "summary": "Helen Chiang has left her role as Xbox chief operating officer after just three months, …",
+   "link": "https://www.gematsu.com/2026/10/xbox-chief-operating-officer-helen-chiang-steps-down-after-three-months",
+   "comments": null,
+   "image": "https://www.gematsu.com/wp-content/uploads/2026/10/Xbox-COO-Departure_10-23-26.jpg",
+   "published": "2026-10-23T22:00:23+00:00",
+   "category": "game",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "ec10704829",
+   "source": "The Verge",
+   "title": "Xbox’s first chief operating officer is out after just a few months",
+   "summary": "Xbox's first chief operating officer (COO) is leaving after the new role was created just a few months ago. Helen Chiang is leaving Microsoft today, according to an internal Xbox memo seen by The Verge. Chiang has been at Microsoft for 21 years, serving as the head of Minecraft before being promoted to Xbox chief […]",
+   "link": "https://www.theverge.com/news/1018037/xbox-chief-operating-officer-helen-chiang-departure",
+   "comments": null,
+   "image": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/25485116/STK048_XBOX2__B.png?quality=90&strip=all&crop=0,0,100,100",
+   "published": "2026-10-23T21:39:26+00:00",
+   "category": "game",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "e4c9afc4f7",
+   "source": "GameSpot",
+   "title": "Sims Competitor InZoi Deletes “Uncomfortable” Post After Fan Pushback",
+   "summary": "The ambitious life-simulation game InZoi was once heralded as a potential \"Sims-killer\"--a promising new title that fans of the genre could turn to following EA's relentless pursuit to monetize every aspect of The Sims 4. However, a lackluster early-access period and concerns over the game's liberal use of AI made for a rocky start. Over the past year and a half, developer Krafton has addressed some of the complaints leveled at the game, but now…",
+   "link": "https://www.gamespot.com/articles/sims-competitor-inzoi-deletes-uncomfortable-post-after-fan-pushback/",
+   "comments": null,
+   "image": "https://www.gamespot.com/wp-content/uploads/2026/10/4466637-inzoibeingmean.webp?w=1200",
+   "published": "2026-10-23T21:17:52+00:00",
+   "category": "game",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "44d3d94503",
+   "source": "Ars Technica",
+   "title": "Everybody panic: A Valve developer said \"HLX\" in public",
+   "summary": "Sound designer lets Half Life-related codename slip at a conference.",
+   "link": "https://arstechnica.com/gaming/2026/10/everybody-panic-a-valve-developer-said-hlx-in-public/",
+   "comments": null,
+   "image": "https://cdn.arstechnica.net/wp-content/uploads/2017/08/024-1152x648-1740609184.jpg",
+   "published": "2026-10-23T16:35:00+00:00",
+   "category": "game",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "508ed5afff",
+   "source": "TechCrunch",
+   "title": "Instacart reportedly discussed selling itself with DoorDash and Uber",
+   "summary": "Instacart might sell itself to a larger competitor.",
+   "link": "https://techcrunch.com/2026/10/24/instacart-reportedly-discussed-selling-itself-with-doordash-and-uber/",
+   "comments": null,
+   "image": "https://techcrunch.com/wp-content/uploads/2022/09/instacart-logo.jpg?resize=1200,800",
+   "published": "2026-10-24T16:30:00+00:00",
+   "category": "tech",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "f686687fa5",
+   "source": "Hacker News",
+   "title": "Roku developer repositories moved from GitHub to GitLab",
+   "summary": "",
+   "link": "https://blog.roku.com/developer/gitlab-move",
+   "comments": "https://news.ycombinator.com/item?id=50222622",
+   "image": "https://www.roku.com/assets/roku-logo-purple.png",
+   "published": "2026-10-24T16:06:26+00:00",
+   "category": "tech",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "70f115a4ad",
+   "source": "Engadget",
+   "title": "Your smart TV's Wi-Fi is probably faster than its Ethernet, but speed isn't everything",
+   "summary": "You might have never thought to use Ethernet with your TV, but it's not speed that's worth connecting for.",
+   "link": "https://www.engadget.com/2291599/smart-tv-wifi-faster-than-ethernet-speed-isnt-everything/",
+   "comments": null,
+   "image": "https://www.engadget.com/img/gallery/your-smart-tvs-wi-fi-is-probably-faster-than-its-ethernet-but-speed-isnt-everything/l-intro-1792505372.jpg",
+   "published": "2026-10-24T16:00:00+00:00",
+   "category": "tech",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "688136660c",
+   "source": "TechCrunch",
+   "title": "Block’s new voice model sounds eerily human",
+   "summary": "Block said that the voice model can run locally on a MacBook M4 Max",
+   "link": "https://techcrunch.com/2026/10/24/blocks-new-voice-model-sounds-eerily-human/",
+   "comments": null,
+   "image": "https://techcrunch.com/wp-content/uploads/2025/07/jack-dorsey.jpg?resize=1200,822",
+   "published": "2026-10-24T16:00:00+00:00",
+   "category": "tech",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "ae8aaae193",
+   "source": "Engadget",
+   "title": "What is Theater Mode on your Apple Watch and when should you use it?",
+   "summary": "There are various ways to silence your Apple Watch when you need to lock in. Theater Mode doesn't quite go as far as Do Not Disturb, but it's still very useful.",
+   "link": "https://www.engadget.com/2291533/what-is-theater-mode-on-apple-watch/",
+   "comments": null,
+   "image": "https://www.engadget.com/img/gallery/what-is-theater-mode-on-your-apple-watch-and-when-should-you-use-it/l-intro-1792501458.jpg",
+   "published": "2026-10-24T15:30:00+00:00",
+   "category": "tech",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "94ce40bc8e",
+   "source": "The Verge",
+   "title": "Fielded is obsessed with scammers and unhinged Japanese cyberpunk",
+   "summary": "Lindsay Powell, who releases records under the name Fielded, has spent most of her career subverting expectations and genre conventions. According to their Bandcamp page, Fielded started as an experimental noise project before growing into something closer to R&B. But from moment one, her take on the genre was restless, relentlessly playing with what R&B […]",
+   "link": "https://www.theverge.com/entertainment/1017460/fielded-some-kind-of-animal-interview",
+   "comments": null,
+   "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/fielded_pressphoto_6-Fielded.jpg?quality=90&strip=all&crop=0,0,100,100",
+   "published": "2026-10-24T15:00:00+00:00",
+   "category": "tech",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "8835a76082",
+   "source": "The Verge",
+   "title": "LG’s brilliant C6 OLED TV is already $400 off ahead of Black Friday",
+   "summary": "Black Friday is still over a month away, but if you’re hoping to upgrade your TV, you don’t need to wait until November. LG has already kicked off its early Black Friday sale, letting you save on the LG C6 and various soundbars through November 1st. Right now, for instance, you can snag a 55-inch […]",
+   "link": "https://www.theverge.com/gadgets/1017768/lg-c6-oled-tv-early-black-friday-2026-deal-sale",
+   "comments": null,
+   "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/TV-OLED55C6PUA-Brilliant-oled-pictures_features_900x600.avif?quality=90&strip=all&crop=0,0,100,100",
+   "published": "2026-10-24T15:00:00+00:00",
+   "category": "tech",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "77a2412996",
+   "source": "Ars Technica",
+   "title": "A 1,000-mile cloud on Mars may reveal physics never seen in nature",
+   "summary": "A new model suggests Mars may host ice-forming physics never directly observed before.",
+   "link": "https://arstechnica.com/science/2026/10/a-1000-mile-cloud-on-mars-may-reveal-physics-never-seen-in-nature/",
+   "comments": null,
+   "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/marscloud-1152x648.jpg",
+   "published": "2026-10-24T11:50:28+00:00",
+   "category": "tech",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "06f64d98ad",
+   "source": "Wired",
+   "title": "New mRNA Vaccine Reduces Risk of Melanoma Recurrence by Over 40 Percent",
+   "summary": "The vaccine is personalized to a patient’s tumor, and results from the Phase 3 trial are yet another example of the promise of mRNA vaccines in treating cancer.",
+   "link": "https://www.wired.com/story/new-melanoma-vaccine-reduces-risk-of-tumor-reoccurrence-by-over-40-percent/",
+   "comments": null,
+   "image": "https://media.wired.com/photos/6adbb6236c5716eb12b3253b/master/pass/vacuna%20melanoma%202275195271.jpg",
+   "published": "2026-10-24T11:30:00+00:00",
+   "category": "tech",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "05cc71ca1a",
+   "source": "Wired",
+   "title": "Best Pet Camera of 2026: Furbo, Petcube, and Enabot",
+   "summary": "Whether you’re near or far, keep an eye on your fur baby with our favorite pet cameras.",
+   "link": "https://www.wired.com/gallery/best-pet-cameras/",
+   "comments": null,
+   "image": "https://media.wired.com/photos/6adb915b98f760e7b008b9de/master/pass/Pet%20Cameras%20Update%20102026%20top%20art%20SOURCE%20Amazon.jpg",
+   "published": "2026-10-24T11:03:00+00:00",
+   "category": "tech",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "5bb272a350",
+   "source": "Ars Technica",
+   "title": "Ice sheet expansion may have started 2,000 years ago, but we canceled that",
+   "summary": "The tiny remains of the Laurentide Ice Sheet began getting somewhat less tiny.",
+   "link": "https://arstechnica.com/science/2026/10/ice-sheet-expansion-may-have-started-2000-years-go-but-we-canceled-that/",
+   "comments": null,
+   "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/GettyImages-1458824614-1152x648.jpg",
+   "published": "2026-10-24T11:00:09+00:00",
+   "category": "tech",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "8acda1e9f0",
+   "source": "Hacker News",
+   "title": "GPU-unlock: FP/BF16 instruction issue rate on Nvidia 3000's cards",
+   "summary": "",
+   "link": "https://github.com/Zagitta/gpu-unlock",
+   "comments": "https://news.ycombinator.com/item?id=50219700",
+   "image": "https://opengraph.githubassets.com/ee7a60ae81704d21b164d5e61cbe3663bcfb66f58ab46dda463d1dc6ddc20413/Zagitta/gpu-unlock",
+   "published": "2026-10-24T09:58:27+00:00",
+   "category": "tech",
+   "title_fa": "",
+   "summary_fa": ""
+  }
+ ]
+}
