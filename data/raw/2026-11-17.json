@@ -1,0 +1,637 @@
+{
+ "date": "2026-11-17",
+ "fetched_at": "2026-11-17T19:34:07.695646+00:00",
+ "counts": {
+  "ai": 12,
+  "game": 12,
+  "tech": 12
+ },
+ "feeds": [
+  {
+   "feed": "https://www.theverge.com/rss/index.xml",
+   "source": "The Verge",
+   "entries": 10,
+   "error": null
+  },
+  {
+   "feed": "https://www.theverge.com/rss/games/index.xml",
+   "source": "The Verge",
+   "entries": 10,
+   "error": null
+  },
+  {
+   "feed": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml",
+   "source": "The Verge",
+   "entries": 10,
+   "error": null
+  },
+  {
+   "feed": "https://techcrunch.com/feed/",
+   "source": "TechCrunch",
+   "entries": 20,
+   "error": null
+  },
+  {
+   "feed": "https://techcrunch.com/category/artificial-intelligence/feed/",
+   "source": "TechCrunch",
+   "entries": 20,
+   "error": null
+  },
+  {
+   "feed": "https://feeds.arstechnica.com/arstechnica/index",
+   "source": "Ars Technica",
+   "entries": 20,
+   "error": null
+  },
+  {
+   "feed": "https://arstechnica.com/gaming/feed/",
+   "source": "Ars Technica",
+   "entries": 20,
+   "error": null
+  },
+  {
+   "feed": "https://www.wired.com/feed/rss",
+   "source": "Wired",
+   "entries": 50,
+   "error": null
+  },
+  {
+   "feed": "https://www.wired.com/feed/tag/ai/latest/rss",
+   "source": "Wired",
+   "entries": 10,
+   "error": null
+  },
+  {
+   "feed": "https://www.engadget.com/rss.xml",
+   "source": "Engadget",
+   "entries": 20,
+   "error": null
+  },
+  {
+   "feed": "https://www.tomshardware.com/feeds/all",
+   "source": "Tom's Hardware",
+   "entries": 50,
+   "error": null
+  },
+  {
+   "feed": "https://hnrss.org/frontpage?points=100",
+   "source": "Hacker News",
+   "entries": 14,
+   "error": null
+  },
+  {
+   "feed": "https://feeds.feedburner.com/ign/all",
+   "source": "IGN",
+   "entries": 20,
+   "error": null
+  },
+  {
+   "feed": "https://www.gamespot.com/feeds/mashup/",
+   "source": "GameSpot",
+   "entries": 15,
+   "error": null
+  },
+  {
+   "feed": "https://www.polygon.com/rss/index.xml",
+   "source": "Polygon",
+   "entries": 10,
+   "error": null
+  },
+  {
+   "feed": "https://www.eurogamer.net/feed",
+   "source": "Eurogamer",
+   "entries": 100,
+   "error": null
+  },
+  {
+   "feed": "https://www.pcgamer.com/rss/",
+   "source": "PC Gamer",
+   "entries": 50,
+   "error": null
+  },
+  {
+   "feed": "https://kotaku.com/rss",
+   "source": "Kotaku",
+   "entries": 20,
+   "error": null
+  },
+  {
+   "feed": "https://www.rockpapershotgun.com/feed",
+   "source": "Rock Paper Shotgun",
+   "entries": 100,
+   "error": null
+  },
+  {
+   "feed": "https://www.gematsu.com/feed",
+   "source": "Gematsu",
+   "entries": 20,
+   "error": null
+  },
+  {
+   "feed": "https://feeds.feedburner.com/venturebeat/SZYF",
+   "source": "VentureBeat",
+   "entries": 7,
+   "error": null
+  },
+  {
+   "feed": "https://www.technologyreview.com/topic/artificial-intelligence/feed",
+   "source": "MIT Technology Review",
+   "entries": 10,
+   "error": null
+  },
+  {
+   "feed": "https://openai.com/news/rss.xml",
+   "source": "OpenAI",
+   "entries": 1405,
+   "error": null
+  },
+  {
+   "feed": "https://blog.google/technology/ai/rss/",
+   "source": "Google AI",
+   "entries": 20,
+   "error": null
+  },
+  {
+   "feed": "https://deepmind.google/blog/rss.xml",
+   "source": "Google DeepMind",
+   "entries": 100,
+   "error": null
+  },
+  {
+   "feed": "https://huggingface.co/blog/feed.xml",
+   "source": "Hugging Face",
+   "entries": 908,
+   "error": null
+  }
+ ],
+ "items": [
+  {
+   "id": "3aa0c6065a",
+   "source": "TechCrunch",
+   "title": "Google expands access to Gemini Tasks, which can help with calls, purchases",
+   "summary": "Gemini's Task mode can help users coordinate calls, log into websites, and even make purchases on the user's behalf.",
+   "link": "https://techcrunch.com/2026/11/17/google-expands-access-to-gemini-tasks-which-can-help-with-calls-purchases/",
+   "comments": null,
+   "image": "https://techcrunch.com/wp-content/uploads/2026/06/gemini-app-GettyImages-2276204472-1.jpg?w=1024",
+   "published": "2026-11-17T19:02:20+00:00",
+   "category": "ai",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "0488c951c7",
+   "source": "The Verge",
+   "title": "Google’s Spark AI agent becomes ‘Tasks’ — and now it’s free",
+   "summary": "Google is rebranding its Spark AI agent as \"Tasks\" and making it free to use. The feature, which is powered by Google's new Gemini 4 Hydrogen AI model, can do things like create meal plans, manage your calendar, and dig through your emails to find recurring expenses you might not need. Users in the US […]",
+   "link": "https://www.theverge.com/tech/1035756/google-spark-ai-tasks-free",
+   "comments": null,
+   "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/Tasks-in-Gemini.png?quality=90&strip=all&crop=0,0,100,100",
+   "published": "2026-11-17T18:58:01+00:00",
+   "category": "ai",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "3a4b135687",
+   "source": "TechCrunch",
+   "title": "Google to keep Gemini chats for 2 months, up from 72 hours, even with history off",
+   "summary": "Google's Gemini update extending chat retention will roll out globally over the coming weeks.",
+   "link": "https://techcrunch.com/2026/11/17/google-to-keep-gemini-chats-for-two-months-up-from-72-hours-even-with-history-off/",
+   "comments": null,
+   "image": "https://techcrunch.com/wp-content/uploads/2026/11/google-gemini-app.jpg?resize=1200,800",
+   "published": "2026-11-17T18:48:23+00:00",
+   "category": "ai",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "29c31b9493",
+   "source": "Ars Technica",
+   "title": "OpenAI sued by California after admitting to 80 loss-of-control incidents",
+   "summary": "AG: OpenAI tested dangerous AI without proper oversight and misled public about it.",
+   "link": "https://arstechnica.com/tech-policy/2026/11/california-sues-openai-to-stop-public-nuisance-of-out-of-control-ai-agents/",
+   "comments": null,
+   "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/openai-chip-logo-1152x648.jpg",
+   "published": "2026-11-17T18:13:34+00:00",
+   "category": "ai",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "549a77347d",
+   "source": "OpenAI",
+   "title": "Introducing GPT-6.2 Astra and Sol",
+   "summary": "Introducing GPT‑6.2 Astra and Sol, with better professional outputs, coding, computer use, and efficiency at lower cost across ChatGPT Work, Codex, and the API.",
+   "link": "https://openai.com/index/introducing-gpt-6-2-astra-sol",
+   "comments": null,
+   "image": null,
+   "published": "2026-11-17T17:45:00+00:00",
+   "category": "ai",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "cb1d8f8bc8",
+   "source": "Google AI",
+   "title": "Put Gemini to work for you",
+   "summary": "A user interface displaying the prompt \"What can I get done for you?\" above an input box containing placeholder text \"Describe a task\".",
+   "link": "https://blog.google/innovation-and-ai/products/gemini-app/tasks-in-gemini-free-new-features/",
+   "comments": null,
+   "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Hero_2784_x_1566.max-600x600.format-webp.webp",
+   "published": "2026-11-17T17:00:00+00:00",
+   "category": "ai",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "bfe144881f",
+   "source": "Ars Technica",
+   "title": "Google makes it easier to use Gemini without training AI on your data",
+   "summary": "AI training and chat history will now have separate toggles in the Gemini activity settings.",
+   "link": "https://arstechnica.com/ai/2026/11/google-will-let-you-opt-out-of-ai-training-in-gemini-without-losing-your-history/",
+   "comments": null,
+   "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/04/gemini-general-5-1152x648.jpg",
+   "published": "2026-11-17T16:50:10+00:00",
+   "category": "ai",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "8ff9a8b955",
+   "source": "Tom's Hardware",
+   "title": "AI safety legislation has a conflict-of-interest problem — Big US labs are warning of risk just as cheaper Chinese open-weight models erode their commercial edge",
+   "summary": "The AI safety conversation is as much a political one as it is a real-life worry. We interview experts to find out how legislation may be a convenient way to control the AI market.",
+   "link": "https://www.tomshardware.com/tech-industry/artificial-intelligence/ai-safety-legislation-has-a-conflict-of-interest-problem-big-us-labs-are-warning-of-risk-just-as-cheaper-chinese-open-weight-models-erode-their-commercial-edge",
+   "comments": null,
+   "image": "https://cdn.mos.cms.futurecdn.net/ro83GMaCee5Y8zRs2EBSBX-1920-80.jpg",
+   "published": "2026-11-17T16:00:00+00:00",
+   "category": "ai",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "98ef486c7d",
+   "source": "MIT Technology Review",
+   "title": "Research Reports",
+   "summary": "To access a report, click on the corresponding image below.",
+   "link": "https://www.technologyreview.com/2026/11/17/1148203/research-reports/",
+   "comments": null,
+   "image": "https://wp.technologyreview.com/wp-content/uploads/2026/11/Screenshot-2026-11-09-at-3.15.07-PM-edited.png",
+   "published": "2026-11-17T14:39:46+00:00",
+   "category": "ai",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "96a0b32d44",
+   "source": "Wired",
+   "title": "Rogue Agents Hacked His Company. Why Is Clément Delangue So Optimistic About AI?",
+   "summary": "The French CEO of Hugging Face, a mega-hub of open-source AI software, says the attack by OpenAI models earlier this year proved one thing: Humanity can’t let AI be controlled by the few.",
+   "link": "https://www.wired.com/story/wired-yearbook-2026-clement-delangue/",
+   "comments": null,
+   "image": "https://media.wired.com/photos/6af4d05353156106eee176d7/master/pass/WWF-Clement-Delangue-1.jpg",
+   "published": "2026-11-17T11:00:00+00:00",
+   "category": "ai",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "069078b2b4",
+   "source": "Hacker News",
+   "title": "How the Claude Code team thinks about verification",
+   "summary": "",
+   "link": "https://claude.dev/blog/how-the-claude-code-team-thinks-about-verification/",
+   "comments": "https://news.ycombinator.com/item?id=50529612",
+   "image": "https://claude.dev/blog/how-the-claude-code-team-thinks-about-verification/og.png",
+   "published": "2026-11-17T10:20:40+00:00",
+   "category": "ai",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "c267813b00",
+   "source": "The Verge",
+   "title": "Tech leaders are convinced that Jensen Huang’s exit was a plot against him",
+   "summary": "Jensen Huang's stunning resignation from Nvidia after more than 33 years has sent shockwaves throughout the tech industry. Now prominent figures are calling for Huang's reinstatement, and many are also hopping on board with a theory spreading throughout Silicon Valley: that the scandal is the result of a plot against the former CEO. At the […]",
+   "link": "https://www.theverge.com/tech/1035027/tech-leaders-nvidia-jensen-huang-theories",
+   "comments": null,
+   "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/gettyimages-2299645290.jpg?quality=90&strip=all&crop=0,0,100,100",
+   "published": "2026-11-16T23:17:34+00:00",
+   "category": "ai",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "ac69bfa789",
+   "source": "Kotaku",
+   "title": "How Grand Theft Auto 6 Can Be Nominated At The Game Awards Despite Not Being Out Yet",
+   "summary": "Rockstar’s open-world crime drama has multiple nominations, including Game of the Year",
+   "link": "https://kotaku.com/game-awards-2026-nominations-gta-grand-theft-auto-6-lucia-2000757763",
+   "comments": null,
+   "image": "https://kotaku.com/app/uploads/2026/11/Jason_and_Lucia_17-1280x720.jpg",
+   "published": "2026-11-17T19:30:34+00:00",
+   "category": "game",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "dce32d8593",
+   "source": "Polygon",
+   "title": "Dune Magic: The Gathering Crossover Officially Confirmed After Major Leak",
+   "summary": "Dune is coming to Magic: The Gathering with a new Secret Lair superdrop featuring new legendary creatures and reprints.",
+   "link": "https://www.polygon.com/dune-magic-the-gathering-secret-lair-superdrop-november-2026/",
+   "comments": null,
+   "image": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2025/01/Timothee-Chalamet-Paul-Atreides-Zendaya-Chani-Dune-Part-2.jpg",
+   "published": "2026-11-17T19:22:17+00:00",
+   "category": "game",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "a3b15bee27",
+   "source": "Kotaku",
+   "title": "Ex-CEO Jensen Huang Says He’d Be ‘Honored’ To Return To Nvidia But The AI Tech Giant Is Saying No Thanks",
+   "summary": "New phone, who dis?",
+   "link": "https://kotaku.com/ex-ceo-jensen-huang-says-hed-be-honored-to-return-to-nvidia-but-the-ai-tech-giant-is-saying-no-thanks-2000757760",
+   "comments": null,
+   "image": "https://kotaku.com/app/uploads/2024/07/d31d08d73fcca3318e5640dc536c3fd4-1280x720.jpg",
+   "published": "2026-11-17T19:15:18+00:00",
+   "category": "game",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "7e7a41998a",
+   "source": "Eurogamer",
+   "title": "The Game Awards 2026 nominees announced, and GTA 6 leads with eight nods before it's even out",
+   "summary": "The Game Awards 2026 nominees have been revealed, and Grand Theft Auto 6 leads the pack with eight nominations, two days before it even launches. Read more",
+   "link": "https://www.eurogamer.net/game-awards-2026-nominees-full-list-gta-6",
+   "comments": null,
+   "image": "https://assetsio.gnwcdn.com/Screenshot-2026-11-17-at-18.56.07.png?width=690&quality=85&format=jpg&auto=webp",
+   "published": "2026-11-17T19:01:20+00:00",
+   "category": "game",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "522f4525f8",
+   "source": "PC Gamer",
+   "title": "Sci-fi RPG Exodus gets even more Mass Effect-like with its female lead, who they are calling Femjun",
+   "summary": "Yup, it's official.",
+   "link": "https://www.pcgamer.com/games/rpg/sci-fi-rpg-exodus-gets-even-more-mass-effect-like-with-its-female-lead-who-they-are-calling-femjun/",
+   "comments": null,
+   "image": "https://cdn.mos.cms.futurecdn.net/bk5jmJNSq4C6bofgJwvvdE-1920-80.jpg",
+   "published": "2026-11-17T18:55:21+00:00",
+   "category": "game",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "10d2cb297a",
+   "source": "GameSpot",
+   "title": "After Indie Games Dominated The Game Awards Last Year, They’re Missing In 2026",
+   "summary": "Last year, the Game of the Year category at Geoff Keighley's The Game Awards was stacked with independent games. It was a fitting celebration for a strong year of independent releases, which has been closely matched by some of the best indie games of this year. Why, then, have none of them been able to make the same impact year on year? Last year, the category was dominated by indie games, with Hollow Knight: Silksong , Hades 2 , and Clair Obscu…",
+   "link": "https://www.gamespot.com/articles/after-indie-games-dominated-the-game-awards-last-year-theyre-missing-in-2026/",
+   "comments": null,
+   "image": "https://www.gamespot.com/wp-content/uploads/2026/11/big-walk-1-million-players.jpg?w=1200",
+   "published": "2026-11-17T18:40:58+00:00",
+   "category": "game",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "a66cdeffb6",
+   "source": "Gematsu",
+   "title": "Spyro: A Realm Beyond teased for The Game Awards 2026",
+   "summary": "Publisher Activision and developer Toys for Bob will share more information on Spyro: A Realm …",
+   "link": "https://www.gematsu.com/2026/11/spyro-a-realm-beyond-teased-for-the-game-awards-2026",
+   "comments": null,
+   "image": "https://www.gematsu.com/wp-content/uploads/2026/11/Spyro-A-Realm-Beyond_2026_11-17-26_003.jpg",
+   "published": "2026-11-17T18:38:26+00:00",
+   "category": "game",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "857a40d7fc",
+   "source": "Rock Paper Shotgun",
+   "title": "Archetype go all in on the Mass Effect vibes with a FemJun reveal, but I'm just left hoping they'll call the alternative option MascJun to balance it out",
+   "summary": "I know it, you know it, hell, I'm sure developer Archetype Entertainment know it: Exodus is kind of just Mass Effect again. That's in part because the DNA of the game has been built by series vets like Drew Karpyshyn, Chad Robertson and James Ohlen. But it's also because, well, they're putting FemShep in the game. Yes, I'm being a tad facetious here, but when the latest trailer for your game is literally titled \"Female Jun Reveal,\" well, compari…",
+   "link": "https://www.rockpapershotgun.com/archetype-go-all-in-on-the-mass-effect-vibes-with-a-femjun-reveal-but-im-just-left-hoping-theyll-call-the-alternative-option-mascjun-to-balance-it-out",
+   "comments": null,
+   "image": "https://assetsio.gnwcdn.com/exodus-femjun.jpg?width=690&quality=85&format=jpg&auto=webp",
+   "published": "2026-11-17T18:30:00+00:00",
+   "category": "game",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "d75afed8ca",
+   "source": "Engadget",
+   "title": "UK tribunal tosses PlayStation Store price-gouging lawsuit, citing physical games as competition",
+   "summary": "Those same physical copies are on their way out.",
+   "link": "https://www.engadget.com/2319408/uk-tribunal-tosses-playstation-store-price-gouging-lawsuit-citing-physical-games-as-competition/",
+   "comments": null,
+   "image": "https://www.engadget.com/img/gallery/uk-tribunal-tosses-playstation-store-price-gouging-lawsuit-citing-physical-games-as-competition/l-intro-1794937197.jpg",
+   "published": "2026-11-17T17:40:38+00:00",
+   "category": "game",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "813c810fcc",
+   "source": "IGN",
+   "title": "Warnings, Encouragement, and Gift Cards: How Schools Are Preparing for Mass Absences on GTA 6 Launch Day",
+   "summary": "As GTA 6 launch day nears, schools are preparing for mass absences among pupils by issuing warnings to parents — and offering children the chance to win gift cards just for turning up.",
+   "link": "https://www.ign.com/articles/warnings-encouragement-and-gift-cards-how-schools-are-preparing-for-mass-absences-on-gta-6-launch-day",
+   "comments": null,
+   "image": "https://assets-prd.ignimgs.com/2026/10/29/gta-6-jason-and-lucia-drive-by-1793234705694.jpg",
+   "published": "2026-11-17T13:32:25+00:00",
+   "category": "game",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "10bdc4117f",
+   "source": "Tom's Hardware",
+   "title": "Brazilian businessman arrested for attempted murder after planting explosive-filled game console that detonated in electronics store",
+   "summary": "A businessman in São Paulo has been arrested for trying to kill a rival business owner with an Xbox filled with explosives.",
+   "link": "https://www.tomshardware.com/video-games/xbox/brazilian-businessman-arrested-for-attempted-murder-after-planting-explosive-filled-game-console-that-detonated-in-electronics-store-perp-tried-to-kill-business-rival-device-delivered-by-unsuspecting-motorcyclist-working-for-a-delivery-service",
+   "comments": null,
+   "image": "https://cdn.mos.cms.futurecdn.net/VwnPyhDMAPT2siHsQ6xXQU-1920-80.jpg",
+   "published": "2026-11-17T13:00:00+00:00",
+   "category": "game",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "4bc3e3e179",
+   "source": "The Verge",
+   "title": "Hacker behind 2022 GTA VI leaks pleads guilty",
+   "summary": "Arion Kurtaj, a member of the Lapsus$ cybercrime group who leaked 90 videos of Grand Theft Auto VI in 2022 and hacked other big companies, pleaded guilty on Monday, according to the UK's Crown Prosecution Service (CPS). Kurtaj, who is now 21, hacked BT/EE sometime between August and November 2021, and starting in early November […]",
+   "link": "https://www.theverge.com/games/1035087/gta-vi-leaks-2022-hacker-pleads-guilty-arion-kurtaj",
+   "comments": null,
+   "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/06/ULTIMATE_EDITION_01_de9b57.jpg?quality=90&strip=all&crop=0,0,100,100",
+   "published": "2026-11-16T23:35:58+00:00",
+   "category": "game",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "776157cf22",
+   "source": "TechCrunch",
+   "title": "Model ML raises $250M to automate investment banking grunt work",
+   "summary": "The three-year-old Model ML was valued at $1.5 billion in a new round co-led by General Atlantic and QED Investors.",
+   "link": "https://techcrunch.com/2026/11/17/model-ml-raises-250m-to-automate-investment-banking-grunt-work/",
+   "comments": null,
+   "image": "https://techcrunch.com/wp-content/uploads/2026/09/GettyImages-1283692332.jpg?resize=1200,633",
+   "published": "2026-11-17T19:32:11+00:00",
+   "category": "tech",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "77f99e4dbf",
+   "source": "The Verge",
+   "title": "JBL’s headphones that are great for in-flight entertainment are 67 percent off",
+   "summary": "If you’re looking to upgrade your headphones before the big wave of Black Friday deals arrives, you can buy JBL’s Tour One M3 for a new low price of $149 ($300 off) at Amazon, Best Buy, and directly from JBL. The deal is so good that my colleague John Higgins, The Verge’s audio and TV […]",
+   "link": "https://www.theverge.com/gadgets/1035085/jbl-tour-one-m3-deal-sale-black-friday-2026",
+   "comments": null,
+   "image": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/25819374/jbl2.jpg?quality=90&strip=all&crop=0,0,100,100",
+   "published": "2026-11-17T19:19:10+00:00",
+   "category": "tech",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "1cab68d7a3",
+   "source": "Engadget",
+   "title": "What exactly are Flock cameras and how can you spot one?",
+   "summary": "Flock cameras are showing up at intersections and neighborhood entrances. Learn what they are capable of and how to spot one before you drive past.",
+   "link": "https://www.engadget.com/2315371/what-are-flock-cameras-how-to-spot/",
+   "comments": null,
+   "image": "https://www.engadget.com/img/gallery/what-exactly-are-flock-cameras-and-how-can-you-spot-one/l-intro-1794513671.jpg",
+   "published": "2026-11-17T19:00:00+00:00",
+   "category": "tech",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "6f8caa6a50",
+   "source": "TechCrunch",
+   "title": "Apple services, including iCloud, App Store, and Apple Music, hit by outage",
+   "summary": "Apple's status page confirms its services are facing outages, but has not confirmed the cause.",
+   "link": "https://techcrunch.com/2026/11/17/apple-services-including-icloud-app-store-and-apple-music-hit-by-outage/",
+   "comments": null,
+   "image": "https://techcrunch.com/wp-content/uploads/2021/08/icloud-pattern-with-key.jpg?resize=1200,780",
+   "published": "2026-11-17T18:55:40+00:00",
+   "category": "tech",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "105ad4c2c7",
+   "source": "The Verge",
+   "title": "Meta is testing a new standalone messaging app called Direct",
+   "summary": "Meta announced Direct, a new messaging app from Instagram that it's currently testing in Turkey and Thailand on iOS and Android. Direct is essentially Instagram's direct messaging without Instagram's other features. Meta says your Instagram chats will sync across both apps if you login with the same account. You can also sign up with an […]",
+   "link": "https://www.theverge.com/tech/1035740/meta-instagram-direct-messaging-app",
+   "comments": null,
+   "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/meta-instagram-direct-app-screenshots.jpeg?quality=90&strip=all&crop=0,0,100,100",
+   "published": "2026-11-17T18:33:02+00:00",
+   "category": "tech",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "a35bb3c623",
+   "source": "Ars Technica",
+   "title": "Humanity braces for an alien invasion in 3 Body Problem S2 teaser",
+   "summary": "“Wake up! They haven’t come 24 trillion miles to negotiate. They are coming to exterminate us.”",
+   "link": "https://arstechnica.com/culture/2026/11/humanity-braces-for-an-alien-invasion-in-3-body-problem-s2-teaser/",
+   "comments": null,
+   "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/body2-1152x648-1794938366.jpg",
+   "published": "2026-11-17T18:26:26+00:00",
+   "category": "tech",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "bab0aaceea",
+   "source": "Engadget",
+   "title": "iCloud and other Apple services are down in an apparent outage",
+   "summary": "The full extent of the disruption isn't known yet.",
+   "link": "https://www.engadget.com/2319504/icloud-and-other-apple-services-are-down-in-an-apparent-outage/",
+   "comments": null,
+   "image": "https://www.engadget.com/img/gallery/icloud-and-other-apple-services-are-down-in-an-apparent-outage/l-intro-1794939266.jpg",
+   "published": "2026-11-17T18:15:04+00:00",
+   "category": "tech",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "2919760de5",
+   "source": "Wired",
+   "title": "The Nvidia Scandal Could Upend Chip Sales to China. Trump Wants to Keep Them Going",
+   "summary": "Commerce secretary Howard Lutnick has been under attack for not blacklisting a company caught up in the Jensen Huang scandal. But Trump is on board with the policy.",
+   "link": "https://www.wired.com/story/the-nvidia-scandal-is-about-chip-sales-to-china-trump-wants-to-keep-them-going/",
+   "comments": null,
+   "image": "https://media.wired.com/photos/6af7b8ab85c9940326d23123/master/pass/Nvidia-Fiasco-Has-Lutnick-Under-the-Gun-Politics-2201139059.jpg",
+   "published": "2026-11-17T18:03:32+00:00",
+   "category": "tech",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "67ae7882f2",
+   "source": "Ars Technica",
+   "title": "The data is very preliminary, but Vulcan failure may not be due to BE-4 engines",
+   "summary": "Information about the Vulcan failure is being closely held by ULA and Blue Origin.",
+   "link": "https://arstechnica.com/features/2026/11/sources-vulcan-launch-anomaly-investigation-is-complex/",
+   "comments": null,
+   "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/GettyImages-2304790493-1152x648.jpg",
+   "published": "2026-11-17T18:00:51+00:00",
+   "category": "tech",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "2722a52f92",
+   "source": "Hacker News",
+   "title": "Apple Services Down",
+   "summary": "",
+   "link": "https://developer.apple.com/system-status/",
+   "comments": "https://news.ycombinator.com/item?id=50535238",
+   "image": null,
+   "published": "2026-11-17T17:47:14+00:00",
+   "category": "tech",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "9092ce0fb1",
+   "source": "Wired",
+   "title": "Jensen Huang Says He’s Open to Coming Back to Nvidia",
+   "summary": "Huang said in a statement that he “would be honored” to return as Nvidia CEO if the board of directors supported the decision.",
+   "link": "https://www.wired.com/story/jensen-huang-says-hes-open-to-coming-back-to-nvidia/",
+   "comments": null,
+   "image": "https://media.wired.com/photos/6afc8d817073e76a25272b83/master/pass/111726-Jensen%20might%20be%20back.jpg",
+   "published": "2026-11-17T17:32:24+00:00",
+   "category": "tech",
+   "title_fa": "",
+   "summary_fa": ""
+  },
+  {
+   "id": "948aae8286",
+   "source": "Tom's Hardware",
+   "title": "Nvidia claims its Vera CPU can gain up to 39% performance boost via software optimization at SC26 — architectural fine-tuning is needed to fully unleash custom Olympus cores",
+   "summary": "Nvidia's Vera CPU, powered by its custom Olympus Arm cores, already offers strong performance with unoptimized code, but at SC26, the company demonstrated that further software optimizations can improve performance by nearly 39% with certain workloads.",
+   "link": "https://www.tomshardware.com/pc-components/cpus/nvidia-claims-its-vera-cpu-can-gain-up-to-39-percent-performance-boost-via-software-optimization-at-sc26-architectural-fine-tuning-is-needed-to-fully-unleash-custom-olympus-cores",
+   "comments": null,
+   "image": "https://cdn.mos.cms.futurecdn.net/HLdVAsCHvfXFb5ZjVFtz2b-1920-80.jpg",
+   "published": "2026-11-17T17:30:00+00:00",
+   "category": "tech",
+   "title_fa": "",
+   "summary_fa": ""
+  }
+ ]
+}
